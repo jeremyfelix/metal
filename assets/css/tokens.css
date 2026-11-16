@@ -1,0 +1,112 @@
+/* Design tokens. Dark is the default; light follows the system unless the user picked a theme. */
+:root {
+  color-scheme: dark;
+  --font-display: "Barlow Condensed", "Roboto Condensed", "Arial Narrow", "Helvetica Neue Condensed", "Liberation Sans Narrow", "Nimbus Sans Narrow", sans-serif;
+  --font-body: "Barlow", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+
+  --bg: #0e0d0c;
+  --surface: #171513;
+  --surface-2: #211e1b;
+  --band: #1a1815;
+  --ink: #ece6d8;
+  --ink-2: #b9b1a1;
+  --ink-3: #9a9282;
+  --line: #2c2823;
+  --line-2: #433d35;
+  --accent: #ff5a3c;
+  --accent-ink: #0e0d0c;
+  --focus: #ffd166;
+  --shadow: 0 10px 40px rgba(0, 0, 0, .55);
+
+  /* genre colours: Okabe-Ito-derived so they stay apart for colour-blind viewers */
+  --g-proto: #e8da4e;
+  --g-hard-rock: #56b4e9;
+  --g-punk: #e08cbd;
+  --g-heavy-metal: #2fc196;
+  --g-nwobhm: #f2a31c;
+  --g-thrash: #f2573a;
+  --g-death: #7690ff;
+  --g-other: #a6a090;
+
+  /* event categories */
+  --c-formation: #8bd17c;
+  --c-lineup: #7db8ff;
+  --c-concert: #ffd166;
+  --c-death: #cfc8b8;
+  --c-scene: #c79bff;
+  --c-industry: #6fd6cf;
+  --c-release: #ff9f6b;
+  --c-other: #a6a090;
+
+  --era-roots: rgba(232, 218, 78, .13);
+  --era-nwobhm: rgba(242, 163, 28, .14);
+  --era-thrash: rgba(242, 87, 58, .17);
+  --era-after: rgba(118, 144, 255, .13);
+  --halo: #ece6d8;
+  --dim-opacity: .2;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f2ede2;
+  --surface: #faf7f0;
+  --surface-2: #ebe5d6;
+  --band: #e8e1d0;
+  --ink: #17140f;
+  --ink-2: #4a4439;
+  --ink-3: #685f50;
+  --line: #d6cdb9;
+  --line-2: #b9ae96;
+  --accent: #c8321a;
+  --accent-ink: #ffffff;
+  --focus: #0b57d0;
+  --shadow: 0 10px 40px rgba(40, 30, 10, .22);
+  --g-proto: #8d7a00;
+  --g-hard-rock: #1a7fbd;
+  --g-punk: #b04b88;
+  --g-heavy-metal: #087f5f;
+  --g-nwobhm: #c06f00;
+  --g-thrash: #c93a14;
+  --g-death: #3a4fd4;
+  --g-other: #6b6558;
+  --c-formation: #2f8420;
+  --c-lineup: #1c63c2;
+  --c-concert: #9c6a00;
+  --c-death: #5a5448;
+  --c-scene: #7a42c2;
+  --c-industry: #167e78;
+  --c-release: #bf5518;
+  --c-other: #6b6558;
+  --era-roots: rgba(141, 122, 0, .13);
+  --era-nwobhm: rgba(192, 111, 0, .14);
+  --era-thrash: rgba(201, 58, 20, .14);
+  --era-after: rgba(58, 79, 212, .11);
+  --halo: #17140f;
+  --dim-opacity: .28;
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme]) {
+    color-scheme: light;
+    --bg: #f2ede2; --surface: #faf7f0; --surface-2: #ebe5d6; --band: #e8e1d0;
+    --ink: #17140f; --ink-2: #4a4439; --ink-3: #685f50; --line: #d6cdb9; --line-2: #b9ae96;
+    --accent: #c8321a; --accent-ink: #ffffff; --focus: #0b57d0;
+    --shadow: 0 10px 40px rgba(40, 30, 10, .22);
+    --g-proto: #8d7a00; --g-hard-rock: #1a7fbd; --g-punk: #b04b88; --g-heavy-metal: #087f5f;
+    --g-nwobhm: #c06f00; --g-thrash: #c93a14; --g-death: #3a4fd4; --g-other: #6b6558;
+    --c-formation: #2f8420; --c-lineup: #1c63c2; --c-concert: #9c6a00; --c-death: #5a5448;
+    --c-scene: #7a42c2; --c-industry: #167e78; --c-release: #bf5518; --c-other: #6b6558;
+    --era-roots: rgba(141, 122, 0, .13); --era-nwobhm: rgba(192, 111, 0, .14);
+    --era-thrash: rgba(201, 58, 20, .14); --era-after: rgba(58, 79, 212, .11);
+    --halo: #17140f; --dim-opacity: .28;
+  }
+}
+
+/* helper classes that map a genre / category class onto --c */
+.g-proto { --c: var(--g-proto); } .g-hard-rock { --c: var(--g-hard-rock); } .g-punk { --c: var(--g-punk); }
+.g-heavy-metal { --c: var(--g-heavy-metal); } .g-nwobhm { --c: var(--g-nwobhm); } .g-thrash { --c: var(--g-thrash); }
+.g-death { --c: var(--g-death); } .g-other { --c: var(--g-other); }
+.c-formation { --c: var(--c-formation); } .c-lineup { --c: var(--c-lineup); } .c-concert { --c: var(--c-concert); }
+.c-death { --c: var(--c-death); } .c-scene { --c: var(--c-scene); } .c-industry { --c: var(--c-industry); }
+.c-release { --c: var(--c-release); } .c-other { --c: var(--c-other); }
