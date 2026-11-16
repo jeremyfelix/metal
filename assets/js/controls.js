@@ -75,7 +75,7 @@ export function createControls({ model, store, tl, onJump, onClear }) {
   for (const e of ERAS) {
     const b = h('button', 'btn era-btn'); b.type = 'button';
     b.append(h('span', 'era-name', e.label), h('span', 'era-range', ' ' + e.range));
-    b.addEventListener('click', () => tl.goTo(e.from, e.to));
+    b.addEventListener('click', () => tl.goTo(e.from, e.to, e.genre));
     eraWrap.appendChild(b);
   }
   $('zoom-in').addEventListener('click', () => tl.zoomBy(1.6));
@@ -91,7 +91,7 @@ export function createControls({ model, store, tl, onJump, onClear }) {
   // ---- filters panel: open on desktop, collapsible on phones ----
   const details = $('filters');
   const mq = matchMedia('(min-width: 861px)');
-  const applyMq = () => { if (mq.matches) details.open = true; };
+  const applyMq = () => { details.open = mq.matches; };
   mq.addEventListener('change', applyMq); applyMq();
 
   // ---- theme ----

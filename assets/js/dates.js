@@ -60,7 +60,7 @@ export function formatDayMonth(str, precision) {
   const p = parseParts(str);
   if (!p) return '';
   const prec = precision || p.prec;
-  if (prec === 'year' || !p.m) return 'Year';
+  if (prec === 'year' || !p.m) return '—';
   if (prec === 'month' || !p.d) return MONTHS[p.m - 1];
   return `${p.d} ${MONTHS[p.m - 1]}`;
 }

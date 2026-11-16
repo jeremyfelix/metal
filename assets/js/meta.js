@@ -48,10 +48,10 @@ const TYPE_BY_ID = new Map(TYPES.map((t) => [t.id, t]));
 export const typeMeta = (id) => TYPE_BY_ID.get(String(id || '').toLowerCase()) || { id: 'other', label: title(id || 'Release'), r: 4.8 };
 
 export const ERAS = [
-  { id: 'roots', label: 'Roots', range: '1967–75', from: 1966.5, to: 1976 },
-  { id: 'nwobhm', label: 'NWOBHM', range: '1976–82', from: 1976, to: 1983 },
-  { id: 'thrash', label: 'Thrash', range: '1983–91', from: 1983, to: 1992 },
-  { id: 'after', label: 'After', range: '1992–96', from: 1992, to: 1997 },
+  { id: 'roots', label: 'Roots', range: '1967–75', from: 1966.5, to: 1976, genre: 'proto' },
+  { id: 'nwobhm', label: 'NWOBHM', range: '1976–82', from: 1976, to: 1983, genre: 'nwobhm' },
+  { id: 'thrash', label: 'Thrash', range: '1983–91', from: 1983, to: 1992, genre: 'thrash' },
+  { id: 'after', label: 'After', range: '1992–96', from: 1992, to: 1997, genre: 'death' },
 ];
 
 /* ---- Geometry (paths centred on 0,0) ---- */

@@ -175,6 +175,11 @@ function init(model) {
   });
   $('backdrop').addEventListener('click', closePanel);
 
+  // sticky offsets (chronicle year headings) depend on the control bar's height
+  const bar = document.querySelector('.bar');
+  const setBarH = () => document.documentElement.style.setProperty('--bar-h', bar.offsetHeight + 'px');
+  new ResizeObserver(setBarH).observe(bar); setBarH();
+
   // ---------- initial paint ----------
   const s0 = get();
   tl.rebuild();

@@ -45,6 +45,7 @@
   --era-after: rgba(118, 144, 255, .13);
   --halo: #ece6d8;
   --dim-opacity: .2;
+  --on-thrash: #0e0d0c;
 }
 
 :root[data-theme="light"] {
@@ -66,7 +67,7 @@
   --g-hard-rock: #1a7fbd;
   --g-punk: #b04b88;
   --g-heavy-metal: #087f5f;
-  --g-nwobhm: #c06f00;
+  --g-nwobhm: #b36500;
   --g-thrash: #c93a14;
   --g-death: #3a4fd4;
   --g-other: #6b6558;
@@ -79,11 +80,12 @@
   --c-release: #bf5518;
   --c-other: #6b6558;
   --era-roots: rgba(141, 122, 0, .13);
-  --era-nwobhm: rgba(192, 111, 0, .14);
+  --era-nwobhm: rgba(179, 101, 0, .14);
   --era-thrash: rgba(201, 58, 20, .14);
   --era-after: rgba(58, 79, 212, .11);
   --halo: #17140f;
   --dim-opacity: .28;
+  --on-thrash: #ffffff;
 }
 
 @media (prefers-color-scheme: light) {
@@ -94,12 +96,12 @@
     --accent: #c8321a; --accent-ink: #ffffff; --focus: #0b57d0;
     --shadow: 0 10px 40px rgba(40, 30, 10, .22);
     --g-proto: #8d7a00; --g-hard-rock: #1a7fbd; --g-punk: #b04b88; --g-heavy-metal: #087f5f;
-    --g-nwobhm: #c06f00; --g-thrash: #c93a14; --g-death: #3a4fd4; --g-other: #6b6558;
+    --g-nwobhm: #b36500; --g-thrash: #c93a14; --g-death: #3a4fd4; --g-other: #6b6558;
     --c-formation: #2f8420; --c-lineup: #1c63c2; --c-concert: #9c6a00; --c-death: #5a5448;
     --c-scene: #7a42c2; --c-industry: #167e78; --c-release: #bf5518; --c-other: #6b6558;
-    --era-roots: rgba(141, 122, 0, .13); --era-nwobhm: rgba(192, 111, 0, .14);
+    --era-roots: rgba(141, 122, 0, .13); --era-nwobhm: rgba(179, 101, 0, .14);
     --era-thrash: rgba(201, 58, 20, .14); --era-after: rgba(58, 79, 212, .11);
-    --halo: #17140f; --dim-opacity: .28;
+    --halo: #17140f; --dim-opacity: .28; --on-thrash: #ffffff;
   }
 }
 

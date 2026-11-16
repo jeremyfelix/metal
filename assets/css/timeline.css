@@ -1,7 +1,7 @@
 /* The SVG timeline. Positions are set by JS; everything visual lives here. */
 .tl {
   position: relative; display: flex; flex-direction: column;
-  height: clamp(460px, calc(100vh - 250px), 880px); height: clamp(460px, calc(100dvh - 250px), 880px);
+  height: clamp(480px, calc(100vh - 340px), 900px); height: clamp(480px, calc(100dvh - 340px), 900px);
   border: 1.5px solid var(--line-2); background: var(--bg); overflow: hidden; user-select: none; -webkit-user-select: none;
   cursor: grab; outline-offset: 3px;
 }
@@ -15,8 +15,6 @@
 .gutter-bg { fill: var(--bg); }
 .tl-head .gutter-bg { fill: var(--surface); }
 .gutter-edge { stroke: var(--line-2); stroke-width: 1.5; }
-.tl-body .gutter { filter: drop-shadow(3px 0 3px rgba(0,0,0,.25)); }
-:root[data-theme="light"] .tl-body .gutter { filter: drop-shadow(3px 0 3px rgba(60,40,10,.12)); }
 .cap-title { font: 500 10.5px var(--font-mono); letter-spacing: .1em; text-transform: uppercase; fill: var(--ink-3); }
 .cap-row { font: 500 10.5px var(--font-mono); letter-spacing: .06em; text-transform: uppercase; fill: var(--ink-3); text-anchor: end; }
 
@@ -29,7 +27,7 @@
 .ax-ticks, .ax-ticks.major { fill: none; stroke: var(--line-2); stroke-width: 1; }
 .ax-ticks.major { stroke: var(--ink-3); stroke-width: 1.6; }
 .ax-label { font: 500 12px var(--font-mono); fill: var(--ink-2); }
-.ax-label.decade { font: 700 18px var(--font-display); fill: var(--ink); letter-spacing: .02em; }
+.ax-label.decade { font: 700 13px var(--font-mono); fill: var(--ink); }
 .ax-label.month { font-size: 10.5px; fill: var(--ink-3); }
 .ev-rowlines { stroke: var(--line); stroke-width: 1; stroke-dasharray: 2 5; fill: none; }
 .grid-minor { fill: none; stroke: var(--line); stroke-width: 1; opacity: .55; }
@@ -99,9 +97,10 @@
 .tip-meta { font: 500 11px var(--font-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); margin-top: 3px; }
 
 @media (max-width: 640px) {
-  .tl { height: clamp(440px, calc(100vh - 190px), 760px); height: clamp(440px, calc(100dvh - 190px), 760px); }
+  .tl { height: clamp(440px, calc(100vh - 230px), 760px); height: clamp(440px, calc(100dvh - 230px), 760px); }
   .lane-name { font-size: 12px; }
   .grp-name { font-size: 13px; letter-spacing: .05em; }
   .cap-row { font-size: 9px; }
+  .grp-count { display: none; }
 }
 @media (hover: none) { .tooltip { display: none; } }

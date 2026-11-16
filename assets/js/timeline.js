@@ -16,8 +16,9 @@ const el = (tag, attrs, parent) => {
 };
 
 // Geometry
-const ERA_H = 20, AXIS_TOP = 22, AXIS_BOT = 46, HEAD_H = 124;
-const EV_ROW_Y = { 3: 68, 2: 90, 1: 109 };
+const ERA_H = 20, AXIS_TOP = 22, AXIS_BOT = 46, HEAD_H = 152;
+// Events track: one band per importance level; crowded bands spill into extra sub-rows (see render()).
+const EV_ROW_Y = { 3: [68], 2: [91, 108], 1: [127, 142] };
 const EV_R = { 3: 8, 2: 6, 1: 4.4 };
 const GROUP_H = 30, LANE_H = 42, TOP_PAD = 4, BOTTOM_PAD = 20;
 const MIN_SPAN = 100 * DAY;
@@ -64,6 +65,7 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
   const view = { t0: D0, t1: D1 };
   let fontFamily = 'sans-serif';
   const bodyFont = () => `500 11px ${fontFamily}`;
+  let groupY = new Map(); // genre id -> y of its header
   let lanes = [];        // {artist, y, barEl, nodes[], labelNodes[]}
   let nodes = [];        // all interactive/positioned nodes
   const byKey = new Map(); // item key -> nodes[]
@@ -92,7 +94,7 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
   const headGutterEdge = el('line', { class: 'gutter-edge', y1: 0, y2: HEAD_H }, headGutter);
   const capTitle = el('text', { class: 'cap-title', x: 12, y: 14 }, headGutter); capTitle.textContent = 'Era';
   const capAx = el('text', { class: 'cap-title', x: 12, y: 40 }, headGutter); capAx.textContent = 'Year';
-  [['Key events', 3], ['Notable', 2], ['Minor', 1]].forEach(([t, i]) => { const c = el('text', { class: 'cap-row', y: EV_ROW_Y[i] + 4 }, headGutter); c.textContent = t; c.dataset.imp = i; });
+  [['Key events', 3], ['Notable', 2], ['Minor', 1]].forEach(([t, i]) => { const c = el('text', { class: 'cap-row', y: EV_ROW_Y[i][0] + 4 }, headGutter); c.textContent = t; c.dataset.imp = i; });
 
   // pools for axis labels / eras
   const axTexts = [];
@@ -124,7 +126,7 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
     layoutSize();
     measureEnv();
     // clear previous
-    nodes = []; byKey.clear(); lanes = []; rowsForLabels = []; navRows = []; roving = null;
+    nodes = []; byKey.clear(); groupY = new Map(); lanes = []; rowsForLabels = []; navRows = []; roving = null;
     evG.replaceChildren(); evLabelG.replaceChildren();
 
     // --- events track nodes
@@ -132,13 +134,14 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
     const evRows = { 1: [], 2: [], 3: [] };
     for (const it of model.events) {
       const imp = it.importance;
-      const n = makeEventNode(it, EV_ROW_Y[imp], EV_R[imp], evG, evLabelG, imp);
+      const n = makeEventNode(it, EV_ROW_Y[imp][0], EV_R[imp], evG, evLabelG, imp);
+      n.imp = imp;
       n.kind = 'event'; n.t = it.t; evNodes.push(n); evRows[imp].push(n); nodes.push(n);
       addByKey(it.key, n);
     }
-    for (const i of [3, 2, 1]) rowsForLabels.push({ nodes: evRows[i], y: EV_ROW_Y[i], imp: i, kind: 'event' });
+    for (const i of [3, 2, 1]) rowsForLabels.push({ nodes: evRows[i], y: EV_ROW_Y[i][0], imp: i, kind: 'event' });
     navRows.push({ nodes: evNodes.slice(), isEvents: true });
-    evRowLines.setAttribute('d', [3, 2, 1].map((i) => `M${G} ${EV_ROW_Y[i]}H${W}`).join(''));
+    evRowLines.setAttribute('d', `M${G} ${(EV_ROW_Y[3][0] + EV_ROW_Y[2][0]) / 2}H${W}M${G} ${(EV_ROW_Y[2][1] + EV_ROW_Y[1][0]) / 2}H${W}`);
 
     // --- lanes
     bodySvg.replaceChildren();
@@ -164,6 +167,7 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
       const gm = genreMeta(gid);
       // group header
       const gcls = genreClass(gid);
+      groupY.set(gid, y);
       const hdr = el('g', { class: 'grp ' + gcls }, plot);
       el('rect', { class: 'grp-band', x: G, y, width: plotW, height: GROUP_H }, hdr);
       const hdrG = el('g', { class: 'grp-head ' + gcls }, gutter);
@@ -328,15 +332,37 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
       if (vis !== n.vis) { n.vis = vis; n.el.setAttribute('display', vis ? '' : 'none'); }
       if (vis) n.el.setAttribute('transform', `translate(${x.toFixed(1)} ${n.y})`);
     }
+    packEvents(X);
     layoutLabels(ppy, xmax);
     renderGrid(X, ppy);
+  }
+
+  /**
+   * Greedy sub-row packing for the events track: nodes are in time order, so each one goes into the
+   * first sub-row of its importance band that has room (otherwise the least crowded one).
+   */
+  function packEvents(X) {
+    for (const imp of [3, 2, 1]) {
+      const rows = EV_ROW_Y[imp];
+      const last = rows.map(() => -1e9);
+      const gap = EV_R[imp] * 2 + 2;
+      for (const n of evNodes) {
+        if (n.imp !== imp || n.hidden || !n.vis) continue;
+        let j = last.findIndex((l) => n.x - l >= gap);
+        if (j < 0) j = last.indexOf(Math.min(...last));
+        last[j] = n.x;
+        n.sub = j;
+        const y = rows[j];
+        if (n.y !== y) { n.y = y; n.el.setAttribute('transform', `translate(${n.x.toFixed(1)} ${y})`); n.label.setAttribute('y', y + 4); }
+      }
+    }
   }
 
   /** Year/month ticks, grid lines and axis labels. */
   function renderAxis(X, ppy) {
     const { t0, t1 } = view;
     const y0 = new Date(t0).getUTCFullYear(), y1 = new Date(t1).getUTCFullYear() + 1;
-    const step = ppy >= 38 ? 1 : ppy >= 17 ? 2 : ppy >= 7.5 ? 5 : 10;
+    const step = ppy >= 34 ? 1 : ppy >= 17 ? 2 : ppy >= 7.5 ? 5 : 10;
     let minor = '', major = '';
     let ti = 0;
     const put = (text, x, cls) => {
@@ -394,8 +420,8 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
   function layoutLabels(ppy, xmax) {
     for (const row of rowsForLabels) {
       let mode;
-      if (row.kind === 'event') mode = row.imp === 3 ? ppy >= 26 : row.imp === 2 ? ppy >= 150 : ppy >= 420;
-      else mode = ppy >= 240 ? 2 : ppy >= 52 ? 1 : 0;
+      if (row.kind === 'event') mode = row.imp === 3 ? ppy >= 18 : row.imp === 2 ? ppy >= 150 : ppy >= 420;
+      else mode = ppy >= 150 ? 2 : ppy >= 18 ? 1 : 0;
       const list = row.nodes;
       for (let i = 0; i < list.length; i++) {
         const n = list[i];
@@ -406,10 +432,10 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
           if (wanted) {
             // next non-hidden node in this row
             let nx = Infinity;
-            for (let j = i + 1; j < list.length; j++) if (!list[j].hidden) { nx = list[j].x; break; }
-            const start = n.x + n.r + 5;
+            for (let j = i + 1; j < list.length; j++) if (!list[j].hidden && (row.kind !== 'event' || list[j].sub === n.sub || !list[j].vis)) { nx = list[j].x; break; }
+            const start = n.x + n.r + (n.item.landmark && n.kind === 'release' ? 9 : 5);
             const need = n.labW + 6;
-            show = start + need <= nx - (list[i + 1] ? 3 : -1e9) && start < xmax - 24;
+            show = start + need <= nx - (list[i + 1] ? 3 : -1e9) && start + need <= W - 4;
             if (show) n.label.setAttribute('x', start.toFixed(1));
           }
         }
@@ -659,7 +685,11 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
 
   // ---------- public helpers ----------
   function fit(instant) { if (instant) setView(D0, D1); else animateTo(D0, D1); }
-  function goTo(fromYear, toYear) { animateTo(fromDecimalYear(fromYear), fromDecimalYear(toYear)); }
+  function goTo(fromYear, toYear, genre) {
+    animateTo(fromDecimalYear(fromYear), fromDecimalYear(toYear));
+    // optionally bring the relevant genre group to the top of the lanes
+    if (genre && groupY.has(genre)) body.scrollTo({ top: Math.max(0, groupY.get(genre) - 2), behavior: reducedMotion() ? 'auto' : 'smooth' });
+  }
 
   /** Bring an item into view (pan, and scroll to its lane). center=true always centres horizontally. */
   function reveal(key, { center = false, flash = true, insetR = 0, insetB = 0 } = {}) {
@@ -701,6 +731,5 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
     getViewYears: () => [toDecimalYear(view.t0), toDecimalYear(view.t1)],
     get laneCount() { return lanes.length; },
     hideTip,
-    activeEra() { return null; },
   };
 }
