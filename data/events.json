@@ -1,0 +1,1609 @@
+[
+  {
+    "id": "the-who-formed",
+    "date": "1964-01-01",
+    "datePrecision": "year",
+    "title": "The Who take shape in London",
+    "description": "With Roger Daltrey, Pete Townshend, John Entwistle and Keith Moon, the group became known for loud, aggressive power-chord rock and destructive stage shows.",
+    "category": "formation",
+    "artistIds": [
+      "the-who"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "iommi-fingertips-accident",
+    "date": "1965-01-01",
+    "datePrecision": "year",
+    "title": "Tony Iommi loses fingertips in a factory accident",
+    "description": "On his last day at a Birmingham sheet-metal factory, Tony Iommi severed the tips of two fingers on his fretting hand. He made thimble-like prosthetics and used lighter strings, which shaped his heavy, down-tuned style.",
+    "category": "scene",
+    "artistIds": [
+      "black-sabbath"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "hendrix-experience-formed",
+    "date": "1966-09-01",
+    "datePrecision": "month",
+    "title": "The Jimi Hendrix Experience forms in London",
+    "description": "Hendrix moved from New York to London and put together a trio with Noel Redding and Mitch Mitchell. Within months they were hits in Britain.",
+    "category": "formation",
+    "artistIds": [
+      "jimi-hendrix"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "stooges-formed",
+    "date": "1967-01-01",
+    "datePrecision": "year",
+    "title": "The Stooges form in Ann Arbor",
+    "description": "Iggy Pop, the Asheton brothers and Dave Alexander formed the band in Michigan. Their crude, confrontational sound pre-dated punk by years.",
+    "category": "formation",
+    "artistIds": [
+      "the-stooges"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "hendrix-monterey-pop",
+    "date": "1967-06-18",
+    "datePrecision": "day",
+    "title": "Hendrix sets his guitar on fire at Monterey Pop",
+    "description": "The Experience's set at the Monterey International Pop Festival introduced Hendrix to American audiences. It ended with him setting his guitar alight.",
+    "category": "concert",
+    "artistIds": [
+      "jimi-hendrix"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "black-sabbath-formed",
+    "date": "1968-01-01",
+    "datePrecision": "year",
+    "title": "Black Sabbath begin as Earth in Birmingham",
+    "description": "Tony Iommi, Ozzy Osbourne, Geezer Butler and Bill Ward started out playing blues-rock as Earth. They renamed themselves Black Sabbath in 1969 and began writing darker, heavier material.",
+    "category": "formation",
+    "artistIds": [
+      "black-sabbath"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "deep-purple-formed",
+    "date": "1968-01-01",
+    "datePrecision": "year",
+    "title": "Deep Purple forms",
+    "description": "Formed in Hertford originally as Roundabout, they later became one of the leading hard rock acts of the early 70s. Their 1970 album In Rock moved decisively to heavier material.",
+    "category": "formation",
+    "artistIds": [
+      "deep-purple"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "led-zeppelin-formed",
+    "date": "1968-09-01",
+    "datePrecision": "month",
+    "title": "Led Zeppelin forms",
+    "description": "Jimmy Page assembled Robert Plant, John Paul Jones and John Bonham to fulfil Yardbirds commitments, first as the New Yardbirds. The new name followed within weeks.",
+    "category": "formation",
+    "artistIds": [
+      "led-zeppelin"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "judas-priest-formed",
+    "date": "1969-01-01",
+    "datePrecision": "year",
+    "title": "Judas Priest forms in the West Midlands",
+    "description": "The band began in 1969 around singer Al Atkins. Guitarist K.K. Downing and bassist Ian Hill joined in 1970, and Rob Halford in 1973.",
+    "category": "formation",
+    "artistIds": [
+      "judas-priest"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "hawkwind-formed",
+    "date": "1969-01-01",
+    "datePrecision": "year",
+    "title": "Hawkwind forms in London",
+    "description": "The psychedelic space-rock group later employed Lemmy Kilmister as bassist and singer, from 1971 to 1975.",
+    "category": "formation",
+    "artistIds": [
+      "hawkwind"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "deep-purple-in-rock",
+    "date": "1970-06-01",
+    "datePrecision": "month",
+    "title": "Deep Purple release In Rock",
+    "description": "Deep Purple's fourth album pushed the band's sound toward heavy metal with its aggressive guitar and organ and Ian Gillan's screams. It made them one of the era's leading heavy bands.",
+    "category": "release",
+    "artistIds": [
+      "deep-purple"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "hendrix-dies",
+    "date": "1970-09-18",
+    "datePrecision": "day",
+    "title": "Jimi Hendrix dies in London",
+    "description": "Hendrix died at age 27 after asphyxiating on vomit following barbiturate use. His career had lasted barely four years.",
+    "category": "death",
+    "artistIds": [
+      "jimi-hendrix"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "van-halen-mammoth",
+    "date": "1972-01-01",
+    "datePrecision": "year",
+    "title": "The Van Halen brothers form Mammoth",
+    "description": "In Pasadena, Eddie and Alex Van Halen began the band that would become Van Halen after David Lee Roth joined and took over vocals. The group built its reputation in Southern California clubs.",
+    "category": "formation",
+    "artistIds": [
+      "van-halen"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "bowie-starman-totp",
+    "date": "1972-07-06",
+    "datePrecision": "day",
+    "title": "Bowie performs 'Starman' on Top of the Pops",
+    "description": "The BBC broadcast made Ziggy Stardust a national phenomenon. The performance influenced many young British musicians.",
+    "category": "scene",
+    "artistIds": [
+      "david-bowie"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "halford-joins-priest",
+    "date": "1973-01-01",
+    "datePrecision": "year",
+    "title": "Rob Halford joins Judas Priest",
+    "description": "His wide vocal range and later his leather-and-studs image became defining features of metal. Priest's identity took shape from that point.",
+    "category": "lineup",
+    "artistIds": [
+      "judas-priest"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "acdc-formed",
+    "date": "1973-11-01",
+    "datePrecision": "month",
+    "title": "AC/DC forms in Sydney",
+    "description": "Brothers Malcolm and Angus Young formed the band in Australia's capital of live rock. Bon Scott joined as singer in 1974.",
+    "category": "formation",
+    "artistIds": [
+      "ac-dc"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "bon-scott-joins-acdc",
+    "date": "1974-01-01",
+    "datePrecision": "year",
+    "title": "Bon Scott becomes AC/DC's singer",
+    "description": "The ex-Fraternity singer's rough charisma and lyrics gave the band its voice. His tenure ended with his death in 1980.",
+    "category": "lineup",
+    "artistIds": [
+      "ac-dc"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "ramones-formed",
+    "date": "1974-01-01",
+    "datePrecision": "month",
+    "title": "Ramones form in Queens",
+    "description": "Joey, Johnny, Dee Dee and Tommy Ramone adopted the shared stage surname and a stripped-down, fast style. Their approach is a pillar of punk and an inspiration for thrash.",
+    "category": "formation",
+    "artistIds": [
+      "ramones"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "raven-formed",
+    "date": "1974-01-01",
+    "datePrecision": "year",
+    "title": "Raven forms in the north-east of England",
+    "description": "The Gallagher brothers' band played at breakneck pace and became one of NWOBHM's loudest acts. They toured the US with an unknown Metallica in 1983.",
+    "category": "formation",
+    "artistIds": [
+      "raven"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "stooges-split",
+    "date": "1974-02-01",
+    "datePrecision": "month",
+    "title": "The Stooges break up",
+    "description": "After a chaotic final period, the band ended in early 1974. They reformed decades later, by which time punk had made them legends.",
+    "category": "lineup",
+    "artistIds": [
+      "the-stooges"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "california-jam-1974",
+    "date": "1974-04-06",
+    "datePrecision": "day",
+    "title": "California Jam at Ontario Motor Speedway",
+    "description": "Deep Purple and Emerson, Lake & Palmer co-headlined the huge festival, which was broadcast on ABC television. Black Sabbath also played.",
+    "category": "concert",
+    "artistIds": [
+      "deep-purple",
+      "black-sabbath"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "ramones-cbgb-debut",
+    "date": "1974-08-16",
+    "datePrecision": "day",
+    "title": "Ramones play CBGB for the first time",
+    "description": "The band started a residency at the New York club that became the base of the American punk scene. Early gigs were short and very fast.",
+    "category": "concert",
+    "artistIds": [
+      "ramones"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "saxon-formed",
+    "date": "1975-01-01",
+    "datePrecision": "year",
+    "title": "Saxon begin in Barnsley as Son of a Bitch",
+    "description": "The band changed its name to Saxon in 1979 and became part of the NWOBHM.",
+    "category": "formation",
+    "artistIds": [
+      "saxon"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "sex-pistols-formed",
+    "date": "1975-01-01",
+    "datePrecision": "year",
+    "title": "Sex Pistols form in London",
+    "description": "Managed by Malcolm McLaren, Johnny Rotten, Steve Jones, Paul Cook and Glen Matlock brought punk to Britain's mainstream.",
+    "category": "formation",
+    "artistIds": [
+      "sex-pistols"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "lemmy-fired-hawkwind",
+    "date": "1975-05-01",
+    "datePrecision": "month",
+    "title": "Lemmy is fired from Hawkwind",
+    "description": "After an arrest at the Canadian border, the bassist was dismissed. He promptly set out to form his own band.",
+    "category": "lineup",
+    "artistIds": [
+      "hawkwind",
+      "motorhead"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "motorhead-formed",
+    "date": "1975-06-01",
+    "datePrecision": "month",
+    "title": "Lemmy forms Motörhead",
+    "description": "Named after the last song he wrote for Hawkwind, the band mixed punk's speed with blues-rock volume. Lemmy declared they would play louder than anyone.",
+    "category": "formation",
+    "artistIds": [
+      "motorhead"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "iron-maiden-formed",
+    "date": "1975-12-25",
+    "datePrecision": "day",
+    "title": "Steve Harris forms Iron Maiden",
+    "description": "The bassist founded the band in Leyton, East London on Christmas Day 1975. Its early line-ups changed often before the 1979 breakthrough.",
+    "category": "formation",
+    "artistIds": [
+      "iron-maiden"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "diamond-head-formed",
+    "date": "1976-01-01",
+    "datePrecision": "year",
+    "title": "Diamond Head forms in Stourbridge",
+    "description": "Their complex riffs and 1980 album Lightning to the Nations were studied by young Metallica members.",
+    "category": "formation",
+    "artistIds": [
+      "diamond-head"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "ramones-roundhouse",
+    "date": "1976-07-04",
+    "datePrecision": "day",
+    "title": "Ramones play London's Roundhouse",
+    "description": "Their show in the UK capital inspired many in the British punk scene, including future members of the Clash and others.",
+    "category": "concert",
+    "artistIds": [
+      "ramones",
+      "sex-pistols"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "sex-pistols-grundy",
+    "date": "1976-12-01",
+    "datePrecision": "day",
+    "title": "Sex Pistols swear on Bill Grundy's TV show",
+    "description": "Their expletives on live television created a media scandal. It made the band notorious overnight.",
+    "category": "scene",
+    "artistIds": [
+      "sex-pistols"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "misfits-formed",
+    "date": "1977-01-01",
+    "datePrecision": "year",
+    "title": "Misfits form in Lodi, New Jersey",
+    "description": "Glenn Danzig and Jerry Only built a sound out of punk, doo-wop and B-movie horror. Their imagery later inspired many metal bands.",
+    "category": "formation",
+    "artistIds": [
+      "misfits"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "discharge-formed",
+    "date": "1977-01-01",
+    "datePrecision": "year",
+    "title": "Discharge forms in Stoke-on-Trent",
+    "description": "Their fast, repetitive d-beat drumming and relentless noise shaped hardcore, thrash and extreme metal.",
+    "category": "formation",
+    "artistIds": [
+      "discharge"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "venom-formed",
+    "date": "1978-01-01",
+    "datePrecision": "year",
+    "title": "Venom forms in Newcastle",
+    "description": "Cronos, Mantas and Abaddon deliberately played louder, faster and more Satanic than anyone else. Their approach shaped black, thrash and death metal.",
+    "category": "formation",
+    "artistIds": [
+      "venom"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "sex-pistols-split",
+    "date": "1978-01-14",
+    "datePrecision": "day",
+    "title": "Sex Pistols play their last show of the original line-up",
+    "description": "After the final US tour date at San Francisco's Winterland, the band broke up. Their one studio album remained a landmark of punk.",
+    "category": "concert",
+    "artistIds": [
+      "sex-pistols"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "keith-moon-dies",
+    "date": "1978-09-07",
+    "datePrecision": "day",
+    "title": "Keith Moon dies",
+    "description": "The Who's drummer died in London aged 32. His wild style and showmanship influenced rock and metal drummers.",
+    "category": "death",
+    "artistIds": [
+      "the-who"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "exploited-formed",
+    "date": "1979-01-01",
+    "datePrecision": "year",
+    "title": "The Exploited form in Edinburgh",
+    "description": "Wattie Buchan's band took punk toward louder and faster territory. Their crossover with metal grew in the 1980s.",
+    "category": "formation",
+    "artistIds": [
+      "the-exploited"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "exodus-formed",
+    "date": "1979-01-01",
+    "datePrecision": "year",
+    "title": "Exodus forms in Richmond, California",
+    "description": "Kirk Hammett was a founding guitarist. The band became one of the cornerstones of the Bay Area thrash scene.",
+    "category": "formation",
+    "artistIds": [
+      "exodus"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "soundhouse-neal-kay",
+    "date": "1979-01-01",
+    "datePrecision": "year",
+    "title": "Neal Kay's Soundhouse becomes a NWOBHM hub",
+    "description": "Kay ran the heavy metal disco in North London, where fans heard new bands over a huge sound system. Demo tapes played there helped get bands including Iron Maiden noticed.",
+    "category": "scene",
+    "artistIds": [
+      "iron-maiden",
+      "saxon"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "dio-joins-sabbath",
+    "date": "1979-01-01",
+    "datePrecision": "year",
+    "title": "Ronnie James Dio joins Black Sabbath",
+    "description": "The former Rainbow singer brought a more melodic and fantasy-driven approach. Heaven and Hell followed in 1980.",
+    "category": "lineup",
+    "artistIds": [
+      "black-sabbath"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "ozzy-solo-formed",
+    "date": "1979-01-01",
+    "datePrecision": "year",
+    "title": "Ozzy Osbourne starts a solo band",
+    "description": "He recruited guitarist Randy Rhoads and began recording Blizzard of Ozz. Rhoads' classically informed playing set the course.",
+    "category": "formation",
+    "artistIds": [
+      "ozzy-osbourne"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "ozzy-fired-sabbath",
+    "date": "1979-04-01",
+    "datePrecision": "month",
+    "title": "Ozzy Osbourne is dismissed from Black Sabbath",
+    "description": "The band had been in difficulty through drugs and creative disagreements. The change of vocalist opened a new chapter for both parties.",
+    "category": "lineup",
+    "artistIds": [
+      "black-sabbath",
+      "ozzy-osbourne"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "nwobhm-coined",
+    "date": "1979-05-01",
+    "datePrecision": "month",
+    "title": "Sounds writers coin 'New Wave of British Heavy Metal'",
+    "description": "The British weekly Sounds, through writer Geoff Barton and editor Alan Lewis, gave a name to the scene of bands like Iron Maiden, Saxon and Venom. The label stuck.",
+    "category": "scene",
+    "artistIds": [
+      "iron-maiden",
+      "saxon"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "diamond-head-lightning",
+    "date": "1980-01-01",
+    "datePrecision": "year",
+    "title": "Diamond Head release Lightning to the Nations",
+    "description": "The self-released 'White Album' contained 'Am I Evil?' and 'Helpless', which Metallica would later cover. It became a cult classic of the NWOBHM.",
+    "category": "release",
+    "artistIds": [
+      "diamond-head"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "overkill-formed",
+    "date": "1980-01-01",
+    "datePrecision": "year",
+    "title": "Overkill forms in New Jersey",
+    "description": "Bobby 'Blitz' Ellsworth and D.D. Verni's band later became one of the East Coast's leading thrash acts.",
+    "category": "formation",
+    "artistIds": [
+      "overkill"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "bon-scott-dies",
+    "date": "1980-02-19",
+    "datePrecision": "day",
+    "title": "Bon Scott dies",
+    "description": "AC/DC's singer died in London aged 33 after a night of heavy drinking. The band nearly stopped but continued.",
+    "category": "death",
+    "artistIds": [
+      "ac-dc"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "brian-johnson-joins-acdc",
+    "date": "1980-04-01",
+    "datePrecision": "month",
+    "title": "Brian Johnson joins AC/DC",
+    "description": "The former Geordie singer replaced Bon Scott. Back in Black followed in July 1980.",
+    "category": "lineup",
+    "artistIds": [
+      "ac-dc"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "monsters-of-rock-1980",
+    "date": "1980-08-16",
+    "datePrecision": "day",
+    "title": "First Monsters of Rock at Castle Donington",
+    "description": "Rainbow headlined, with Judas Priest, Scorpions, April Wine, Saxon, Riot and Touch. It became an annual British metal festival.",
+    "category": "concert",
+    "artistIds": [
+      "judas-priest",
+      "saxon"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "bonham-dies",
+    "date": "1980-09-25",
+    "datePrecision": "day",
+    "title": "John Bonham dies",
+    "description": "Led Zeppelin's drummer died after a day of heavy drinking. The inquest ruled it accidental death.",
+    "category": "death",
+    "artistIds": [
+      "led-zeppelin"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "zeppelin-ends",
+    "date": "1980-12-04",
+    "datePrecision": "day",
+    "title": "Led Zeppelin announce they are splitting",
+    "description": "The band said they could not continue without Bonham. Their influence on metal remained enormous.",
+    "category": "lineup",
+    "artistIds": [
+      "led-zeppelin"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "ulrich-recycler-ad",
+    "date": "1981-01-01",
+    "datePrecision": "year",
+    "title": "Lars Ulrich places an ad in The Recycler",
+    "description": "The Danish-born drummer sought other musicians for a metal band. James Hetfield answered it.",
+    "category": "scene",
+    "artistIds": [
+      "metallica"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "slayer-formed",
+    "date": "1981-01-01",
+    "datePrecision": "year",
+    "title": "Slayer forms in Huntington Park",
+    "description": "Kerry King, Jeff Hanneman, Tom Araya and Dave Lombardo formed the band. It became the dark heart of the Big Four.",
+    "category": "formation",
+    "artistIds": [
+      "slayer"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "anthrax-formed",
+    "date": "1981-01-01",
+    "datePrecision": "year",
+    "title": "Anthrax forms in New York",
+    "description": "Scott Ian and Danny Lilker started the band, which became the East Coast's thrash leader.",
+    "category": "formation",
+    "artistIds": [
+      "anthrax"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "motley-crue-formed",
+    "date": "1981-01-01",
+    "datePrecision": "year",
+    "title": "Mötley Crüe forms in Los Angeles",
+    "description": "Nikki Sixx, Tommy Lee, Mick Mars and Vince Neil brought theatrical glam to the Sunset Strip metal scene.",
+    "category": "formation",
+    "artistIds": [
+      "motley-crue"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "mercyful-fate-formed",
+    "date": "1981-01-01",
+    "datePrecision": "year",
+    "title": "Mercyful Fate forms in Copenhagen",
+    "description": "King Diamond's group blended falsetto vocals, occult themes and intricate guitar work. Their influence on thrash and black metal was large.",
+    "category": "formation",
+    "artistIds": [
+      "mercyful-fate"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "dark-angel-formed",
+    "date": "1981-01-01",
+    "datePrecision": "year",
+    "title": "Dark Angel forms in Los Angeles",
+    "description": "The group became known for fast, complex thrash with Gene Hoglan on drums in the mid-80s.",
+    "category": "formation",
+    "artistIds": [
+      "dark-angel"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "pantera-formed",
+    "date": "1981-01-01",
+    "datePrecision": "year",
+    "title": "Pantera forms in Arlington, Texas",
+    "description": "Brothers Dimebag Darrell and Vinnie Paul started with glam metal. They later reinvented themselves as a groove-driven metal band.",
+    "category": "formation",
+    "artistIds": [
+      "pantera"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "kerrang-launch",
+    "date": "1981-06-06",
+    "datePrecision": "day",
+    "title": "Kerrang! publishes its first issue",
+    "description": "It began as a one-off special of Sounds, with Angus Young on the cover. It then became a permanent magazine covering heavy metal.",
+    "category": "scene",
+    "artistIds": [
+      "ac-dc"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "mtv-launch",
+    "date": "1981-08-01",
+    "datePrecision": "day",
+    "title": "MTV launches",
+    "description": "The music channel gave metal and hard rock a new platform. Video exposure became a key part of the business.",
+    "category": "industry",
+    "artistIds": [],
+    "importance": 2
+  },
+  {
+    "id": "bruce-dickinson-joins-maiden",
+    "date": "1981-09-01",
+    "datePrecision": "month",
+    "title": "Bruce Dickinson joins Iron Maiden",
+    "description": "The former Samson singer replaced Paul Di'Anno. His operatic voice defined the classic Maiden sound.",
+    "category": "lineup",
+    "artistIds": [
+      "iron-maiden"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "metallica-formed",
+    "date": "1981-10-28",
+    "datePrecision": "day",
+    "title": "Metallica forms in Los Angeles",
+    "description": "Lars Ulrich and James Hetfield started the band after Ulrich's ad. Their fast, aggressive style grew out of NWOBHM and punk.",
+    "category": "formation",
+    "artistIds": [
+      "metallica"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "megaforce-founded",
+    "date": "1982-01-01",
+    "datePrecision": "year",
+    "title": "Jon and Marsha Zazula found Megaforce Records",
+    "description": "The New Jersey couple released early Metallica and later Anthrax. Their label helped launch thrash on the East Coast.",
+    "category": "industry",
+    "artistIds": [
+      "metallica",
+      "anthrax"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "tape-trading",
+    "date": "1982-01-01",
+    "datePrecision": "year",
+    "title": "Tape trading builds the thrash underground",
+    "description": "Fans mailed copies of demos worldwide, spreading bands like Metallica faster than record labels could. Fanzines supported the network.",
+    "category": "scene",
+    "artistIds": [
+      "metallica"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kreator-formed",
+    "date": "1982-01-01",
+    "datePrecision": "year",
+    "title": "Kreator forms in Essen as Tormentor",
+    "description": "The German band formed alongside Sodom and Destruction as part of the German thrash scene.",
+    "category": "formation",
+    "artistIds": [
+      "kreator"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "beast-protests",
+    "date": "1982-01-01",
+    "datePrecision": "year",
+    "title": "Number of the Beast draws religious protests in the US",
+    "description": "Some groups objected to Iron Maiden's album and its Satanic imagery. The controversy made the band better known.",
+    "category": "scene",
+    "artistIds": [
+      "iron-maiden"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "dio-leaves-sabbath",
+    "date": "1982-01-01",
+    "datePrecision": "year",
+    "title": "Dio leaves Black Sabbath",
+    "description": "He departed after disputes during the mixing of the live album Live Evil and formed his own band.",
+    "category": "lineup",
+    "artistIds": [
+      "black-sabbath"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "cliff-burton-joins",
+    "date": "1982-01-01",
+    "datePrecision": "year",
+    "title": "Cliff Burton joins Metallica",
+    "description": "The Trauma bassist, with his classical-influenced style, joined on the condition that the band relocate to the Bay Area. The move came in early 1983.",
+    "category": "lineup",
+    "artistIds": [
+      "metallica"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "metallica-first-gig",
+    "date": "1982-03-14",
+    "datePrecision": "day",
+    "title": "Metallica play their first show",
+    "description": "The band performed at Radio City in Anaheim, California. They were still without a stable line-up.",
+    "category": "concert",
+    "artistIds": [
+      "metallica"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "randy-rhoads-dies",
+    "date": "1982-03-19",
+    "datePrecision": "day",
+    "title": "Randy Rhoads dies in a plane crash",
+    "description": "Ozzy Osbourne's guitarist died in Leesburg, Florida aged 25. His classically influenced playing was a major influence on metal guitarists.",
+    "category": "death",
+    "artistIds": [
+      "ozzy-osbourne"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "metal-massacre-1",
+    "date": "1982-06-01",
+    "datePrecision": "month",
+    "title": "Metal Massacre compilation released",
+    "description": "Brian Slagel's Metal Blade compilation featured Metallica's first recorded song, 'Hit the Lights', misspelled on the cover as 'Mettallica'. It started Metal Blade Records.",
+    "category": "release",
+    "artistIds": [
+      "metallica",
+      "slayer"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "old-waldorf-metallica-exodus",
+    "date": "1982-11-01",
+    "datePrecision": "month",
+    "title": "Metallica play San Francisco's Old Waldorf with Exodus",
+    "description": "Exodus opened for Metallica at the club, a key meeting point of the Bay Area scene. The Bay Area scene was already forming around such shows.",
+    "category": "concert",
+    "artistIds": [
+      "metallica",
+      "exodus"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "megadeth-formed",
+    "date": "1983-01-01",
+    "datePrecision": "year",
+    "title": "Dave Mustaine forms Megadeth",
+    "description": "After leaving Metallica, Mustaine started Megadeth with bassist David Ellefson. The band built a reputation for technical thrash.",
+    "category": "formation",
+    "artistIds": [
+      "megadeth"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "testament-formed",
+    "date": "1983-01-01",
+    "datePrecision": "year",
+    "title": "Testament forms in Berkeley as Legacy",
+    "description": "The band formed in the East Bay and became Testament in 1986, with Chuck Billy as singer.",
+    "category": "formation",
+    "artistIds": [
+      "testament"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "bathory-formed",
+    "date": "1983-01-01",
+    "datePrecision": "year",
+    "title": "Bathory forms in Stockholm",
+    "description": "Quorthon's solo project drew on Venom's sound and became a forefather of black metal.",
+    "category": "formation",
+    "artistIds": [
+      "bathory"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "possessed-formed",
+    "date": "1983-01-01",
+    "datePrecision": "year",
+    "title": "Possessed forms in the Bay Area",
+    "description": "Jeff Becerra's group helped establish a blend of thrash and a darker, more guttural extreme sound.",
+    "category": "formation",
+    "artistIds": [
+      "possessed"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "death-formed",
+    "date": "1983-01-01",
+    "datePrecision": "year",
+    "title": "Chuck Schuldiner forms Mantas, later Death",
+    "description": "The Florida teenager built the band from a love of Venom and Slayer. They renamed it Death in 1984.",
+    "category": "formation",
+    "artistIds": [
+      "death"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "hammett-joins-metallica",
+    "date": "1983-04-01",
+    "datePrecision": "month",
+    "title": "Kirk Hammett joins Metallica",
+    "description": "The Exodus guitarist replaced Mustaine for the recording of Kill 'Em All. He has remained with the band since.",
+    "category": "lineup",
+    "artistIds": [
+      "metallica",
+      "exodus"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "mustaine-fired",
+    "date": "1983-04-11",
+    "datePrecision": "day",
+    "title": "Dave Mustaine is dismissed from Metallica",
+    "description": "After clashes with Hetfield and Ulrich, the lead guitarist was sent home from New York. He soon started Megadeth.",
+    "category": "lineup",
+    "artistIds": [
+      "metallica",
+      "megadeth"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "us-festival-heavy-metal-day",
+    "date": "1983-05-29",
+    "datePrecision": "day",
+    "title": "Heavy Metal Day at the US Festival",
+    "description": "The California festival's metal day featured Van Halen, Ozzy Osbourne, Judas Priest, Scorpions, Mötley Crüe and others. It put the genre before a huge American crowd.",
+    "category": "concert",
+    "artistIds": [
+      "van-halen",
+      "ozzy-osbourne",
+      "judas-priest",
+      "motley-crue"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "kill-em-all-for-one-tour",
+    "date": "1983-07-01",
+    "datePrecision": "month",
+    "title": "Metallica and Raven tour as 'Kill 'Em All for One'",
+    "description": "The two-month US club tour with the British band Raven, starting days after the album came out, was Metallica's first national tour.",
+    "category": "concert",
+    "artistIds": [
+      "metallica",
+      "raven"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "mercyful-fate-melissa",
+    "date": "1983-10-01",
+    "datePrecision": "month",
+    "title": "Mercyful Fate release Melissa",
+    "description": "The Danish band's debut mixed intricate guitar work with occult lyrics. It was a major influence on Metallica and the black metal scene.",
+    "category": "release",
+    "artistIds": [
+      "mercyful-fate"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "quiet-riot-number-one",
+    "date": "1983-11-26",
+    "datePrecision": "day",
+    "title": "Quiet Riot's Metal Health reaches number one",
+    "description": "The LA band's album was the first heavy metal record to top the Billboard 200. It showed major-label potential for the genre.",
+    "category": "industry",
+    "artistIds": [],
+    "importance": 2
+  },
+  {
+    "id": "sepultura-formed",
+    "date": "1984-01-01",
+    "datePrecision": "year",
+    "title": "Sepultura forms in Belo Horizonte",
+    "description": "Brothers Max and Igor Cavalera started the band in Brazil. They took their name from a Motörhead lyric.",
+    "category": "formation",
+    "artistIds": [
+      "sepultura"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "celtic-frost-formed",
+    "date": "1984-01-01",
+    "datePrecision": "year",
+    "title": "Celtic Frost forms in Zürich",
+    "description": "Tom G. Warrior and Martin Eric Ain evolved from Hellhammer. Their avant-garde extreme metal influenced death and black metal.",
+    "category": "formation",
+    "artistIds": [
+      "celtic-frost"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "belladonna-joins-anthrax",
+    "date": "1984-01-01",
+    "datePrecision": "year",
+    "title": "Joey Belladonna joins Anthrax",
+    "description": "The singer's clean, powerful vocals defined their classic 80s sound.",
+    "category": "lineup",
+    "artistIds": [
+      "anthrax"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "possessed-death-metal-demo",
+    "date": "1984-01-01",
+    "datePrecision": "year",
+    "title": "Possessed record the 'Death Metal' demo",
+    "description": "The demo helped popularise the term 'death metal' for the sound the band and others were developing.",
+    "category": "scene",
+    "artistIds": [
+      "possessed"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "german-thrash",
+    "date": "1984-01-01",
+    "datePrecision": "year",
+    "title": "The German thrash trio rises",
+    "description": "Kreator, Sodom and Destruction built a distinctive, raw European thrash sound, helped by the label Noise.",
+    "category": "scene",
+    "artistIds": [
+      "kreator"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "bathory-debut",
+    "date": "1984-01-01",
+    "datePrecision": "year",
+    "title": "Bathory release their debut album",
+    "description": "The Swedish project's raw sound and Satanic themes became a prototype of black metal.",
+    "category": "release",
+    "artistIds": [
+      "bathory"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "spinal-tap-film",
+    "date": "1984-03-02",
+    "datePrecision": "day",
+    "title": "This Is Spinal Tap premieres in the US",
+    "description": "Rob Reiner's mockumentary satirised heavy metal excess. Many real bands recognised themselves in it.",
+    "category": "industry",
+    "artistIds": [],
+    "importance": 1
+  },
+  {
+    "id": "metallica-elektra",
+    "date": "1984-09-01",
+    "datePrecision": "month",
+    "title": "Metallica sign to Elektra",
+    "description": "Elektra signed the band after seeing them live and reissued Ride the Lightning that November. Master of Puppets was the first album they made for the label.",
+    "category": "industry",
+    "artistIds": [
+      "metallica"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "razzle-dies",
+    "date": "1984-12-08",
+    "datePrecision": "day",
+    "title": "Hanoi Rocks drummer Razzle killed in a car crash",
+    "description": "Vince Neil of Mötley Crüe was driving drunk. The accident made headlines and highlighted the dangers of excess in the scene.",
+    "category": "death",
+    "artistIds": [
+      "motley-crue"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "sod-formed",
+    "date": "1985-01-01",
+    "datePrecision": "year",
+    "title": "S.O.D. forms in New York",
+    "description": "Scott Ian, Charlie Benante, Dan Lilker and Billy Milano formed it as a joke band. It helped create crossover.",
+    "category": "formation",
+    "artistIds": [
+      "sod",
+      "anthrax"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "ruthies-inn-scene",
+    "date": "1985-01-01",
+    "datePrecision": "year",
+    "title": "Ruthie's Inn becomes a Bay Area metal home",
+    "description": "The Berkeley club hosted many thrash and death metal bands. Together with the Old Waldorf and The Stone it anchored the Bay Area scene.",
+    "category": "scene",
+    "artistIds": [
+      "exodus",
+      "possessed",
+      "metallica"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "rock-in-rio-1985",
+    "date": "1985-01-11",
+    "datePrecision": "day",
+    "title": "First Rock in Rio opens",
+    "description": "The Brazilian festival booked Iron Maiden, Ozzy Osbourne, AC/DC, Scorpions and Whitesnake among others. It showed the global scale of metal.",
+    "category": "concert",
+    "artistIds": [
+      "iron-maiden",
+      "ozzy-osbourne",
+      "ac-dc"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "pmrc-formed",
+    "date": "1985-05-01",
+    "datePrecision": "month",
+    "title": "The Parents Music Resource Center is founded",
+    "description": "The group, started by Tipper Gore and others in Washington, campaigned for warning labels on records. Metal became a prime target.",
+    "category": "industry",
+    "artistIds": [],
+    "importance": 2
+  },
+  {
+    "id": "live-aid-sabbath-reunion",
+    "date": "1985-07-13",
+    "datePrecision": "day",
+    "title": "Black Sabbath reunite with Ozzy at Live Aid",
+    "description": "The original line-up played at the charity concert in Philadelphia. It was a rare reunion of the four.",
+    "category": "concert",
+    "artistIds": [
+      "black-sabbath",
+      "ozzy-osbourne"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "monsters-of-rock-1985",
+    "date": "1985-08-17",
+    "datePrecision": "day",
+    "title": "Metallica play Donington's Monsters of Rock",
+    "description": "The Californian band appeared on a bill headlined by ZZ Top. It was an early British exposure to a large crowd.",
+    "category": "concert",
+    "artistIds": [
+      "metallica"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "pmrc-senate-hearing",
+    "date": "1985-09-19",
+    "datePrecision": "day",
+    "title": "PMRC hearing in the US Senate",
+    "description": "Frank Zappa, Dee Snider and John Denver testified against music labelling. The hearing led to Parental Advisory stickers.",
+    "category": "industry",
+    "artistIds": [
+      "motley-crue",
+      "venom"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "celtic-frost-to-mega-therion",
+    "date": "1985-10-01",
+    "datePrecision": "month",
+    "title": "Celtic Frost release To Mega Therion",
+    "description": "The Swiss band's album pushed extreme metal toward the avant-garde and later influenced black metal.",
+    "category": "release",
+    "artistIds": [
+      "celtic-frost"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "slayer-def-jam",
+    "date": "1986-01-01",
+    "datePrecision": "year",
+    "title": "Slayer sign to Def Jam",
+    "description": "Rick Rubin's hip-hop label took on the thrash band. The pairing produced Reign in Blood.",
+    "category": "industry",
+    "artistIds": [
+      "slayer"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kreator-pleasure-to-kill",
+    "date": "1986-01-01",
+    "datePrecision": "year",
+    "title": "Kreator release Pleasure to Kill",
+    "description": "The German band's extreme album helped inspire the death metal movement.",
+    "category": "release",
+    "artistIds": [
+      "kreator"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "dark-angel-darkness-descends",
+    "date": "1986-01-01",
+    "datePrecision": "year",
+    "title": "Dark Angel release Darkness Descends",
+    "description": "Gene Hoglan's drumming and the band's speed set a mark for extreme thrash.",
+    "category": "release",
+    "artistIds": [
+      "dark-angel"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "baloff-zetro",
+    "date": "1986-01-01",
+    "datePrecision": "year",
+    "title": "Steve 'Zetro' Souza replaces Paul Baloff in Exodus",
+    "description": "The new vocalist took Exodus into their next phase, beginning with Pleasures of the Flesh.",
+    "category": "lineup",
+    "artistIds": [
+      "exodus"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "dynamo-open-air-first",
+    "date": "1986-01-01",
+    "datePrecision": "year",
+    "title": "First Dynamo Open Air in the Netherlands",
+    "description": "The Eindhoven festival, held by the Dynamo club, grew into one of Europe's main metal festivals.",
+    "category": "concert",
+    "artistIds": [],
+    "importance": 1
+  },
+  {
+    "id": "metallica-tour-with-ozzy",
+    "date": "1986-03-01",
+    "datePrecision": "month",
+    "title": "Metallica tour with Ozzy Osbourne",
+    "description": "The US arena run exposed Metallica to a larger audience after Master of Puppets.",
+    "category": "concert",
+    "artistIds": [
+      "metallica",
+      "ozzy-osbourne"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "burton-dies",
+    "date": "1986-09-27",
+    "datePrecision": "day",
+    "title": "Cliff Burton dies in Sweden",
+    "description": "Metallica's bassist was killed when the tour bus skidded off the road near Ljungby. He was 24.",
+    "category": "death",
+    "artistIds": [
+      "metallica"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "newsted-joins",
+    "date": "1986-10-01",
+    "datePrecision": "month",
+    "title": "Jason Newsted joins Metallica",
+    "description": "The Flotsam and Jetsam bassist replaced Burton. The band decided to continue.",
+    "category": "lineup",
+    "artistIds": [
+      "metallica"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "reign-in-blood-columbia",
+    "date": "1986-10-01",
+    "datePrecision": "month",
+    "title": "Columbia refuses to distribute Reign in Blood",
+    "description": "The label objected to the album's lyrics, and Geffen released it instead. The incident added to Slayer's notoriety.",
+    "category": "industry",
+    "artistIds": [
+      "slayer"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "testament-the-legacy",
+    "date": "1987-04-01",
+    "datePrecision": "month",
+    "title": "Testament release The Legacy",
+    "description": "The Bay Area band's debut brought melodic thrash with a strong guitar attack.",
+    "category": "release",
+    "artistIds": [
+      "testament"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "headbangers-ball-premieres",
+    "date": "1987-04-18",
+    "datePrecision": "day",
+    "title": "Headbangers Ball premieres on MTV",
+    "description": "The weekly metal video show gave bands without radio play a national platform.",
+    "category": "industry",
+    "artistIds": [],
+    "importance": 2
+  },
+  {
+    "id": "morrisound-tampa",
+    "date": "1988-01-01",
+    "datePrecision": "year",
+    "title": "Death record at Morrisound in Tampa",
+    "description": "The studio's work with Scott Burns helped build a distinctive Florida death metal sound.",
+    "category": "scene",
+    "artistIds": [
+      "death"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "sepultura-roadrunner",
+    "date": "1988-01-01",
+    "datePrecision": "year",
+    "title": "Sepultura sign to Roadrunner Records",
+    "description": "The deal brought the Brazilian band to an international audience.",
+    "category": "industry",
+    "artistIds": [
+      "sepultura"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "monsters-of-rock-1988",
+    "date": "1988-08-20",
+    "datePrecision": "day",
+    "title": "Two fans die at Donington's Monsters of Rock",
+    "description": "The bill included Iron Maiden, Kiss, David Lee Roth and Guns N' Roses. Two fans were killed in a crowd crush.",
+    "category": "concert",
+    "artistIds": [
+      "iron-maiden"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "one-video",
+    "date": "1989-01-01",
+    "datePrecision": "month",
+    "title": "Metallica release their first music video, for 'One'",
+    "description": "The video helped bring the band to MTV audiences.",
+    "category": "industry",
+    "artistIds": [
+      "metallica"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "grammys-1989",
+    "date": "1989-02-22",
+    "datePrecision": "day",
+    "title": "Jethro Tull beat Metallica at the Grammys",
+    "description": "The first Best Hard Rock/Metal Performance award went to the flute-playing band, surprising the metal world. Metallica performed 'One' on the show.",
+    "category": "industry",
+    "artistIds": [
+      "metallica"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "cowboys-from-hell",
+    "date": "1990-07-24",
+    "datePrecision": "day",
+    "title": "Pantera release Cowboys from Hell",
+    "description": "Their major-label debut introduced a groove-heavy new metal sound. It established them as stars.",
+    "category": "release",
+    "artistIds": [
+      "pantera"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "priest-subliminal-trial",
+    "date": "1990-08-01",
+    "datePrecision": "month",
+    "title": "Judas Priest cleared in the 'subliminal message' trial",
+    "description": "A Nevada judge dismissed the suit alleging hidden messages in a song had caused two fans' suicide attempts. The case drew attention to heavy metal's controversies.",
+    "category": "industry",
+    "artistIds": [
+      "judas-priest"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "clash-of-the-titans-1990",
+    "date": "1990-09-01",
+    "datePrecision": "month",
+    "title": "Clash of the Titans tour begins",
+    "description": "The tour paired Megadeth, Slayer, Testament and Suicidal Tendencies on a European run, then returned to the US the following year with Alice in Chains.",
+    "category": "concert",
+    "artistIds": [
+      "megadeth",
+      "slayer"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "rust-in-peace",
+    "date": "1990-09-24",
+    "datePrecision": "day",
+    "title": "Megadeth release Rust in Peace",
+    "description": "With Marty Friedman on guitar, the album is regarded as Megadeth's peak of technical thrash.",
+    "category": "release",
+    "artistIds": [
+      "megadeth"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "rock-in-rio-1991",
+    "date": "1991-01-01",
+    "datePrecision": "month",
+    "title": "Rock in Rio II",
+    "description": "The second festival at the Maracanã stadium included Judas Priest among other acts.",
+    "category": "concert",
+    "artistIds": [
+      "judas-priest"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "black-album",
+    "date": "1991-08-12",
+    "datePrecision": "day",
+    "title": "Metallica release The Black Album",
+    "description": "Produced by Bob Rock, the album debuted at number one in the US and brought metal to a mass audience. It split some old fans.",
+    "category": "release",
+    "artistIds": [
+      "metallica"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "nevermind-grunge",
+    "date": "1991-09-24",
+    "datePrecision": "day",
+    "title": "Nirvana release Nevermind",
+    "description": "The album's success shifted mainstream rock toward alternative bands. Many 80s metal acts fell from fashion.",
+    "category": "industry",
+    "artistIds": [],
+    "importance": 3
+  },
+  {
+    "id": "moscow-monsters-of-rock",
+    "date": "1991-09-28",
+    "datePrecision": "day",
+    "title": "Monsters of Rock in Moscow",
+    "description": "AC/DC, Metallica, Pantera, The Black Crowes and E.S.T. played to a huge crowd at Tushino Airfield, a landmark of the Soviet Union's last months.",
+    "category": "concert",
+    "artistIds": [
+      "ac-dc",
+      "metallica",
+      "pantera"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "halford-leaves-priest",
+    "date": "1992-01-01",
+    "datePrecision": "year",
+    "title": "Rob Halford leaves Judas Priest",
+    "description": "The singer departed to pursue other projects, leaving Priest without its voice. The group later hired Tim 'Ripper' Owens.",
+    "category": "lineup",
+    "artistIds": [
+      "judas-priest"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "lombardo-leaves-slayer",
+    "date": "1992-01-01",
+    "datePrecision": "year",
+    "title": "Dave Lombardo leaves Slayer",
+    "description": "The drummer's departure after a dispute removed a key part of the sound. He later returned.",
+    "category": "lineup",
+    "artistIds": [
+      "slayer"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "belladonna-out-anthrax",
+    "date": "1992-01-01",
+    "datePrecision": "year",
+    "title": "Anthrax part with Joey Belladonna",
+    "description": "John Bush replaced him as the band shifted toward a heavier sound.",
+    "category": "lineup",
+    "artistIds": [
+      "anthrax"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "hetfield-burned-montreal",
+    "date": "1992-08-08",
+    "datePrecision": "day",
+    "title": "James Hetfield is burned by pyrotechnics in Montreal",
+    "description": "On the joint stadium tour with Guns N' Roses, Hetfield walked into a pyrotechnic flame at Olympic Stadium and suffered serious burns. The tour resumed weeks later with Metal Church guitarist John Marshall filling in on rhythm guitar.",
+    "category": "concert",
+    "artistIds": [
+      "metallica"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "dickinson-leaves-maiden",
+    "date": "1993-01-01",
+    "datePrecision": "year",
+    "title": "Bruce Dickinson leaves Iron Maiden",
+    "description": "He announced his departure early in 1993 and played farewell shows that August. Blaze Bayley replaced him.",
+    "category": "lineup",
+    "artistIds": [
+      "iron-maiden"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "sepultura-chaos-ad",
+    "date": "1993-09-01",
+    "datePrecision": "month",
+    "title": "Sepultura release Chaos A.D.",
+    "description": "The Brazilian band's heavy, groove-based and political album broadened their reach.",
+    "category": "release",
+    "artistIds": [
+      "sepultura"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "far-beyond-driven",
+    "date": "1994-03-22",
+    "datePrecision": "day",
+    "title": "Pantera's Far Beyond Driven debuts at number one",
+    "description": "The extreme, heavy album topped the US charts. It showed that hard metal could still sell in the grunge era.",
+    "category": "release",
+    "artistIds": [
+      "pantera"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "cobain-dies",
+    "date": "1994-04-05",
+    "datePrecision": "day",
+    "title": "Kurt Cobain dies",
+    "description": "Nirvana's singer was found dead on April 8, with the death dated to April 5. His death marked the end of the grunge breakthrough.",
+    "category": "death",
+    "artistIds": [],
+    "importance": 2
+  },
+  {
+    "id": "ripper-owens-priest",
+    "date": "1996-01-01",
+    "datePrecision": "year",
+    "title": "Tim 'Ripper' Owens joins Judas Priest",
+    "description": "The Priest tribute-band singer became the band's new vocalist after Halford's departure.",
+    "category": "lineup",
+    "artistIds": [
+      "judas-priest"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "ramones-final-show",
+    "date": "1996-08-06",
+    "datePrecision": "day",
+    "title": "Ramones play their last show",
+    "description": "The Los Angeles concert closed a 22-year career. The band's influence on thrash and punk lasted.",
+    "category": "concert",
+    "artistIds": [
+      "ramones"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "max-leaves-sepultura",
+    "date": "1996-12-01",
+    "datePrecision": "month",
+    "title": "Max Cavalera leaves Sepultura",
+    "description": "The founding singer and guitarist left after disputes. Derrick Green replaced him.",
+    "category": "lineup",
+    "artistIds": [
+      "sepultura"
+    ],
+    "importance": 2
+  }
+]
