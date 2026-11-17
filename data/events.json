@@ -16,7 +16,7 @@
     "date": "1965-01-01",
     "datePrecision": "year",
     "title": "Tony Iommi loses fingertips in a factory accident",
-    "description": "On his last day at a Birmingham sheet-metal factory, Tony Iommi severed the tips of two fingers on his fretting hand. He made thimble-like prosthetics and used lighter strings, which shaped his heavy, down-tuned style.",
+    "description": "While working at a Birmingham sheet-metal factory, Tony Iommi lost the tips of two fingers on his right hand. He made thimble-like prosthetics and used lighter strings, which shaped his heavy, down-tuned style.",
     "category": "scene",
     "artistIds": [
       "black-sabbath"
@@ -206,7 +206,7 @@
   {
     "id": "kiss-formed",
     "date": "1973-01-01",
-    "datePrecision": "month",
+    "datePrecision": "year",
     "title": "Kiss forms in New York City",
     "description": "Paul Stanley, Gene Simmons, Ace Frehley and Peter Criss adopted make-up and a pyrotechnic stage show. Their image shaped the look of 1980s metal.",
     "category": "formation",
@@ -594,8 +594,8 @@
   },
   {
     "id": "ozzy-fired-sabbath",
-    "date": "1979-04-01",
-    "datePrecision": "month",
+    "date": "1979-04-27",
+    "datePrecision": "day",
     "title": "Ozzy Osbourne is dismissed from Black Sabbath",
     "description": "The band had been in difficulty through drugs and creative disagreements. The change of vocalist opened a new chapter for both parties.",
     "category": "lineup",
@@ -635,7 +635,7 @@
     "date": "1980-01-01",
     "datePrecision": "year",
     "title": "Roadrunner Records is founded in the Netherlands",
-    "description": "The label began as an import business and became a major home of thrash and death metal, including Sepultura and Obituary.",
+    "description": "The Dutch label became a major home of thrash and death metal, including Sepultura and Obituary.",
     "category": "industry",
     "artistIds": [
       "sepultura"
@@ -656,8 +656,8 @@
   },
   {
     "id": "metal-for-muthas",
-    "date": "1980-01-01",
-    "datePrecision": "year",
+    "date": "1980-02-08",
+    "datePrecision": "day",
     "title": "Metal for Muthas compilation released",
     "description": "EMI's compilation of NWOBHM bands included Iron Maiden and brought attention to the scene. It helped spread the new wave beyond London.",
     "category": "release",
@@ -882,6 +882,18 @@
     "importance": 3
   },
   {
+    "id": "metal-massacre-1",
+    "date": "1982-01-01",
+    "datePrecision": "year",
+    "title": "Metal Massacre compilation released",
+    "description": "Brian Slagel's Metal Blade compilation featured Metallica's first recorded song, 'Hit the Lights', misspelled on the cover as 'Mettallica'. It started Metal Blade Records.",
+    "category": "release",
+    "artistIds": [
+      "metallica"
+    ],
+    "importance": 3
+  },
+  {
     "id": "megaforce-founded",
     "date": "1982-01-01",
     "datePrecision": "year",
@@ -1041,19 +1053,6 @@
     "importance": 3
   },
   {
-    "id": "metal-massacre-1",
-    "date": "1982-06-01",
-    "datePrecision": "month",
-    "title": "Metal Massacre compilation released",
-    "description": "Brian Slagel's Metal Blade compilation featured Metallica's first recorded song, 'Hit the Lights', misspelled on the cover as 'Mettallica'. It started Metal Blade Records.",
-    "category": "release",
-    "artistIds": [
-      "metallica",
-      "slayer"
-    ],
-    "importance": 3
-  },
-  {
     "id": "old-waldorf-metallica-exodus",
     "date": "1982-11-01",
     "datePrecision": "month",
@@ -1142,7 +1141,7 @@
     "id": "noise-records",
     "date": "1983-01-01",
     "datePrecision": "year",
-    "title": "Noise Records is founded in Berlin",
+    "title": "Noise Records is founded",
     "description": "Karl-Ulrich Walterbach's label released Kreator, Helloween, Celtic Frost and many other European metal bands.",
     "category": "industry",
     "artistIds": [
@@ -1289,6 +1288,18 @@
     "importance": 2
   },
   {
+    "id": "deep-purple-mk2-reunion",
+    "date": "1984-01-01",
+    "datePrecision": "year",
+    "title": "Deep Purple's classic line-up reunites",
+    "description": "Ian Gillan, Ritchie Blackmore, Roger Glover, Jon Lord and Ian Paice reformed after a decade apart. Perfect Strangers followed that autumn.",
+    "category": "lineup",
+    "artistIds": [
+      "deep-purple"
+    ],
+    "importance": 2
+  },
+  {
     "id": "mayhem-formed",
     "date": "1984-01-01",
     "datePrecision": "year",
@@ -1309,18 +1320,6 @@
     "category": "industry",
     "artistIds": [],
     "importance": 1
-  },
-  {
-    "id": "deep-purple-mk2-reunion",
-    "date": "1984-04-01",
-    "datePrecision": "month",
-    "title": "Deep Purple's classic line-up reunites",
-    "description": "Ian Gillan, Ritchie Blackmore, Roger Glover, Jon Lord and Ian Paice reformed after a decade apart. Perfect Strangers followed that autumn.",
-    "category": "lineup",
-    "artistIds": [
-      "deep-purple"
-    ],
-    "importance": 2
   },
   {
     "id": "metallica-elektra",
@@ -1624,6 +1623,18 @@
     "importance": 2
   },
   {
+    "id": "napalm-death-peel-session",
+    "date": "1987-01-01",
+    "datePrecision": "year",
+    "title": "Napalm Death record their first John Peel session",
+    "description": "The BBC Radio 1 DJ played their ultra-fast songs and helped spread grindcore. Peel kept featuring extreme bands in later years.",
+    "category": "scene",
+    "artistIds": [
+      "napalm-death"
+    ],
+    "importance": 2
+  },
+  {
     "id": "headbangers-ball-premieres",
     "date": "1987-04-18",
     "datePrecision": "day",
@@ -1631,18 +1642,6 @@
     "description": "The weekly metal video show gave bands without radio play a national platform.",
     "category": "industry",
     "artistIds": [],
-    "importance": 2
-  },
-  {
-    "id": "napalm-death-peel-session",
-    "date": "1987-09-01",
-    "datePrecision": "month",
-    "title": "Napalm Death record their first John Peel session",
-    "description": "The BBC Radio 1 DJ played their ultra-fast songs and helped spread grindcore. Peel kept featuring extreme bands in later years.",
-    "category": "scene",
-    "artistIds": [
-      "napalm-death"
-    ],
     "importance": 2
   },
   {
@@ -1707,10 +1706,10 @@
   },
   {
     "id": "moscow-music-peace-festival",
-    "date": "1989-08-01",
-    "datePrecision": "month",
+    "date": "1989-08-12",
+    "datePrecision": "day",
     "title": "Moscow Music Peace Festival",
-    "description": "Bon Jovi, Mötley Crüe, Ozzy Osbourne, Scorpions, Skid Row and others played at Lenin Stadium. The shows signalled the reach of hard rock and metal behind the Iron Curtain.",
+    "description": "Bon Jovi, Mötley Crüe, Ozzy Osbourne, Scorpions, Skid Row and others played at Lenin Stadium on 12 and 13 August. The shows signalled the reach of hard rock and metal behind the Iron Curtain.",
     "category": "concert",
     "artistIds": [
       "motley-crue",
@@ -1740,6 +1739,18 @@
     "category": "concert",
     "artistIds": [],
     "importance": 1
+  },
+  {
+    "id": "death-angel-bus-crash",
+    "date": "1990-01-01",
+    "datePrecision": "year",
+    "title": "Death Angel's tour bus crashes",
+    "description": "While touring for Act III, drummer Andy Galeon was injured in a bus accident and took over a year to recover. The band broke up in 1991 and reformed in 2001.",
+    "category": "scene",
+    "artistIds": [
+      "death-angel"
+    ],
+    "importance": 2
   },
   {
     "id": "megadeth-friedman-menza",
@@ -1775,18 +1786,6 @@
     "artistIds": [
       "megadeth",
       "slayer"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "death-angel-bus-crash",
-    "date": "1990-10-01",
-    "datePrecision": "month",
-    "title": "Death Angel's tour bus crashes",
-    "description": "Drummer Andy Galeon was seriously injured and the band went on hiatus. They resumed years later.",
-    "category": "scene",
-    "artistIds": [
-      "death-angel"
     ],
     "importance": 2
   },
@@ -1879,7 +1878,7 @@
     "date": "1992-08-08",
     "datePrecision": "day",
     "title": "James Hetfield is burned by pyrotechnics in Montreal",
-    "description": "On the joint stadium tour with Guns N' Roses, Hetfield walked into a pyrotechnic flame at Olympic Stadium and suffered serious burns. The tour resumed weeks later with Metal Church guitarist John Marshall filling in on rhythm guitar.",
+    "description": "On the joint stadium tour with Guns N' Roses, a pyrotechnic charge went off during 'Fade to Black' at Olympic Stadium and Hetfield suffered serious burns. The tour resumed weeks later with Metal Church guitarist John Marshall filling in on rhythm guitar.",
     "category": "concert",
     "artistIds": [
       "metallica"

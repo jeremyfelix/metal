@@ -106,8 +106,9 @@ for (const r of releases) {
     const ym = desc.match(/\b(19[6-9]\d)\b/);
     if (ym && Math.abs(+ym[1] - +r.date.slice(0, 4)) > 1) why.push(`year ${ym[1]} vs ${r.date.slice(0, 4)}`);
     const art = artists.find((a) => a.id === r.artistId);
-    const toks = ARTIST_ALIASES[art.id] ?? norm(art.name).split(" ").filter((t) => t.length >= 3);
-    if (!toks.some((t) => norm(desc).includes(t))) why.push(`artist "${art.name}" not named in description`);
+    const toks = ARTIST_ALIASES[art.id] ?? (norm(art.name).split(" ").filter((t) => t.length >= 3).length ? norm(art.name).split(" ").filter((t) => t.length >= 3) : [norm(art.name).trim().replace(/\s+/g, " ")]);
+    const nd = norm(desc).replace(/\s+/g, " ");
+    if (!toks.some((t) => nd.includes(t))) why.push(`artist "${art.name}" not named in description`);
     if (why.length) flag("releases", r.id, why.join("; "), { wiki: r.wiki, title: p.title, desc });
   }
   if (p.thumbnail) out.releases[r.id] = { src: p.thumbnail.source, width: p.thumbnail.width, height: p.thumbnail.height, page: pageUrl(p.title) };
