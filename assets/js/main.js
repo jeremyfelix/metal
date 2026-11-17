@@ -71,9 +71,10 @@ function init(model) {
   tl = createTimeline({
     root: $('tl'), model, getState: get, filter, tooltip: $('tooltip'), reducedMotion,
     onSelect: select, onArtist: selectArtist,
+    onToggleGroup: (gid) => { const cg = new Set(get().cg); cg.has(gid) ? cg.delete(gid) : cg.add(gid); store.set({ cg }); },
     onViewChange: (x) => { store.set({ x }, { quiet: true }); writeHash(false); },
   });
-  const controls = createControls({ model, store, tl, onJump: (d) => jump(d), onClear: () => store.set({ hg: new Set(), hc: new Set(), lm: false, tf: false, q: '' }) });
+  const controls = createControls({ model, store, tl, onJump: (d) => jump(d), onClear: () => store.set({ hg: new Set(), hc: new Set(), lm: false, tf: false, ol: false, q: '' }) });
 
   /** Pan so the selected mark is visible and not hidden under the drawer / sheet. */
   function revealSelected() {
@@ -138,12 +139,11 @@ function init(model) {
   }
 
   store.subscribe((s, changed) => {
-    const layout = changed.has('hg') || changed.has('lm');
+    const layout = changed.has('hg') || changed.has('lm') || changed.has('ol') || changed.has('cg');
     const filt = layout || changed.has('hc') || changed.has('tf') || changed.has('q');
     if (filt) {
       if (layout) tl.rebuild(); else tl.refresh();
-      chronicle.markDirty();
-      if (s.view === 'chronicle') chronicle.render();
+      if (!(changed.size === 1 && changed.has('cg'))) { chronicle.markDirty(); if (s.view === 'chronicle') chronicle.render(); }
       controls.sync(s);
       updateSearchStatus();
       if (changed.has('q')) jumpIdx = -1;

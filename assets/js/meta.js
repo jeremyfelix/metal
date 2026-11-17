@@ -9,6 +9,7 @@ export const GENRES = [
   { id: 'nwobhm', label: 'NWOBHM', short: 'NWOBHM' },
   { id: 'thrash', label: 'Thrash', short: 'Thrash' },
   { id: 'death', label: 'Death metal', short: 'Death' },
+  { id: 'extreme', label: 'Black / grind', short: 'Black / grind' },
 ];
 const GENRE_BY_ID = new Map(GENRES.map((g) => [g.id, g]));
 
@@ -46,6 +47,8 @@ export const TYPES = [
 ];
 const TYPE_BY_ID = new Map(TYPES.map((t) => [t.id, t]));
 export const typeMeta = (id) => TYPE_BY_ID.get(String(id || '').toLowerCase()) || { id: 'other', label: title(id || 'Release'), r: 4.8 };
+
+export const wikiUrl = (title) => 'https://en.wikipedia.org/wiki/' + encodeURIComponent(String(title).trim().replace(/ /g, '_')).replace(/%3A/g, ':').replace(/%2C/g, ',').replace(/%28/g, '(').replace(/%29/g, ')');
 
 export const ERAS = [
   { id: 'roots', label: 'Roots', range: '1967–75', from: 1966.5, to: 1976, genre: 'proto' },

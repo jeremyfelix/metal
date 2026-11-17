@@ -29,6 +29,16 @@
 .pn-artist-box { margin-top: 22px; padding: 4px 14px 14px; border: 1.5px solid var(--line-2); border-left: 5px solid var(--c, var(--line-2)); background: var(--bg); }
 .pn-artist-name { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 18px; }
 .pn-blurb { margin-top: 8px; font-size: 14.5px; color: var(--ink-2); }
+.chip-list { border-color: var(--ink-3); color: var(--ink); }
+.cover { margin: 14px 0 0; width: min(240px, 100%); }
+.cover-img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; background: var(--surface-2); border: 1px solid var(--line-2); box-shadow: 0 4px 14px rgba(0,0,0,.35); }
+.cover-credit, .photo-credit { font: 400 11.5px/1.4 var(--font-mono); color: var(--ink-3); margin: 6px 0 0; }
+.photo { margin: 14px 0 0; }
+.photo-img { display: block; max-width: 100%; height: auto; border: 1px solid var(--line-2); background: var(--surface-2); }
+.photo-lg .photo-img { width: 100%; max-height: 280px; object-fit: cover; }
+.pn-artist-box .photo { margin-top: 10px; }
+.photo-sm .photo-img { max-width: 120px; max-height: 120px; object-fit: cover; }
+.pn-ext { margin-top: 10px; font-size: 14px; }
 .pn-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 24px; }
 .nav-btn { display: flex; flex-direction: column; align-items: flex-start; text-align: left; gap: 2px; background: transparent; border: 1.5px solid var(--line-2); padding: 9px 10px; min-height: 66px; cursor: pointer; min-width: 0; }
 .nav-btn.next { align-items: flex-end; text-align: right; }
@@ -61,3 +71,4 @@
   .panel-content { padding: 14px 18px 28px; }
   .pn-li-btn { grid-template-columns: 84px 1fr; }
 }
+@media (max-width: 760px) { .cover { width: 168px; } }

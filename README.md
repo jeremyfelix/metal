@@ -39,10 +39,12 @@ assets/js/
   timeline.js           SVG swimlane timeline (zoom, pan, labels, keyboard)
   chronicle.js          year-grouped list view
   panel.js              details drawer / bottom sheet
-  controls.js           chips, search box, tabs, theme switch, legend
+  images.js             image URL validation, attribution, cover/photo elements
+  controls.js           chips, search box, tabs, theme switch, legend, image credits
   theme-init.js         applies the saved theme before first paint
 data/                   artists.json, releases.json, events.json  (the real content)
-fixtures/               small sample data for development
+fixtures/               small sample data for development (incl. a placeholder images.json)
+scripts/                data tooling (generators, validate-data.mjs, fetch-images.mjs)
 .github/workflows/      GitHub Pages deployment
 ```
 
@@ -57,9 +59,10 @@ The site loads three files from `data/` (all URLs are relative, so it works from
   "formed": "1981", "ended": null, "genre": "thrash", "blurb": "…", "inList": true }
 ```
 
-- `genre`: `proto`, `punk`, `hard-rock`, `heavy-metal`, `nwobhm`, `thrash` or `death` (unknown values get a neutral "Other" lane group).
+- `genre`: `proto`, `hard-rock`, `punk`, `heavy-metal`, `nwobhm`, `thrash`, `death` or `extreme` (shown as "Black / grind"). Unknown values get a neutral "Other" lane group.
+- `wiki`: English Wikipedia article title, or `null`. Used for the "Wikipedia" link in panels.
 - `formed` / `ended`: `YYYY`, `YYYY-MM` or `YYYY-MM-DD`; `ended` may be `null` (the active bar then runs to the end of the axis).
-- `inList`: `true` gives the artist a lane. `false` means the artist has no releases and exists only so events can reference it. (An artist with releases always gets a lane.)
+- `inList`: the artist has releases in the owner's personal list. **Lanes are shown for any artist that has at least one release**, whatever this flag says; artists without releases exist only so events can reference them.
 
 ### `releases.json`
 
@@ -74,6 +77,8 @@ The site loads three files from `data/` (all URLs are relative, so it works from
 - `landmark`: emphasised marker, labelled when there is room.
 - `listTitle`: the shorter label drawn on the timeline.
 - `dateNote`: shown in the details panel as a subtle "Date note".
+- `inList`: `true` = from the owner's personal album list, `false` = added for context (then `listTitle` may be `null`; the full title is used on the timeline). A missing flag counts as `true`. Owner's releases carry a small "My list" tag, and the **My list only** toggle hides the rest.
+- `wiki`: English Wikipedia article title for the album, or `null`.
 
 ### `events.json`
 
@@ -87,6 +92,31 @@ The site loads three files from `data/` (all URLs are relative, so it works from
 - `importance`: `1`–`3`. Higher means a bigger glyph on a higher row; level 3 events get labels first.
 - `artistIds`: events that list artists also appear as a small tick on those artists' lanes.
 
+### `images.json` (optional)
+
+Generated, not hand-written; the site works without it (and tolerates missing entries).
+
+```json
+{ "generated": "2026-11-17",
+  "artists":  { "slayer": { "src": "https://upload.wikimedia.org/…/480px-….jpg", "width": 480, "height": 320,
+                            "page": "https://en.wikipedia.org/wiki/Slayer", "file": "https://commons.wikimedia.org/wiki/File:….jpg",
+                            "credit": "Author Name", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/" } },
+  "releases": { "slayer-reign-in-blood": { "src": "https://upload.wikimedia.org/…", "width": 250, "height": 250,
+                                           "page": "https://en.wikipedia.org/wiki/Reign_in_Blood" } } }
+```
+
+Regenerate it (network access to Wikipedia/Commons required) with:
+
+```sh
+node scripts/fetch-images.mjs
+```
+
+**Image rules the site enforces**
+- Only `https:` URLs whose host ends in `wikimedia.org` or `wikipedia.org` are used; anything else is ignored.
+- Images use `loading="lazy"`, `decoding="async"` and `referrerpolicy="no-referrer"`. If one fails to load it is removed entirely (no broken-image icons).
+- Artist photos are free-licensed Commons files and are always shown with an attribution line ("Photo: author · licence · Wikimedia Commons", each linking to its source). All of them are listed in the **Image credits** section at the bottom of the page.
+- Album covers are non-free images. They are **hotlinked from Wikipedia, never copied into this repository**, link back to their article, and remain the property of their rights holders.
+
 ### Adding an album or event
 
 1. Open `data/releases.json` (or `events.json`), copy an existing object, give it a unique `id`, and fill in the fields. The `artistId` must match an artist `id` in `artists.json`.
@@ -95,7 +125,11 @@ The site loads three files from `data/` (all URLs are relative, so it works from
 
 ## URL state
 
-Everything shareable is in the hash, e.g. `#hg=punk&tf=1&q=slayer&sel=r:slayer-reign-in-blood&x=1983.00-1988.00` (hidden genres, thrash focus, search, selected item, visible years, `view=chronicle`).
+Everything shareable is in the hash, e.g. `#hg=punk&cg=nwobhm&ol=1&tf=1&q=slayer&sel=r:slayer-reign-in-blood&x=1983.00-1988.00` (hidden genres, collapsed genre groups, My list only, thrash focus, search, selected item, visible years, `view=chronicle`).
+
+## Using the timeline at scale
+
+Genre groups collapse (click or press Enter on a group header; **Collapse all / Expand all** in the toolbar). A collapsed group becomes one thin row with all of that genre's releases compressed onto it, so the shape of the era stays visible. The era buttons re-expand the relevant group. Lanes within a group are ordered by first release date. At full zoom the events track hides the lowest-importance events that cannot fit; zoom in to reveal them.
 
 ## Keyboard
 

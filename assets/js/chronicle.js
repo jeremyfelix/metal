@@ -1,5 +1,6 @@
 // Chronicle: a vertical, year-grouped list of everything that passes the current filters/search.
 import { formatDayMonth, formatDate } from './dates.js';
+import { makeImg } from './images.js';
 import { genreClass, genreMeta, catClass, catMeta, typeMeta, releasePath, eventPath } from './meta.js';
 
 const NS = 'http://www.w3.org/2000/svg';
@@ -64,20 +65,29 @@ export function createChronicle({ root, model, getState, filter, onSelect }) {
     const date = h('span', 'chr-date', formatDayMonth(it.date, it.prec));
     const icon = shapeIcon(it.kind === 'release' ? releasePath(it.type, 5.4) : eventPath(it.category, 5.4), it.kind === 'release' ? 'mk-icon' : 'ev-icon');
     const main = h('span', 'chr-main');
-    const tl = h('span', 'chr-title', it.title);
-    main.appendChild(tl);
+    const row = h('span', 'chr-row');
+    const text = h('span', 'chr-text');
+    text.appendChild(h('span', 'chr-title', it.title));
     const sub = h('span', 'chr-sub');
     const parts = [];
     if (it.artists.length) parts.push(it.artists.map((a) => a.name).join(', '));
     parts.push(it.kind === 'release' ? typeMeta(it.type).label : catMeta(it.category).label);
     if (it.kind === 'release') parts.push(genreMeta(it.genre).label);
     sub.textContent = parts.join(' · ');
-    main.appendChild(sub);
-    if (it.kind === 'event' && it.description) main.appendChild(h('span', 'chr-desc', it.description));
-    if (it.kind === 'release' && it.note) main.appendChild(h('span', 'chr-desc', it.note));
-    const badge = it.landmark ? h('span', 'chr-badge', it.kind === 'release' ? 'Landmark' : 'Key event') : null;
+    if (it.kind === 'release' && it.inList) sub.appendChild(h('span', 'chr-tag', 'My list'));
+    text.appendChild(sub);
+    if (it.kind === 'event' && it.description) text.appendChild(h('span', 'chr-desc', it.description));
+    if (it.kind === 'release' && it.note) text.appendChild(h('span', 'chr-desc', it.note));
+    if (it.landmark) text.appendChild(h('span', 'chr-badge', it.kind === 'release' ? 'Landmark' : 'Key event'));
+    row.appendChild(text);
+    if (it.kind === 'release' && it.img) {
+      // reserved 56px box; the whole box disappears if the image cannot load
+      const box = h('span', 'chr-thumb');
+      box.appendChild(makeImg(it.img, `Cover of ${it.title}${it.artist ? ' by ' + it.artist.name : ''}`, 'chr-thumb-img', 56, 56, box));
+      row.appendChild(box);
+    }
+    main.appendChild(row);
     b.append(date, icon, main);
-    if (badge) b.appendChild(badge);
     b.setAttribute('aria-label', `${it.title}, ${it.artists.map((a) => a.name).join(', ') || catMeta(it.category).label}, ${formatDate(it.date, it.prec)}`);
     li.appendChild(b);
     return li;

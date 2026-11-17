@@ -12,7 +12,7 @@ const load = (f) => {
 };
 const artists = load("artists.json"), releases = load("releases.json"), events = load("events.json");
 
-const GENRES = ["proto", "punk", "hard-rock", "heavy-metal", "nwobhm", "thrash", "death"];
+const GENRES = ["proto", "punk", "hard-rock", "heavy-metal", "nwobhm", "thrash", "death", "extreme"];
 const TYPES = ["album", "ep", "demo", "live", "compilation"];
 const CATS = ["formation", "lineup", "concert", "death", "scene", "industry", "release"];
 const PRECS = ["day", "month", "year"];
@@ -43,6 +43,11 @@ for (const a of artists) {
   if (!formedOk(a.formed)) err(`artist ${a.id}: bad formed ${a.formed}`);
   if (a.ended !== null && !formedOk(String(a.ended))) err(`artist ${a.id}: bad ended`);
   if (typeof a.inList !== "boolean") err(`artist ${a.id}: inList must be boolean`);
+  if (typeof a.wiki !== "string" || !a.wiki.trim()) err(`artist ${a.id}: wiki must be a non-empty string`);
+}
+for (const a of artists) {
+  const has = releases.some((r) => r.artistId === a.id && r.inList === true);
+  if (a.inList !== has) err(`artist ${a.id}: inList=${a.inList} but ${has ? "has" : "has no"} inList releases`);
 }
 
 for (const r of releases) {
@@ -52,16 +57,22 @@ for (const r of releases) {
   if (!dateOk(r.date, r.datePrecision)) err(`release ${r.id}: date ${r.date} invalid for precision ${r.datePrecision}`);
   if (typeof r.landmark !== "boolean") err(`release ${r.id}: landmark must be boolean`);
   if (r.landmark && !r.note) err(`release ${r.id}: landmark needs note`);
-  for (const k of ["title", "listTitle"]) if (!r[k]) err(`release ${r.id}: missing ${k}`);
+  if (typeof r.inList !== "boolean") err(`release ${r.id}: inList must be boolean`);
+  if (r.inList === false && r.listTitle !== null) err(`release ${r.id}: added releases need listTitle null`);
+  if (r.inList === true && !r.listTitle) err(`release ${r.id}: inList releases need listTitle`);
+  if (!(r.wiki === null || (typeof r.wiki === "string" && r.wiki.trim()))) err(`release ${r.id}: wiki must be string or null`);
+  if (r.inList === false && !r.note) err(`release ${r.id}: added releases should have a note`);
+  if (!r.title) err(`release ${r.id}: missing title`);
 }
 for (let i = 1; i < releases.length; i++) if (releases[i].date < releases[i - 1].date) err(`releases not sorted at ${releases[i].id}`);
 
 const lines = fs.readFileSync(path.join(root, "data/source/albums.tsv"), "utf8").split(/\r?\n/).filter(Boolean).slice(1);
-if (lines.length !== releases.length) err(`TSV has ${lines.length} rows but releases.json has ${releases.length}`);
+const listed = releases.filter((r) => r.inList === true);
+if (lines.length !== listed.length) err(`TSV has ${lines.length} rows but releases.json has ${listed.length} inList releases`);
 const used = new Set();
 for (const line of lines) {
   const [title, , date] = line.split("\t");
-  const hits = releases.filter((r) => r.listTitle === title);
+  const hits = listed.filter((r) => r.listTitle === title);
   if (hits.length !== 1) { err(`TSV row "${title}" maps to ${hits.length} releases`); continue; }
   if (used.has(hits[0].id)) err(`release ${hits[0].id} matched twice`);
   used.add(hits[0].id);
@@ -79,10 +90,42 @@ for (const e of events) {
 }
 for (let i = 1; i < events.length; i++) if (events[i].date < events[i - 1].date) err(`events not sorted at ${events[i].id}`);
 
+// images.json (optional until generated)
+const imgPath = path.join(root, "data/images.json");
+let imgCounts = "";
+if (fs.existsSync(imgPath)) {
+  let img = null;
+  try { img = JSON.parse(fs.readFileSync(imgPath, "utf8")); } catch (e) { err(`images.json: invalid JSON (${e.message})`); }
+  if (img) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(img.generated || "")) err("images.json: bad generated date");
+    const HOST = /^https:\/\/(upload|thumb)\.wikimedia\.org\//;
+    const WIKI = /^https:\/\/en\.wikipedia\.org\/wiki\//;
+    const relIds = new Set(releases.map((r) => r.id));
+    for (const [id, v] of Object.entries(img.artists || {})) {
+      if (!artistIds.has(id)) err(`images.json: unknown artist ${id}`);
+      if (!HOST.test(v.src || "")) err(`images.json artist ${id}: bad src`);
+      if (!(v.width > 0 && v.height > 0)) err(`images.json artist ${id}: bad size`);
+      if (!WIKI.test(v.page || "")) err(`images.json artist ${id}: bad page`);
+      if (!/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/.test(v.file || "")) err(`images.json artist ${id}: bad file`);
+      if (!v.credit || v.credit.length > 120) err(`images.json artist ${id}: bad credit`);
+      if (!v.license) err(`images.json artist ${id}: missing license`);
+      if (!(v.licenseUrl === null || /^https?:\/\//.test(v.licenseUrl))) err(`images.json artist ${id}: bad licenseUrl`);
+    }
+    for (const [id, v] of Object.entries(img.releases || {})) {
+      if (!relIds.has(id)) err(`images.json: unknown release ${id}`);
+      if (!HOST.test(v.src || "")) err(`images.json release ${id}: bad src`);
+      if (!(v.width > 0 && v.height > 0)) err(`images.json release ${id}: bad size`);
+      if (!WIKI.test(v.page || "")) err(`images.json release ${id}: bad page`);
+    }
+    imgCounts = `, images: ${Object.keys(img.artists || {}).length} artists / ${Object.keys(img.releases || {}).length} releases`;
+  }
+}
+
 const lm = releases.filter((r) => r.landmark).length;
 const i3 = events.filter((e) => e.importance === 3).length;
 const rel = events.filter((e) => e.category === "release").length;
+if (lm > releases.length * 0.2) err(`too many landmarks (${lm} of ${releases.length}, max 20%)`);
 if (rel > 20) err(`too many release-category events (${rel})`);
-console.log(`artists ${artists.length}, releases ${releases.length} (landmarks ${lm}), events ${events.length} (importance 3: ${i3}, release-category: ${rel})`);
+console.log(`artists ${artists.length}, releases ${releases.length} (${listed.length} listed, landmarks ${lm}), events ${events.length} (importance 3: ${i3}, release-category: ${rel})${imgCounts}`);
 if (errs.length) { console.error(errs.join("\n")); console.error(`FAILED: ${errs.length} problem(s)`); process.exit(1); }
 console.log("OK");

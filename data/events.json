@@ -24,6 +24,30 @@
     "importance": 2
   },
   {
+    "id": "scorpions-formed",
+    "date": "1965-01-01",
+    "datePrecision": "year",
+    "title": "Scorpions form in Hanover",
+    "description": "Rudolf Schenker's band became West Germany's biggest metal export. Michael Schenker and Klaus Meine were part of its early history.",
+    "category": "formation",
+    "artistIds": [
+      "scorpions"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "cream-formed",
+    "date": "1966-01-01",
+    "datePrecision": "year",
+    "title": "Cream forms in London",
+    "description": "Eric Clapton, Jack Bruce and Ginger Baker formed one of rock's first supergroups. Their loud, improvised trio format set a template for heavy bands.",
+    "category": "formation",
+    "artistIds": [
+      "cream"
+    ],
+    "importance": 1
+  },
+  {
     "id": "hendrix-experience-formed",
     "date": "1966-09-01",
     "datePrecision": "month",
@@ -46,6 +70,18 @@
       "the-stooges"
     ],
     "importance": 2
+  },
+  {
+    "id": "blue-cheer-formed",
+    "date": "1967-01-01",
+    "datePrecision": "year",
+    "title": "Blue Cheer forms in San Francisco",
+    "description": "The trio built a reputation for playing at extreme volume. Their 1968 debut is cited as an early heavy-metal record.",
+    "category": "formation",
+    "artistIds": [
+      "blue-cheer"
+    ],
+    "importance": 1
   },
   {
     "id": "hendrix-monterey-pop",
@@ -120,18 +156,6 @@
     "importance": 1
   },
   {
-    "id": "deep-purple-in-rock",
-    "date": "1970-06-01",
-    "datePrecision": "month",
-    "title": "Deep Purple release In Rock",
-    "description": "Deep Purple's fourth album pushed the band's sound toward heavy metal with its aggressive guitar and organ and Ian Gillan's screams. It made them one of the era's leading heavy bands.",
-    "category": "release",
-    "artistIds": [
-      "deep-purple"
-    ],
-    "importance": 2
-  },
-  {
     "id": "hendrix-dies",
     "date": "1970-09-18",
     "datePrecision": "day",
@@ -178,6 +202,18 @@
       "judas-priest"
     ],
     "importance": 2
+  },
+  {
+    "id": "kiss-formed",
+    "date": "1973-01-01",
+    "datePrecision": "month",
+    "title": "Kiss forms in New York City",
+    "description": "Paul Stanley, Gene Simmons, Ace Frehley and Peter Criss adopted make-up and a pyrotechnic stage show. Their image shaped the look of 1980s metal.",
+    "category": "formation",
+    "artistIds": [
+      "kiss"
+    ],
+    "importance": 1
   },
   {
     "id": "acdc-formed",
@@ -289,6 +325,19 @@
     "importance": 2
   },
   {
+    "id": "rainbow-formed",
+    "date": "1975-01-01",
+    "datePrecision": "year",
+    "title": "Ritchie Blackmore leaves Deep Purple and forms Rainbow",
+    "description": "Blackmore left in 1975 to start Rainbow with Ronnie James Dio. Their fantasy-themed, classically influenced metal later shaped power metal.",
+    "category": "formation",
+    "artistIds": [
+      "rainbow",
+      "deep-purple"
+    ],
+    "importance": 2
+  },
+  {
     "id": "lemmy-fired-hawkwind",
     "date": "1975-05-01",
     "datePrecision": "month",
@@ -334,6 +383,30 @@
     "category": "formation",
     "artistIds": [
       "diamond-head"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "black-flag-formed",
+    "date": "1976-01-01",
+    "datePrecision": "year",
+    "title": "Black Flag forms in Hermosa Beach",
+    "description": "Greg Ginn's band, first called Panic, became hardcore's most influential act. Its heavy, relentless sound reached metal fans.",
+    "category": "formation",
+    "artistIds": [
+      "black-flag"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "accept-formed",
+    "date": "1976-01-01",
+    "datePrecision": "year",
+    "title": "Accept forms in Solingen",
+    "description": "Udo Dirkschneider and Wolf Hoffmann's band developed a staccato, gang-vocal style that influenced thrash and power metal.",
+    "category": "formation",
+    "artistIds": [
+      "accept"
     ],
     "importance": 1
   },
@@ -387,6 +460,30 @@
     "importance": 1
   },
   {
+    "id": "bad-brains-formed",
+    "date": "1977-01-01",
+    "datePrecision": "year",
+    "title": "Bad Brains forms in Washington, D.C.",
+    "description": "They started as a jazz-fusion band and turned to extremely fast hardcore. Their speed influenced punk and thrash.",
+    "category": "formation",
+    "artistIds": [
+      "bad-brains"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "def-leppard-formed",
+    "date": "1977-01-01",
+    "datePrecision": "year",
+    "title": "Def Leppard forms in Sheffield",
+    "description": "The teenage band joined the NWOBHM before moving to a polished, radio-friendly sound with producer Mutt Lange.",
+    "category": "formation",
+    "artistIds": [
+      "def-leppard"
+    ],
+    "importance": 1
+  },
+  {
     "id": "venom-formed",
     "date": "1978-01-01",
     "datePrecision": "year",
@@ -397,6 +494,18 @@
       "venom"
     ],
     "importance": 2
+  },
+  {
+    "id": "dead-kennedys-formed",
+    "date": "1978-01-01",
+    "datePrecision": "year",
+    "title": "Dead Kennedys forms in San Francisco",
+    "description": "Jello Biafra's band mixed surf-tinged hardcore with sharp political satire. The Bay Area hardcore scene grew around them.",
+    "category": "formation",
+    "artistIds": [
+      "dead-kennedys"
+    ],
+    "importance": 1
   },
   {
     "id": "sex-pistols-split",
@@ -510,18 +619,6 @@
     "importance": 3
   },
   {
-    "id": "diamond-head-lightning",
-    "date": "1980-01-01",
-    "datePrecision": "year",
-    "title": "Diamond Head release Lightning to the Nations",
-    "description": "The self-released 'White Album' contained 'Am I Evil?' and 'Helpless', which Metallica would later cover. It became a cult classic of the NWOBHM.",
-    "category": "release",
-    "artistIds": [
-      "diamond-head"
-    ],
-    "importance": 2
-  },
-  {
     "id": "overkill-formed",
     "date": "1980-01-01",
     "datePrecision": "year",
@@ -532,6 +629,42 @@
       "overkill"
     ],
     "importance": 1
+  },
+  {
+    "id": "roadrunner-records",
+    "date": "1980-01-01",
+    "datePrecision": "year",
+    "title": "Roadrunner Records is founded in the Netherlands",
+    "description": "The label began as an import business and became a major home of thrash and death metal, including Sepultura and Obituary.",
+    "category": "industry",
+    "artistIds": [
+      "sepultura"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "suicidal-tendencies-formed",
+    "date": "1980-01-01",
+    "datePrecision": "year",
+    "title": "Suicidal Tendencies forms in Venice, California",
+    "description": "Mike Muir's group began as skate-punk and moved toward thrash. They became leaders of the crossover scene.",
+    "category": "formation",
+    "artistIds": [
+      "suicidal-tendencies"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "metal-for-muthas",
+    "date": "1980-01-01",
+    "datePrecision": "year",
+    "title": "Metal for Muthas compilation released",
+    "description": "EMI's compilation of NWOBHM bands included Iron Maiden and brought attention to the scene. It helped spread the new wave beyond London.",
+    "category": "release",
+    "artistIds": [
+      "iron-maiden"
+    ],
+    "importance": 2
   },
   {
     "id": "bon-scott-dies",
@@ -679,6 +812,30 @@
     "importance": 1
   },
   {
+    "id": "sodom-formed",
+    "date": "1981-01-01",
+    "datePrecision": "year",
+    "title": "Sodom forms in Gelsenkirchen",
+    "description": "Tom Angelripper's trio drew on Venom and Motörhead. They became one of the German thrash trio.",
+    "category": "formation",
+    "artistIds": [
+      "sodom"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "napalm-death-formed",
+    "date": "1981-01-01",
+    "datePrecision": "year",
+    "title": "Napalm Death forms in Birmingham",
+    "description": "The band began as a punk-influenced group and changed its line-up often. By 1987 they were creating grindcore.",
+    "category": "formation",
+    "artistIds": [
+      "napalm-death"
+    ],
+    "importance": 2
+  },
+  {
     "id": "kerrang-launch",
     "date": "1981-06-06",
     "datePrecision": "day",
@@ -798,6 +955,68 @@
     "importance": 2
   },
   {
+    "id": "dio-formed",
+    "date": "1982-01-01",
+    "datePrecision": "year",
+    "title": "Ronnie James Dio forms Dio",
+    "description": "After leaving Black Sabbath, he started his own band with drummer Vinny Appice. Holy Diver came in 1983.",
+    "category": "formation",
+    "artistIds": [
+      "dio",
+      "black-sabbath"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "hellhammer-formed",
+    "date": "1982-01-01",
+    "datePrecision": "year",
+    "title": "Hellhammer forms in Zürich",
+    "description": "Tom G. Warrior and Martin Eric Ain's crude, primitive band was derided at the time. It later became a cult influence on black and death metal.",
+    "category": "formation",
+    "artistIds": [
+      "hellhammer",
+      "celtic-frost"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "destruction-formed",
+    "date": "1982-01-01",
+    "datePrecision": "year",
+    "title": "Destruction forms in Lörrach",
+    "description": "Originally called Knight of Demon, they took their new name in 1983 and became a key German thrash act.",
+    "category": "formation",
+    "artistIds": [
+      "destruction"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "death-angel-formed",
+    "date": "1982-01-01",
+    "datePrecision": "year",
+    "title": "Death Angel forms in Daly City",
+    "description": "Five Filipino-American cousins and friends started the band as teenagers. They rose from the Bay Area scene.",
+    "category": "formation",
+    "artistIds": [
+      "death-angel"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "voivod-formed",
+    "date": "1982-01-01",
+    "datePrecision": "year",
+    "title": "Voivod forms in Jonquière, Quebec",
+    "description": "The Canadian band mixed punk and thrash with science-fiction imagery. Over time they became one of metal's most progressive acts.",
+    "category": "formation",
+    "artistIds": [
+      "voivod"
+    ],
+    "importance": 1
+  },
+  {
     "id": "metallica-first-gig",
     "date": "1982-03-14",
     "datePrecision": "day",
@@ -908,6 +1127,32 @@
     "importance": 2
   },
   {
+    "id": "morbid-angel-formed",
+    "date": "1983-01-01",
+    "datePrecision": "year",
+    "title": "Morbid Angel forms in Tampa",
+    "description": "Trey Azagthoth started the band in Florida. Their technical, dark death metal made them central to the Tampa scene.",
+    "category": "formation",
+    "artistIds": [
+      "morbid-angel"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "noise-records",
+    "date": "1983-01-01",
+    "datePrecision": "year",
+    "title": "Noise Records is founded in Berlin",
+    "description": "Karl-Ulrich Walterbach's label released Kreator, Helloween, Celtic Frost and many other European metal bands.",
+    "category": "industry",
+    "artistIds": [
+      "kreator",
+      "celtic-frost",
+      "helloween"
+    ],
+    "importance": 2
+  },
+  {
     "id": "hammett-joins-metallica",
     "date": "1983-04-01",
     "datePrecision": "month",
@@ -962,16 +1207,16 @@
     "importance": 2
   },
   {
-    "id": "mercyful-fate-melissa",
-    "date": "1983-10-01",
-    "datePrecision": "month",
-    "title": "Mercyful Fate release Melissa",
-    "description": "The Danish band's debut mixed intricate guitar work with occult lyrics. It was a major influence on Metallica and the black metal scene.",
-    "category": "release",
+    "id": "kiss-unmask",
+    "date": "1983-09-18",
+    "datePrecision": "day",
+    "title": "Kiss appear without make-up on MTV",
+    "description": "The band ended their make-up era on television, a calculated move to revive their career. It reflected how MTV could reshape image.",
+    "category": "scene",
     "artistIds": [
-      "mercyful-fate"
+      "kiss"
     ],
-    "importance": 2
+    "importance": 1
   },
   {
     "id": "quiet-riot-number-one",
@@ -1044,14 +1289,14 @@
     "importance": 2
   },
   {
-    "id": "bathory-debut",
+    "id": "mayhem-formed",
     "date": "1984-01-01",
     "datePrecision": "year",
-    "title": "Bathory release their debut album",
-    "description": "The Swedish project's raw sound and Satanic themes became a prototype of black metal.",
-    "category": "release",
+    "title": "Mayhem forms in Norway",
+    "description": "The band, started by Euronymous and Necrobutcher, became one of the central acts of Norwegian black metal.",
+    "category": "formation",
     "artistIds": [
-      "bathory"
+      "mayhem"
     ],
     "importance": 1
   },
@@ -1064,6 +1309,18 @@
     "category": "industry",
     "artistIds": [],
     "importance": 1
+  },
+  {
+    "id": "deep-purple-mk2-reunion",
+    "date": "1984-04-01",
+    "datePrecision": "month",
+    "title": "Deep Purple's classic line-up reunites",
+    "description": "Ian Gillan, Ritchie Blackmore, Roger Glover, Jon Lord and Ian Paice reformed after a decade apart. Perfect Strangers followed that autumn.",
+    "category": "lineup",
+    "artistIds": [
+      "deep-purple"
+    ],
+    "importance": 2
   },
   {
     "id": "metallica-elektra",
@@ -1088,6 +1345,18 @@
       "motley-crue"
     ],
     "importance": 1
+  },
+  {
+    "id": "rick-allen-accident",
+    "date": "1984-12-31",
+    "datePrecision": "day",
+    "title": "Def Leppard drummer Rick Allen loses his left arm",
+    "description": "Allen lost his arm in a car accident in Sheffield. He learned to play with a customised electronic kit and remained in the band.",
+    "category": "scene",
+    "artistIds": [
+      "def-leppard"
+    ],
+    "importance": 2
   },
   {
     "id": "sod-formed",
@@ -1115,6 +1384,59 @@
       "metallica"
     ],
     "importance": 2
+  },
+  {
+    "id": "carcass-formed",
+    "date": "1985-01-01",
+    "datePrecision": "year",
+    "title": "Carcass forms in Liverpool",
+    "description": "Bill Steer and Ken Owen founded the band, which started with grind and gore and evolved toward melodic death metal.",
+    "category": "formation",
+    "artistIds": [
+      "carcass"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "earache-records",
+    "date": "1985-01-01",
+    "datePrecision": "year",
+    "title": "Earache Records is founded in Nottingham",
+    "description": "Digby Pearson's label became the home of grindcore and death metal, releasing Napalm Death, Carcass and Morbid Angel.",
+    "category": "industry",
+    "artistIds": [
+      "napalm-death",
+      "carcass",
+      "morbid-angel"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "crossover-thrash",
+    "date": "1985-01-01",
+    "datePrecision": "year",
+    "title": "Crossover thrash blends hardcore and metal",
+    "description": "D.R.I., Suicidal Tendencies, S.O.D., Cro-Mags and others joined punk's speed to metal's heaviness. The scene brought both audiences to the same shows.",
+    "category": "scene",
+    "artistIds": [
+      "dri",
+      "suicidal-tendencies",
+      "sod"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "mercyful-fate-split",
+    "date": "1985-01-01",
+    "datePrecision": "year",
+    "title": "Mercyful Fate break up; King Diamond goes solo",
+    "description": "King Diamond left to form a solo band under his own name. Fatal Portrait and Abigail followed.",
+    "category": "lineup",
+    "artistIds": [
+      "mercyful-fate",
+      "king-diamond"
+    ],
+    "importance": 1
   },
   {
     "id": "rock-in-rio-1985",
@@ -1179,18 +1501,6 @@
     "importance": 3
   },
   {
-    "id": "celtic-frost-to-mega-therion",
-    "date": "1985-10-01",
-    "datePrecision": "month",
-    "title": "Celtic Frost release To Mega Therion",
-    "description": "The Swiss band's album pushed extreme metal toward the avant-garde and later influenced black metal.",
-    "category": "release",
-    "artistIds": [
-      "celtic-frost"
-    ],
-    "importance": 2
-  },
-  {
     "id": "slayer-def-jam",
     "date": "1986-01-01",
     "datePrecision": "year",
@@ -1199,30 +1509,6 @@
     "category": "industry",
     "artistIds": [
       "slayer"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "kreator-pleasure-to-kill",
-    "date": "1986-01-01",
-    "datePrecision": "year",
-    "title": "Kreator release Pleasure to Kill",
-    "description": "The German band's extreme album helped inspire the death metal movement.",
-    "category": "release",
-    "artistIds": [
-      "kreator"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "dark-angel-darkness-descends",
-    "date": "1986-01-01",
-    "datePrecision": "year",
-    "title": "Dark Angel release Darkness Descends",
-    "description": "Gene Hoglan's drumming and the band's speed set a mark for extreme thrash.",
-    "category": "release",
-    "artistIds": [
-      "dark-angel"
     ],
     "importance": 2
   },
@@ -1247,6 +1533,18 @@
     "category": "concert",
     "artistIds": [],
     "importance": 1
+  },
+  {
+    "id": "thin-lizzy-lynott-dies",
+    "date": "1986-01-04",
+    "datePrecision": "day",
+    "title": "Phil Lynott dies",
+    "description": "The Thin Lizzy singer and bassist died aged 36, after a period of illness following drug problems. His band's twin-guitar sound remained a model for metal.",
+    "category": "death",
+    "artistIds": [
+      "thin-lizzy"
+    ],
+    "importance": 2
   },
   {
     "id": "metallica-tour-with-ozzy",
@@ -1298,14 +1596,30 @@
     "importance": 2
   },
   {
-    "id": "testament-the-legacy",
-    "date": "1987-04-01",
-    "datePrecision": "month",
-    "title": "Testament release The Legacy",
-    "description": "The Bay Area band's debut brought melodic thrash with a strong guitar attack.",
-    "category": "release",
+    "id": "bay-area-second-wave",
+    "date": "1987-01-01",
+    "datePrecision": "year",
+    "title": "Bay Area second wave of thrash",
+    "description": "Death Angel, Testament, Vio-lence, Forbidden and Heathen followed Metallica and Exodus. The area was the world's busiest thrash scene.",
+    "category": "scene",
     "artistIds": [
-      "testament"
+      "death-angel",
+      "testament",
+      "vio-lence",
+      "forbidden",
+      "heathen"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "pantera-anselmo",
+    "date": "1987-01-01",
+    "datePrecision": "year",
+    "title": "Phil Anselmo joins Pantera",
+    "description": "The New Orleans singer replaced Terry Glaze and the band shifted from glam to a heavier style. Cowboys from Hell followed in 1990.",
+    "category": "lineup",
+    "artistIds": [
+      "pantera"
     ],
     "importance": 2
   },
@@ -1317,6 +1631,18 @@
     "description": "The weekly metal video show gave bands without radio play a national platform.",
     "category": "industry",
     "artistIds": [],
+    "importance": 2
+  },
+  {
+    "id": "napalm-death-peel-session",
+    "date": "1987-09-01",
+    "datePrecision": "month",
+    "title": "Napalm Death record their first John Peel session",
+    "description": "The BBC Radio 1 DJ played their ultra-fast songs and helped spread grindcore. Peel kept featuring extreme bands in later years.",
+    "category": "scene",
+    "artistIds": [
+      "napalm-death"
+    ],
     "importance": 2
   },
   {
@@ -1380,14 +1706,50 @@
     "importance": 2
   },
   {
-    "id": "cowboys-from-hell",
-    "date": "1990-07-24",
-    "datePrecision": "day",
-    "title": "Pantera release Cowboys from Hell",
-    "description": "Their major-label debut introduced a groove-heavy new metal sound. It established them as stars.",
-    "category": "release",
+    "id": "moscow-music-peace-festival",
+    "date": "1989-08-01",
+    "datePrecision": "month",
+    "title": "Moscow Music Peace Festival",
+    "description": "Bon Jovi, Mötley Crüe, Ozzy Osbourne, Scorpions, Skid Row and others played at Lenin Stadium. The shows signalled the reach of hard rock and metal behind the Iron Curtain.",
+    "category": "concert",
     "artistIds": [
-      "pantera"
+      "motley-crue",
+      "ozzy-osbourne",
+      "scorpions"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "sunlight-studio-stockholm",
+    "date": "1990-01-01",
+    "datePrecision": "year",
+    "title": "Sunlight Studio shapes Swedish death metal",
+    "description": "Entombed and other Stockholm bands recorded at Sunlight with producer Tomas Skogsberg. Their buzzsaw guitar tone became the scene's signature.",
+    "category": "scene",
+    "artistIds": [
+      "entombed"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "wacken-first",
+    "date": "1990-01-01",
+    "datePrecision": "year",
+    "title": "First Wacken Open Air",
+    "description": "The German festival started small and grew into one of the world's largest heavy metal festivals.",
+    "category": "concert",
+    "artistIds": [],
+    "importance": 1
+  },
+  {
+    "id": "megadeth-friedman-menza",
+    "date": "1990-01-01",
+    "datePrecision": "year",
+    "title": "Marty Friedman and Nick Menza join Megadeth",
+    "description": "The new guitarist and drummer helped Mustaine's band reach a technical peak on Rust in Peace.",
+    "category": "lineup",
+    "artistIds": [
+      "megadeth"
     ],
     "importance": 2
   },
@@ -1417,14 +1779,14 @@
     "importance": 2
   },
   {
-    "id": "rust-in-peace",
-    "date": "1990-09-24",
-    "datePrecision": "day",
-    "title": "Megadeth release Rust in Peace",
-    "description": "With Marty Friedman on guitar, the album is regarded as Megadeth's peak of technical thrash.",
-    "category": "release",
+    "id": "death-angel-bus-crash",
+    "date": "1990-10-01",
+    "datePrecision": "month",
+    "title": "Death Angel's tour bus crashes",
+    "description": "Drummer Andy Galeon was seriously injured and the band went on hiatus. They resumed years later.",
+    "category": "scene",
     "artistIds": [
-      "megadeth"
+      "death-angel"
     ],
     "importance": 2
   },
@@ -1441,16 +1803,16 @@
     "importance": 1
   },
   {
-    "id": "black-album",
-    "date": "1991-08-12",
-    "datePrecision": "day",
-    "title": "Metallica release The Black Album",
-    "description": "Produced by Bob Rock, the album debuted at number one in the US and brought metal to a mass audience. It split some old fans.",
-    "category": "release",
+    "id": "anthrax-public-enemy",
+    "date": "1991-01-01",
+    "datePrecision": "year",
+    "title": "Anthrax and Public Enemy collaborate on 'Bring tha Noize'",
+    "description": "The rap and metal groups' joint version of a Public Enemy song and tour were early landmarks of rap metal.",
+    "category": "industry",
     "artistIds": [
-      "metallica"
+      "anthrax"
     ],
-    "importance": 3
+    "importance": 2
   },
   {
     "id": "nevermind-grunge",
@@ -1525,6 +1887,19 @@
     "importance": 2
   },
   {
+    "id": "ozzy-costa-mesa-farewell",
+    "date": "1992-11-01",
+    "datePrecision": "month",
+    "title": "Ozzy Osbourne plays what he calls his farewell show",
+    "description": "The Costa Mesa shows ended his No More Tears tour. The original Black Sabbath line-up joined him on stage for the final songs.",
+    "category": "concert",
+    "artistIds": [
+      "ozzy-osbourne",
+      "black-sabbath"
+    ],
+    "importance": 2
+  },
+  {
     "id": "dickinson-leaves-maiden",
     "date": "1993-01-01",
     "datePrecision": "year",
@@ -1533,18 +1908,6 @@
     "category": "lineup",
     "artistIds": [
       "iron-maiden"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "sepultura-chaos-ad",
-    "date": "1993-09-01",
-    "datePrecision": "month",
-    "title": "Sepultura release Chaos A.D.",
-    "description": "The Brazilian band's heavy, groove-based and political album broadened their reach.",
-    "category": "release",
-    "artistIds": [
-      "sepultura"
     ],
     "importance": 2
   },

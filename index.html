@@ -80,6 +80,7 @@
           <p class="filter-title" id="lbl-focus">Focus</p>
           <div class="chips" role="group" aria-labelledby="lbl-focus">
             <button id="tgl-landmarks" class="chip-btn toggle" type="button" aria-pressed="false" title="Show only landmark releases and notable/key events"><span class="chip-label">Landmarks only</span></button>
+            <button id="tgl-list" class="chip-btn toggle" type="button" aria-pressed="false" title="Hide releases that were added for context; show only the original personal list" hidden><span class="chip-label">My list only</span></button>
             <button id="tgl-thrash" class="chip-btn toggle thrash-toggle" type="button" aria-pressed="false" title="Dim everything that is not thrash-related"><span class="chip-label">Thrash focus</span></button>
             <button id="btn-clear" class="link-btn" type="button" hidden>Reset all</button>
           </div>
@@ -91,7 +92,9 @@
       <section id="view-timeline" class="view wrap" role="tabpanel" aria-labelledby="tab-timeline">
         <div class="tl-toolbar">
           <div id="era-btns" class="era-btns" role="group" aria-label="Jump to era"></div>
-          <div class="zoom-btns" role="group" aria-label="Zoom">
+          <div class="zoom-btns" role="group" aria-label="Zoom and groups">
+            <button id="grp-collapse" class="btn" type="button" title="Collapse every genre group to a single summary row">Collapse all</button>
+            <button id="grp-expand" class="btn" type="button" title="Expand every genre group">Expand all</button>
             <button id="zoom-out" class="btn sq" type="button" aria-label="Zoom out">−</button>
             <button id="zoom-in" class="btn sq" type="button" aria-label="Zoom in">+</button>
             <button id="zoom-fit" class="btn" type="button">Fit all</button>
@@ -140,9 +143,17 @@
     </main>
   </div>
 
+  <section id="credits-wrap" class="wrap credits-wrap" hidden>
+    <details id="credits" class="credits">
+      <summary>Image credits</summary>
+      <div id="credits-body" class="credits-body"></div>
+    </details>
+  </section>
+
   <footer class="site-foot">
     <div class="wrap">
       <p>All data lives in <code>data/artists.json</code>, <code>data/releases.json</code> and <code>data/events.json</code>. Add a line, reload, done.</p>
+      <p><button id="credits-link" class="link-btn" type="button" hidden>Image credits</button></p>
       <p>Dates are approximate: where only a month or year is known the mark is placed mid-period and the date is shown at its true precision. Exact release dates differ between regions and editions.</p>
     </div>
   </footer>

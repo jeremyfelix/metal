@@ -1,0 +1,3243 @@
+{
+  "generated": "2026-11-17",
+  "artists": {
+    "jimi-hendrix": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Jimi_Hendrix_%281967%29_%28cropped%29.jpg/960px-Jimi_Hendrix_%281967%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 911,
+      "page": "https://en.wikipedia.org/wiki/Jimi_Hendrix",
+      "file": "https://commons.wikimedia.org/wiki/File:Jimi_Hendrix_(1967)_(cropped).jpg",
+      "credit": "Original photographer unknown",
+      "license": "Public domain",
+      "licenseUrl": null
+    },
+    "led-zeppelin": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Led_Zeppelin_-_promotional_image_%281971%29.jpg/960px-Led_Zeppelin_-_promotional_image_%281971%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 443,
+      "page": "https://en.wikipedia.org/wiki/Led_Zeppelin",
+      "file": "https://commons.wikimedia.org/wiki/File:Led_Zeppelin_-_promotional_image_(1971).jpg",
+      "credit": "Atlantic Records",
+      "license": "Public domain",
+      "licenseUrl": null
+    },
+    "the-stooges": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/The_Stooges_%281969_Publicity_Photo%29.jpg/960px-The_Stooges_%281969_Publicity_Photo%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 718,
+      "page": "https://en.wikipedia.org/wiki/The_Stooges",
+      "file": "https://commons.wikimedia.org/wiki/File:The_Stooges_(1969_Publicity_Photo).jpg",
+      "credit": "Distributed by Elektra Records",
+      "license": "Public domain",
+      "licenseUrl": null
+    },
+    "black-sabbath": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Sabs.jpg/960px-Sabs.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 441,
+      "page": "https://en.wikipedia.org/wiki/Black_Sabbath",
+      "file": "https://commons.wikimedia.org/wiki/File:Sabs.jpg",
+      "credit": "Warner Bros. Records",
+      "license": "Public domain",
+      "licenseUrl": null
+    },
+    "the-who": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Who_-_1975.jpg/960px-Who_-_1975.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 443,
+      "page": "https://en.wikipedia.org/wiki/The_Who",
+      "file": "https://commons.wikimedia.org/wiki/File:Who_-_1975.jpg",
+      "credit": "Jim Summaria",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "david-bowie": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e8/David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 342,
+      "height": 400,
+      "page": "https://en.wikipedia.org/wiki/David_Bowie",
+      "file": "https://commons.wikimedia.org/wiki/File:David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg",
+      "credit": "Adam Bielawski",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "ac-dc": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/AC_DC_Black_Ice_Tour_2009_Buenos_Aires_4_de_Diciembre_%284238680962%29.jpg/960px-AC_DC_Black_Ice_Tour_2009_Buenos_Aires_4_de_Diciembre_%284238680962%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 242,
+      "page": "https://en.wikipedia.org/wiki/AC/DC",
+      "file": "https://commons.wikimedia.org/wiki/File:AC_DC_Black_Ice_Tour_2009_Buenos_Aires_4_de_Diciembre_(4238680962).jpg",
+      "credit": "Ed Vill from Caracas, Venezuela",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "judas-priest": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Judas_Priest_-_Wacken_Open_Air_2018_01.jpg/960px-Judas_Priest_-_Wacken_Open_Air_2018_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 429,
+      "page": "https://en.wikipedia.org/wiki/Judas_Priest",
+      "file": "https://commons.wikimedia.org/wiki/File:Judas_Priest_-_Wacken_Open_Air_2018_01.jpg",
+      "credit": "Frank Schwichtenberg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "ramones": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Ramones_rocket_to_russia_photo.jpg/960px-Ramones_rocket_to_russia_photo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 680,
+      "page": "https://en.wikipedia.org/wiki/Ramones",
+      "file": "https://commons.wikimedia.org/wiki/File:Ramones_rocket_to_russia_photo.jpg",
+      "credit": "Danny Fields",
+      "license": "Public domain",
+      "licenseUrl": null
+    },
+    "motorhead": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Motorhead-03.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 750,
+      "height": 498,
+      "page": "https://en.wikipedia.org/wiki/Mot%C3%B6rhead",
+      "file": "https://commons.wikimedia.org/wiki/File:Motorhead-03.jpg",
+      "credit": "Mark Marek Mark Marek Copyright Mark Marek Photography ©2007 URL: Motorhead Gallery on Alberta Stars",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "sex-pistols": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Sex_Pistols_in_Paradiso.jpg/960px-Sex_Pistols_in_Paradiso.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 426,
+      "page": "https://en.wikipedia.org/wiki/Sex_Pistols",
+      "file": "https://commons.wikimedia.org/wiki/File:Sex_Pistols_in_Paradiso.jpg",
+      "credit": "Photograph: Koen Suyk. In: Nationaal Archief, Den Haag, Rijksfotoarchief: Fotocollectie Algemeen Nederlands Fotopersbur…",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "van-halen": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Van_Halen_Lineup_1984.jpg/960px-Van_Halen_Lineup_1984.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 635,
+      "page": "https://en.wikipedia.org/wiki/Van_Halen",
+      "file": "https://commons.wikimedia.org/wiki/File:Van_Halen_Lineup_1984.jpg",
+      "credit": "Warner Records",
+      "license": "Public domain",
+      "licenseUrl": null
+    },
+    "saxon": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Saxon_au_Hellfest_2024.jpg/960px-Saxon_au_Hellfest_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 363,
+      "page": "https://en.wikipedia.org/wiki/Saxon_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Saxon_au_Hellfest_2024.jpg",
+      "credit": "Tilly antoine",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "iron-maiden": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/ed/IronMaidencollage2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 649,
+      "height": 736,
+      "page": "https://en.wikipedia.org/wiki/Iron_Maiden",
+      "file": "https://commons.wikimedia.org/wiki/File:IronMaidencollage2.jpg",
+      "credit": "File:Steve Harris 521.jpg : adels File:Davemurray.jpg : adels File:Adrian Smith Iron Maiden Newcastle.jpg : Mike Lawren…",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "misfits": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Misfits_2012-11-08_01.JPG/960px-Misfits_2012-11-08_01.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 480,
+      "page": "https://en.wikipedia.org/wiki/Misfits_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Misfits_2012-11-08_01.JPG",
+      "credit": "IllaZilla",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "ozzy-osbourne": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Ozzy_Osbourne_in_1970_%28medium-sized_crop%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 960,
+      "height": 1342,
+      "page": "https://en.wikipedia.org/wiki/Ozzy_Osbourne",
+      "file": "https://commons.wikimedia.org/wiki/File:Ozzy_Osbourne_in_1970_(medium-sized_crop).jpg",
+      "credit": "Warner Bros. Records",
+      "license": "Public domain",
+      "licenseUrl": null
+    },
+    "motley-crue": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/M%C3%B6tley_Cr%C3%BCe%2C_Sweden_Rock_2012.jpg/960px-M%C3%B6tley_Cr%C3%BCe%2C_Sweden_Rock_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/M%C3%B6tley_Cr%C3%BCe",
+      "file": "https://commons.wikimedia.org/wiki/File:M%C3%B6tley_Cr%C3%BCe,_Sweden_Rock_2012.jpg",
+      "credit": "Bjornsphoto",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "venom": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Venom_at_Party.San_Metal_Open_Air_2013.jpg/960px-Venom_at_Party.San_Metal_Open_Air_2013.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 437,
+      "page": "https://en.wikipedia.org/wiki/Venom_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Venom_at_Party.San_Metal_Open_Air_2013.jpg",
+      "credit": "Jonas Rogowski",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "metallica": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Metallica_March_2024.jpg/960px-Metallica_March_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/Metallica",
+      "file": "https://commons.wikimedia.org/wiki/File:Metallica_March_2024.jpg",
+      "credit": "Library of Congress Life",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "slayer": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Slayer%2C_The_Fields_of_Rock%2C_2007.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 774,
+      "height": 407,
+      "page": "https://en.wikipedia.org/wiki/Slayer",
+      "file": "https://commons.wikimedia.org/wiki/File:Slayer,_The_Fields_of_Rock,_2007.jpg",
+      "credit": "Francis from Groningen, Netherlands",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "anthrax": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Anthrax_-_2019214183507_2019-08-02_Wacken_-_0198_-_5DSR3696.jpg/960px-Anthrax_-_2019214183507_2019-08-02_Wacken_-_0198_-_5DSR3696.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/Anthrax_(American_band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Anthrax_-_2019214183507_2019-08-02_Wacken_-_0198_-_5DSR3696.jpg",
+      "credit": "Sven Mandel",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "megadeth": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Megadeth_at_the_O2_Arena%2C_London%2C_26_October_2025.jpg/960px-Megadeth_at_the_O2_Arena%2C_London%2C_26_October_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 480,
+      "page": "https://en.wikipedia.org/wiki/Megadeth",
+      "file": "https://commons.wikimedia.org/wiki/File:Megadeth_at_the_O2_Arena,_London,_26_October_2025.jpg",
+      "credit": "Justice for the Beholder of the Harvester of Blackened Straw",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "exodus": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Exodus_Rockharz_2018_43.jpg/960px-Exodus_Rockharz_2018_43.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/Exodus_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Exodus_Rockharz_2018_43.jpg",
+      "credit": "S. Bollmann",
+      "license": "Attribution",
+      "licenseUrl": null
+    },
+    "death": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Death_Mexico_06-89.jpg/960px-Death_Mexico_06-89.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 455,
+      "page": "https://en.wikipedia.org/wiki/Death_(metal_band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Death_Mexico_06-89.jpg",
+      "credit": "A Sniper",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "possessed": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Possessed_-_Wacken_Open_Air_2017_01.jpg/960px-Possessed_-_Wacken_Open_Air_2017_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 426,
+      "page": "https://en.wikipedia.org/wiki/Possessed_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Possessed_-_Wacken_Open_Air_2017_01.jpg",
+      "credit": "Frank Schwichtenberg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "sepultura": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Sepultura_Live_at_Olinda_Classic_Hall_2024.jpg/960px-Sepultura_Live_at_Olinda_Classic_Hall_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 288,
+      "page": "https://en.wikipedia.org/wiki/Sepultura",
+      "file": "https://commons.wikimedia.org/wiki/File:Sepultura_Live_at_Olinda_Classic_Hall_2024.jpg",
+      "credit": "Joaaoo",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "the-exploited": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/18/The_Exploited_onstage_2014_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 610,
+      "height": 462,
+      "page": "https://en.wikipedia.org/wiki/The_Exploited",
+      "file": "https://commons.wikimedia.org/wiki/File:The_Exploited_onstage_2014_(cropped).jpg",
+      "credit": "Gaudencio Garcinuño",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "deep-purple": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/18/Deep_Purple_%281971%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 688,
+      "height": 397,
+      "page": "https://en.wikipedia.org/wiki/Deep_Purple",
+      "file": "https://commons.wikimedia.org/wiki/File:Deep_Purple_(1971).JPG",
+      "credit": "Warner Bros. Records",
+      "license": "Public domain",
+      "licenseUrl": null
+    },
+    "hawkwind": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/Hawkwind_2017.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 800,
+      "height": 450,
+      "page": "https://en.wikipedia.org/wiki/Hawkwind",
+      "file": "https://commons.wikimedia.org/wiki/File:Hawkwind_2017.jpg",
+      "credit": "Michael Reason-Wiki",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "raven": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Raven-66_%2853071007752%29.jpg/960px-Raven-66_%2853071007752%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 426,
+      "page": "https://en.wikipedia.org/wiki/Raven_(British_band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Raven-66_(53071007752).jpg",
+      "credit": "Dario De Marco",
+      "license": "Public domain",
+      "licenseUrl": null
+    },
+    "discharge": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/HF2022Discharge_4.jpg/960px-HF2022Discharge_4.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 360,
+      "page": "https://en.wikipedia.org/wiki/Discharge_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:HF2022Discharge_4.jpg",
+      "credit": "Selbymay",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "mercyful-fate": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Mercyful_Fate_-_2022216204606_2022-08-04_Wacken_-_Sven_-_5DS_R_-_0496_-_5DSR7583.jpg/960px-Mercyful_Fate_-_2022216204606_2022-08-04_Wacken_-_Sven_-_5DS_R_-_0496_-_5DSR7583.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/Mercyful_Fate",
+      "file": "https://commons.wikimedia.org/wiki/File:Mercyful_Fate_-_2022216204606_2022-08-04_Wacken_-_Sven_-_5DS_R_-_0496_-_5DSR7583.jpg",
+      "credit": "Sven Mandel",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "overkill": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Overkill%2C_Summer_Dying_Loud_2024_24.jpg/960px-Overkill%2C_Summer_Dying_Loud_2024_24.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 305,
+      "page": "https://en.wikipedia.org/wiki/Overkill_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Overkill,_Summer_Dying_Loud_2024_24.jpg",
+      "credit": "Wojciech Pędzich",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "dark-angel": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Hellfest_2014_DarkAngel_%28cropped%29.JPG/960px-Hellfest_2014_DarkAngel_%28cropped%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 323,
+      "page": "https://en.wikipedia.org/wiki/Dark_Angel_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Hellfest_2014_DarkAngel_(cropped).JPG",
+      "credit": "Llann Wé²",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "testament": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/2017_Testament_-_by_2eight_-_8SC1105.jpg/960px-2017_Testament_-_by_2eight_-_8SC1105.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 360,
+      "page": "https://en.wikipedia.org/wiki/Testament_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:2017_Testament_-_by_2eight_-_8SC1105.jpg",
+      "credit": "Stefan Brending ( 2eight )",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+    },
+    "kreator": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Kreator_-_Reload_Festival_2018_07_%28cropped%29.jpg/960px-Kreator_-_Reload_Festival_2018_07_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 403,
+      "page": "https://en.wikipedia.org/wiki/Kreator",
+      "file": "https://commons.wikimedia.org/wiki/File:Kreator_-_Reload_Festival_2018_07_(cropped).jpg",
+      "credit": "Frank Schwichtenberg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "celtic-frost": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Celtic_Frost_live_at_Tuska_2006_modified.jpg/960px-Celtic_Frost_live_at_Tuska_2006_modified.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 270,
+      "page": "https://en.wikipedia.org/wiki/Celtic_Frost",
+      "file": "https://commons.wikimedia.org/wiki/File:Celtic_Frost_live_at_Tuska_2006_modified.jpg",
+      "credit": "Ville Savijärvi",
+      "license": "Public domain",
+      "licenseUrl": null
+    },
+    "pantera": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Pantera_1987-2003_lineup.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 600,
+      "height": 600,
+      "page": "https://en.wikipedia.org/wiki/Pantera",
+      "file": "https://commons.wikimedia.org/wiki/File:Pantera_1987-2003_lineup.jpg",
+      "credit": "Dimebag.jpg : April Ashford-Forsythe W0830-Hellfest2013 Down PhilAnselmo KirkWindstein 69259.JPG : Llann Wé² VinniePaul…",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "cream": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/58/Cream_Clapton_Bruce_Baker_1960s.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 928,
+      "height": 615,
+      "page": "https://en.wikipedia.org/wiki/Cream_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Cream_Clapton_Bruce_Baker_1960s.jpg",
+      "credit": "General Artists Corporation (management) /Atco Records (the band's record label at one time).",
+      "license": "Public domain",
+      "licenseUrl": null
+    },
+    "blue-cheer": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Blue_Cheer_Amstelveen_1968.jpg/960px-Blue_Cheer_Amstelveen_1968.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 971,
+      "page": "https://en.wikipedia.org/wiki/Blue_Cheer",
+      "file": "https://commons.wikimedia.org/wiki/File:Blue_Cheer_Amstelveen_1968.jpg",
+      "credit": "Jack de Nijs for Anefo",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "alice-cooper": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/2024_Alice_Cooper_-_by_2eight_-_9SC8435.jpg/960px-2024_Alice_Cooper_-_by_2eight_-_9SC8435.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 960,
+      "page": "https://en.wikipedia.org/wiki/Alice_Cooper",
+      "file": "https://commons.wikimedia.org/wiki/File:2024_Alice_Cooper_-_by_2eight_-_9SC8435.jpg",
+      "credit": "Stefan Brending ( 2eight )",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+    },
+    "thin-lizzy": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Thin_Lizzy_-1983.jpg/960px-Thin_Lizzy_-1983.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 419,
+      "page": "https://en.wikipedia.org/wiki/Thin_Lizzy",
+      "file": "https://commons.wikimedia.org/wiki/File:Thin_Lizzy_-1983.jpg",
+      "credit": "Harry Potts",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "ufo": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/UFO_%E2%80%93_Hamburger_Harley_Days_2015_04.jpg/960px-UFO_%E2%80%93_Hamburger_Harley_Days_2015_04.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/UFO_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:UFO_%E2%80%93_Hamburger_Harley_Days_2015_04.jpg",
+      "credit": "Frank Schwichtenberg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "rainbow": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Ritchie_Blackmore%27s_Rainbow_headlining_the_Stone_Free_2017_Festival_at_the_O2_%2835214355102%29_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 455,
+      "height": 269,
+      "page": "https://en.wikipedia.org/wiki/Rainbow_(rock_band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Ritchie_Blackmore%27s_Rainbow_headlining_the_Stone_Free_2017_Festival_at_the_O2_(35214355102)_cropped.jpg",
+      "credit": "kitmasterbloke",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "scorpions": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Scorpions_in_Melbourne%2C_Australia_17.10.2016.jpg/960px-Scorpions_in_Melbourne%2C_Australia_17.10.2016.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 548,
+      "page": "https://en.wikipedia.org/wiki/Scorpions_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Scorpions_in_Melbourne,_Australia_17.10.2016.jpg",
+      "credit": "Ian Robert Laidlaw",
+      "license": "Copyrighted free use",
+      "licenseUrl": null
+    },
+    "rush": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Rush_band_1970s.jpg/960px-Rush_band_1970s.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 440,
+      "page": "https://en.wikipedia.org/wiki/Rush_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Rush_band_1970s.jpg",
+      "credit": "PolyGram",
+      "license": "Public domain",
+      "licenseUrl": null
+    },
+    "kiss": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/af/Kiss_original_lineup_%281976%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 840,
+      "height": 637,
+      "page": "https://en.wikipedia.org/wiki/Kiss_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Kiss_original_lineup_(1976).jpg",
+      "credit": "Casablanca Records",
+      "license": "Public domain",
+      "licenseUrl": null
+    },
+    "blue-oyster-cult": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Blue_Oyster_Cult_Costa_Mesa_2017.jpg/960px-Blue_Oyster_Cult_Costa_Mesa_2017.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 329,
+      "page": "https://en.wikipedia.org/wiki/Blue_%C3%96yster_Cult",
+      "file": "https://commons.wikimedia.org/wiki/File:Blue_Oyster_Cult_Costa_Mesa_2017.jpg",
+      "credit": "Hydra1979",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "uriah-heep": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/34/Uriah_Heep_Mercury_Records_1972_promotional_image.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 665,
+      "height": 447,
+      "page": "https://en.wikipedia.org/wiki/Uriah_Heep_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Uriah_Heep_Mercury_Records_1972_promotional_image.jpg",
+      "credit": "Mercury Records",
+      "license": "Public domain",
+      "licenseUrl": null
+    },
+    "angel-witch": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Angel_Witch_live_2010.jpg/960px-Angel_Witch_live_2010.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 363,
+      "page": "https://en.wikipedia.org/wiki/Angel_Witch",
+      "file": "https://commons.wikimedia.org/wiki/File:Angel_Witch_live_2010.jpg",
+      "credit": "Lewismaster",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "tygers-of-pan-tang": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Tygers2026Promo-1-scaled.jpg/960px-Tygers2026Promo-1-scaled.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/Tygers_of_Pan_Tang",
+      "file": "https://commons.wikimedia.org/wiki/File:Tygers2026Promo-1-scaled.jpg",
+      "credit": "Nickcass21",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "tank": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/20170708_Ballenstedt_RockHarz_Tank_0111_Tank.jpg/960px-20170708_Ballenstedt_RockHarz_Tank_0111_Tank.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 426,
+      "page": "https://en.wikipedia.org/wiki/Tank_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:20170708_Ballenstedt_RockHarz_Tank_0111_Tank.jpg",
+      "credit": "© Markus Felix | PushingPixels ( contact me )",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "girlschool": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Girlschool_live_2009-2.jpg/960px-Girlschool_live_2009-2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 259,
+      "page": "https://en.wikipedia.org/wiki/Girlschool",
+      "file": "https://commons.wikimedia.org/wiki/File:Girlschool_live_2009-2.jpg",
+      "credit": "Gastr0naut",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "def-leppard": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Def_Leppard_2018.jpg/960px-Def_Leppard_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/Def_Leppard",
+      "file": "https://commons.wikimedia.org/wiki/File:Def_Leppard_2018.jpg",
+      "credit": "Kevin Nixon",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "accept": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Accept_au_Hellfest_2018_%28cropped%29.jpg/960px-Accept_au_Hellfest_2018_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 404,
+      "page": "https://en.wikipedia.org/wiki/Accept_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Accept_au_Hellfest_2018_(cropped).jpg",
+      "credit": "Tilly antoine",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "dio": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Dio_%282005%29.jpg/960px-Dio_%282005%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 443,
+      "page": "https://en.wikipedia.org/wiki/Dio_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Dio_(2005).jpg",
+      "credit": "Shadowgate from Novara, Italy.",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "king-diamond": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Mercyful_Fate_-_2022216204958_2022-08-04_Wacken_-_Sven_-_1D_X_MK_II_-_2326_-_B70I4217.jpg/960px-Mercyful_Fate_-_2022216204958_2022-08-04_Wacken_-_Sven_-_1D_X_MK_II_-_2326_-_B70I4217.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 960,
+      "page": "https://en.wikipedia.org/wiki/King_Diamond",
+      "file": "https://commons.wikimedia.org/wiki/File:Mercyful_Fate_-_2022216204958_2022-08-04_Wacken_-_Sven_-_1D_X_MK_II_-_2326_-_B70I4217.jpg",
+      "credit": "Sven Mandel",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "manowar": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Manowar_London_19_July_2025.jpg/960px-Manowar_London_19_July_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 423,
+      "page": "https://en.wikipedia.org/wiki/Manowar",
+      "file": "https://commons.wikimedia.org/wiki/File:Manowar_London_19_July_2025.jpg",
+      "credit": "Justice for the Beholder of the Harvester of Blackened Straw",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "exciter": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Exciter_Party.San_Metal_Open_Air_2018_29.jpg/960px-Exciter_Party.San_Metal_Open_Air_2018_29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/Exciter_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Exciter_Party.San_Metal_Open_Air_2018_29.jpg",
+      "credit": "S. Bollmann",
+      "license": "Attribution",
+      "licenseUrl": null
+    },
+    "anvil": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Anvil_backstage_at_the_2010_Independent_Spirit_Awards.jpg/960px-Anvil_backstage_at_the_2010_Independent_Spirit_Awards.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 443,
+      "page": "https://en.wikipedia.org/wiki/Anvil_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Anvil_backstage_at_the_2010_Independent_Spirit_Awards.jpg",
+      "credit": "Tomdog",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "metal-church": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Metal_Church-_Wacken_Open_Air_2016-AL3427.jpg/960px-Metal_Church-_Wacken_Open_Air_2016-AL3427.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 337,
+      "page": "https://en.wikipedia.org/wiki/Metal_Church",
+      "file": "https://commons.wikimedia.org/wiki/File:Metal_Church-_Wacken_Open_Air_2016-AL3427.jpg",
+      "credit": "Andreas Lawen, Fotandi",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "helloween": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Helloween_Rockharz_2026_35.jpg/960px-Helloween_Rockharz_2026_35.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/Helloween",
+      "file": "https://commons.wikimedia.org/wiki/File:Helloween_Rockharz_2026_35.jpg",
+      "credit": "S. Bollmann@S._Bollmann",
+      "license": "Attribution",
+      "licenseUrl": null
+    },
+    "guns-n-roses": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/GNR_Belgrade_2025_05_%28cropped%29.jpg/960px-GNR_Belgrade_2025_05_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 295,
+      "page": "https://en.wikipedia.org/wiki/Guns_N'_Roses",
+      "file": "https://commons.wikimedia.org/wiki/File:GNR_Belgrade_2025_05_(cropped).jpg",
+      "credit": "AxeAdam20",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "gbh": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/GBH_live_in_2006.jpg/960px-GBH_live_in_2006.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/GBH_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:GBH_live_in_2006.jpg",
+      "credit": "GothEric from Italy",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "black-flag": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Black_Flag_performing_at_the_Electric_Ballroom_Camden_2019_%28cropped%29.jpg/960px-Black_Flag_performing_at_the_Electric_Ballroom_Camden_2019_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 366,
+      "page": "https://en.wikipedia.org/wiki/Black_Flag_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Black_Flag_performing_at_the_Electric_Ballroom_Camden_2019_(cropped).jpg",
+      "credit": "BrandanRidd",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "dead-kennedys": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/2019_Dead_Kennedys_-_by_2eight_-_ZSC5071.jpg/960px-2019_Dead_Kennedys_-_by_2eight_-_ZSC5071.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 360,
+      "page": "https://en.wikipedia.org/wiki/Dead_Kennedys",
+      "file": "https://commons.wikimedia.org/wiki/File:2019_Dead_Kennedys_-_by_2eight_-_ZSC5071.jpg",
+      "credit": "Stefan Brending ( 2eight )",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+    },
+    "bad-brains": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Bad_Brains.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 800,
+      "height": 459,
+      "page": "https://en.wikipedia.org/wiki/Bad_Brains",
+      "file": "https://commons.wikimedia.org/wiki/File:Bad_Brains.jpg",
+      "credit": "JASON ANFINSEN",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "minor-threat": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Minor-threat-malcolm-riviera.jpg/960px-Minor-threat-malcolm-riviera.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 477,
+      "page": "https://en.wikipedia.org/wiki/Minor_Threat",
+      "file": "https://commons.wikimedia.org/wiki/File:Minor-threat-malcolm-riviera.jpg",
+      "credit": "Malco23",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "suicidal-tendencies": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Suicidal_Tendencies_Rockharz_2024_21_%28cropped%29.jpg/960px-Suicidal_Tendencies_Rockharz_2024_21_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 360,
+      "page": "https://en.wikipedia.org/wiki/Suicidal_Tendencies",
+      "file": "https://commons.wikimedia.org/wiki/File:Suicidal_Tendencies_Rockharz_2024_21_(cropped).jpg",
+      "credit": "S. Bollmann",
+      "license": "Attribution",
+      "licenseUrl": null
+    },
+    "dri": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Dirty_Rotten_Imbeciles_Trocadero_2010.jpg/960px-Dirty_Rotten_Imbeciles_Trocadero_2010.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 480,
+      "page": "https://en.wikipedia.org/wiki/Dirty_Rotten_Imbeciles",
+      "file": "https://commons.wikimedia.org/wiki/File:Dirty_Rotten_Imbeciles_Trocadero_2010.jpg",
+      "credit": "Vladimir",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "corrosion-of-conformity": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Hellfest2018CorrosionOfConformity_01.jpg/960px-Hellfest2018CorrosionOfConformity_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/Corrosion_of_Conformity",
+      "file": "https://commons.wikimedia.org/wiki/File:Hellfest2018CorrosionOfConformity_01.jpg",
+      "credit": "Selbymay",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "cro-mags": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/HF2022CroMags_1.jpg/960px-HF2022CroMags_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 360,
+      "page": "https://en.wikipedia.org/wiki/Cro-Mags",
+      "file": "https://commons.wikimedia.org/wiki/File:HF2022CroMags_1.jpg",
+      "credit": "Selbymay",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "agnostic-front": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Agnostic_Front_Rockharz_2026_19.jpg/960px-Agnostic_Front_Rockharz_2026_19.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/Agnostic_Front",
+      "file": "https://commons.wikimedia.org/wiki/File:Agnostic_Front_Rockharz_2026_19.jpg",
+      "credit": "S. Bollmann@S._Bollmann",
+      "license": "Attribution",
+      "licenseUrl": null
+    },
+    "sodom": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Sodom_Metal_Frenzy_2022_08.jpg/960px-Sodom_Metal_Frenzy_2022_08.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/Sodom_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Sodom_Metal_Frenzy_2022_08.jpg",
+      "credit": "S. Bollmann",
+      "license": "Attribution",
+      "licenseUrl": null
+    },
+    "destruction": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Destruction_Rockharz_2023_13.jpg/960px-Destruction_Rockharz_2023_13.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/Destruction_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Destruction_Rockharz_2023_13.jpg",
+      "credit": "S. Bollmann",
+      "license": "Attribution",
+      "licenseUrl": null
+    },
+    "death-angel": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Death_Angel_Metal_Frenzy_2018_50.jpg/960px-Death_Angel_Metal_Frenzy_2018_50.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/Death_Angel",
+      "file": "https://commons.wikimedia.org/wiki/File:Death_Angel_Metal_Frenzy_2018_50.jpg",
+      "credit": "S. Bollmann",
+      "license": "Attribution",
+      "licenseUrl": null
+    },
+    "nuclear-assault": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Nuclear_Assault_Party.San_2016_01.jpg/960px-Nuclear_Assault_Party.San_2016_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/Nuclear_Assault",
+      "file": "https://commons.wikimedia.org/wiki/File:Nuclear_Assault_Party.San_2016_01.jpg",
+      "credit": "S. Bollmann",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "voivod": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/W0937-Hellfest2013_Voivod_70864_%28cropped%29.JPG/960px-W0937-Hellfest2013_Voivod_70864_%28cropped%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 365,
+      "page": "https://en.wikipedia.org/wiki/Voivod_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:W0937-Hellfest2013_Voivod_70864_(cropped).JPG",
+      "credit": "Llann Wé²",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "vio-lence": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Sean_Killian.png/960px-Sean_Killian.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 360,
+      "page": "https://en.wikipedia.org/wiki/Vio-lence",
+      "file": "https://commons.wikimedia.org/wiki/File:Sean_Killian.png",
+      "credit": "zatanaxkill",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "heathen": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/W0843-Hellfest2013_Heaven_66862.JPG/960px-W0843-Hellfest2013_Heaven_66862.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/Heathen_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:W0843-Hellfest2013_Heaven_66862.JPG",
+      "credit": "Llann Wé²",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sacred-reich": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/12-08_Wacken_Sacred_Reich_03.jpg/960px-12-08_Wacken_Sacred_Reich_03.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 346,
+      "page": "https://en.wikipedia.org/wiki/Sacred_Reich",
+      "file": "https://commons.wikimedia.org/wiki/File:12-08_Wacken_Sacred_Reich_03.jpg",
+      "credit": "Achim Raschka ( talk )",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "annihilator": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Annihilator_Rockharz_2016_09.jpg/960px-Annihilator_Rockharz_2016_09.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/Annihilator_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Annihilator_Rockharz_2016_09.jpg",
+      "credit": "S. Bollmann",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "coroner": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Coroner-9_%2854668551512%29.jpg/960px-Coroner-9_%2854668551512%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 426,
+      "page": "https://en.wikipedia.org/wiki/Coroner_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Coroner-9_(54668551512).jpg",
+      "credit": "Dario De Marco",
+      "license": "Public domain",
+      "licenseUrl": null
+    },
+    "tankard": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Tankard_With_Full_Force_2018_14.jpg/960px-Tankard_With_Full_Force_2018_14.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/Tankard_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Tankard_With_Full_Force_2018_14.jpg",
+      "credit": "S. Bollmann",
+      "license": "Attribution",
+      "licenseUrl": null
+    },
+    "onslaught": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Onslaught_Rockharz_2016_12.jpg/960px-Onslaught_Rockharz_2016_12.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 420,
+      "page": "https://en.wikipedia.org/wiki/Onslaught_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Onslaught_Rockharz_2016_12.jpg",
+      "credit": "S. Bollmann",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "artillery": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Artillery_Rockharz_2026_14.jpg/960px-Artillery_Rockharz_2026_14.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/Artillery_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Artillery_Rockharz_2026_14.jpg",
+      "credit": "S. Bollmann@S._Bollmann",
+      "license": "Attribution",
+      "licenseUrl": null
+    },
+    "razor": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Razor_14_%2829083912276%29.jpg/960px-Razor_14_%2829083912276%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/Razor_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Razor_14_(29083912276).jpg",
+      "credit": "Jeffrey Pollack",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "whiplash": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Whiplash_Drachten_2026_%28cropped%29.jpg/960px-Whiplash_Drachten_2026_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 360,
+      "page": "https://en.wikipedia.org/wiki/Whiplash_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Whiplash_Drachten_2026_(cropped).jpg",
+      "credit": "Mx Lucy",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "morbid-angel": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Morbid_Angel_Saarbr%C3%BCcken_2011.JPG/960px-Morbid_Angel_Saarbr%C3%BCcken_2011.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 480,
+      "page": "https://en.wikipedia.org/wiki/Morbid_Angel",
+      "file": "https://commons.wikimedia.org/wiki/File:Morbid_Angel_Saarbr%C3%BCcken_2011.JPG",
+      "credit": "Gripweed",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "napalm-death": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Napalm_Death_Full_Force_2019_12.jpg/960px-Napalm_Death_Full_Force_2019_12.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/Napalm_Death",
+      "file": "https://commons.wikimedia.org/wiki/File:Napalm_Death_Full_Force_2019_12.jpg",
+      "credit": "S. Bollmann",
+      "license": "Attribution",
+      "licenseUrl": null
+    },
+    "obituary": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Hellfest2017Obituary_03_%28cropped%29.jpg/960px-Hellfest2017Obituary_03_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 383,
+      "page": "https://en.wikipedia.org/wiki/Obituary_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Hellfest2017Obituary_03_(cropped).jpg",
+      "credit": "Selbymay",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "carcass": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Carcass_Metal_Frenzy_2024_21_%28cropped%29.jpg/960px-Carcass_Metal_Frenzy_2024_21_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 360,
+      "page": "https://en.wikipedia.org/wiki/Carcass_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Carcass_Metal_Frenzy_2024_21_(cropped).jpg",
+      "credit": "S. Bollmann",
+      "license": "Attribution",
+      "licenseUrl": null
+    },
+    "entombed": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Entombed_in_Borl%C3%A4nge_2011-12-08_%286%29.jpg/960px-Entombed_in_Borl%C3%A4nge_2011-12-08_%286%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/Entombed_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Entombed_in_Borl%C3%A4nge_2011-12-08_(6).jpg",
+      "credit": "Calle Eklund/ V-wolf",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "deicide": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Deicide-Live-Metaltown_2011.jpg/960px-Deicide-Live-Metaltown_2011.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 480,
+      "page": "https://en.wikipedia.org/wiki/Deicide_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Deicide-Live-Metaltown_2011.jpg",
+      "credit": "Dark Apostrophe",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "autopsy": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Autopsy_-_Setembro_Negro.jpg/960px-Autopsy_-_Setembro_Negro.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 386,
+      "page": "https://en.wikipedia.org/wiki/Autopsy_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Autopsy_-_Setembro_Negro.jpg",
+      "credit": "Bruno Bergamini",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "cannibal-corpse": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Cannibal_Corpse_-_2024275215746_2024-10-01_Cannibal_Corpse_-_Sven_-_1D_X_MK_II_-_1306_-_B70I6884.jpg/960px-Cannibal_Corpse_-_2024275215746_2024-10-01_Cannibal_Corpse_-_Sven_-_1D_X_MK_II_-_1306_-_B70I6884.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 427,
+      "page": "https://en.wikipedia.org/wiki/Cannibal_Corpse",
+      "file": "https://commons.wikimedia.org/wiki/File:Cannibal_Corpse_-_2024275215746_2024-10-01_Cannibal_Corpse_-_Sven_-_1D_X_MK_II_-_1306_-_B70I6884.jpg",
+      "credit": "Sven Mandel",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "bolt-thrower": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Bolt_Thrower_at_Party.San_Open_Air_2012.jpg/960px-Bolt_Thrower_at_Party.San_Open_Air_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 420,
+      "page": "https://en.wikipedia.org/wiki/Bolt_Thrower",
+      "file": "https://commons.wikimedia.org/wiki/File:Bolt_Thrower_at_Party.San_Open_Air_2012.jpg",
+      "credit": "Jonas Rogowski",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "atheist": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Atheist_Evolution_Festival_1.jpg/960px-Atheist_Evolution_Festival_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 480,
+      "page": "https://en.wikipedia.org/wiki/Atheist_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Atheist_Evolution_Festival_1.jpg",
+      "credit": "Shadowgate from Novara, ITALY",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "mayhem": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Mayhem%2C_Summer_Dying_Loud_2024_22.jpg/960px-Mayhem%2C_Summer_Dying_Loud_2024_22.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 327,
+      "page": "https://en.wikipedia.org/wiki/Mayhem_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Mayhem,_Summer_Dying_Loud_2024_22.jpg",
+      "credit": "Wojciech Pędzich",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "repulsion": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Repulsion.jpg/960px-Repulsion.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 480,
+      "page": "https://en.wikipedia.org/wiki/Repulsion_(band)",
+      "file": "https://commons.wikimedia.org/wiki/File:Repulsion.jpg",
+      "credit": "Darren Foreman",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "terrorizer": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Terrorizer.png/960px-Terrorizer.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 640,
+      "height": 360,
+      "page": "https://en.wikipedia.org/wiki/Terrorizer",
+      "file": "https://commons.wikimedia.org/wiki/File:Terrorizer.png",
+      "credit": "letsoulfly's stuff",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    }
+  },
+  "releases": {
+    "cream-fresh-cream": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/20/Fresh_cream.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Fresh_Cream"
+    },
+    "jimi-hendrix-are-you-experienced": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/17/AreyouexpUK.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 293,
+      "page": "https://en.wikipedia.org/wiki/Are_You_Experienced"
+    },
+    "cream-disraeli-gears": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/cb/DisraeliGears.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Disraeli_Gears"
+    },
+    "jimi-hendrix-axis-bold-as-love": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/85/Axiscover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Axis:_Bold_as_Love"
+    },
+    "blue-cheer-vincebus-eruptum": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/5a/BlueCheerVincebusEruptum.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 250,
+      "height": 250,
+      "page": "https://en.wikipedia.org/wiki/Vincebus_Eruptum"
+    },
+    "cream-wheels-of-fire": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/a8/Creamwheelsoffire.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Wheels_of_Fire"
+    },
+    "blue-cheer-outsideinside": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/2c/Blue_cheer_outsideinside.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Outsideinside"
+    },
+    "jimi-hendrix-electric-ladyland": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/f/f2/Jimi_Hendrix_-_Electric_Ladyland.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 303,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Electric_Ladyland"
+    },
+    "led-zeppelin-led-zeppelin": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Led_Zeppelin_-_Led_Zeppelin_cover.jpg/330px-Led_Zeppelin_-_Led_Zeppelin_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Led_Zeppelin_(album)"
+    },
+    "the-stooges-the-stooges": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/e/e6/StoogesStooges.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 317,
+      "height": 314,
+      "page": "https://en.wikipedia.org/wiki/The_Stooges_(album)"
+    },
+    "led-zeppelin-led-zeppelin-ii": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/20/Led_Zeppelin_-_Led_Zeppelin_II.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Led_Zeppelin_II"
+    },
+    "black-sabbath-black-sabbath": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/d/da/Black_Sabbath_debut_album.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Black_Sabbath_(album)"
+    },
+    "jimi-hendrix-band-of-gypsys": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/5c/Band_of_Gypsys_album.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Band_of_Gypsys"
+    },
+    "deep-purple-deep-purple-in-rock": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/54/Deep_Purple_in_Rock.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Deep_Purple_in_Rock"
+    },
+    "uriah-heep-very-eavy-very-umble": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/25/VeryEavyVeryUmble.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/...Very_'Eavy_...Very_'Umble"
+    },
+    "hawkwind-hawkwind": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/3/37/Hawkwindalbum.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 301,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Hawkwind_(album)"
+    },
+    "black-sabbath-paranoid": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/6/64/Black_Sabbath_-_Paranoid.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Paranoid_(album)"
+    },
+    "led-zeppelin-led-zeppelin-iii": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/5f/Led_Zeppelin_-_Led_Zeppelin_III.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Led_Zeppelin_III"
+    },
+    "alice-cooper-love-it-to-death": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/77/Love_It_To_Death_%28Alice_Cooper_album_-_cover_art%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Love_It_to_Death"
+    },
+    "budgie-budgie": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/5a/Budgie_-_Budgie.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Budgie_(album)"
+    },
+    "black-sabbath-master-of-reality": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/21/Black_Sabbath_Master_of_Reality_album_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Master_of_Reality"
+    },
+    "the-who-whos-next": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/4/44/Whosnext.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Who's_Next"
+    },
+    "hawkwind-in-search-of-space": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/f/fb/In_Search_of_Space_-_Hawkwind.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 280,
+      "height": 280,
+      "page": "https://en.wikipedia.org/wiki/In_Search_of_Space"
+    },
+    "alice-cooper-killer": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/4/4d/Killer_%28Alice_Cooper_album_-_cover_art%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Killer_(Alice_Cooper_album)"
+    },
+    "led-zeppelin-led-zeppelin-iv": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Zeppelin_IV.jpg/330px-Zeppelin_IV.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Led_Zeppelin_IV"
+    },
+    "blue-oyster-cult-blue-oyster-cult": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/9/9f/Blue_Oyster_Cult.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Blue_%C3%96yster_Cult_(album)"
+    },
+    "deep-purple-machine-head": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/0/00/Machine_Head_album_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Machine_Head_(album)"
+    },
+    "alice-cooper-schools-out": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/e/ec/72_schools_out.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 305,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/School's_Out_(album)"
+    },
+    "david-bowie-the-rise-and-fall-of-ziggy-stardust-and-the-spiders-from-mars": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/0/01/ZiggyStardust.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 321,
+      "height": 310,
+      "page": "https://en.wikipedia.org/wiki/The_Rise_and_Fall_of_Ziggy_Stardust_and_the_Spiders_from_Mars"
+    },
+    "black-sabbath-vol-4": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/59/Black_Sabbath_Vol._4.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Vol._4_(Black_Sabbath_album)"
+    },
+    "hawkwind-doremi-fasol-latido": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/d/d6/Doremi_Fasol_Latido_-_Hawkwind.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Doremi_Fasol_Latido"
+    },
+    "deep-purple-made-in-japan": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/c5/Deep_Purple_Made_in_Japan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Made_in_Japan_(Deep_Purple_album)"
+    },
+    "alice-cooper-billion-dollar-babies": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/7b/Alice_Cooper_-_Billion_Dollar_Babies.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Billion_Dollar_Babies"
+    },
+    "budgie-never-turn-your-back-on-a-friend": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/b/ba/NeverTurnYourBackonaFriend.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Never_Turn_Your_Back_on_a_Friend"
+    },
+    "the-stooges-raw-power": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/27/StoogesRawPower.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Raw_Power"
+    },
+    "led-zeppelin-houses-of-the-holy": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/9/9f/Led_Zeppelin_-_Houses_of_the_Holy.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Houses_of_the_Holy"
+    },
+    "david-bowie-aladdin-sane": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/6/6e/DavisBowieAladdinSane.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Aladdin_Sane"
+    },
+    "hawkwind-space-ritual": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/ce/Hawkwind-Space_Ritual_%28album_cover%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Space_Ritual"
+    },
+    "david-bowie-pin-ups": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/6/66/Pinups_%28David_Bowie_album_-_cover_art%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Pin_Ups"
+    },
+    "the-who-quadrophenia": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/8a/Quadrophenia_%28album%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Quadrophenia"
+    },
+    "black-sabbath-sabbath-bloody-sabbath": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/3/3b/Black_Sabbath_SbS.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Sabbath_Bloody_Sabbath"
+    },
+    "deep-purple-burn": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/3/3d/Deep_Purple_-_Burn.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Burn_(Deep_Purple_album)"
+    },
+    "kiss-kiss": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/ab/Kiss_first_album_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Kiss_(Kiss_album)"
+    },
+    "blue-oyster-cult-secret-treaties": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/89/BlueOysterCultSecretTreaties.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Secret_Treaties"
+    },
+    "david-bowie-diamond-dogs": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/1f/Diamond_dogs.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Diamond_Dogs"
+    },
+    "judas-priest-rocka-rolla": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/0/00/Rocka_Rolla_%28Judas_Priest_album%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Rocka_Rolla"
+    },
+    "ac-dc-high-voltage-australian-version": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/e/e8/AustralianHighVoltage_ACDC.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/High_Voltage_(1975_album)"
+    },
+    "led-zeppelin-physical-graffiti": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/e/e3/Led_Zeppelin_-_Physical_Graffiti.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Physical_Graffiti"
+    },
+    "alice-cooper-welcome-to-my-nightmare": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/7b/Welcome_To_My_Nightmare.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Welcome_to_My_Nightmare"
+    },
+    "david-bowie-young-americans": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/b/b5/Young_americans.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Young_Americans"
+    },
+    "hawkwind-warrior-on-the-edge-of-time": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/9/98/Warrior_on_the_Edge.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Warrior_on_the_Edge_of_Time"
+    },
+    "rainbow-ritchie-blackmores-rainbow": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/8f/Rainbow_-_Ritchie_Blackmore%27s_Rainbow_%281975%29_front_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Ritchie_Blackmore's_Rainbow"
+    },
+    "the-who-the-who-by-numbers": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/a6/The_who_by_numbers_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/The_Who_by_Numbers"
+    },
+    "ac-dc-t-n-t": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/17/ACDC-TNT.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/T.N.T._(album)"
+    },
+    "david-bowie-station-to-station": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/9/97/Station_to_Station_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 320,
+      "height": 320,
+      "page": "https://en.wikipedia.org/wiki/Station_to_Station"
+    },
+    "thin-lizzy-jailbreak": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/3/33/Thin_Lizzy_-_Jailbreak.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 313,
+      "height": 319,
+      "page": "https://en.wikipedia.org/wiki/Jailbreak_(album)"
+    },
+    "kiss-destroyer": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/e/e5/Kiss-Destroyer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Destroyer_(Kiss_album)"
+    },
+    "rush-2112": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/c9/Rush_2112.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/2112_(album)"
+    },
+    "judas-priest-sad-wings-of-destiny": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/6/65/Sad_wings_of_destiny_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Sad_Wings_of_Destiny"
+    },
+    "led-zeppelin-presence": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/f/f3/Led_Zeppelin_-_Presence.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Presence_(album)"
+    },
+    "ac-dc-high-voltage-international-version": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/f/fc/Acdc_high_voltage_international_album.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/High_Voltage_(1976_album)"
+    },
+    "ramones-ramones": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/b/bb/Ramones_-_Ramones_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 318,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Ramones_(album)"
+    },
+    "blue-oyster-cult-agents-of-fortune": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/57/BlueOysterCultAgentsofFortune.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Agents_of_Fortune"
+    },
+    "rainbow-rising": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/6/68/RainbowRainbowRising.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 317,
+      "height": 317,
+      "page": "https://en.wikipedia.org/wiki/Rising_(Rainbow_album)"
+    },
+    "black-sabbath-technical-ecstasy": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/d/d5/Black-Sabbath-Technical-Ecstasy.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Technical_Ecstasy"
+    },
+    "ac-dc-dirty-deeds-done-dirt-cheap": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/0/0a/ACDC_Dirty_Deeds_Done_Dirt_Cheap_Aus_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 309,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Dirty_Deeds_Done_Dirt_Cheap"
+    },
+    "ufo-lights-out": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/8b/UFOLightsOutalbumcover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 301,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Lights_Out_(UFO_album)"
+    },
+    "ramones-leave-home": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/f/f9/Ramones_-_Leave_Home_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Leave_Home"
+    },
+    "david-bowie-low": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/9/93/Low_%28album%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Low_(David_Bowie_album)"
+    },
+    "ac-dc-let-there-be-rock": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/d/d7/ACDC-LetThereBeRock.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Let_There_Be_Rock"
+    },
+    "judas-priest-sin-after-sin": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/6/62/Jpsinsin.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Sin_After_Sin"
+    },
+    "motorhead-motorhead": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/3/39/Mot%C3%B6rhead_-_Mot%C3%B6rhead_%281977%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Mot%C3%B6rhead_(album)"
+    },
+    "david-bowie-heroes": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/7b/David_Bowie_-_Heroes.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/%22Heroes%22_(album)"
+    },
+    "sex-pistols-never-mind-the-bollocks-heres-the-sex-pistols": {
+      "src": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/4c/Never_Mind_the_Bollocks%2C_Here%27s_the_Sex_Pistols.png/330px-Never_Mind_the_Bollocks%2C_Here%27s_the_Sex_Pistols.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Never_Mind_the_Bollocks,_Here's_the_Sex_Pistols"
+    },
+    "ramones-rocket-to-russia": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/50/Ramones_-_Rocket_to_Russia_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 317,
+      "height": 317,
+      "page": "https://en.wikipedia.org/wiki/Rocket_to_Russia"
+    },
+    "judas-priest-stained-class": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/b/bc/Jpstandclass.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Stained_Class"
+    },
+    "van-halen-van-halen": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/0/0d/Van_Halen_album.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Van_Halen_(album)"
+    },
+    "rainbow-long-live-rock-n-roll": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/24/Rainbow-longliverocknroll1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Long_Live_Rock_'n'_Roll"
+    },
+    "ac-dc-powerage": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/d/de/Acdc_Powerage.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Powerage"
+    },
+    "thin-lizzy-live-and-dangerous": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/2e/Thin_Lizzy_-_Live_and_Dangerous.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Live_and_Dangerous"
+    },
+    "the-who-who-are-you": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/75/Who_Are_You_album_cover.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Who_Are_You"
+    },
+    "black-sabbath-never-say-die": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/56/Black-Sabbath-Never-Say-Die.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Never_Say_Die!"
+    },
+    "ac-dc-if-you-want-blood-youve-got-it": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/f/f6/Acdc_If_You_Want_Blood_You%27ve_Got_It.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/If_You_Want_Blood_You've_Got_It"
+    },
+    "ufo-strangers-in-the-night": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/ce/UFOStrangersInTheNightAlbumCover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Strangers_in_the_Night_(UFO_album)"
+    },
+    "scorpions-lovedrive": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/6/65/Scorpions-album-lovedrive.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Lovedrive"
+    },
+    "van-halen-van-halen-ii": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/3/35/Van_Halen_-_Van_Halen_II.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Van_Halen_II"
+    },
+    "motorhead-overkill": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/4/44/Mot%C3%B6rhead_-_Overkill_1979.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 250,
+      "height": 250,
+      "page": "https://en.wikipedia.org/wiki/Overkill_(Mot%C3%B6rhead_album)"
+    },
+    "thin-lizzy-black-rose-a-rock-legend": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/7d/Thin_Lizzy_-_Black_Rose_A_Rock_Legend.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 317,
+      "height": 314,
+      "page": "https://en.wikipedia.org/wiki/Black_Rose:_A_Rock_Legend"
+    },
+    "david-bowie-lodger": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/12/Bowie-lodger.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 320,
+      "height": 320,
+      "page": "https://en.wikipedia.org/wiki/Lodger_(album)"
+    },
+    "saxon-saxon": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/9/92/Saxondebut.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Saxon_(album)"
+    },
+    "rainbow-down-to-earth": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/6/6c/Down_to_Earth_%28Rainbow_album%29_coverart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Down_to_Earth_(Rainbow_album)"
+    },
+    "ac-dc-highway-to-hell": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/ac/Acdc_Highway_to_Hell.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Highway_to_Hell"
+    },
+    "led-zeppelin-in-through-the-out-door": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/b/ba/Led_Zeppelin_-_In_Through_the_Out_Door.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/In_Through_the_Out_Door"
+    },
+    "judas-priest-unleashed-in-the-east": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/9/92/Jpunleashedintheeast.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 314,
+      "page": "https://en.wikipedia.org/wiki/Unleashed_in_the_East"
+    },
+    "motorhead-bomber": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/59/Mot%C3%B6rhead_-_Bomber_%281979%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 250,
+      "height": 250,
+      "page": "https://en.wikipedia.org/wiki/Bomber_(album)"
+    },
+    "iron-maiden-the-soundhouse-tapes": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/d/d5/Soundhouse.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 317,
+      "height": 314,
+      "page": "https://en.wikipedia.org/wiki/The_Soundhouse_Tapes"
+    },
+    "misfits-beware": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/53/Misfits_-_Beware_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Beware_(EP)"
+    },
+    "diamond-head-lightning-to-the-nations": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Solid_white.svg/330px-Solid_white.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Lightning_to_the_Nations"
+    },
+    "girlschool-demolition": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/6/6b/Girlschool_demolition.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 320,
+      "height": 310,
+      "page": "https://en.wikipedia.org/wiki/Demolition_(Girlschool_album)"
+    },
+    "def-leppard-on-through-the-night": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/53/Def_Leppard_-_On_Through_the_Night.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/On_Through_the_Night"
+    },
+    "van-halen-women-and-children-first": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/e/eb/Van_Halen_-_Women_and_Children_First.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Women_and_Children_First"
+    },
+    "saxon-wheels-of-steel": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/a1/Wheelssaxon.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 280,
+      "height": 277,
+      "page": "https://en.wikipedia.org/wiki/Wheels_of_Steel"
+    },
+    "judas-priest-british-steel": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/9/97/Judas_Priest_British_Steel.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 317,
+      "height": 314,
+      "page": "https://en.wikipedia.org/wiki/British_Steel_(album)"
+    },
+    "iron-maiden-iron-maiden": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/7c/Iron_Maiden_%28album%29_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Iron_Maiden_(album)"
+    },
+    "black-sabbath-heaven-and-hell": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/f/f8/Black_Sabbath_Heaven_and_Hell.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Heaven_and_Hell_(Black_Sabbath_album)"
+    },
+    "ac-dc-back-in-black": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/AC-DC_-_Back_In_Black_%28original_1980_album_cover_with_embossed_lettering%29.jpg/330px-AC-DC_-_Back_In_Black_%28original_1980_album_cover_with_embossed_lettering%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Back_in_Black"
+    },
+    "dead-kennedys-fresh-fruit-for-rotting-vegetables": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/22/Dead_Kennedys_-_Fresh_Fruit_for_Rotting_Vegetables_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Fresh_Fruit_for_Rotting_Vegetables"
+    },
+    "david-bowie-scary-monsters-and-super-creeps": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/0/0e/DavidBowieScaryMonstersCover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Scary_Monsters_(and_Super_Creeps)"
+    },
+    "ozzy-osbourne-blizzard-of-ozz": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/23/Blizzard_of_ozz.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Blizzard_of_Ozz"
+    },
+    "saxon-strong-arm-of-the-law": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/ae/Strong_Arm_of_the_Law.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Strong_Arm_of_the_Law"
+    },
+    "angel-witch-angel-witch": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/8e/Angel_Witch_-_Angel_Witch.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Angel_Witch_(album)"
+    },
+    "raven-rock-until-you-drop": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/d/d6/Raven-rockuntilyoudrop1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Rock_Until_You_Drop"
+    },
+    "girlschool-hit-and-run": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/b/b3/Girlschool_hit_and_run.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Hit_and_Run_(Girlschool_album)"
+    },
+    "iron-maiden-killers": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/b/b4/Iron_Maiden_Killers.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Killers_(Iron_Maiden_album)"
+    },
+    "judas-priest-point-of-entry": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/a6/Judas_priest_-_point_of_entry_a.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Point_of_Entry"
+    },
+    "tygers-of-pan-tang-spellbound": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/f/f8/Tygers_of_Pan_Tang_-_Spellbound.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Spellbound_(Tygers_of_Pan_Tang_album)"
+    },
+    "the-exploited-punks-not-dead": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/85/Exploited_pnd.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Punks_Not_Dead"
+    },
+    "motorhead-no-sleep-til-hammersmith": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/5c/Mot%C3%B6rhead_-_No_Sleep_%27til_Hammersmith_%281981%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 250,
+      "height": 250,
+      "page": "https://en.wikipedia.org/wiki/No_Sleep_'til_Hammersmith"
+    },
+    "def-leppard-high-n-dry": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/2f/Def_Leppard_-_High_%27n%27_Dry.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 301,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/High_'n'_Dry"
+    },
+    "saxon-denim-and-leather": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/c9/Denimsaxon2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 315,
+      "page": "https://en.wikipedia.org/wiki/Denim_and_Leather"
+    },
+    "black-sabbath-mob-rules": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/f/fb/SabbathMob.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Mob_Rules_(album)"
+    },
+    "ozzy-osbourne-diary-of-a-madman": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/4/44/Ozzy_Osbourne_Diary_of_a_Madman.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 280,
+      "height": 280,
+      "page": "https://en.wikipedia.org/wiki/Diary_of_a_Madman_(album)"
+    },
+    "motley-crue-too-fast-for-love": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/c1/Too_Fast.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Too_Fast_for_Love"
+    },
+    "ac-dc-for-those-about-to-rock": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/5c/ForThoseAboutToRock_ACDCalbum.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 301,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/For_Those_About_to_Rock_We_Salute_You"
+    },
+    "the-exploited-troops-of-tomorrow": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/e/e6/ExploitedTroops.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Troops_of_Tomorrow"
+    },
+    "diamond-head-borrowed-time": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/d/db/Borrowed_Time_By_Diamond_Head.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 315,
+      "height": 315,
+      "page": "https://en.wikipedia.org/wiki/Borrowed_Time_(Diamond_Head_album)"
+    },
+    "raven-wiped-out": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/2c/Raven_-_Wiped_Out.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 320,
+      "height": 313,
+      "page": "https://en.wikipedia.org/wiki/Wiped_Out_(Raven_album)"
+    },
+    "tank-filth-hounds-of-hades": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/b/b3/Filth_Hounds_of_Hades.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 315,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Filth_Hounds_of_Hades"
+    },
+    "tank-power-of-the-hunter": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/5c/Powerofthehunter.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 315,
+      "page": "https://en.wikipedia.org/wiki/Power_of_the_Hunter"
+    },
+    "misfits-evilive": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/1e/Misfits_-_Evilive_EP_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 297,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Evilive"
+    },
+    "bad-brains-bad-brains": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/b/bc/Badbrainsbadbrains.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 208,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Bad_Brains_(album)"
+    },
+    "misfits-walk-among-us": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/f/f6/Misfits_-_Walk_Among_Us_%28pink_cover%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Walk_Among_Us"
+    },
+    "scorpions-blackout": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/57/Blackout_%28Scorpions_album_-_cover_art%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Blackout_(Scorpions_album)"
+    },
+    "iron-maiden-the-number-of-the-beast": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/3/32/IronMaiden_NumberOfBeast.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/The_Number_of_the_Beast_(album)"
+    },
+    "van-halen-diver-down": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Van_Halen_-_Diver_Down.svg/330px-Van_Halen_-_Diver_Down.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Diver_Down"
+    },
+    "motorhead-iron-fist": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/8f/Mot%C3%B6rhead_-_Iron_Fist_%281982%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 250,
+      "height": 247,
+      "page": "https://en.wikipedia.org/wiki/Iron_Fist_(album)"
+    },
+    "mercyful-fate-mercyful-fate": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/b/b3/MercyfulFate-MercyfulFate.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 319,
+      "height": 312,
+      "page": "https://en.wikipedia.org/wiki/Mercyful_Fate_(EP)"
+    },
+    "discharge-hear-nothing-see-nothing-say-nothing": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/9/97/Discharge-hearseesay.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Hear_Nothing_See_Nothing_Say_Nothing"
+    },
+    "judas-priest-screaming-for-vengeance": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/4/45/Judas_Priest_SforV.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Screaming_for_Vengeance"
+    },
+    "accept-restless-and-wild": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/a6/Accept_-_Restless_%26_Wild.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Restless_and_Wild"
+    },
+    "venom-black-metal": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/6/67/Venomblackmetal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Black_Metal_(Venom_album)"
+    },
+    "diamond-head-canterbury": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/e/ea/Diamond_Head_Canterbury_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Canterbury_(album)"
+    },
+    "raven-all-for-one": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/76/Raven_-_All_for_One.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/All_for_One_(Raven_album)"
+    },
+    "def-leppard-pyromania": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/a7/Def_Leppard_-_Pyromania.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Pyromania_(album)"
+    },
+    "hellhammer-satanic-rites": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/d/df/Satanic_Rites_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 246,
+      "height": 404,
+      "page": "https://en.wikipedia.org/wiki/Satanic_Rites"
+    },
+    "pantera-metal-magic": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/aa/PanteraMetalMagic.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Metal_Magic"
+    },
+    "suicidal-tendencies-suicidal-tendencies": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/d/d1/SuicidalTendenciesAlbum.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Suicidal_Tendencies_(album)"
+    },
+    "ramones-subterranean-jungle": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/9/92/Ramones_-_Subterranean_Jungle_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Subterranean_Jungle"
+    },
+    "manowar-into-glory-ride": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/75/ManowarIntogloryride.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 288,
+      "height": 288,
+      "page": "https://en.wikipedia.org/wiki/Into_Glory_Ride"
+    },
+    "david-bowie-lets-dance": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/8d/David-bowie-lets-dance.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Let's_Dance_(David_Bowie_album)"
+    },
+    "dio-holy-diver": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/0/08/DioHolyDiver.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Holy_Diver"
+    },
+    "iron-maiden-piece-of-mind": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/85/Iron_Maiden_-_Piece_Of_Mind.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Piece_of_Mind"
+    },
+    "metallica-kill-em-all": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/5c/Metallica_-_Kill_%27Em_All_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Kill_'Em_All"
+    },
+    "ac-dc-flick-of-the-switch": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/8d/Ac-dc_Flick_of_the_Switch.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Flick_of_the_Switch"
+    },
+    "kiss-lick-it-up": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/e/e9/Lick_it_up_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 315,
+      "height": 315,
+      "page": "https://en.wikipedia.org/wiki/Lick_It_Up"
+    },
+    "motley-crue-shout-at-the-devil": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/3/39/ShoutattheDevil.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Shout_at_the_Devil"
+    },
+    "exciter-heavy-metal-maniac": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/1a/Heavymetalmaniac.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 250,
+      "height": 250,
+      "page": "https://en.wikipedia.org/wiki/Heavy_Metal_Maniac"
+    },
+    "ozzy-osbourne-bark-at-the-moon": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/9/97/Bark_at_the_moon.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Bark_at_the_Moon"
+    },
+    "misfits-earth-a-d-wolfs-blood": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/80/Misfits_-_Earth_A.D._cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Earth_A.D./Wolfs_Blood"
+    },
+    "slayer-show-no-mercy": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/83/Slayer_-_Show_No_Mercy.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 288,
+      "height": 288,
+      "page": "https://en.wikipedia.org/wiki/Show_No_Mercy"
+    },
+    "manowar-hail-to-england": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/aa/ManowarHailtoengland.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 288,
+      "height": 287,
+      "page": "https://en.wikipedia.org/wiki/Hail_to_England"
+    },
+    "exciter-violence-and-force": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/ad/Violenceandforce.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 317,
+      "height": 315,
+      "page": "https://en.wikipedia.org/wiki/Violence_%26_Force"
+    },
+    "agnostic-front-victim-in-pain": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/4/45/Victiminpain.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Victim_in_Pain"
+    },
+    "hellhammer-apocalyptic-raids": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/d/d2/ApocalypticRaids.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 295,
+      "page": "https://en.wikipedia.org/wiki/Apocalyptic_Raids"
+    },
+    "judas-priest-defenders-of-the-faith": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/87/Defenders_of_the_Faith.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Defenders_of_the_Faith"
+    },
+    "sodom-in-the-sign-of-evil": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/e/ea/SodomInthesignofevil.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/In_the_Sign_of_Evil"
+    },
+    "destruction-sentence-of-death": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/cc/Sentence_death.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Sentence_of_Death"
+    },
+    "bathory-bathory": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/e/e0/Bathory_%28album%29_original_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Bathory_(album)"
+    },
+    "van-halen-1984": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/5f/Van_Halen_-_1984.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 320,
+      "height": 320,
+      "page": "https://en.wikipedia.org/wiki/1984_(Van_Halen_album)"
+    },
+    "anthrax-fistful-of-metal": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/9/97/AnthraxFistfulOfMetal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Fistful_of_Metal"
+    },
+    "scorpions-love-at-first-sting": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/6/68/The_Scorpions_LatFS.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Love_at_First_Sting"
+    },
+    "black-flag-my-war": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/b/b8/Black_Flag_-_My_War_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/My_War"
+    },
+    "venom-at-war-with-satan": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/50/Venomatwarwithsatan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 302,
+      "page": "https://en.wikipedia.org/wiki/At_War_with_Satan"
+    },
+    "slayer-haunting-the-chapel": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/0/08/Slayer-HauntingTheChapel.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 304,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Haunting_the_Chapel"
+    },
+    "dio-the-last-in-line": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/50/DioTheLastInLine.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/The_Last_in_Line"
+    },
+    "metal-church-metal-church": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/f/f8/MetalchurchselftitledAP.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 317,
+      "height": 313,
+      "page": "https://en.wikipedia.org/wiki/Metal_Church_(album)"
+    },
+    "metallica-ride-the-lightning": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/f/f4/Ridetl.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 315,
+      "page": "https://en.wikipedia.org/wiki/Ride_the_Lightning"
+    },
+    "voivod-war-and-pain": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/79/Voivod_-_War_%26_Pain.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/War_and_Pain"
+    },
+    "mercyful-fate-dont-break-the-oath": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/6/64/MercyfulFateDBTO.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 317,
+      "height": 317,
+      "page": "https://en.wikipedia.org/wiki/Don't_Break_the_Oath"
+    },
+    "iron-maiden-powerslave": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/1c/Iron_Maiden_-_Powerslave.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Powerslave"
+    },
+    "ramones-too-tough-to-die": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/b/bb/Ramones_-_Too_Tough_to_Die_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 317,
+      "height": 317,
+      "page": "https://en.wikipedia.org/wiki/Too_Tough_to_Die"
+    },
+    "deep-purple-perfect-strangers": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/54/Perfect_Strangers_%28Deep_Purple_album_-_cover_art%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Perfect_Strangers_(Deep_Purple_album)"
+    },
+    "celtic-frost-morbid-tales": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/8e/Morbid_Tales_-_Celtic_Frost.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Morbid_Tales"
+    },
+    "slayer-live-undead": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/28/Slayer-LiveUndead.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Live_Undead"
+    },
+    "raven-stay-hard": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/ce/Stay_Hard_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Stay_Hard"
+    },
+    "dark-angel-we-have-arrived": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/ad/DARKANGEL-WeHaveArrived.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 301,
+      "page": "https://en.wikipedia.org/wiki/We_Have_Arrived"
+    },
+    "destruction-infernal-overkill": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/78/InfernaloverkillAP.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Infernal_Overkill"
+    },
+    "artillery-fear-of-tomorrow": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/2c/Fear_of_Tomorrow.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Fear_of_Tomorrow"
+    },
+    "celtic-frost-emperors-return": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/f/ff/CelticFrost_Emperor%27sReturn.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Emperor's_Return"
+    },
+    "venom-possessed": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/f/fc/VenomPossessed.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Possessed_(Venom_album)"
+    },
+    "slayer-hell-awaits": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/82/SlayerHellAwaits.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 298,
+      "height": 298,
+      "page": "https://en.wikipedia.org/wiki/Hell_Awaits"
+    },
+    "exodus-bonded-by-blood": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/f/f7/ExodusBondedbyblood.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 305,
+      "height": 305,
+      "page": "https://en.wikipedia.org/wiki/Bonded_by_Blood"
+    },
+    "megadeth-killing-is-my-business-and-business-is-good": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/54/Combat_KIMB.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Killing_Is_My_Business..._and_Business_Is_Good!"
+    },
+    "motley-crue-theatre-of-pain": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/f/f1/Theatre_of_Pain.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 220,
+      "height": 224,
+      "page": "https://en.wikipedia.org/wiki/Theatre_of_Pain"
+    },
+    "ac-dc-fly-on-the-wall": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/0/09/Fly_On_The_Wall.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Fly_on_the_Wall_(AC/DC_album)"
+    },
+    "sod-speak-english-or-die": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/4/44/Speakenglish.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Speak_English_or_Die"
+    },
+    "iron-maiden-live-after-death": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/c9/Iron_Maiden_-_Live_After_Death.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Live_After_Death"
+    },
+    "anthrax-armed-and-dangerous": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/f/f8/AnthraxArmedAndDangerous.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 313,
+      "height": 319,
+      "page": "https://en.wikipedia.org/wiki/Armed_and_Dangerous_(EP)"
+    },
+    "sepultura-bestial-devastation": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/2c/Bestial_devastation.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Bestial_Devastation"
+    },
+    "possessed-seven-churches": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/f/f3/Seven_Churches_%28Possessed_album%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Seven_Churches_(album)"
+    },
+    "anthrax-spreading-the-disease": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/1f/Spreading_The_Disease.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 318,
+      "height": 312,
+      "page": "https://en.wikipedia.org/wiki/Spreading_the_Disease"
+    },
+    "dead-kennedys-frankenchrist": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/1f/Dead_Kennedys_-_Frankenchrist_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Frankenchrist"
+    },
+    "kreator-endless-pain": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/3/32/Endlesspain.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 315,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Endless_Pain"
+    },
+    "helloween-walls-of-jericho": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/0/02/HelloweenWallsofjericho.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 250,
+      "height": 250,
+      "page": "https://en.wikipedia.org/wiki/Walls_of_Jericho_(album)"
+    },
+    "cro-mags-the-age-of-quarrel": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/c1/Cromag_aoq.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/The_Age_of_Quarrel"
+    },
+    "dark-angel-darkness-descends": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/e/ee/Darknessdescends.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 263,
+      "height": 260,
+      "page": "https://en.wikipedia.org/wiki/Darkness_Descends"
+    },
+    "kreator-pleasure-to-kill": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/d/dd/Pleasure_To_Kill.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Pleasure_to_Kill"
+    },
+    "sodom-obsessed-by-cruelty": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/e/e7/SodomObsessedbycruelty.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Obsessed_by_Cruelty"
+    },
+    "destruction-eternal-devastation": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/f/f0/Eternal_Devastation.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 315,
+      "page": "https://en.wikipedia.org/wiki/Eternal_Devastation"
+    },
+    "tankard-zombie-attack": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/e/e6/Zombie_Attack.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Zombie_Attack"
+    },
+    "flotsam-and-jetsam-doomsday-for-the-deceiver": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/8b/FlotsamAndJetsam-DoomsdayForTheDeceiver.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Doomsday_for_the_Deceiver"
+    },
+    "onslaught-the-force": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/1f/The_Force_%28Onslaught_album%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/The_Force_(Onslaught_album)"
+    },
+    "whiplash-power-and-pain": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/af/Whiplash_power.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 301,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Power_and_Pain"
+    },
+    "king-diamond-fatal-portrait": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/10/KingDiamond_FatalPortrait.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Fatal_Portrait"
+    },
+    "ozzy-osbourne-the-ultimate-sin": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/71/The_ultimate_sin.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/The_Ultimate_Sin"
+    },
+    "van-halen-5150": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/12/VanHalen_5150_fcover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/5150_(album)"
+    },
+    "metallica-master-of-puppets": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/b/b2/Metallica_-_Master_of_Puppets_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Master_of_Puppets"
+    },
+    "ramones-animal-boy": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/4/45/Ramones_-_Animal_Boy_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 317,
+      "height": 317,
+      "page": "https://en.wikipedia.org/wiki/Animal_Boy"
+    },
+    "ac-dc-who-made-who": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/a2/Whomadewho.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Who_Made_Who"
+    },
+    "metal-church-the-dark": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/1c/MetalChurch-TheDark.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/The_Dark_(Metal_Church_album)"
+    },
+    "motorhead-orgasmatron": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/2a/Mot%C3%B6rhead_-_Orgasmatron_%281986%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 250,
+      "height": 250,
+      "page": "https://en.wikipedia.org/wiki/Orgasmatron_(album)"
+    },
+    "nuclear-assault-game-over": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/83/Nuclear_Assault_-_Game_Over.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Game_Over_(Nuclear_Assault_album)"
+    },
+    "bad-brains-i-against-i": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/58/BadBrainsIAgainstI.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 297,
+      "page": "https://en.wikipedia.org/wiki/I_Against_I"
+    },
+    "megadeth-peace-sells-but-whos-buying": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/4/40/Megadeth_-_Peace_Sells..._But_Who%27s_Buying-.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Peace_Sells..._but_Who's_Buying%3F"
+    },
+    "iron-maiden-somewhere-in-time": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/9/9b/Iron_Maiden_-_Somewhere_in_Time.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 302,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Somewhere_in_Time_(Iron_Maiden_album)"
+    },
+    "slayer-reign-in-blood": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/8e/Reign_in_blood.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Reign_in_Blood"
+    },
+    "sepultura-morbid-visions": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/cd/Morbid_visions.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Morbid_Visions"
+    },
+    "suicidal-tendencies-join-the-army": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/6/6c/Join_the_army_ST.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 304,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Join_the_Army"
+    },
+    "possessed-the-eyes-of-horror": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/c2/The_Eyes_of_Horror.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/The_Eyes_of_Horror"
+    },
+    "kreator-terrible-certainty": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/18/Terrible_certainty.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Terrible_Certainty"
+    },
+    "sodom-persecution-mania": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/2e/SodomPersecutionmania.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Persecution_Mania"
+    },
+    "tankard-chemical-invasion": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/84/Chemcal_Invasion.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Chemical_Invasion"
+    },
+    "voivod-killing-technology": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/73/Killing_Technology.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Killing_Technology"
+    },
+    "sacred-reich-ignorance": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/5c/Sr_ignorance.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Ignorance_(Sacred_Reich_album)"
+    },
+    "coroner-r-i-p": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/ce/Ripalbum.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/R.I.P._(Coroner_album)"
+    },
+    "whiplash-ticket-to-mayhem": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/d/d8/Whiplash_tickettomayhem.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Ticket_to_Mayhem"
+    },
+    "celtic-frost-into-the-pandemonium": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Celtic_frost_into_pandemonium_cover.jpg/330px-Celtic_frost_into_pandemonium_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 300,
+      "height": 302,
+      "page": "https://en.wikipedia.org/wiki/Into_the_Pandemonium"
+    },
+    "bathory-under-the-sign-of-the-black-mark": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/51/Bathory_Sign.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Under_the_Sign_of_the_Black_Mark"
+    },
+    "mayhem-deathcrush": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/a3/Deathcrush.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Deathcrush"
+    },
+    "anthrax-im-the-man": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/11/AnthraxI%27mTheMan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 318,
+      "height": 312,
+      "page": "https://en.wikipedia.org/wiki/I'm_the_Man_(EP)"
+    },
+    "anthrax-among-the-living": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/12/AnthraxAmongTheLiving.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 317,
+      "height": 317,
+      "page": "https://en.wikipedia.org/wiki/Among_the_Living"
+    },
+    "helloween-keeper-of-the-seven-keys-part-i": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/8b/Keeper_of_the_Seven_Keys_Part_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 250,
+      "height": 250,
+      "page": "https://en.wikipedia.org/wiki/Keeper_of_the_Seven_Keys:_Part_I"
+    },
+    "motley-crue-girls-girls-girls": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/17/Girls%2C_Girls%2C_Girls_%28M%C3%B6tley_Cr%C3%BCe_album%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Girls,_Girls,_Girls_(M%C3%B6tley_Cr%C3%BCe_album)"
+    },
+    "death-scream-bloody-gore": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/0/0a/Scream_Bloody_Gore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Scream_Bloody_Gore"
+    },
+    "guns-n-roses-appetite-for-destruction": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/6/60/GunsnRosesAppetiteforDestructionalbumcover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Appetite_for_Destruction"
+    },
+    "def-leppard-hysteria": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/4/40/Def_Leppard_-_Hysteria_%28vinyl_version%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Hysteria_(Def_Leppard_album)"
+    },
+    "metallica-garage-days-re-revisited": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/7b/Metallica_-_The_%245.98_E.P.-Garage_Days_Re-Revisited_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/The_%245.98_E.P._%E2%80%93_Garage_Days_Re-Revisited"
+    },
+    "venom-calm-before-the-storm": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/29/Calmbeforethestormoriginal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Calm_Before_the_Storm_(Venom_album)"
+    },
+    "overkill-taking-over": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/ca/TakingOver.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Taking_Over_(Overkill_album)"
+    },
+    "ramones-halfway-to-sanity": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/b/be/Ramones_-_Halfway_to_Sanity_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 317,
+      "height": 317,
+      "page": "https://en.wikipedia.org/wiki/Halfway_to_Sanity"
+    },
+    "exodus-pleasures-of-the-flesh": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/8b/Exodus_-_Pleasures_of_the_Flesh.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Pleasures_of_the_Flesh"
+    },
+    "sepultura-schizophrenia": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/4/49/Schizophrenia_album.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Schizophrenia_(Sepultura_album)"
+    },
+    "king-diamond-abigail": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/8b/Abigail_%28King_Diamond_album%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Abigail_(album)"
+    },
+    "megadeth-so-far-so-good-so-what": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/7f/Megadeth-SoFar.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 301,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/So_Far,_So_Good..._So_What!"
+    },
+    "destruction-release-from-agony": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/5e/Release_from_agony.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 310,
+      "height": 296,
+      "page": "https://en.wikipedia.org/wiki/Release_from_Agony"
+    },
+    "death-angel-frolic-through-the-park": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/75/Death_Angel_frolic.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Frolic_Through_the_Park"
+    },
+    "nuclear-assault-survive": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/86/Nuclear_Assault_Survive.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Survive_(Nuclear_Assault_album)"
+    },
+    "voivod-dimension-hatross": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/b/b4/Dimension_Hatross.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Dimension_Hatr%C3%B6ss"
+    },
+    "flotsam-and-jetsam-no-place-for-disgrace": {
+      "src": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/fd/Noplacefordisgrace.jpg/330px-Noplacefordisgrace.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 300,
+      "height": 251,
+      "page": "https://en.wikipedia.org/wiki/No_Place_for_Disgrace"
+    },
+    "coroner-punishment-for-decadence": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/10/Coroner_punishment_LP.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 306,
+      "height": 302,
+      "page": "https://en.wikipedia.org/wiki/Punishment_for_Decadence"
+    },
+    "sabbat-history-of-a-time-to-come": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/f/f6/Shoat.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/History_of_a_Time_to_Come"
+    },
+    "bolt-thrower-in-battle-there-is-no-law": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/aa/Bolt_Thrower_In_Battle_There_Is_No_Law_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 319,
+      "height": 313,
+      "page": "https://en.wikipedia.org/wiki/In_Battle_There_Is_No_Law!"
+    },
+    "ac-dc-blow-up-your-video": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/80/Blowupyourvideo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Blow_Up_Your_Video"
+    },
+    "iron-maiden-seventh-son-of-a-seventh-son": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/c0/Iron_Maiden_-_Seventh_Son_Of_A_Seventh_Son.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Seventh_Son_of_a_Seventh_Son"
+    },
+    "judas-priest-ram-it-down": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/76/Jpramitdown.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Ram_It_Down"
+    },
+    "van-halen-ou812": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/6/6c/Van_Halen_-_OU812.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 301,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/OU812"
+    },
+    "testament-the-new-order": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/5d/The_New_Order.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 317,
+      "height": 315,
+      "page": "https://en.wikipedia.org/wiki/The_New_Order_(album)"
+    },
+    "suicidal-tendencies-how-will-i-laugh-tomorrow-when-i-cant-even-smile-today": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/74/Suicidal_Tendencies-How_Will_I_Laugh_Tomorrow.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/How_Will_I_Laugh_Tomorrow_When_I_Can't_Even_Smile_Today"
+    },
+    "carcass-reek-of-putrefaction": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/a3/Carcassreek.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Reek_of_Putrefaction"
+    },
+    "slayer-south-of-heaven": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/f/f1/Slayer_South_of_Heaven_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 299,
+      "page": "https://en.wikipedia.org/wiki/South_of_Heaven"
+    },
+    "king-diamond-them": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/74/1988themremasteredqh8-1-.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 304,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Them_(King_Diamond_album)"
+    },
+    "helloween-keeper-of-the-seven-keys-part-ii": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/3/3c/KotSK2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 256,
+      "height": 253,
+      "page": "https://en.wikipedia.org/wiki/Keeper_of_the_Seven_Keys:_Part_II"
+    },
+    "death-leprosy": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/14/Leprosy_Album.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Leprosy_(album)"
+    },
+    "overkill-under-the-influence": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/4/43/Under_the_Influence_%28Overkill_album%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Under_the_Influence_(Overkill_album)"
+    },
+    "anthrax-state-of-euphoria": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/c0/AnthraxStateOfEuphoria_Improved.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/State_of_Euphoria"
+    },
+    "bathory-blood-fire-death": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Bathory_-_Blood_Fire_Death.jpg/330px-Bathory_-_Blood_Fire_Death.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 300,
+      "height": 298,
+      "page": "https://en.wikipedia.org/wiki/Blood_Fire_Death"
+    },
+    "napalm-death-from-enslavement-to-obliteration": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/9/9a/From_Enslavement_to_Obliteration.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 299,
+      "height": 299,
+      "page": "https://en.wikipedia.org/wiki/From_Enslavement_to_Obliteration"
+    },
+    "dark-angel-leave-scars": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/5e/Leavescars.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Leave_Scars"
+    },
+    "kreator-extreme-aggression": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/c7/Extreme_Aggression.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Extreme_Aggression"
+    },
+    "sodom-agent-orange": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/13/Sodom-AgentOrange.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Agent_Orange_(album)"
+    },
+    "nuclear-assault-handle-with-care": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/cf/Nuclear_Assault_-_Handle_with_Care.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 255,
+      "height": 255,
+      "page": "https://en.wikipedia.org/wiki/Handle_with_Care_(Nuclear_Assault_album)"
+    },
+    "coroner-no-more-color": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/79/Nomorecolor.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 322,
+      "height": 309,
+      "page": "https://en.wikipedia.org/wiki/No_More_Color"
+    },
+    "sabbat-dreamweaver": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/ce/Sabbatdreamweaverreflectionofouryesterdayrr5.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Dreamweaver_(Sabbat_album)"
+    },
+    "sarcofago-rotting": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/4/46/Sarcofago_rotting.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 313,
+      "height": 319,
+      "page": "https://en.wikipedia.org/wiki/Rotting_(EP)"
+    },
+    "repulsion-horrified": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/22/HorrifiedRepulsion.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Horrified"
+    },
+    "atheist-piece-of-time": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/c8/Atheist_-_Piece_of_Time.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 315,
+      "page": "https://en.wikipedia.org/wiki/Piece_of_Time"
+    },
+    "exodus-fabulous-disaster": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/72/Exodus_-_Fabulous_Disaster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Fabulous_Disaster"
+    },
+    "sepultura-beneath-the-remains": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/51/Sepultura_-_Beneath_the_Remains.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Beneath_the_Remains"
+    },
+    "morbid-angel-altars-of-madness": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/23/MorbidAngelAltars.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Altars_of_Madness"
+    },
+    "obituary-slowly-we-rot": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/f/fd/Slowly_We_Rot.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Slowly_We_Rot"
+    },
+    "testament-practice-what-you-preach": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/1a/Testament_-_Practice_What_You_Preach.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Practice_What_You_Preach"
+    },
+    "metal-church-blessing-in-disguise": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/8c/Metal_church_blessing_in_disguise.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 322,
+      "height": 309,
+      "page": "https://en.wikipedia.org/wiki/Blessing_in_Disguise_(Metal_Church_album)"
+    },
+    "motley-crue-dr-feelgood": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/3/38/Motley_Crue_-_Dr_Feelgood-front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Dr._Feelgood_(album)"
+    },
+    "overkill-the-years-of-decay": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/15/The_Years_of_Decay.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/The_Years_of_Decay"
+    },
+    "autopsy-severed-survival": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/20/Autopsy_severed_survival.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Severed_Survival"
+    },
+    "terrorizer-world-downfall": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/74/World_Downfall_original.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 280,
+      "height": 280,
+      "page": "https://en.wikipedia.org/wiki/World_Downfall"
+    },
+    "carcass-symphonies-of-sickness": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/0/05/SymphoniesOfSickness.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Symphonies_of_Sickness"
+    },
+    "kreator-coma-of-souls": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/2b/Kreator-coma_of_souls.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Coma_of_Souls"
+    },
+    "destruction-cracked-brain": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/6/69/Destructioncrackedbrain.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Cracked_Brain"
+    },
+    "forbidden-twisted-into-form": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/b/bc/Forbidden-twistedintoform.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 313,
+      "height": 319,
+      "page": "https://en.wikipedia.org/wiki/Twisted_into_Form"
+    },
+    "vio-lence-oppressing-the-masses": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/54/Vio-lence_-_Oppressing_The_Masses_Front.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Oppressing_the_Masses"
+    },
+    "sacred-reich-the-american-way": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/e/e5/Sr_americanway.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/The_American_Way_(album)"
+    },
+    "annihilator-never-neverland": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/0/06/Never%2C_Neverland.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 299,
+      "page": "https://en.wikipedia.org/wiki/Never,_Neverland"
+    },
+    "artillery-by-inheritance": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/6/68/By_Inheritance.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/By_Inheritance"
+    },
+    "entombed-left-hand-path": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/f/f6/Lefthandpath_AlbumCover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Left_Hand_Path_(album)"
+    },
+    "deicide-deicide": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/70/Deicide-1990-Deicide.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Deicide_(album)"
+    },
+    "exodus-impact-is-imminent": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/13/Impact_Is_Imminent.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 280,
+      "height": 276,
+      "page": "https://en.wikipedia.org/wiki/Impact_Is_Imminent"
+    },
+    "pantera-cowboys-from-hell": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/a8/CowboysFromHell.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 301,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Cowboys_from_Hell"
+    },
+    "napalm-death-harmony-corruption": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/16/Harmony_Corruption.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Harmony_Corruption"
+    },
+    "bathory-hammerheart": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/c9/Hammerheart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Hammerheart"
+    },
+    "cannibal-corpse-eaten-back-to-life": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/5c/Eatenbacktolife.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Eaten_Back_to_Life"
+    },
+    "anthrax-persistence-of-time": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/1f/AnthraxPersistenceOfTime.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Persistence_of_Time"
+    },
+    "megadeth-rust-in-peace": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/d/dc/Megadeth-RustInPeace.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Rust_in_Peace"
+    },
+    "testament-souls-of-black": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/4/4f/SoulsofBlack.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 318,
+      "height": 314,
+      "page": "https://en.wikipedia.org/wiki/Souls_of_Black"
+    },
+    "obituary-cause-of-death": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/d/de/Obituary-Cause_of_death.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Cause_of_Death_(album)"
+    },
+    "iron-maiden-no-prayer-for-the-dying": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/5c/IronMaidenNoPrayerForTheDying.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/No_Prayer_for_the_Dying"
+    },
+    "slayer-seasons-in-the-abyss": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/1b/Slayer_-_Seasons_in_the_Abyss.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Seasons_in_the_Abyss"
+    },
+    "corrosion-of-conformity-blind": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/b/bf/COC_Blind.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 315,
+      "height": 315,
+      "page": "https://en.wikipedia.org/wiki/Blind_(Corrosion_of_Conformity_album)"
+    },
+    "motorhead-1916": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/d/df/Mot%C3%B6rhead_-_1916_%281991%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 250,
+      "height": 250,
+      "page": "https://en.wikipedia.org/wiki/1916_(album)"
+    },
+    "exodus-good-friendly-violent-fun": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/a2/ExodusGoodfriendlyviolentfun.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Good_Friendly_Violent_Fun"
+    },
+    "dark-angel-time-does-not-heal": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/e/ef/Timedoesnotheal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 319,
+      "height": 313,
+      "page": "https://en.wikipedia.org/wiki/Time_Does_Not_Heal"
+    },
+    "heathen-victims-of-deception": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/86/Heathen%2C_2_Album_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Victims_of_Deception"
+    },
+    "coroner-mental-vortex": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/c4/Mental_Vortex.PNG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Mental_Vortex"
+    },
+    "autopsy-mental-funeral": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/3/3c/Autopsy_mental_funeral.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Mental_Funeral"
+    },
+    "bolt-thrower-war-master": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/a4/Warmstr.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 314,
+      "height": 317,
+      "page": "https://en.wikipedia.org/wiki/War_Master"
+    },
+    "atheist-unquestionable-presence": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/7d/Unquestionablepresence.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 315,
+      "page": "https://en.wikipedia.org/wiki/Unquestionable_Presence"
+    },
+    "morbid-angel-blessed-are-the-sick": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/24/BlessedAreTheSick.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Blessed_Are_the_Sick"
+    },
+    "sepultura-arise": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/15/Sepultura_-_Arise_1991.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 302,
+      "height": 302,
+      "page": "https://en.wikipedia.org/wiki/Arise_(Sepultura_album)"
+    },
+    "van-halen-for-unlawful-carnal-knowledge": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/71/Van_Halen_-_For_Unlawful_Carnal_Knowledge.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/For_Unlawful_Carnal_Knowledge"
+    },
+    "entombed-clandestine": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/aa/EntombedClandestine.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Clandestine_(album)"
+    },
+    "metallica-metallica": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/2c/Metallica_-_Metallica_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Metallica_(album)"
+    },
+    "ozzy-osbourne-no-more-tears": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/3/35/Ozzy_Osbourne_-_No_More_Tears.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 315,
+      "page": "https://en.wikipedia.org/wiki/No_More_Tears"
+    },
+    "cannibal-corpse-butchered-at-birth": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/b/b6/Butcheredatbirth.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Butchered_at_Birth"
+    },
+    "slayer-decade-of-aggression": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/e/eb/SlayerDOA.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 317,
+      "height": 317,
+      "page": "https://en.wikipedia.org/wiki/Decade_of_Aggression"
+    },
+    "carcass-necroticism-descanting-the-insalubrious": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/25/Carcass-Necroticism.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Necroticism_%E2%80%93_Descanting_the_Insalubrious"
+    },
+    "death-human": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/a9/Human_Album.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Human_(Death_album)"
+    },
+    "exodus-force-of-habit": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/d/d6/Force_of_habit.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Force_of_Habit"
+    },
+    "napalm-death-utopia-banished": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/76/Utopia_Banished_%28Napalm_Death_album%29_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Utopia_Banished"
+    },
+    "pantera-vulgar-display-of-power": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/12/PanteraVulgarDisplayofPower.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Vulgar_Display_of_Power"
+    },
+    "testament-the-ritual": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/1b/Testament_-_The_Ritual.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/The_Ritual_(Testament_album)"
+    },
+    "black-sabbath-dehumanizer": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/12/Black-sabbath-dehumanizer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Dehumanizer"
+    },
+    "obituary-the-end-complete": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/d/d1/The_End_Complete_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/The_End_Complete"
+    },
+    "deicide-legion": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/e/e9/Deicidelegion.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Legion_(Deicide_album)"
+    },
+    "megadeth-countdown-to-extinction": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/0/00/Countdown_album_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Countdown_to_Extinction"
+    },
+    "ramones-mondo-bizarro": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/7/7a/Ramones_-_Mondo_Bizarro_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 317,
+      "height": 317,
+      "page": "https://en.wikipedia.org/wiki/Mondo_Bizarro"
+    },
+    "cannibal-corpse-tomb-of-the-mutilated": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/27/Tombofthemutilated.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 314,
+      "page": "https://en.wikipedia.org/wiki/Tomb_of_the_Mutilated"
+    },
+    "ac-dc-live": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/18/ACDCLive_ACDCalbum.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 299,
+      "page": "https://en.wikipedia.org/wiki/AC/DC_Live"
+    },
+    "anthrax-sound-of-white-noise": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/c4/AnthraxSoundOfWhiteNoise.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Sound_of_White_Noise"
+    },
+    "morbid-angel-covenant": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/d/d8/Morbid_Angel_-_Covenant.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 301,
+      "page": "https://en.wikipedia.org/wiki/Covenant_(Morbid_Angel_album)"
+    },
+    "death-individual-thought-patterns": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/28/Individual_Thought_patterns.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Individual_Thought_Patterns"
+    },
+    "overkill-i-hear-black": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/1/11/Hearblack.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 314,
+      "page": "https://en.wikipedia.org/wiki/I_Hear_Black"
+    },
+    "sepultura-chaos-a-d": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/cf/Sepultura_-_Chaos_A.D._1993.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Chaos_A.D."
+    },
+    "entombed-wolverine-blues": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/9/9e/Wolverine_Blues_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Wolverine_Blues"
+    },
+    "carcass-heartwork": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/6/65/Carcass_Heartwork.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Heartwork"
+    },
+    "motorhead-bastards": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/f/fc/Mot%C3%B6rhead_-_Bastards_%281993%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 250,
+      "height": 250,
+      "page": "https://en.wikipedia.org/wiki/Bastards_(Mot%C3%B6rhead_album)"
+    },
+    "motley-crue-motley-crue": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/0/0a/M%C3%B6tley_Cr%C3%BCe_album_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 218,
+      "height": 224,
+      "page": "https://en.wikipedia.org/wiki/M%C3%B6tley_Cr%C3%BCe_(album)"
+    },
+    "pantera-far-beyond-driven": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/d/d3/Pantera-FarBeyondDriven.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Far_Beyond_Driven"
+    },
+    "napalm-death-fear-emptiness-despair": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/3/33/Fear%2C_Emptiness%2C_Despair.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 301,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Fear,_Emptiness,_Despair"
+    },
+    "mayhem-de-mysteriis-dom-sathanas": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/3/3a/Mayhem_demysteriisdomsathanas.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/De_Mysteriis_Dom_Sathanas"
+    },
+    "testament-low": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/9/93/Testament_-_Low.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 314,
+      "page": "https://en.wikipedia.org/wiki/Low_(Testament_album)"
+    },
+    "corrosion-of-conformity-deliverance": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/2c/Deliverance_%28COC_album%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Deliverance_(Corrosion_of_Conformity_album)"
+    },
+    "megadeth-youthanasia": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/2/24/Megadeth-Youthanasia.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 304,
+      "page": "https://en.wikipedia.org/wiki/Youthanasia"
+    },
+    "van-halen-balance": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/e/e7/Van_Halen_-_Balance.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Balance_(Van_Halen_album)"
+    },
+    "anthrax-stomp-442": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/0/00/AnthraxStomp442_Improved.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Stomp_442"
+    },
+    "ramones-adios-amigos": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/e/e6/Ramones_-_Adios_Amigos_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Adios_Amigos_(Ramones_album)"
+    },
+    "ac-dc-ballbreaker": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/5/52/Ballbreaker.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Ballbreaker"
+    },
+    "the-exploited-beat-the-bastards": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/8/89/Exploited_-_Beat_the_Bastards.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Beat_the_Bastards"
+    },
+    "sepultura-roots": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/c/cf/Sepultura_-_Roots.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/Roots_(Sepultura_album)"
+    },
+    "slayer-undisputed-attitude": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/a/aa/Slayer-UndisputedAttitude.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 293,
+      "height": 290,
+      "page": "https://en.wikipedia.org/wiki/Undisputed_Attitude"
+    },
+    "pantera-the-great-southern-trendkill": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/3/30/Pantera_The_Great_Southern_Trendkill.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 300,
+      "height": 300,
+      "page": "https://en.wikipedia.org/wiki/The_Great_Southern_Trendkill"
+    },
+    "metallica-load": {
+      "src": "https://upload.wikimedia.org/wikipedia/en/b/b4/Metallica_-_Load_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 316,
+      "height": 316,
+      "page": "https://en.wikipedia.org/wiki/Load_(album)"
+    }
+  }
+}

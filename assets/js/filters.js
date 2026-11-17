@@ -25,6 +25,7 @@ export function createFilter(model, getState) {
       if (it.kind === 'release') {
         if (s.hg.has(it.genre)) return false;
         if (s.lm && !it.landmark) return false;
+        if (s.ol && it.inList === false) return false;
         return true;
       }
       if (s.hc.has(it.category)) return false;

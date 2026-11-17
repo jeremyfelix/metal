@@ -27,7 +27,8 @@
   --g-nwobhm: #f2a31c;
   --g-thrash: #f2573a;
   --g-death: #7690ff;
-  --g-other: #a6a090;
+  --g-extreme: #f4efe3;
+  --g-other: #8f897a;
 
   /* event categories */
   --c-formation: #8bd17c;
@@ -70,7 +71,8 @@
   --g-nwobhm: #b36500;
   --g-thrash: #c93a14;
   --g-death: #3a4fd4;
-  --g-other: #6b6558;
+  --g-extreme: #26221d;
+  --g-other: #8a8374;
   --c-formation: #2f8420;
   --c-lineup: #1c63c2;
   --c-concert: #9c6a00;
@@ -96,7 +98,7 @@
     --accent: #c8321a; --accent-ink: #ffffff; --focus: #0b57d0;
     --shadow: 0 10px 40px rgba(40, 30, 10, .22);
     --g-proto: #8d7a00; --g-hard-rock: #1a7fbd; --g-punk: #b04b88; --g-heavy-metal: #087f5f;
-    --g-nwobhm: #b36500; --g-thrash: #c93a14; --g-death: #3a4fd4; --g-other: #6b6558;
+    --g-nwobhm: #b36500; --g-thrash: #c93a14; --g-death: #3a4fd4; --g-extreme: #26221d; --g-other: #8a8374;
     --c-formation: #2f8420; --c-lineup: #1c63c2; --c-concert: #9c6a00; --c-death: #5a5448;
     --c-scene: #7a42c2; --c-industry: #167e78; --c-release: #bf5518; --c-other: #6b6558;
     --era-roots: rgba(141, 122, 0, .13); --era-nwobhm: rgba(179, 101, 0, .14);
@@ -108,7 +110,7 @@
 /* helper classes that map a genre / category class onto --c */
 .g-proto { --c: var(--g-proto); } .g-hard-rock { --c: var(--g-hard-rock); } .g-punk { --c: var(--g-punk); }
 .g-heavy-metal { --c: var(--g-heavy-metal); } .g-nwobhm { --c: var(--g-nwobhm); } .g-thrash { --c: var(--g-thrash); }
-.g-death { --c: var(--g-death); } .g-other { --c: var(--g-other); }
+.g-death { --c: var(--g-death); } .g-extreme { --c: var(--g-extreme); } .g-other { --c: var(--g-other); }
 .c-formation { --c: var(--c-formation); } .c-lineup { --c: var(--c-lineup); } .c-concert { --c: var(--c-concert); }
 .c-death { --c: var(--c-death); } .c-scene { --c: var(--c-scene); } .c-industry { --c: var(--c-industry); }
 .c-release { --c: var(--c-release); } .c-other { --c: var(--c-other); }

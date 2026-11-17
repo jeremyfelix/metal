@@ -2,6 +2,7 @@
 // All text is inserted with textContent; nothing from the data is ever parsed as HTML.
 import { formatDate, parseParts } from './dates.js';
 import { genreMeta, genreClass, catMeta, catClass, typeMeta } from './meta.js';
+import { coverFigure, photoFigure, wikiLink } from './images.js';
 
 const h = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; };
 
@@ -23,7 +24,7 @@ export function createPanel({ root, model, onSelect, onArtist, onClose }) {
   function chip(text, cls) { return h('span', 'chip ' + (cls || ''), text); }
   function linkBtn(text, handler, cls) { const b = h('button', 'link-btn ' + (cls || ''), text); b.type = 'button'; b.addEventListener('click', handler); return b; }
 
-  function artistBox(a) {
+  function artistBox(a, withPhoto) {
     const box = h('section', 'pn-artist-box ' + genreClass(a.genre));
     box.appendChild(h('h3', 'pn-sub', 'The artist'));
     const nm = h('p', 'pn-artist-name');
@@ -32,7 +33,10 @@ export function createPanel({ root, model, onSelect, onArtist, onClose }) {
     box.appendChild(nm);
     const facts = [a.origin, lifespan(a)].filter(Boolean).join(' · ');
     if (facts) box.appendChild(h('p', 'pn-meta', facts));
+    const ph = withPhoto ? photoFigure(a, 'sm') : null;
+    if (ph) box.appendChild(ph);
     if (a.blurb) box.appendChild(h('p', 'pn-blurb', a.blurb));
+    const wl = wikiLink(a, 'Wikipedia ↗'); if (wl) box.appendChild(h('p', 'pn-ext')).appendChild(wl);
     return box;
   }
 
@@ -62,6 +66,7 @@ export function createPanel({ root, model, onSelect, onArtist, onClose }) {
     if (it.kind === 'release') {
       kick.appendChild(chip(typeMeta(it.type).label, 'chip-type'));
       if (it.landmark) kick.appendChild(chip('Landmark', 'chip-landmark'));
+      if (it.inList) kick.appendChild(chip('My list', 'chip-list'));
     } else {
       kick.appendChild(chip(catMeta(it.category).label, 'chip-cat ' + catClass(it.category)));
       kick.appendChild(chip(['', 'Minor event', 'Notable event', 'Key event'][it.importance], 'chip-plain'));
@@ -74,6 +79,7 @@ export function createPanel({ root, model, onSelect, onArtist, onClose }) {
       it.artists.forEach((a, i) => { if (i) p.appendChild(document.createTextNode(', ')); p.appendChild(linkBtn(a.name, () => onArtist(a.id), 'strong')); });
       frag.appendChild(p);
     }
+    if (it.kind === 'release') { const cv = coverFigure(it); if (cv) frag.appendChild(cv); }
     const dateP = h('p', 'pn-date');
     dateP.appendChild(h('time', null, formatDate(it.date, it.prec)));
     if (it.prec !== 'day') dateP.appendChild(h('span', 'pn-approx', it.prec === 'month' ? ' · day not recorded' : ' · month not recorded'));
@@ -81,7 +87,8 @@ export function createPanel({ root, model, onSelect, onArtist, onClose }) {
     if (it.kind === 'release' && it.dateNote) frag.appendChild(h('p', 'pn-datenote', 'Date note: ' + it.dateNote));
     const text = it.kind === 'release' ? it.note : it.description;
     if (text) frag.appendChild(h('p', 'pn-text', text));
-    for (const a of it.artists.slice(0, 2)) frag.appendChild(artistBox(a));
+    if (it.kind === 'release') { const wl = wikiLink(it, 'Wikipedia article ↗'); if (wl) frag.appendChild(h('p', 'pn-ext')).appendChild(wl); }
+    it.artists.slice(0, 2).forEach((a, i) => frag.appendChild(artistBox(a, it.kind === 'release' || i === 0)));
     const n = nav(it.key, seq); if (n) frag.appendChild(n);
     return frag;
   }
@@ -93,7 +100,9 @@ export function createPanel({ root, model, onSelect, onArtist, onClose }) {
     const t = h('h2', 'pn-title', a.name); t.id = 'panel-title'; frag.appendChild(t);
     const facts = [a.origin, a.country, lifespan(a)].filter(Boolean).join(' · ');
     if (facts) frag.appendChild(h('p', 'pn-meta', facts));
+    const ph = photoFigure(a, 'lg'); if (ph) frag.appendChild(ph);
     if (a.blurb) frag.appendChild(h('p', 'pn-text', a.blurb));
+    const wl = wikiLink(a, 'Wikipedia ↗'); if (wl) frag.appendChild(h('p', 'pn-ext')).appendChild(wl);
     const all = [...a.releases, ...a.events].sort((x, y) => x.t - y.t);
     frag.appendChild(h('h3', 'pn-sub', `${a.releases.length} release${a.releases.length === 1 ? '' : 's'} · ${a.events.length} event${a.events.length === 1 ? '' : 's'}`));
     if (!all.length) frag.appendChild(h('p', 'pn-meta', 'Nothing recorded for this artist yet.'));
@@ -104,7 +113,7 @@ export function createPanel({ root, model, onSelect, onArtist, onClose }) {
       b.appendChild(h('span', 'pn-li-date', formatDate(it.date, it.prec)));
       const tt = h('span', 'pn-li-title', it.title);
       b.appendChild(tt);
-      b.appendChild(h('span', 'pn-li-kind', it.kind === 'release' ? typeMeta(it.type).label + (it.landmark ? ' ★' : '') : catMeta(it.category).label));
+      b.appendChild(h('span', 'pn-li-kind', it.kind === 'release' ? typeMeta(it.type).label + (it.landmark ? ' ★' : '') + (it.inList ? ' · my list' : '') : catMeta(it.category).label));
       b.addEventListener('click', () => onSelect(it.key));
       li.appendChild(b); ol.appendChild(li);
     }

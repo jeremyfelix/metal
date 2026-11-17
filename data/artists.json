@@ -8,6 +8,7 @@
     "ended": "1970-09-18",
     "genre": "proto",
     "inList": true,
+    "wiki": "Jimi Hendrix",
     "blurb": "Redefined what an electric guitar could do with feedback, distortion and sheer volume. His sound is a direct ancestor of heavy metal guitar."
   },
   {
@@ -19,6 +20,7 @@
     "ended": "1980-12-04",
     "genre": "proto",
     "inList": true,
+    "wiki": "Led Zeppelin",
     "blurb": "Blueprint for hard rock and heavy metal: crushing riffs, thunderous drums and a mythic stage presence. They disbanded after drummer John Bonham's death in 1980."
   },
   {
@@ -30,6 +32,7 @@
     "ended": "1974",
     "genre": "punk",
     "inList": true,
+    "wiki": "The Stooges",
     "blurb": "Raw, abrasive proto-punk that prefigured both punk and the rawer edges of metal. Iggy Pop's confrontational stage act became a template."
   },
   {
@@ -41,6 +44,7 @@
     "ended": null,
     "genre": "heavy-metal",
     "inList": true,
+    "wiki": "Black Sabbath",
     "blurb": "Their dark, down-tuned, doom-laden sound is widely regarded as the birth of heavy metal. Almost every later metal subgenre traces back to Tony Iommi's riffs."
   },
   {
@@ -52,6 +56,7 @@
     "ended": null,
     "genre": "proto",
     "inList": true,
+    "wiki": "The Who",
     "blurb": "Pioneers of loud, aggressive power-chord rock and the guitar-smashing stage show. Their volume and rock-opera ambition shaped hard rock."
   },
   {
@@ -63,6 +68,7 @@
     "ended": null,
     "genre": "proto",
     "inList": true,
+    "wiki": "David Bowie",
     "blurb": "Glam-era shape-shifter whose Ziggy Stardust persona influenced the theatrical side of rock and metal. He also produced and championed the Stooges."
   },
   {
@@ -74,6 +80,7 @@
     "ended": null,
     "genre": "hard-rock",
     "inList": true,
+    "wiki": "AC/DC",
     "blurb": "Stripped-down, blues-based hard rock built on Angus Young's riffs and showmanship. Back in Black is one of the best-selling albums ever made."
   },
   {
@@ -85,6 +92,7 @@
     "ended": null,
     "genre": "heavy-metal",
     "inList": true,
+    "wiki": "Judas Priest",
     "blurb": "Defined the leather-and-studs look and the twin-guitar sound of heavy metal. Their lean, fast approach shaped both NWOBHM and thrash."
   },
   {
@@ -96,6 +104,7 @@
     "ended": "1996-08-06",
     "genre": "punk",
     "inList": true,
+    "wiki": "Ramones",
     "blurb": "Fast, minimal, three-chord songs that kicked off punk rock. Their speed and brevity fed straight into thrash metal's DNA."
   },
   {
@@ -107,6 +116,7 @@
     "ended": null,
     "genre": "nwobhm",
     "inList": true,
+    "wiki": "Motörhead",
     "blurb": "Lemmy's band fused punk speed and metal heaviness before the term crossover existed. A direct influence on thrash and speed metal."
   },
   {
@@ -118,6 +128,7 @@
     "ended": "1978-01-14",
     "genre": "punk",
     "inList": true,
+    "wiki": "Sex Pistols",
     "blurb": "Brought punk to the British mainstream with notoriety and one studio album. Their short-lived rebellion shook rock's establishment."
   },
   {
@@ -129,6 +140,7 @@
     "ended": null,
     "genre": "hard-rock",
     "inList": true,
+    "wiki": "Van Halen",
     "blurb": "Eddie Van Halen's two-handed tapping and virtuosity raised the bar for rock and metal guitar. They made flashy technique a mainstream ideal."
   },
   {
@@ -140,6 +152,7 @@
     "ended": null,
     "genre": "nwobhm",
     "inList": true,
+    "wiki": "Saxon (band)",
     "blurb": "One of the bands most closely identified with the New Wave of British Heavy Metal. Their working-class anthems found a huge audience."
   },
   {
@@ -151,6 +164,7 @@
     "ended": null,
     "genre": "nwobhm",
     "inList": true,
+    "wiki": "Iron Maiden",
     "blurb": "The flagship band of the NWOBHM, mixing galloping rhythms, twin-guitar harmonies and epic storytelling. One of metal's biggest touring acts."
   },
   {
@@ -162,6 +176,7 @@
     "ended": "1983-10-29",
     "genre": "punk",
     "inList": true,
+    "wiki": "Misfits (band)",
     "blurb": "Horror-punk pioneers whose imagery and melodic hardcore influenced Metallica, Slayer and many others. Metallica later covered their songs."
   },
   {
@@ -173,6 +188,7 @@
     "ended": null,
     "genre": "heavy-metal",
     "inList": true,
+    "wiki": "Ozzy Osbourne",
     "blurb": "Sabbath's original singer rebuilt his career as a solo star, with Randy Rhoads' neo-classical playing at the front. A defining figure of 1980s metal."
   },
   {
@@ -184,6 +200,7 @@
     "ended": null,
     "genre": "hard-rock",
     "inList": true,
+    "wiki": "Mötley Crüe",
     "blurb": "Leading band of the Sunset Strip glam-metal scene. Their image and platinum albums made hard rock a 1980s MTV staple."
   },
   {
@@ -195,6 +212,7 @@
     "ended": null,
     "genre": "nwobhm",
     "inList": true,
+    "wiki": "Venom (band)",
     "blurb": "Raw, Satanic-themed and deliberately extreme, they gave black metal its name. A huge influence on thrash, death and black metal."
   },
   {
@@ -206,6 +224,7 @@
     "ended": null,
     "genre": "thrash",
     "inList": true,
+    "wiki": "Metallica",
     "blurb": "Took thrash from the underground to arenas. Their 1983-1988 run of albums defined the genre."
   },
   {
@@ -217,6 +236,7 @@
     "ended": null,
     "genre": "thrash",
     "inList": true,
+    "wiki": "Slayer",
     "blurb": "The darkest and fastest of the Big Four. Reign in Blood set a benchmark for extreme metal."
   },
   {
@@ -228,6 +248,7 @@
     "ended": null,
     "genre": "thrash",
     "inList": true,
+    "wiki": "Anthrax (American band)",
     "blurb": "Bridged thrash with humour and hardcore, and later crossed over with rap. Part of the Big Four."
   },
   {
@@ -239,6 +260,7 @@
     "ended": null,
     "genre": "thrash",
     "inList": true,
+    "wiki": "Megadeth",
     "blurb": "Dave Mustaine's technical, aggressive answer to his old band. Part of the Big Four."
   },
   {
@@ -250,6 +272,7 @@
     "ended": null,
     "genre": "thrash",
     "inList": true,
+    "wiki": "Exodus (American band)",
     "blurb": "Bay Area thrash pioneers and an incubator for Kirk Hammett. Bonded by Blood is a genre classic."
   },
   {
@@ -261,6 +284,7 @@
     "ended": null,
     "genre": "death",
     "inList": true,
+    "wiki": "Death (metal band)",
     "blurb": "Chuck Schuldiner's band is often called the founder of death metal and evolved toward progressive complexity."
   },
   {
@@ -272,6 +296,7 @@
     "ended": null,
     "genre": "thrash",
     "inList": true,
+    "wiki": "Stormtroopers of Death",
     "blurb": "Stormtroopers of Death mixed thrash with hardcore and dark humour. Speak English or Die helped invent crossover."
   },
   {
@@ -283,6 +308,7 @@
     "ended": "1987",
     "genre": "death",
     "inList": true,
+    "wiki": "Possessed (band)",
     "blurb": "Jeff Becerra's band helped give death metal its name and sound. Seven Churches is a foundational album."
   },
   {
@@ -294,6 +320,7 @@
     "ended": null,
     "genre": "thrash",
     "inList": true,
+    "wiki": "Sepultura",
     "blurb": "Brazil's thrash and death metal giants brought extreme metal to a global audience."
   },
   {
@@ -305,6 +332,7 @@
     "ended": null,
     "genre": "punk",
     "inList": true,
+    "wiki": "The Exploited",
     "blurb": "Loud, aggressive Scottish punk that helped build the crossover between punk and metal."
   },
   {
@@ -316,6 +344,7 @@
     "ended": null,
     "genre": "heavy-metal",
     "inList": false,
+    "wiki": "Deep Purple",
     "blurb": "Alongside Sabbath and Zeppelin, one of the pioneers of hard rock and heavy metal, with Ritchie Blackmore's riffs and organ-driven power."
   },
   {
@@ -327,6 +356,7 @@
     "ended": null,
     "genre": "proto",
     "inList": false,
+    "wiki": "Hawkwind",
     "blurb": "Space-rock pioneers, and the band Lemmy played bass for before founding Motörhead."
   },
   {
@@ -338,6 +368,7 @@
     "ended": null,
     "genre": "nwobhm",
     "inList": false,
+    "wiki": "Raven (British band)",
     "blurb": "Fast, high-energy NWOBHM band who toured with early Metallica and influenced American speed and thrash metal."
   },
   {
@@ -349,6 +380,7 @@
     "ended": null,
     "genre": "nwobhm",
     "inList": false,
+    "wiki": "Diamond Head (band)",
     "blurb": "NWOBHM band whose riffs deeply influenced Metallica, who covered several of their songs."
   },
   {
@@ -360,6 +392,7 @@
     "ended": null,
     "genre": "punk",
     "inList": false,
+    "wiki": "Discharge (band)",
     "blurb": "Created the fast, relentless d-beat style that shaped crust, grindcore and thrash."
   },
   {
@@ -371,6 +404,7 @@
     "ended": "1985",
     "genre": "heavy-metal",
     "inList": false,
+    "wiki": "Mercyful Fate",
     "blurb": "King Diamond's falsetto and occult imagery, plus intricate twin-guitar writing, influenced thrash and black metal."
   },
   {
@@ -382,6 +416,7 @@
     "ended": null,
     "genre": "thrash",
     "inList": false,
+    "wiki": "Overkill (band)",
     "blurb": "East Coast thrash stalwarts with a long career built on relentless intensity."
   },
   {
@@ -393,6 +428,7 @@
     "ended": null,
     "genre": "thrash",
     "inList": false,
+    "wiki": "Dark Angel (band)",
     "blurb": "Technical, brutal thrash from California. Darkness Descends set a high bar for speed."
   },
   {
@@ -404,6 +440,7 @@
     "ended": null,
     "genre": "thrash",
     "inList": false,
+    "wiki": "Testament (band)",
     "blurb": "Bay Area thrash band, formed as Legacy, whose melodic leads and Chuck Billy's vocals kept them in the first rank."
   },
   {
@@ -415,6 +452,7 @@
     "ended": null,
     "genre": "thrash",
     "inList": false,
+    "wiki": "Kreator",
     "blurb": "One of the German thrash trio. Pleasure to Kill helped lay foundations for death metal."
   },
   {
@@ -424,8 +462,9 @@
     "country": "CH",
     "formed": "1984",
     "ended": null,
-    "genre": "thrash",
+    "genre": "extreme",
     "inList": false,
+    "wiki": "Celtic Frost",
     "blurb": "Evolved from Hellhammer into one of extreme metal's most innovative bands, pushing into avant-garde territory."
   },
   {
@@ -435,8 +474,9 @@
     "country": "SE",
     "formed": "1983",
     "ended": null,
-    "genre": "death",
+    "genre": "extreme",
     "inList": false,
+    "wiki": "Bathory (band)",
     "blurb": "Quorthon's one-man project is regarded as a forefather of black metal and later Viking metal."
   },
   {
@@ -448,6 +488,847 @@
     "ended": null,
     "genre": "heavy-metal",
     "inList": false,
+    "wiki": "Pantera",
     "blurb": "Reinvented themselves as a groove-heavy metal band with Cowboys from Hell and became 1990s metal's biggest act."
+  },
+  {
+    "id": "cream",
+    "name": "Cream",
+    "origin": "London, England",
+    "country": "GB",
+    "formed": "1966",
+    "ended": "1968-11",
+    "genre": "proto",
+    "inList": false,
+    "wiki": "Cream (band)",
+    "blurb": "Clapton, Bruce and Baker pioneered the loud, improvisational power-trio format that Hendrix, Zeppelin and later heavy bands built on."
+  },
+  {
+    "id": "blue-cheer",
+    "name": "Blue Cheer",
+    "origin": "San Francisco, California, USA",
+    "country": "US",
+    "formed": "1967",
+    "ended": null,
+    "genre": "proto",
+    "inList": false,
+    "wiki": "Blue Cheer",
+    "blurb": "Played so loud and distorted that their 1968 cover of 'Summertime Blues' is often named as an early heavy-metal record."
+  },
+  {
+    "id": "mc5",
+    "name": "MC5",
+    "origin": "Lincoln Park, Michigan, USA",
+    "country": "US",
+    "formed": "1964",
+    "ended": "1972",
+    "genre": "punk",
+    "inList": false,
+    "wiki": "MC5",
+    "blurb": "Detroit's high-energy, politically charged rock band, a close cousin of the Stooges and a punk forerunner."
+  },
+  {
+    "id": "alice-cooper",
+    "name": "Alice Cooper",
+    "origin": "Phoenix, Arizona, USA",
+    "country": "US",
+    "formed": "1964",
+    "ended": null,
+    "genre": "hard-rock",
+    "inList": false,
+    "wiki": "Alice Cooper",
+    "blurb": "Brought theatrical shock-rock to hard rock, with a stage show of gore and horror that heavy metal acts later borrowed."
+  },
+  {
+    "id": "budgie",
+    "name": "Budgie",
+    "origin": "Cardiff, Wales",
+    "country": "GB",
+    "formed": "1967",
+    "ended": null,
+    "genre": "heavy-metal",
+    "inList": false,
+    "wiki": "Budgie (band)",
+    "blurb": "A Welsh power trio whose heavy riffing and sudden dynamics influenced Metallica and Iron Maiden, who both covered their songs."
+  },
+  {
+    "id": "thin-lizzy",
+    "name": "Thin Lizzy",
+    "origin": "Dublin, Ireland",
+    "country": "IE",
+    "formed": "1969",
+    "ended": "1983",
+    "genre": "hard-rock",
+    "inList": false,
+    "wiki": "Thin Lizzy",
+    "blurb": "Their twin-lead-guitar harmonies, pioneered by Scott Gorham and Brian Robertson, became a hallmark of NWOBHM bands such as Iron Maiden."
+  },
+  {
+    "id": "ufo",
+    "name": "UFO",
+    "origin": "London, England",
+    "country": "GB",
+    "formed": "1968",
+    "ended": null,
+    "genre": "hard-rock",
+    "inList": false,
+    "wiki": "UFO (band)",
+    "blurb": "Their 1970s records, with Michael Schenker's guitar, were a major influence on the NWOBHM and on Iron Maiden and Metallica."
+  },
+  {
+    "id": "rainbow",
+    "name": "Rainbow",
+    "origin": "England and the United States",
+    "country": "GB",
+    "formed": "1975",
+    "ended": "1984",
+    "genre": "heavy-metal",
+    "inList": false,
+    "wiki": "Rainbow (rock band)",
+    "blurb": "Ritchie Blackmore's post-Deep Purple band mixed classical-flavoured riffs with fantasy lyrics, a template for power and neo-classical metal."
+  },
+  {
+    "id": "scorpions",
+    "name": "Scorpions",
+    "origin": "Hanover, West Germany",
+    "country": "DE",
+    "formed": "1965",
+    "ended": null,
+    "genre": "heavy-metal",
+    "inList": false,
+    "wiki": "Scorpions (band)",
+    "blurb": "Germany's biggest metal export, they conquered America in the early 1980s with melodic hard rock and metal."
+  },
+  {
+    "id": "rush",
+    "name": "Rush",
+    "origin": "Toronto, Ontario, Canada",
+    "country": "CA",
+    "formed": "1968",
+    "ended": null,
+    "genre": "hard-rock",
+    "inList": false,
+    "wiki": "Rush (band)",
+    "blurb": "Canadian trio whose technical prowess and long-form compositions inspired generations of progressive and thrash musicians."
+  },
+  {
+    "id": "kiss",
+    "name": "Kiss",
+    "origin": "New York City, USA",
+    "country": "US",
+    "formed": "1973-01",
+    "ended": null,
+    "genre": "hard-rock",
+    "inList": false,
+    "wiki": "Kiss (band)",
+    "blurb": "Their make-up, pyrotechnics and merchandising turned hard rock into a stadium spectacle, and inspired much of the 1980s image of metal."
+  },
+  {
+    "id": "blue-oyster-cult",
+    "name": "Blue Öyster Cult",
+    "origin": "Stony Brook, New York, USA",
+    "country": "US",
+    "formed": "1967",
+    "ended": null,
+    "genre": "hard-rock",
+    "inList": false,
+    "wiki": "Blue Öyster Cult",
+    "blurb": "Intelligent, occult-tinged hard rock that fed into Sabbath-style metal's dark imagery and later thrash cover choices."
+  },
+  {
+    "id": "uriah-heep",
+    "name": "Uriah Heep",
+    "origin": "London, England",
+    "country": "GB",
+    "formed": "1969",
+    "ended": null,
+    "genre": "heavy-metal",
+    "inList": false,
+    "wiki": "Uriah Heep (band)",
+    "blurb": "Organ-driven, gothic-tinged heavy rock with big vocal harmonies, one of the early 1970s' leading heavy bands."
+  },
+  {
+    "id": "angel-witch",
+    "name": "Angel Witch",
+    "origin": "London, England",
+    "country": "GB",
+    "formed": "1976",
+    "ended": null,
+    "genre": "nwobhm",
+    "inList": false,
+    "wiki": "Angel Witch",
+    "blurb": "Their 1980 debut and title track are NWOBHM classics, covered by Metallica and others."
+  },
+  {
+    "id": "tygers-of-pan-tang",
+    "name": "Tygers of Pan Tang",
+    "origin": "Whitley Bay, England",
+    "country": "GB",
+    "formed": "1978",
+    "ended": null,
+    "genre": "nwobhm",
+    "inList": false,
+    "wiki": "Tygers of Pan Tang",
+    "blurb": "A first-wave NWOBHM band that brought a young Jess Cox and John Sykes into the 1980 scene."
+  },
+  {
+    "id": "tank",
+    "name": "Tank",
+    "origin": "London, England",
+    "country": "GB",
+    "formed": "1980",
+    "ended": null,
+    "genre": "nwobhm",
+    "inList": false,
+    "wiki": "Tank (band)",
+    "blurb": "Algy Ward's Motörhead-influenced NWOBHM band, with the raw 1982 albums Filth Hounds of Hades and Power of the Hunter."
+  },
+  {
+    "id": "girlschool",
+    "name": "Girlschool",
+    "origin": "London, England",
+    "country": "GB",
+    "formed": "1978",
+    "ended": null,
+    "genre": "nwobhm",
+    "inList": false,
+    "wiki": "Girlschool",
+    "blurb": "An all-female NWOBHM group who toured and recorded with Motörhead."
+  },
+  {
+    "id": "def-leppard",
+    "name": "Def Leppard",
+    "origin": "Sheffield, England",
+    "country": "GB",
+    "formed": "1977",
+    "ended": null,
+    "genre": "hard-rock",
+    "inList": false,
+    "wiki": "Def Leppard",
+    "blurb": "Started in the NWOBHM and became one of the biggest bands of the 1980s with polished, melodic hard rock."
+  },
+  {
+    "id": "accept",
+    "name": "Accept",
+    "origin": "Solingen, West Germany",
+    "country": "DE",
+    "formed": "1976",
+    "ended": null,
+    "genre": "heavy-metal",
+    "inList": false,
+    "wiki": "Accept (band)",
+    "blurb": "German heavy metal pioneers whose staccato riffs and gang vocals influenced thrash and power metal."
+  },
+  {
+    "id": "dio",
+    "name": "Dio",
+    "origin": "Los Angeles, California, USA",
+    "country": "US",
+    "formed": "1982",
+    "ended": null,
+    "genre": "heavy-metal",
+    "inList": false,
+    "wiki": "Dio (band)",
+    "blurb": "Ronnie James Dio's solo band, formed after leaving Black Sabbath, gave 1980s fantasy metal some of its biggest records."
+  },
+  {
+    "id": "king-diamond",
+    "name": "King Diamond",
+    "origin": "Copenhagen, Denmark",
+    "country": "DK",
+    "formed": "1985",
+    "ended": null,
+    "genre": "heavy-metal",
+    "inList": false,
+    "wiki": "King Diamond",
+    "blurb": "The Mercyful Fate singer's solo project turned horror stories into theatrical concept albums."
+  },
+  {
+    "id": "manowar",
+    "name": "Manowar",
+    "origin": "Auburn, New York, USA",
+    "country": "US",
+    "formed": "1980",
+    "ended": null,
+    "genre": "heavy-metal",
+    "inList": false,
+    "wiki": "Manowar",
+    "blurb": "Loud, bombastic and proudly 'true' heavy metal, with Joey DeMaio's bass and Eric Adams's vocals."
+  },
+  {
+    "id": "exciter",
+    "name": "Exciter",
+    "origin": "Ottawa, Ontario, Canada",
+    "country": "CA",
+    "formed": "1978",
+    "ended": null,
+    "genre": "thrash",
+    "inList": false,
+    "wiki": "Exciter (band)",
+    "blurb": "Early Canadian speed metal band; Heavy Metal Maniac (1983) was a template for speed and thrash."
+  },
+  {
+    "id": "anvil",
+    "name": "Anvil",
+    "origin": "Toronto, Ontario, Canada",
+    "country": "CA",
+    "formed": "1978",
+    "ended": null,
+    "genre": "heavy-metal",
+    "inList": false,
+    "wiki": "Anvil (band)",
+    "blurb": "Fast, raw Canadian metal whose early albums influenced Metallica, Slayer and Anthrax."
+  },
+  {
+    "id": "metal-church",
+    "name": "Metal Church",
+    "origin": "Seattle area, Washington, USA",
+    "country": "US",
+    "formed": "1980",
+    "ended": null,
+    "genre": "thrash",
+    "inList": false,
+    "wiki": "Metal Church",
+    "blurb": "Their 1984 debut was among the first American power/thrash records and Elektra's early metal signing."
+  },
+  {
+    "id": "helloween",
+    "name": "Helloween",
+    "origin": "Hamburg, West Germany",
+    "country": "DE",
+    "formed": "1984",
+    "ended": null,
+    "genre": "heavy-metal",
+    "inList": false,
+    "wiki": "Helloween",
+    "blurb": "Their Keeper of the Seven Keys albums defined power metal's fast, melodic style."
+  },
+  {
+    "id": "guns-n-roses",
+    "name": "Guns N' Roses",
+    "origin": "Los Angeles, California, USA",
+    "country": "US",
+    "formed": "1985",
+    "ended": null,
+    "genre": "hard-rock",
+    "inList": false,
+    "wiki": "Guns N' Roses",
+    "blurb": "Raw hard rock that outsold glam metal and helped end the Sunset Strip era."
+  },
+  {
+    "id": "gbh",
+    "name": "G.B.H.",
+    "origin": "Birmingham, England",
+    "country": "GB",
+    "formed": "1978",
+    "ended": null,
+    "genre": "punk",
+    "inList": false,
+    "wiki": "G.B.H. (band)",
+    "blurb": "British hardcore punks whose fast, distorted sound was popular with early thrash fans."
+  },
+  {
+    "id": "black-flag",
+    "name": "Black Flag",
+    "origin": "Hermosa Beach, California, USA",
+    "country": "US",
+    "formed": "1976",
+    "ended": "1986",
+    "genre": "punk",
+    "inList": false,
+    "wiki": "Black Flag (band)",
+    "blurb": "Pioneers of American hardcore whose relentless touring and heavy sound crossed into metal circles."
+  },
+  {
+    "id": "dead-kennedys",
+    "name": "Dead Kennedys",
+    "origin": "San Francisco, California, USA",
+    "country": "US",
+    "formed": "1978",
+    "ended": "1986",
+    "genre": "punk",
+    "inList": false,
+    "wiki": "Dead Kennedys",
+    "blurb": "Jello Biafra's satirical hardcore band was a central voice of American punk, with songs often covered by thrash bands."
+  },
+  {
+    "id": "bad-brains",
+    "name": "Bad Brains",
+    "origin": "Washington, D.C., USA",
+    "country": "US",
+    "formed": "1977",
+    "ended": null,
+    "genre": "punk",
+    "inList": false,
+    "wiki": "Bad Brains",
+    "blurb": "Black hardcore punk pioneers with extreme speed and technical skill, admired by metal and punk bands alike."
+  },
+  {
+    "id": "minor-threat",
+    "name": "Minor Threat",
+    "origin": "Washington, D.C., USA",
+    "country": "US",
+    "formed": "1980",
+    "ended": "1983",
+    "genre": "punk",
+    "inList": false,
+    "wiki": "Minor Threat",
+    "blurb": "Their short, fast hardcore songs and straight edge ethos were widely imitated."
+  },
+  {
+    "id": "suicidal-tendencies",
+    "name": "Suicidal Tendencies",
+    "origin": "Venice, California, USA",
+    "country": "US",
+    "formed": "1980",
+    "ended": null,
+    "genre": "punk",
+    "inList": false,
+    "wiki": "Suicidal Tendencies",
+    "blurb": "Venice hardcore punks who became a crossover act, bridging skate punk and thrash metal."
+  },
+  {
+    "id": "dri",
+    "name": "D.R.I.",
+    "origin": "Houston, Texas, USA",
+    "country": "US",
+    "formed": "1982",
+    "ended": null,
+    "genre": "punk",
+    "inList": false,
+    "wiki": "D.R.I. (band)",
+    "blurb": "Dirty Rotten Imbeciles' Crossover (1987) lent its name to the genre blending hardcore and thrash."
+  },
+  {
+    "id": "corrosion-of-conformity",
+    "name": "Corrosion of Conformity",
+    "origin": "Raleigh, North Carolina, USA",
+    "country": "US",
+    "formed": "1982",
+    "ended": null,
+    "genre": "punk",
+    "inList": false,
+    "wiki": "Corrosion of Conformity",
+    "blurb": "A hardcore band that moved toward heavy metal and Southern rock by the 1990s."
+  },
+  {
+    "id": "cro-mags",
+    "name": "Cro-Mags",
+    "origin": "New York City, USA",
+    "country": "US",
+    "formed": "1981",
+    "ended": null,
+    "genre": "punk",
+    "inList": false,
+    "wiki": "Cro-Mags",
+    "blurb": "New York hardcore band whose heavy, metallic riffs shaped the metal-hardcore crossover."
+  },
+  {
+    "id": "agnostic-front",
+    "name": "Agnostic Front",
+    "origin": "New York City, USA",
+    "country": "US",
+    "formed": "1980",
+    "ended": null,
+    "genre": "punk",
+    "inList": false,
+    "wiki": "Agnostic Front",
+    "blurb": "The leading New York hardcore band, an early cross-over between the genres."
+  },
+  {
+    "id": "hellhammer",
+    "name": "Hellhammer",
+    "origin": "Zürich, Switzerland",
+    "country": "CH",
+    "formed": "1982",
+    "ended": "1984",
+    "genre": "extreme",
+    "inList": false,
+    "wiki": "Hellhammer",
+    "blurb": "Crude, murky and deliberately primitive, Hellhammer became one of the roots of black and death metal before evolving into Celtic Frost."
+  },
+  {
+    "id": "sodom",
+    "name": "Sodom",
+    "origin": "Gelsenkirchen, West Germany",
+    "country": "DE",
+    "formed": "1981",
+    "ended": null,
+    "genre": "thrash",
+    "inList": false,
+    "wiki": "Sodom (band)",
+    "blurb": "One of the German thrash trio, with raw, Venom-influenced early records."
+  },
+  {
+    "id": "destruction",
+    "name": "Destruction",
+    "origin": "Lörrach, West Germany",
+    "country": "DE",
+    "formed": "1982",
+    "ended": null,
+    "genre": "thrash",
+    "inList": false,
+    "wiki": "Destruction (band)",
+    "blurb": "German thrash with a relentless, high-speed style led by Schmier."
+  },
+  {
+    "id": "death-angel",
+    "name": "Death Angel",
+    "origin": "Daly City, California, USA",
+    "country": "US",
+    "formed": "1982",
+    "ended": null,
+    "genre": "thrash",
+    "inList": false,
+    "wiki": "Death Angel",
+    "blurb": "Bay Area thrash band of Filipino-American cousins whose debut was made when they were teenagers."
+  },
+  {
+    "id": "nuclear-assault",
+    "name": "Nuclear Assault",
+    "origin": "New York City, USA",
+    "country": "US",
+    "formed": "1984",
+    "ended": null,
+    "genre": "thrash",
+    "inList": false,
+    "wiki": "Nuclear Assault",
+    "blurb": "East Coast thrash with a mix of humour and politics from ex-Anthrax bassist Dan Lilker."
+  },
+  {
+    "id": "voivod",
+    "name": "Voivod",
+    "origin": "Jonquière, Quebec, Canada",
+    "country": "CA",
+    "formed": "1982",
+    "ended": null,
+    "genre": "thrash",
+    "inList": false,
+    "wiki": "Voivod (band)",
+    "blurb": "Canadian thrash band that moved into progressive and science-fiction themes."
+  },
+  {
+    "id": "flotsam-and-jetsam",
+    "name": "Flotsam and Jetsam",
+    "origin": "Phoenix, Arizona, USA",
+    "country": "US",
+    "formed": "1981",
+    "ended": null,
+    "genre": "thrash",
+    "inList": false,
+    "wiki": "Flotsam and Jetsam",
+    "blurb": "Phoenix thrash band, best known as the original home of Jason Newsted."
+  },
+  {
+    "id": "forbidden",
+    "name": "Forbidden",
+    "origin": "San Francisco Bay Area, California, USA",
+    "country": "US",
+    "formed": "1985",
+    "ended": null,
+    "genre": "thrash",
+    "inList": false,
+    "wiki": "Forbidden (band)",
+    "blurb": "Bay Area technical thrash band of the late-80s second wave."
+  },
+  {
+    "id": "vio-lence",
+    "name": "Vio-lence",
+    "origin": "San Francisco Bay Area, California, USA",
+    "country": "US",
+    "formed": "1985",
+    "ended": null,
+    "genre": "thrash",
+    "inList": false,
+    "wiki": "Vio-lence",
+    "blurb": "Bay Area second-wave thrash whose singer Sean Killian and guitarist Phil Demmel later influenced the scene."
+  },
+  {
+    "id": "heathen",
+    "name": "Heathen",
+    "origin": "San Francisco, California, USA",
+    "country": "US",
+    "formed": "1984",
+    "ended": null,
+    "genre": "thrash",
+    "inList": false,
+    "wiki": "Heathen (band)",
+    "blurb": "Bay Area thrash with a melodic, technical side."
+  },
+  {
+    "id": "sacred-reich",
+    "name": "Sacred Reich",
+    "origin": "Phoenix, Arizona, USA",
+    "country": "US",
+    "formed": "1985",
+    "ended": null,
+    "genre": "thrash",
+    "inList": false,
+    "wiki": "Sacred Reich",
+    "blurb": "Phoenix thrash with socially conscious lyrics."
+  },
+  {
+    "id": "annihilator",
+    "name": "Annihilator",
+    "origin": "Ottawa, Ontario, Canada",
+    "country": "CA",
+    "formed": "1984",
+    "ended": null,
+    "genre": "thrash",
+    "inList": false,
+    "wiki": "Annihilator (band)",
+    "blurb": "Jeff Waters' Canadian band, known for technical thrash with melody."
+  },
+  {
+    "id": "coroner",
+    "name": "Coroner",
+    "origin": "Zürich, Switzerland",
+    "country": "CH",
+    "formed": "1983",
+    "ended": null,
+    "genre": "thrash",
+    "inList": false,
+    "wiki": "Coroner (band)",
+    "blurb": "Swiss technical thrash trio with progressive leanings."
+  },
+  {
+    "id": "tankard",
+    "name": "Tankard",
+    "origin": "Frankfurt, West Germany",
+    "country": "DE",
+    "formed": "1982",
+    "ended": null,
+    "genre": "thrash",
+    "inList": false,
+    "wiki": "Tankard (band)",
+    "blurb": "German thrash band known for beer-themed humour."
+  },
+  {
+    "id": "onslaught",
+    "name": "Onslaught",
+    "origin": "Bristol, England",
+    "country": "GB",
+    "formed": "1982",
+    "ended": null,
+    "genre": "thrash",
+    "inList": false,
+    "wiki": "Onslaught (band)",
+    "blurb": "One of Britain's earliest and best thrash bands."
+  },
+  {
+    "id": "sabbat",
+    "name": "Sabbat",
+    "origin": "Nottingham, England",
+    "country": "GB",
+    "formed": "1985",
+    "ended": null,
+    "genre": "thrash",
+    "inList": false,
+    "wiki": "Sabbat (British band)",
+    "blurb": "British thrash with fantasy and witchcraft themes."
+  },
+  {
+    "id": "artillery",
+    "name": "Artillery",
+    "origin": "Taastrup, Denmark",
+    "country": "DK",
+    "formed": "1982",
+    "ended": null,
+    "genre": "thrash",
+    "inList": false,
+    "wiki": "Artillery (band)",
+    "blurb": "Danish thrash band with a technical, European edge."
+  },
+  {
+    "id": "razor",
+    "name": "Razor",
+    "origin": "Guelph, Ontario, Canada",
+    "country": "CA",
+    "formed": "1984",
+    "ended": null,
+    "genre": "thrash",
+    "inList": false,
+    "wiki": "Razor (band)",
+    "blurb": "Canadian speed/thrash band, famed for its fast, raw sound."
+  },
+  {
+    "id": "whiplash",
+    "name": "Whiplash",
+    "origin": "Passaic, New Jersey, USA",
+    "country": "US",
+    "formed": "1984",
+    "ended": null,
+    "genre": "thrash",
+    "inList": false,
+    "wiki": "Whiplash (band)",
+    "blurb": "Jersey thrash, inspired by early Slayer and Venom."
+  },
+  {
+    "id": "morbid-angel",
+    "name": "Morbid Angel",
+    "origin": "Tampa, Florida, USA",
+    "country": "US",
+    "formed": "1983",
+    "ended": null,
+    "genre": "death",
+    "inList": false,
+    "wiki": "Morbid Angel",
+    "blurb": "Their technical, dark death metal, starting with Altars of Madness, helped define the Florida sound."
+  },
+  {
+    "id": "napalm-death",
+    "name": "Napalm Death",
+    "origin": "Birmingham, England",
+    "country": "GB",
+    "formed": "1981",
+    "ended": null,
+    "genre": "extreme",
+    "inList": false,
+    "wiki": "Napalm Death",
+    "blurb": "Their ultra-fast, short songs founded grindcore and made them a regular on John Peel's show."
+  },
+  {
+    "id": "obituary",
+    "name": "Obituary",
+    "origin": "Tampa, Florida, USA",
+    "country": "US",
+    "formed": "1984",
+    "ended": null,
+    "genre": "death",
+    "inList": false,
+    "wiki": "Obituary (band)",
+    "blurb": "Their slow, groove-driven death metal, with John Tardy's distinctive voice, was one of the Florida scene's biggest sounds."
+  },
+  {
+    "id": "carcass",
+    "name": "Carcass",
+    "origin": "Liverpool, England",
+    "country": "GB",
+    "formed": "1985",
+    "ended": null,
+    "genre": "extreme",
+    "inList": false,
+    "wiki": "Carcass (band)",
+    "blurb": "Grindcore band that moved into melodic death metal with Heartwork."
+  },
+  {
+    "id": "entombed",
+    "name": "Entombed",
+    "origin": "Stockholm, Sweden",
+    "country": "SE",
+    "formed": "1987",
+    "ended": null,
+    "genre": "death",
+    "inList": false,
+    "wiki": "Entombed (band)",
+    "blurb": "Their 1990 debut Left Hand Path defined the Swedish death metal sound."
+  },
+  {
+    "id": "deicide",
+    "name": "Deicide",
+    "origin": "Tampa, Florida, USA",
+    "country": "US",
+    "formed": "1987",
+    "ended": null,
+    "genre": "death",
+    "inList": false,
+    "wiki": "Deicide (band)",
+    "blurb": "Controversial Florida band known for blasphemous lyrics and fast, technical death metal."
+  },
+  {
+    "id": "autopsy",
+    "name": "Autopsy",
+    "origin": "Walnut Creek, California, USA",
+    "country": "US",
+    "formed": "1987",
+    "ended": null,
+    "genre": "death",
+    "inList": false,
+    "wiki": "Autopsy (band)",
+    "blurb": "Their slow, gory, doom-inflected death metal was a landmark of the genre."
+  },
+  {
+    "id": "cannibal-corpse",
+    "name": "Cannibal Corpse",
+    "origin": "Buffalo, New York, USA",
+    "country": "US",
+    "formed": "1988",
+    "ended": null,
+    "genre": "death",
+    "inList": false,
+    "wiki": "Cannibal Corpse",
+    "blurb": "Brutal death metal pioneers with graphic lyrics, long a top-selling extreme metal band."
+  },
+  {
+    "id": "bolt-thrower",
+    "name": "Bolt Thrower",
+    "origin": "Coventry, England",
+    "country": "GB",
+    "formed": "1986",
+    "ended": null,
+    "genre": "death",
+    "inList": false,
+    "wiki": "Bolt Thrower",
+    "blurb": "Warhammer-themed British death metal with heavy, mid-paced riffs."
+  },
+  {
+    "id": "atheist",
+    "name": "Atheist",
+    "origin": "Sarasota, Florida, USA",
+    "country": "US",
+    "formed": "1983",
+    "ended": null,
+    "genre": "death",
+    "inList": false,
+    "wiki": "Atheist (band)",
+    "blurb": "Technical death metal pioneers with jazz influences."
+  },
+  {
+    "id": "sarcofago",
+    "name": "Sarcófago",
+    "origin": "Belo Horizonte, Brazil",
+    "country": "BR",
+    "formed": "1985",
+    "ended": null,
+    "genre": "extreme",
+    "inList": false,
+    "wiki": "Sarcófago",
+    "blurb": "Their 1987 debut I.N.R.I. was a notably extreme Brazilian record."
+  },
+  {
+    "id": "mayhem",
+    "name": "Mayhem",
+    "origin": "Oslo, Norway",
+    "country": "NO",
+    "formed": "1984",
+    "ended": null,
+    "genre": "extreme",
+    "inList": false,
+    "wiki": "Mayhem (band)",
+    "blurb": "One of the first Norwegian black metal bands, central to the genre's second wave."
+  },
+  {
+    "id": "repulsion",
+    "name": "Repulsion",
+    "origin": "Flint, Michigan, USA",
+    "country": "US",
+    "formed": "1984",
+    "ended": null,
+    "genre": "extreme",
+    "inList": false,
+    "wiki": "Repulsion (band)",
+    "blurb": "Their Horrified is an early grindcore and death metal landmark."
+  },
+  {
+    "id": "terrorizer",
+    "name": "Terrorizer",
+    "origin": "Los Angeles, California, USA",
+    "country": "US",
+    "formed": "1986",
+    "ended": null,
+    "genre": "extreme",
+    "inList": false,
+    "wiki": "Terrorizer (band)",
+    "blurb": "World Downfall (1989) is a landmark of American grindcore and death metal."
   }
 ]

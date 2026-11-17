@@ -1,5 +1,19 @@
 [
   {
+    "id": "cream-fresh-cream",
+    "title": "Fresh Cream",
+    "listTitle": null,
+    "artistId": "cream",
+    "date": "1966-12-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Debut album of the power trio, mixing blues with heavy, amplified improvisation.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Fresh Cream"
+  },
+  {
     "id": "jimi-hendrix-are-you-experienced",
     "title": "Are You Experienced",
     "listTitle": "Are You Experienced",
@@ -9,7 +23,23 @@
     "type": "album",
     "landmark": true,
     "note": "Hendrix's debut album fused blues, psychedelia and feedback, setting a new standard for electric guitar.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Are You Experienced"
+  },
+  {
+    "id": "cream-disraeli-gears",
+    "title": "Disraeli Gears",
+    "listTitle": null,
+    "artistId": "cream",
+    "date": "1967-11-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Psychedelic blues-rock album that includes 'Sunshine of Your Love'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Disraeli Gears"
   },
   {
     "id": "jimi-hendrix-axis-bold-as-love",
@@ -21,7 +51,51 @@
     "type": "album",
     "landmark": false,
     "note": "A second album in 1967 that deepened Hendrix's studio experiments and ballad writing.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Axis: Bold as Love"
+  },
+  {
+    "id": "blue-cheer-vincebus-eruptum",
+    "title": "Vincebus Eruptum",
+    "listTitle": null,
+    "artistId": "blue-cheer",
+    "date": "1968-01-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Extremely loud, distorted blues-rock whose 'Summertime Blues' cover is often named as an early heavy-metal recording.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Vincebus Eruptum"
+  },
+  {
+    "id": "cream-wheels-of-fire",
+    "title": "Wheels of Fire",
+    "listTitle": null,
+    "artistId": "cream",
+    "date": "1968-08-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Half studio, half live double album, with the heavy 'Crossroads' live cut.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Wheels of Fire"
+  },
+  {
+    "id": "blue-cheer-outsideinside",
+    "title": "Outsideinside",
+    "listTitle": null,
+    "artistId": "blue-cheer",
+    "date": "1968-08-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Second album, partly recorded outdoors on a San Francisco Bay pier.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Outsideinside"
   },
   {
     "id": "jimi-hendrix-electric-ladyland",
@@ -33,7 +107,9 @@
     "type": "album",
     "landmark": false,
     "note": "Sprawling double album and Hendrix's last studio record released in his lifetime.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Electric Ladyland"
   },
   {
     "id": "led-zeppelin-led-zeppelin",
@@ -45,7 +121,23 @@
     "type": "album",
     "landmark": false,
     "note": "Debut that fused blues with heavy volume and became a template for hard rock.",
-    "dateNote": "US release date; UK release followed on 1969-03-31"
+    "dateNote": "US release date; UK release followed on 1969-03-31",
+    "inList": true,
+    "wiki": "Led Zeppelin (album)"
+  },
+  {
+    "id": "mc5-kick-out-the-jams",
+    "title": "Kick Out the Jams",
+    "listTitle": null,
+    "artistId": "mc5",
+    "date": "1969-02-01",
+    "datePrecision": "month",
+    "type": "live",
+    "landmark": false,
+    "note": "Live debut recorded in Detroit; its raw energy and politics anticipated punk.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Kick Out the Jams (album)"
   },
   {
     "id": "the-stooges-the-stooges",
@@ -57,7 +149,9 @@
     "type": "album",
     "landmark": false,
     "note": "Raw proto-punk debut produced by John Cale.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "The Stooges (album)"
   },
   {
     "id": "led-zeppelin-led-zeppelin-ii",
@@ -69,7 +163,23 @@
     "type": "album",
     "landmark": false,
     "note": "Heavy riffs, including 'Whole Lotta Love', that pushed hard rock toward heavy metal.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Led Zeppelin II"
+  },
+  {
+    "id": "mc5-back-in-the-usa",
+    "title": "Back in the USA",
+    "listTitle": null,
+    "artistId": "mc5",
+    "date": "1970-01-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A cleaner, faster second album that, with the Stooges, shaped early punk.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Back in the USA (MC5 album)"
   },
   {
     "id": "black-sabbath-black-sabbath",
@@ -81,7 +191,51 @@
     "type": "album",
     "landmark": true,
     "note": "Often cited as the first heavy metal album, built on doom, tritones and a horror-film atmosphere.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Black Sabbath (album)"
+  },
+  {
+    "id": "jimi-hendrix-band-of-gypsys",
+    "title": "Band of Gypsys",
+    "listTitle": null,
+    "artistId": "jimi-hendrix",
+    "date": "1970-03-01",
+    "datePrecision": "month",
+    "type": "live",
+    "landmark": false,
+    "note": "Live album with Buddy Miles and Billy Cox, recorded at the Fillmore East on New Year's Eve 1969–70.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Band of Gypsys"
+  },
+  {
+    "id": "deep-purple-deep-purple-in-rock",
+    "title": "Deep Purple in Rock",
+    "listTitle": null,
+    "artistId": "deep-purple",
+    "date": "1970-06-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Deep Purple's heavy move: fast, aggressive guitar and organ and Ian Gillan's high screams, a major building block of heavy metal.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Deep Purple in Rock"
+  },
+  {
+    "id": "uriah-heep-very-eavy-very-umble",
+    "title": "Very 'eavy... Very 'umble",
+    "listTitle": null,
+    "artistId": "uriah-heep",
+    "date": "1970-06-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Organ-heavy debut with ambitious heavy rock.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Very 'eavy... Very 'umble"
   },
   {
     "id": "the-stooges-fun-house",
@@ -93,7 +247,23 @@
     "type": "album",
     "landmark": false,
     "note": "The Stooges' second album, more ferocious and raw than their debut.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Fun House (album)"
+  },
+  {
+    "id": "hawkwind-hawkwind",
+    "title": "Hawkwind",
+    "listTitle": null,
+    "artistId": "hawkwind",
+    "date": "1970-08-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Debut of the space-rock band that Lemmy later joined.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Hawkwind (album)"
   },
   {
     "id": "black-sabbath-paranoid",
@@ -105,7 +275,9 @@
     "type": "album",
     "landmark": true,
     "note": "Sabbath's breakthrough, containing the title track, 'Iron Man' and 'War Pigs' and cementing the template of metal.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Paranoid (album)"
   },
   {
     "id": "led-zeppelin-led-zeppelin-iii",
@@ -117,7 +289,37 @@
     "type": "album",
     "landmark": false,
     "note": "Zeppelin's acoustic-leaning folk-rock turn alongside heavier moments.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Led Zeppelin III"
+  },
+  {
+    "id": "alice-cooper-love-it-to-death",
+    "title": "Love It to Death",
+    "listTitle": null,
+    "artistId": "alice-cooper",
+    "date": "1971-03-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "The Alice Cooper group's breakthrough album, including 'I'm Eighteen'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Love It to Death"
+  },
+  {
+    "id": "budgie-budgie",
+    "title": "Budgie",
+    "listTitle": null,
+    "artistId": "budgie",
+    "date": "1971-04-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Heavy trio debut; 'Crash Course in Brain Surgery' was later covered by Metallica.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Budgie (album)"
   },
   {
     "id": "black-sabbath-master-of-reality",
@@ -129,7 +331,9 @@
     "type": "album",
     "landmark": false,
     "note": "Sabbath tuned down further, creating a sludgier sound later called doom and stoner.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Master of Reality"
   },
   {
     "id": "the-who-whos-next",
@@ -141,7 +345,65 @@
     "type": "album",
     "landmark": false,
     "note": "Synthesisers and power chords fused in the Who's biggest-selling studio album.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Who's Next"
+  },
+  {
+    "id": "deep-purple-fireball",
+    "title": "Fireball",
+    "listTitle": null,
+    "artistId": "deep-purple",
+    "date": "1971-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Follow-up to In Rock with faster, more varied songs.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Fireball (Deep Purple album)"
+  },
+  {
+    "id": "hawkwind-in-search-of-space",
+    "title": "In Search of Space",
+    "listTitle": null,
+    "artistId": "hawkwind",
+    "date": "1971-10-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Space-rock album introducing the band's concept and visual style.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "In Search of Space"
+  },
+  {
+    "id": "uriah-heep-look-at-yourself",
+    "title": "Look at Yourself",
+    "listTitle": null,
+    "artistId": "uriah-heep",
+    "date": "1971-10-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Includes 'July Morning' and 'Look at Yourself'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Look at Yourself"
+  },
+  {
+    "id": "alice-cooper-killer",
+    "title": "Killer",
+    "listTitle": null,
+    "artistId": "alice-cooper",
+    "date": "1971-11-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Hard-rock album with 'Be My Lover' and theatrical, dark imagery.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Killer (Alice Cooper album)"
   },
   {
     "id": "led-zeppelin-led-zeppelin-iv",
@@ -153,7 +415,65 @@
     "type": "album",
     "landmark": false,
     "note": "Includes 'Black Dog' and 'Stairway to Heaven', and is among the best-selling albums of all time.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Led Zeppelin IV"
+  },
+  {
+    "id": "blue-oyster-cult-blue-oyster-cult",
+    "title": "Blue Öyster Cult",
+    "listTitle": null,
+    "artistId": "blue-oyster-cult",
+    "date": "1972-01-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "The debut that introduced the band's dark, intellectual hard rock.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Blue Öyster Cult (album)"
+  },
+  {
+    "id": "deep-purple-machine-head",
+    "title": "Machine Head",
+    "listTitle": null,
+    "artistId": "deep-purple",
+    "date": "1972-03-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Includes 'Smoke on the Water' and 'Highway Star', two of the most famous riffs in hard rock.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Machine Head (album)"
+  },
+  {
+    "id": "uriah-heep-demons-and-wizards",
+    "title": "Demons and Wizards",
+    "listTitle": null,
+    "artistId": "uriah-heep",
+    "date": "1972-05-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Fantasy-themed album with 'Easy Livin''.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Demons and Wizards"
+  },
+  {
+    "id": "alice-cooper-schools-out",
+    "title": "School's Out",
+    "listTitle": null,
+    "artistId": "alice-cooper",
+    "date": "1972-06-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Teen-anthem title track and a stage show of theatrical rebellion.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "School's Out (album)"
   },
   {
     "id": "david-bowie-the-rise-and-fall-of-ziggy-stardust-and-the-spiders-from-mars",
@@ -165,7 +485,9 @@
     "type": "album",
     "landmark": false,
     "note": "Bowie's glam rock concept album introduced the Ziggy persona and its theatrical rock stagecraft.",
-    "dateNote": "Commonly cited as 1972-06-16 (UK)"
+    "dateNote": "Commonly cited as 1972-06-16 (UK)",
+    "inList": true,
+    "wiki": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars"
   },
   {
     "id": "black-sabbath-vol-4",
@@ -177,7 +499,65 @@
     "type": "album",
     "landmark": false,
     "note": "Sabbath's fourth album ('Snowblind', 'Supernaut') was recorded in Los Angeles and was heavier and more experimental.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Black Sabbath Vol. 4"
+  },
+  {
+    "id": "hawkwind-doremi-fasol-latido",
+    "title": "Doremi Fasol Latido",
+    "listTitle": null,
+    "artistId": "hawkwind",
+    "date": "1972-11-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "First album with Lemmy on bass.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Doremi Fasol Latido"
+  },
+  {
+    "id": "deep-purple-made-in-japan",
+    "title": "Made in Japan",
+    "listTitle": null,
+    "artistId": "deep-purple",
+    "date": "1972-12-01",
+    "datePrecision": "month",
+    "type": "live",
+    "landmark": false,
+    "note": "Live album regarded as one of the best of its era.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Made in Japan (Deep Purple album)"
+  },
+  {
+    "id": "alice-cooper-billion-dollar-babies",
+    "title": "Billion Dollar Babies",
+    "listTitle": null,
+    "artistId": "alice-cooper",
+    "date": "1973-02-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "The peak of the original group and a US number one.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Billion Dollar Babies"
+  },
+  {
+    "id": "budgie-never-turn-your-back-on-a-friend",
+    "title": "Never Turn Your Back on a Friend",
+    "listTitle": null,
+    "artistId": "budgie",
+    "date": "1973-02-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Includes 'Breadfan', which Metallica later covered.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Never Turn Your Back on a Friend"
   },
   {
     "id": "the-stooges-raw-power",
@@ -189,7 +569,9 @@
     "type": "album",
     "landmark": false,
     "note": "Iggy and the Stooges' third album, mixed by Bowie; a direct precursor of punk.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Raw Power"
   },
   {
     "id": "led-zeppelin-houses-of-the-holy",
@@ -201,7 +583,9 @@
     "type": "album",
     "landmark": false,
     "note": "Zeppelin expanded their sound with funk, reggae and progressive touches.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Houses of the Holy"
   },
   {
     "id": "david-bowie-aladdin-sane",
@@ -213,7 +597,23 @@
     "type": "album",
     "landmark": false,
     "note": "Bowie's follow-up to Ziggy, with a more aggressive piano and guitar attack.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Aladdin Sane"
+  },
+  {
+    "id": "hawkwind-space-ritual",
+    "title": "Space Ritual",
+    "listTitle": null,
+    "artistId": "hawkwind",
+    "date": "1973-05-01",
+    "datePrecision": "month",
+    "type": "live",
+    "landmark": false,
+    "note": "Double live album that captured the band's stage show.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Space Ritual"
   },
   {
     "id": "david-bowie-pin-ups",
@@ -225,7 +625,9 @@
     "type": "album",
     "landmark": false,
     "note": "Bowie's album of covers of 1960s British rock songs.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Pin Ups"
   },
   {
     "id": "the-who-quadrophenia",
@@ -237,7 +639,9 @@
     "type": "album",
     "landmark": false,
     "note": "The Who's second rock opera, about a mod youth in 1960s Britain.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Quadrophenia"
   },
   {
     "id": "black-sabbath-sabbath-bloody-sabbath",
@@ -249,7 +653,65 @@
     "type": "album",
     "landmark": false,
     "note": "Sabbath's fifth album mixed progressive and heavy styles, with Rick Wakeman guesting.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Sabbath Bloody Sabbath"
+  },
+  {
+    "id": "deep-purple-burn",
+    "title": "Burn",
+    "listTitle": null,
+    "artistId": "deep-purple",
+    "date": "1974-02-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "First album with David Coverdale and Glenn Hughes, with a faster, neo-classical title track.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Burn (Deep Purple album)"
+  },
+  {
+    "id": "kiss-kiss",
+    "title": "Kiss",
+    "listTitle": null,
+    "artistId": "kiss",
+    "date": "1974-02-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Debut of the make-up-wearing hard rock band.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Kiss (Kiss album)"
+  },
+  {
+    "id": "blue-oyster-cult-secret-treaties",
+    "title": "Secret Treaties",
+    "listTitle": null,
+    "artistId": "blue-oyster-cult",
+    "date": "1974-04-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Often seen as their best album, with 'Career of Evil' and 'Astronomy'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Secret Treaties"
+  },
+  {
+    "id": "ufo-phenomenon",
+    "title": "Phenomenon",
+    "listTitle": null,
+    "artistId": "ufo",
+    "date": "1974-05-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "The first UFO album with Michael Schenker, including 'Doctor Doctor' and 'Rock Bottom'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Phenomenon (album)"
   },
   {
     "id": "david-bowie-diamond-dogs",
@@ -261,7 +723,23 @@
     "type": "album",
     "landmark": false,
     "note": "Bowie's dystopian glam album, partly inspired by Orwell's 1984.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Diamond Dogs"
+  },
+  {
+    "id": "judas-priest-rocka-rolla",
+    "title": "Rocka Rolla",
+    "listTitle": null,
+    "artistId": "judas-priest",
+    "date": "1974-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Priest's bluesy debut.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Rocka Rolla"
   },
   {
     "id": "ac-dc-high-voltage-australian-version",
@@ -273,7 +751,9 @@
     "type": "album",
     "landmark": false,
     "note": "AC/DC's Australian-only debut, recorded quickly in early 1975.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "High Voltage (1975 album)"
   },
   {
     "id": "led-zeppelin-physical-graffiti",
@@ -285,7 +765,23 @@
     "type": "album",
     "landmark": false,
     "note": "Zeppelin's sprawling double album, including 'Kashmir'.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Physical Graffiti"
+  },
+  {
+    "id": "alice-cooper-welcome-to-my-nightmare",
+    "title": "Welcome to My Nightmare",
+    "listTitle": null,
+    "artistId": "alice-cooper",
+    "date": "1975-03-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Alice Cooper's first solo album, a horror-themed concept record with Vincent Price.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Welcome to My Nightmare"
   },
   {
     "id": "david-bowie-young-americans",
@@ -297,7 +793,23 @@
     "type": "album",
     "landmark": false,
     "note": "Bowie's 'plastic soul' album, including the hit 'Fame'.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Young Americans"
+  },
+  {
+    "id": "hawkwind-warrior-on-the-edge-of-time",
+    "title": "Warrior on the Edge of Time",
+    "listTitle": null,
+    "artistId": "hawkwind",
+    "date": "1975-05-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Lemmy's last Hawkwind album, released the same month he was fired.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Warrior on the Edge of Time"
   },
   {
     "id": "black-sabbath-sabotage",
@@ -309,7 +821,37 @@
     "type": "album",
     "landmark": false,
     "note": "Sabbath's heaviest effort of the mid-70s, recorded during a legal battle with their former management.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Sabotage (album)"
+  },
+  {
+    "id": "rainbow-ritchie-blackmores-rainbow",
+    "title": "Ritchie Blackmore's Rainbow",
+    "listTitle": null,
+    "artistId": "rainbow",
+    "date": "1975-08-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Blackmore's first post-Purple album with Ronnie James Dio.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Ritchie Blackmore's Rainbow"
+  },
+  {
+    "id": "kiss-alive",
+    "title": "Alive!",
+    "listTitle": null,
+    "artistId": "kiss",
+    "date": "1975-09-01",
+    "datePrecision": "month",
+    "type": "live",
+    "landmark": false,
+    "note": "The live album that turned Kiss into stars.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Alive!"
   },
   {
     "id": "the-who-the-who-by-numbers",
@@ -321,7 +863,9 @@
     "type": "album",
     "landmark": false,
     "note": "A downbeat, introspective Who album written largely by Pete Townshend.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "The Who by Numbers"
   },
   {
     "id": "ac-dc-t-n-t",
@@ -333,7 +877,9 @@
     "type": "album",
     "landmark": false,
     "note": "AC/DC's second album, Australian release, with anthems 'High Voltage' and 'T.N.T.'.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "T.N.T. (album)"
   },
   {
     "id": "david-bowie-station-to-station",
@@ -345,7 +891,51 @@
     "type": "album",
     "landmark": false,
     "note": "Bowie's transitional album between soul and the electronic, krautrock-influenced Berlin period.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Station to Station"
+  },
+  {
+    "id": "thin-lizzy-jailbreak",
+    "title": "Jailbreak",
+    "listTitle": null,
+    "artistId": "thin-lizzy",
+    "date": "1976-03-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Thin Lizzy's breakthrough, with 'The Boys Are Back in Town' and harmonised twin guitars.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Jailbreak (album)"
+  },
+  {
+    "id": "kiss-destroyer",
+    "title": "Destroyer",
+    "listTitle": null,
+    "artistId": "kiss",
+    "date": "1976-03-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Bob Ezrin's theatrical production, including 'Detroit Rock City'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Destroyer (Kiss album)"
+  },
+  {
+    "id": "rush-2112",
+    "title": "2112",
+    "listTitle": null,
+    "artistId": "rush",
+    "date": "1976-03-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Side-long title suite that made Rush stars and influenced prog-metal.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "2112 (album)"
   },
   {
     "id": "judas-priest-sad-wings-of-destiny",
@@ -357,7 +947,9 @@
     "type": "album",
     "landmark": true,
     "note": "Priest's second album introduced the dual-guitar attack and operatic vocals that became a metal template.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Sad Wings of Destiny"
   },
   {
     "id": "led-zeppelin-presence",
@@ -369,7 +961,9 @@
     "type": "album",
     "landmark": false,
     "note": "A guitar-driven Zeppelin album recorded while Robert Plant recovered from a car accident.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Presence (album)"
   },
   {
     "id": "ac-dc-high-voltage-international-version",
@@ -381,7 +975,9 @@
     "type": "album",
     "landmark": false,
     "note": "The international compilation of AC/DC's first two Australian albums.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "High Voltage (1976 album)"
   },
   {
     "id": "ramones-ramones",
@@ -393,7 +989,51 @@
     "type": "album",
     "landmark": true,
     "note": "Fourteen songs in under thirty minutes; the Ramones' debut kicked off American punk and its stripped-down speed.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Ramones (album)"
+  },
+  {
+    "id": "blue-oyster-cult-agents-of-fortune",
+    "title": "Agents of Fortune",
+    "listTitle": null,
+    "artistId": "blue-oyster-cult",
+    "date": "1976-05-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Includes '(Don't Fear) The Reaper'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Agents of Fortune"
+  },
+  {
+    "id": "rainbow-rising",
+    "title": "Rising",
+    "listTitle": null,
+    "artistId": "rainbow",
+    "date": "1976-05-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Epic 'Stargazer' and 'Light in the Black' made it a blueprint for power and neo-classical metal.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Rising (Rainbow album)"
+  },
+  {
+    "id": "black-sabbath-technical-ecstasy",
+    "title": "Technical Ecstasy",
+    "listTitle": null,
+    "artistId": "black-sabbath",
+    "date": "1976-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Sabbath's experimental album with keyboards.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Technical Ecstasy"
   },
   {
     "id": "ac-dc-dirty-deeds-done-dirt-cheap",
@@ -405,7 +1045,23 @@
     "type": "album",
     "landmark": false,
     "note": "AC/DC's third album, with Bon Scott's lecherous humour front and centre.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Dirty Deeds Done Dirt Cheap (album)"
+  },
+  {
+    "id": "ufo-lights-out",
+    "title": "Lights Out",
+    "listTitle": null,
+    "artistId": "ufo",
+    "date": "1977-01-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Melodic, heavy riffing that Maiden and Metallica learned from.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Lights Out (UFO album)"
   },
   {
     "id": "ramones-leave-home",
@@ -417,7 +1073,9 @@
     "type": "album",
     "landmark": false,
     "note": "The Ramones' second album repeated the formula, with 'Pinhead' and 'Carbona Not Glue'.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Leave Home"
   },
   {
     "id": "david-bowie-low",
@@ -429,7 +1087,9 @@
     "type": "album",
     "landmark": false,
     "note": "First of Bowie's Berlin trilogy, co-produced with Brian Eno.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Low (David Bowie album)"
   },
   {
     "id": "ac-dc-let-there-be-rock",
@@ -441,7 +1101,9 @@
     "type": "album",
     "landmark": false,
     "note": "AC/DC's fourth album, with a high-energy, blues-based hard rock sound.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Let There Be Rock (album)"
   },
   {
     "id": "judas-priest-sin-after-sin",
@@ -453,7 +1115,23 @@
     "type": "album",
     "landmark": false,
     "note": "Priest's Columbia debut, produced by Roger Glover, with drummer Simon Phillips.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Sin After Sin"
+  },
+  {
+    "id": "kiss-love-gun",
+    "title": "Love Gun",
+    "listTitle": null,
+    "artistId": "kiss",
+    "date": "1977-06-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Platinum-selling album at the peak of their 1970s fame.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Love Gun (album)"
   },
   {
     "id": "motorhead-motorhead",
@@ -465,7 +1143,9 @@
     "type": "album",
     "landmark": false,
     "note": "Motörhead's self-titled debut, a loud, fast mix of punk and metal.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Motörhead (album)"
   },
   {
     "id": "david-bowie-heroes",
@@ -477,7 +1157,9 @@
     "type": "album",
     "landmark": false,
     "note": "Bowie's second Berlin album, with Robert Fripp's guitar and the title track.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Heroes (David Bowie album)"
   },
   {
     "id": "sex-pistols-never-mind-the-bollocks-heres-the-sex-pistols",
@@ -489,7 +1171,9 @@
     "type": "album",
     "landmark": true,
     "note": "The Pistols' only studio album; a defining punk record and a public scandal.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Never Mind the Bollocks, Here's the Sex Pistols"
   },
   {
     "id": "ramones-rocket-to-russia",
@@ -501,7 +1185,9 @@
     "type": "album",
     "landmark": false,
     "note": "The Ramones' third album, including 'Sheena Is a Punk Rocker' and 'Rockaway Beach'.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Rocket to Russia"
   },
   {
     "id": "judas-priest-stained-class",
@@ -513,7 +1199,9 @@
     "type": "album",
     "landmark": false,
     "note": "Priest's heavy, concise 1978 album, later at the centre of a 1990 court case.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Stained Class"
   },
   {
     "id": "van-halen-van-halen",
@@ -525,7 +1213,23 @@
     "type": "album",
     "landmark": true,
     "note": "Eddie Van Halen's guitar on this debut, particularly 'Eruption', changed rock guitar playing.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Van Halen (album)"
+  },
+  {
+    "id": "rainbow-long-live-rock-n-roll",
+    "title": "Long Live Rock 'n' Roll",
+    "listTitle": null,
+    "artistId": "rainbow",
+    "date": "1978-04-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Final Dio-era Rainbow album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Long Live Rock 'n' Roll"
   },
   {
     "id": "ac-dc-powerage",
@@ -537,7 +1241,23 @@
     "type": "album",
     "landmark": false,
     "note": "A tougher, bluesier AC/DC record, highly regarded by fans and by Keith Richards.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Powerage"
+  },
+  {
+    "id": "thin-lizzy-live-and-dangerous",
+    "title": "Live and Dangerous",
+    "listTitle": null,
+    "artistId": "thin-lizzy",
+    "date": "1978-06-01",
+    "datePrecision": "month",
+    "type": "live",
+    "landmark": false,
+    "note": "One of the most acclaimed live albums in hard rock.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Live and Dangerous"
   },
   {
     "id": "the-who-who-are-you",
@@ -549,7 +1269,23 @@
     "type": "album",
     "landmark": false,
     "note": "The final Who album featuring drummer Keith Moon, who died weeks after its release.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Who Are You (album)"
+  },
+  {
+    "id": "black-sabbath-never-say-die",
+    "title": "Never Say Die!",
+    "listTitle": null,
+    "artistId": "black-sabbath",
+    "date": "1978-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Ozzy's last album with the original line-up.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Never Say Die!"
   },
   {
     "id": "ramones-road-to-ruin",
@@ -561,7 +1297,23 @@
     "type": "album",
     "landmark": false,
     "note": "The Ramones' fourth album, with 'I Wanna Be Sedated'.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Road to Ruin (album)"
+  },
+  {
+    "id": "ac-dc-if-you-want-blood-youve-got-it",
+    "title": "If You Want Blood You've Got It",
+    "listTitle": null,
+    "artistId": "ac-dc",
+    "date": "1978-10-01",
+    "datePrecision": "month",
+    "type": "live",
+    "landmark": false,
+    "note": "Live album with Bon Scott.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "If You Want Blood You've Got It"
   },
   {
     "id": "judas-priest-killing-machine-us-hell-bent-for-leather",
@@ -573,7 +1325,37 @@
     "type": "album",
     "landmark": false,
     "note": "Priest streamlined their sound and adopted their leather-and-studs look.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Killing Machine (album)"
+  },
+  {
+    "id": "ufo-strangers-in-the-night",
+    "title": "Strangers in the Night",
+    "listTitle": null,
+    "artistId": "ufo",
+    "date": "1979-01-01",
+    "datePrecision": "month",
+    "type": "live",
+    "landmark": false,
+    "note": "Double live album, acclaimed as one of hard rock's best.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Strangers in the Night (UFO album)"
+  },
+  {
+    "id": "scorpions-lovedrive",
+    "title": "Lovedrive",
+    "listTitle": null,
+    "artistId": "scorpions",
+    "date": "1979-02-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Michael Schenker joined for this international breakthrough.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Lovedrive"
   },
   {
     "id": "van-halen-van-halen-ii",
@@ -585,7 +1367,9 @@
     "type": "album",
     "landmark": false,
     "note": "Van Halen's second album, including 'Dance the Night Away'.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Van Halen II"
   },
   {
     "id": "motorhead-overkill",
@@ -597,7 +1381,23 @@
     "type": "album",
     "landmark": true,
     "note": "Motörhead's second album; its double-bass-drum title track is often cited as an ancestor of speed and thrash metal.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Overkill (Motörhead album)"
+  },
+  {
+    "id": "thin-lizzy-black-rose-a-rock-legend",
+    "title": "Black Rose: A Rock Legend",
+    "listTitle": null,
+    "artistId": "thin-lizzy",
+    "date": "1979-04-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Twin-guitar hard rock with Gary Moore, including the Celtic-flavoured title track.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Black Rose: A Rock Legend"
   },
   {
     "id": "david-bowie-lodger",
@@ -609,7 +1409,9 @@
     "type": "album",
     "landmark": false,
     "note": "The third and last of Bowie's Berlin albums.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Lodger (album)"
   },
   {
     "id": "saxon-saxon",
@@ -621,7 +1423,23 @@
     "type": "album",
     "landmark": false,
     "note": "Saxon's self-titled debut introduced their blue-collar metal.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Saxon (album)"
+  },
+  {
+    "id": "rainbow-down-to-earth",
+    "title": "Down to Earth",
+    "listTitle": null,
+    "artistId": "rainbow",
+    "date": "1979-07-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "More commercial Rainbow album with Graham Bonnet and 'Since You Been Gone'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Down to Earth (Rainbow album)"
   },
   {
     "id": "ac-dc-highway-to-hell",
@@ -633,7 +1451,9 @@
     "type": "album",
     "landmark": false,
     "note": "Last album with Bon Scott, and AC/DC's international breakthrough.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Highway to Hell"
   },
   {
     "id": "led-zeppelin-in-through-the-out-door",
@@ -645,7 +1465,23 @@
     "type": "album",
     "landmark": false,
     "note": "Zeppelin's last studio album before Bonham's death.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "In Through the Out Door"
+  },
+  {
+    "id": "judas-priest-unleashed-in-the-east",
+    "title": "Unleashed in the East",
+    "listTitle": null,
+    "artistId": "judas-priest",
+    "date": "1979-09-01",
+    "datePrecision": "month",
+    "type": "live",
+    "landmark": false,
+    "note": "Live album recorded in Japan.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Unleashed in the East"
   },
   {
     "id": "motorhead-bomber",
@@ -657,7 +1493,9 @@
     "type": "album",
     "landmark": false,
     "note": "Motörhead's third album, including the title track and a stage lighting rig in the shape of a bomber.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Bomber (album)"
   },
   {
     "id": "iron-maiden-the-soundhouse-tapes",
@@ -669,7 +1507,9 @@
     "type": "ep",
     "landmark": false,
     "note": "Maiden's self-released first EP, helped by Neal Kay's Soundhouse sound system.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "The Soundhouse Tapes"
   },
   {
     "id": "motorhead-on-parole",
@@ -681,7 +1521,9 @@
     "type": "album",
     "landmark": false,
     "note": "Motörhead's first album recorded in 1975, shelved by the label and released in 1979.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "On Parole (album)"
   },
   {
     "id": "misfits-beware",
@@ -693,7 +1535,37 @@
     "type": "ep",
     "landmark": false,
     "note": "An early Misfits EP released on the band's own label.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Beware (EP)"
+  },
+  {
+    "id": "diamond-head-lightning-to-the-nations",
+    "title": "Lightning to the Nations",
+    "listTitle": null,
+    "artistId": "diamond-head",
+    "date": "1980-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": true,
+    "note": "The self-released 'White Album' includes 'Am I Evil?' and 'The Prince'; its riffs became a blueprint for Metallica.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Lightning to the Nations"
+  },
+  {
+    "id": "girlschool-demolition",
+    "title": "Demolition",
+    "listTitle": null,
+    "artistId": "girlschool",
+    "date": "1980-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Debut by the all-female NWOBHM band.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Demolition (Girlschool album)"
   },
   {
     "id": "ramones-end-of-the-century",
@@ -705,7 +1577,37 @@
     "type": "album",
     "landmark": false,
     "note": "Ramones album produced by Phil Spector, with 'Baby, I Love You'.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "End of the Century (album)"
+  },
+  {
+    "id": "scorpions-animal-magnetism",
+    "title": "Animal Magnetism",
+    "listTitle": null,
+    "artistId": "scorpions",
+    "date": "1980-03-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Heavy, sleazy album including 'The Zoo'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Animal Magnetism (album)"
+  },
+  {
+    "id": "def-leppard-on-through-the-night",
+    "title": "On Through the Night",
+    "listTitle": null,
+    "artistId": "def-leppard",
+    "date": "1980-03-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "NWOBHM-era debut by the Sheffield band.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "On Through the Night"
   },
   {
     "id": "van-halen-women-and-children-first",
@@ -717,7 +1619,9 @@
     "type": "album",
     "landmark": false,
     "note": "Van Halen's third album, a heavier follow-up.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Women and Children First"
   },
   {
     "id": "saxon-wheels-of-steel",
@@ -729,7 +1633,9 @@
     "type": "album",
     "landmark": false,
     "note": "Saxon's second album, and an NWOBHM landmark with the title anthem.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Wheels of Steel"
   },
   {
     "id": "judas-priest-british-steel",
@@ -741,7 +1647,9 @@
     "type": "album",
     "landmark": true,
     "note": "Priest's stripped-down commercial breakthrough, with 'Breaking the Law' and 'Living After Midnight'.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "British Steel (album)"
   },
   {
     "id": "iron-maiden-iron-maiden",
@@ -753,7 +1661,9 @@
     "type": "album",
     "landmark": true,
     "note": "Maiden's debut, with Paul Di'Anno, brought punk-edge to the NWOBHM.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Iron Maiden (album)"
   },
   {
     "id": "black-sabbath-heaven-and-hell",
@@ -765,7 +1675,9 @@
     "type": "album",
     "landmark": true,
     "note": "Sabbath's first album with Ronnie James Dio proved the band could survive Ozzy's exit.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Heaven and Hell (Black Sabbath album)"
   },
   {
     "id": "ac-dc-back-in-black",
@@ -777,7 +1689,23 @@
     "type": "album",
     "landmark": true,
     "note": "AC/DC's tribute to Bon Scott and Brian Johnson's debut; one of the best-selling albums ever.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Back in Black"
+  },
+  {
+    "id": "dead-kennedys-fresh-fruit-for-rotting-vegetables",
+    "title": "Fresh Fruit for Rotting Vegetables",
+    "listTitle": null,
+    "artistId": "dead-kennedys",
+    "date": "1980-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Debut with satirical songs like 'Holiday in Cambodia'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Fresh Fruit for Rotting Vegetables"
   },
   {
     "id": "david-bowie-scary-monsters-and-super-creeps",
@@ -789,7 +1717,9 @@
     "type": "album",
     "landmark": false,
     "note": "Bowie's last classic album of his 70s run, with 'Ashes to Ashes'.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Scary Monsters (and Super Creeps)"
   },
   {
     "id": "ozzy-osbourne-blizzard-of-ozz",
@@ -801,7 +1731,23 @@
     "type": "album",
     "landmark": true,
     "note": "Ozzy's solo debut, with Randy Rhoads' guitar and 'Crazy Train' and 'Mr. Crowley'.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Blizzard of Ozz"
+  },
+  {
+    "id": "tygers-of-pan-tang-wild-cat",
+    "title": "Wild Cat",
+    "listTitle": null,
+    "artistId": "tygers-of-pan-tang",
+    "date": "1980-11-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Debut album of the Whitley Bay band.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Wild Cat (album)"
   },
   {
     "id": "motorhead-ace-of-spades",
@@ -813,7 +1759,9 @@
     "type": "album",
     "landmark": true,
     "note": "Motörhead's best-known album, whose title track is a speed-metal anthem.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Ace of Spades (album)"
   },
   {
     "id": "saxon-strong-arm-of-the-law",
@@ -825,7 +1773,93 @@
     "type": "album",
     "landmark": false,
     "note": "Saxon's third album and their consolidation of the NWOBHM sound.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Strong Arm of the Law"
+  },
+  {
+    "id": "angel-witch-angel-witch",
+    "title": "Angel Witch",
+    "listTitle": null,
+    "artistId": "angel-witch",
+    "date": "1980-12-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "NWOBHM landmark; the title track has a riff that Metallica and others admired.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Angel Witch (album)"
+  },
+  {
+    "id": "raven-rock-until-you-drop",
+    "title": "Rock Until You Drop",
+    "listTitle": null,
+    "artistId": "raven",
+    "date": "1981-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Debut of the high-speed 'athletic rock' trio.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Rock Until You Drop"
+  },
+  {
+    "id": "girlschool-hit-and-run",
+    "title": "Hit and Run",
+    "listTitle": null,
+    "artistId": "girlschool",
+    "date": "1981-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Girlschool's second album, with 'Hit and Run'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Hit and Run (Girlschool album)"
+  },
+  {
+    "id": "anvil-hard-n-heavy",
+    "title": "Hard 'n' Heavy",
+    "listTitle": null,
+    "artistId": "anvil",
+    "date": "1981-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Debut album by the Canadian band.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Hard 'n' Heavy (Anvil album)"
+  },
+  {
+    "id": "gbh-leather-bristles-studs-and-acne",
+    "title": "Leather, Bristles, Studs and Acne",
+    "listTitle": null,
+    "artistId": "gbh",
+    "date": "1981-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Debut of the Birmingham hardcore band.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Leather, Bristles, Studs and Acne"
+  },
+  {
+    "id": "rush-moving-pictures",
+    "title": "Moving Pictures",
+    "listTitle": null,
+    "artistId": "rush",
+    "date": "1981-02-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Rush's best-selling album, with 'Tom Sawyer' and 'YYZ'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Moving Pictures (album)"
   },
   {
     "id": "iron-maiden-killers",
@@ -837,7 +1871,9 @@
     "type": "album",
     "landmark": false,
     "note": "Maiden's second album, the last with Paul Di'Anno.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Killers (Iron Maiden album)"
   },
   {
     "id": "judas-priest-point-of-entry",
@@ -849,7 +1885,51 @@
     "type": "album",
     "landmark": false,
     "note": "Priest's more commercial 1981 album.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Point of Entry"
+  },
+  {
+    "id": "tygers-of-pan-tang-spellbound",
+    "title": "Spellbound",
+    "listTitle": null,
+    "artistId": "tygers-of-pan-tang",
+    "date": "1981-03-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Second album with John Sykes on guitar.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Spellbound (Tygers of Pan Tang album)"
+  },
+  {
+    "id": "discharge-why",
+    "title": "Why?",
+    "listTitle": null,
+    "artistId": "discharge",
+    "date": "1981-03-01",
+    "datePrecision": "month",
+    "type": "ep",
+    "landmark": false,
+    "note": "Discharge's fast EP that developed the 'd-beat' style.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Why? (EP)"
+  },
+  {
+    "id": "the-exploited-punks-not-dead",
+    "title": "Punks Not Dead",
+    "listTitle": null,
+    "artistId": "the-exploited",
+    "date": "1981-03-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "The Exploited's debut, with 'Sex and Violence'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Punks Not Dead"
   },
   {
     "id": "van-halen-fair-warning",
@@ -861,7 +1941,37 @@
     "type": "album",
     "landmark": false,
     "note": "Van Halen's darkest and heaviest album.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Fair Warning (album)"
+  },
+  {
+    "id": "motorhead-no-sleep-til-hammersmith",
+    "title": "No Sleep 'til Hammersmith",
+    "listTitle": null,
+    "artistId": "motorhead",
+    "date": "1981-06-01",
+    "datePrecision": "month",
+    "type": "live",
+    "landmark": true,
+    "note": "Live album that went to number one in the UK, and captured their speed and volume.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "No Sleep 'til Hammersmith"
+  },
+  {
+    "id": "def-leppard-high-n-dry",
+    "title": "High 'n' Dry",
+    "listTitle": null,
+    "artistId": "def-leppard",
+    "date": "1981-07-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Mutt Lange-produced album that moved the band toward polish.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "High 'n' Dry"
   },
   {
     "id": "ramones-pleasant-dreams",
@@ -873,7 +1983,9 @@
     "type": "album",
     "landmark": false,
     "note": "A Ramones album that drifted toward pop.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Pleasant Dreams (Ramones album)"
   },
   {
     "id": "saxon-denim-and-leather",
@@ -885,7 +1997,37 @@
     "type": "album",
     "landmark": false,
     "note": "Saxon's fourth album, with the fan-anthem title track.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Denim and Leather"
+  },
+  {
+    "id": "accept-breaker",
+    "title": "Breaker",
+    "listTitle": null,
+    "artistId": "accept",
+    "date": "1981-10-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Accept's first international breakthrough.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Breaker (album)"
+  },
+  {
+    "id": "black-flag-damaged",
+    "title": "Damaged",
+    "listTitle": null,
+    "artistId": "black-flag",
+    "date": "1981-11-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Henry Rollins's first album with Black Flag, a landmark of American hardcore.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Damaged (album)"
   },
   {
     "id": "black-sabbath-mob-rules",
@@ -897,7 +2039,9 @@
     "type": "album",
     "landmark": false,
     "note": "Sabbath's second Dio-fronted album; its title track also appeared in the 1981 animated film Heavy Metal.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Mob Rules (album)"
   },
   {
     "id": "ozzy-osbourne-diary-of-a-madman",
@@ -909,7 +2053,9 @@
     "type": "album",
     "landmark": false,
     "note": "Ozzy's second solo album and Randy Rhoads' last.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Diary of a Madman (album)"
   },
   {
     "id": "motley-crue-too-fast-for-love",
@@ -921,7 +2067,9 @@
     "type": "album",
     "landmark": false,
     "note": "Mötley Crüe's self-released debut, the start of their glam-metal ascent.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Too Fast for Love"
   },
   {
     "id": "ac-dc-for-those-about-to-rock",
@@ -933,7 +2081,9 @@
     "type": "album",
     "landmark": false,
     "note": "AC/DC's follow-up to Back in Black, with its cannon-fire title track.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "For Those About to Rock We Salute You"
   },
   {
     "id": "venom-welcome-to-hell",
@@ -945,7 +2095,9 @@
     "type": "album",
     "landmark": true,
     "note": "Venom's raw, Satanic debut was a blueprint for extreme metal.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Welcome to Hell (album)"
   },
   {
     "id": "the-exploited-troops-of-tomorrow",
@@ -957,7 +2109,107 @@
     "type": "album",
     "landmark": false,
     "note": "The Exploited's second album, a mix of punk and metal.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Troops of Tomorrow"
+  },
+  {
+    "id": "diamond-head-borrowed-time",
+    "title": "Borrowed Time",
+    "listTitle": null,
+    "artistId": "diamond-head",
+    "date": "1982-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Major-label debut with 'To Heaven from Hell'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Borrowed Time (Diamond Head album)"
+  },
+  {
+    "id": "raven-wiped-out",
+    "title": "Wiped Out",
+    "listTitle": null,
+    "artistId": "raven",
+    "date": "1982-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Second Raven album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Wiped Out (Raven album)"
+  },
+  {
+    "id": "tank-filth-hounds-of-hades",
+    "title": "Filth Hounds of Hades",
+    "listTitle": null,
+    "artistId": "tank",
+    "date": "1982-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Debut by Algy Ward's Motörhead-influenced band.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Filth Hounds of Hades"
+  },
+  {
+    "id": "tank-power-of-the-hunter",
+    "title": "Power of the Hunter",
+    "listTitle": null,
+    "artistId": "tank",
+    "date": "1982-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Second Tank album, released the same year as the debut.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Power of the Hunter"
+  },
+  {
+    "id": "gbh-city-baby-attacked-by-rats",
+    "title": "City Baby Attacked by Rats",
+    "listTitle": null,
+    "artistId": "gbh",
+    "date": "1982-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Second album, popular among thrash fans.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "City Baby Attacked by Rats"
+  },
+  {
+    "id": "misfits-evilive",
+    "title": "Evilive",
+    "listTitle": null,
+    "artistId": "misfits",
+    "date": "1982-01-01",
+    "datePrecision": "year",
+    "type": "ep",
+    "landmark": false,
+    "note": "Live EP, showing the band's horror-punk stage act.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Evilive"
+  },
+  {
+    "id": "bad-brains-bad-brains",
+    "title": "Bad Brains",
+    "listTitle": null,
+    "artistId": "bad-brains",
+    "date": "1982-02-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Cassette-only debut of ultra-fast hardcore.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Bad Brains (album)"
   },
   {
     "id": "misfits-walk-among-us",
@@ -969,7 +2221,23 @@
     "type": "album",
     "landmark": false,
     "note": "The Misfits' first full-length album, a fixture of horror-punk.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Walk Among Us"
+  },
+  {
+    "id": "scorpions-blackout",
+    "title": "Blackout",
+    "listTitle": null,
+    "artistId": "scorpions",
+    "date": "1982-03-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "US breakthrough with 'No One Like You'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Blackout (Scorpions album)"
   },
   {
     "id": "iron-maiden-the-number-of-the-beast",
@@ -981,7 +2249,9 @@
     "type": "album",
     "landmark": true,
     "note": "Maiden's first with Bruce Dickinson; its title track and 'Hallowed Be Thy Name' became classics.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "The Number of the Beast (album)"
   },
   {
     "id": "metallica-power-metal",
@@ -993,7 +2263,23 @@
     "type": "demo",
     "landmark": false,
     "note": "A Metallica demo with early songs from 1982.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": null
+  },
+  {
+    "id": "anvil-metal-on-metal",
+    "title": "Metal on Metal",
+    "listTitle": null,
+    "artistId": "anvil",
+    "date": "1982-04-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Fast and heavy; widely cited as an influence on thrash and speed metal.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Metal on Metal (album)"
   },
   {
     "id": "van-halen-diver-down",
@@ -1005,7 +2291,9 @@
     "type": "album",
     "landmark": false,
     "note": "Van Halen's cover-heavy album.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Diver Down"
   },
   {
     "id": "motorhead-iron-fist",
@@ -1017,7 +2305,51 @@
     "type": "album",
     "landmark": false,
     "note": "The last Motörhead album with 'Fast' Eddie Clarke.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Iron Fist (album)"
+  },
+  {
+    "id": "mercyful-fate-mercyful-fate",
+    "title": "Mercyful Fate",
+    "listTitle": null,
+    "artistId": "mercyful-fate",
+    "date": "1982-05-01",
+    "datePrecision": "month",
+    "type": "ep",
+    "landmark": false,
+    "note": "The band's first EP, often called Nuns Have No Fun.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Mercyful Fate (EP)"
+  },
+  {
+    "id": "discharge-hear-nothing-see-nothing-say-nothing",
+    "title": "Hear Nothing See Nothing Say Nothing",
+    "listTitle": null,
+    "artistId": "discharge",
+    "date": "1982-05-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Defined the d-beat and was imitated by punks, crust and thrash bands.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Hear Nothing See Nothing Say Nothing"
+  },
+  {
+    "id": "manowar-battle-hymns",
+    "title": "Battle Hymns",
+    "listTitle": null,
+    "artistId": "manowar",
+    "date": "1982-07-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Debut with narration by Orson Welles.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Battle Hymns"
   },
   {
     "id": "metallica-no-life-til-leather",
@@ -1029,7 +2361,9 @@
     "type": "demo",
     "landmark": false,
     "note": "Metallica's 1982 demo, copied by tape traders around the world.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "No Life 'til Leather"
   },
   {
     "id": "judas-priest-screaming-for-vengeance",
@@ -1041,7 +2375,23 @@
     "type": "album",
     "landmark": false,
     "note": "Priest's American breakthrough, with 'You've Got Another Thing Comin''.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Screaming for Vengeance"
+  },
+  {
+    "id": "accept-restless-and-wild",
+    "title": "Restless and Wild",
+    "listTitle": null,
+    "artistId": "accept",
+    "date": "1982-10-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Includes the speed-metal 'Fast as a Shark', a direct forerunner of thrash.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Restless and Wild"
   },
   {
     "id": "venom-black-metal",
@@ -1053,7 +2403,149 @@
     "type": "album",
     "landmark": true,
     "note": "Venom's second album gave an entire genre its name.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Black Metal (Venom album)"
+  },
+  {
+    "id": "ozzy-osbourne-speak-of-the-devil",
+    "title": "Speak of the Devil",
+    "listTitle": null,
+    "artistId": "ozzy-osbourne",
+    "date": "1982-11-01",
+    "datePrecision": "month",
+    "type": "live",
+    "landmark": false,
+    "note": "Live album of Sabbath songs, recorded after Rhoads's death.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Speak of the Devil"
+  },
+  {
+    "id": "led-zeppelin-coda",
+    "title": "Coda",
+    "listTitle": null,
+    "artistId": "led-zeppelin",
+    "date": "1982-11-01",
+    "datePrecision": "month",
+    "type": "compilation",
+    "landmark": false,
+    "note": "A posthumous compilation of outtakes.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Coda (album)"
+  },
+  {
+    "id": "diamond-head-canterbury",
+    "title": "Canterbury",
+    "listTitle": null,
+    "artistId": "diamond-head",
+    "date": "1983-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Third album, often seen as a missed opportunity.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Canterbury (album)"
+  },
+  {
+    "id": "raven-all-for-one",
+    "title": "All for One",
+    "listTitle": null,
+    "artistId": "raven",
+    "date": "1983-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Raven's third album, supported by the 'Kill 'Em All for One' tour.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "All for One (Raven album)"
+  },
+  {
+    "id": "def-leppard-pyromania",
+    "title": "Pyromania",
+    "listTitle": null,
+    "artistId": "def-leppard",
+    "date": "1983-01-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Breakthrough album with 'Photograph'; influential on 1980s metal sounds.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Pyromania (album)"
+  },
+  {
+    "id": "the-exploited-lets-start-a-war",
+    "title": "Let's Start a War",
+    "listTitle": null,
+    "artistId": "the-exploited",
+    "date": "1983-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A more metallic follow-up.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Let's Start a War... Said Maggie One Day"
+  },
+  {
+    "id": "minor-threat-out-of-step",
+    "title": "Out of Step",
+    "listTitle": null,
+    "artistId": "minor-threat",
+    "date": "1983-01-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Their only full-length album, after the EPs.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Out of Step"
+  },
+  {
+    "id": "hellhammer-satanic-rites",
+    "title": "Satanic Rites",
+    "listTitle": null,
+    "artistId": "hellhammer",
+    "date": "1983-01-01",
+    "datePrecision": "year",
+    "type": "demo",
+    "landmark": false,
+    "note": "Hellhammer's early demo, spread by tape trading.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Satanic Rites"
+  },
+  {
+    "id": "pantera-metal-magic",
+    "title": "Metal Magic",
+    "listTitle": null,
+    "artistId": "pantera",
+    "date": "1983-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Pantera's glam-metal debut.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Metal Magic"
+  },
+  {
+    "id": "suicidal-tendencies-suicidal-tendencies",
+    "title": "Suicidal Tendencies",
+    "listTitle": null,
+    "artistId": "suicidal-tendencies",
+    "date": "1983-02-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Venice hardcore debut with 'Institutionalized'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Suicidal Tendencies (album)"
   },
   {
     "id": "ramones-subterranean-jungle",
@@ -1065,7 +2557,9 @@
     "type": "album",
     "landmark": false,
     "note": "Ramones' eighth studio album.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Subterranean Jungle"
   },
   {
     "id": "saxon-power-and-the-glory",
@@ -1077,7 +2571,23 @@
     "type": "album",
     "landmark": false,
     "note": "Saxon's classic NWOBHM album.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Power & the Glory (album)"
+  },
+  {
+    "id": "manowar-into-glory-ride",
+    "title": "Into Glory Ride",
+    "listTitle": null,
+    "artistId": "manowar",
+    "date": "1983-04-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Epic metal with heavy bass.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Into Glory Ride"
   },
   {
     "id": "david-bowie-lets-dance",
@@ -1089,7 +2599,23 @@
     "type": "album",
     "landmark": false,
     "note": "Bowie's commercial peak, produced by Nile Rodgers.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Let's Dance (David Bowie album)"
+  },
+  {
+    "id": "dio-holy-diver",
+    "title": "Holy Diver",
+    "listTitle": null,
+    "artistId": "dio",
+    "date": "1983-05-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Dio's debut defined fantasy-driven heavy metal after he left Sabbath.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Holy Diver"
   },
   {
     "id": "iron-maiden-piece-of-mind",
@@ -1101,7 +2627,9 @@
     "type": "album",
     "landmark": false,
     "note": "Maiden's first album with Nicko McBrain.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Piece of Mind"
   },
   {
     "id": "motorhead-another-perfect-day",
@@ -1113,7 +2641,9 @@
     "type": "album",
     "landmark": false,
     "note": "Motörhead's only album with Brian Robertson on guitar.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Another Perfect Day (album)"
   },
   {
     "id": "metallica-kill-em-all",
@@ -1125,7 +2655,23 @@
     "type": "album",
     "landmark": true,
     "note": "Metallica's debut, with its fast, aggressive riffs, kicked off American thrash metal.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Kill 'Em All"
+  },
+  {
+    "id": "black-sabbath-born-again",
+    "title": "Born Again",
+    "listTitle": null,
+    "artistId": "black-sabbath",
+    "date": "1983-08-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "The album with Ian Gillan as singer.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Born Again (album)"
   },
   {
     "id": "ac-dc-flick-of-the-switch",
@@ -1137,7 +2683,23 @@
     "type": "album",
     "landmark": false,
     "note": "AC/DC's stripped-down 1983 album.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Flick of the Switch"
+  },
+  {
+    "id": "kiss-lick-it-up",
+    "title": "Lick It Up",
+    "listTitle": null,
+    "artistId": "kiss",
+    "date": "1983-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "First album after the band removed their make-up on MTV.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Lick It Up"
   },
   {
     "id": "motley-crue-shout-at-the-devil",
@@ -1149,7 +2711,37 @@
     "type": "album",
     "landmark": false,
     "note": "Mötley Crüe's second album mixed glam and metal imagery.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Shout at the Devil"
+  },
+  {
+    "id": "mercyful-fate-melissa",
+    "title": "Melissa",
+    "listTitle": null,
+    "artistId": "mercyful-fate",
+    "date": "1983-10-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "King Diamond's falsetto and occult lyrics, plus intricate twin-guitar riffs, made this debut a template for black and thrash metal.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Melissa (album)"
+  },
+  {
+    "id": "exciter-heavy-metal-maniac",
+    "title": "Heavy Metal Maniac",
+    "listTitle": null,
+    "artistId": "exciter",
+    "date": "1983-11-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Speed-metal debut with raw energy.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Heavy Metal Maniac"
   },
   {
     "id": "ozzy-osbourne-bark-at-the-moon",
@@ -1161,7 +2753,9 @@
     "type": "album",
     "landmark": false,
     "note": "Ozzy's first with Jake E. Lee.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Bark at the Moon (album)"
   },
   {
     "id": "misfits-earth-a-d-wolfs-blood",
@@ -1173,7 +2767,23 @@
     "type": "album",
     "landmark": false,
     "note": "The Misfits' faster, metal-leaning last Danzig-era album.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Earth A.D./Wolfs Blood"
+  },
+  {
+    "id": "accept-balls-to-the-wall",
+    "title": "Balls to the Wall",
+    "listTitle": null,
+    "artistId": "accept",
+    "date": "1983-12-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Their best-known album, with its stomping title track.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Balls to the Wall"
   },
   {
     "id": "slayer-show-no-mercy",
@@ -1185,7 +2795,121 @@
     "type": "album",
     "landmark": true,
     "note": "Slayer's debut, on Metal Blade, set out their fast, Satanic style.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Show No Mercy"
+  },
+  {
+    "id": "manowar-hail-to-england",
+    "title": "Hail to England",
+    "listTitle": null,
+    "artistId": "manowar",
+    "date": "1984-01-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Manowar's third album in two years.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Hail to England"
+  },
+  {
+    "id": "exciter-violence-and-force",
+    "title": "Violence & Force",
+    "listTitle": null,
+    "artistId": "exciter",
+    "date": "1984-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Second album, with faster tempos.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Violence & Force"
+  },
+  {
+    "id": "agnostic-front-victim-in-pain",
+    "title": "Victim in Pain",
+    "listTitle": null,
+    "artistId": "agnostic-front",
+    "date": "1984-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "New York hardcore debut.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Victim in Pain"
+  },
+  {
+    "id": "hellhammer-apocalyptic-raids",
+    "title": "Apocalyptic Raids",
+    "listTitle": null,
+    "artistId": "hellhammer",
+    "date": "1984-01-01",
+    "datePrecision": "year",
+    "type": "ep",
+    "landmark": false,
+    "note": "Hellhammer's EP, crude and deliberately cruel.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Apocalyptic Raids"
+  },
+  {
+    "id": "judas-priest-defenders-of-the-faith",
+    "title": "Defenders of the Faith",
+    "listTitle": null,
+    "artistId": "judas-priest",
+    "date": "1984-01-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Priest's follow-up to Screaming for Vengeance, with 'Freewheel Burning'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Defenders of the Faith"
+  },
+  {
+    "id": "sodom-in-the-sign-of-evil",
+    "title": "In the Sign of Evil",
+    "listTitle": null,
+    "artistId": "sodom",
+    "date": "1984-01-01",
+    "datePrecision": "year",
+    "type": "ep",
+    "landmark": false,
+    "note": "Sodom's raw, Venom-inspired debut EP.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "In the Sign of Evil"
+  },
+  {
+    "id": "destruction-sentence-of-death",
+    "title": "Sentence of Death",
+    "listTitle": null,
+    "artistId": "destruction",
+    "date": "1984-01-01",
+    "datePrecision": "year",
+    "type": "ep",
+    "landmark": false,
+    "note": "Destruction's first EP, with its speed and chaos.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Sentence of Death"
+  },
+  {
+    "id": "bathory-bathory",
+    "title": "Bathory",
+    "listTitle": null,
+    "artistId": "bathory",
+    "date": "1984-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": true,
+    "note": "Raw, Venom-inspired debut that helped establish black metal's template.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Bathory (album)"
   },
   {
     "id": "van-halen-1984",
@@ -1197,7 +2921,9 @@
     "type": "album",
     "landmark": false,
     "note": "Van Halen's biggest-selling album, with 'Jump'.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "1984 (Van Halen album)"
   },
   {
     "id": "anthrax-fistful-of-metal",
@@ -1209,7 +2935,51 @@
     "type": "album",
     "landmark": false,
     "note": "Anthrax's debut, with Neil Turbin on vocals.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Fistful of Metal"
+  },
+  {
+    "id": "saxon-crusader",
+    "title": "Crusader",
+    "listTitle": null,
+    "artistId": "saxon",
+    "date": "1984-02-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Saxon's attempt at an American-style sound.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Crusader (album)"
+  },
+  {
+    "id": "scorpions-love-at-first-sting",
+    "title": "Love at First Sting",
+    "listTitle": null,
+    "artistId": "scorpions",
+    "date": "1984-03-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Biggest-selling album, with 'Rock You Like a Hurricane'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Love at First Sting"
+  },
+  {
+    "id": "black-flag-my-war",
+    "title": "My War",
+    "listTitle": null,
+    "artistId": "black-flag",
+    "date": "1984-03-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A slower, heavier album that surprised hardcore fans and drew metal listeners.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "My War"
   },
   {
     "id": "venom-at-war-with-satan",
@@ -1221,7 +2991,9 @@
     "type": "album",
     "landmark": false,
     "note": "Venom's progressive, side-long title track experiment.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "At War with Satan"
   },
   {
     "id": "slayer-haunting-the-chapel",
@@ -1233,7 +3005,37 @@
     "type": "ep",
     "landmark": false,
     "note": "Slayer's EP that shows a heavier sound ahead of Hell Awaits.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Haunting the Chapel"
+  },
+  {
+    "id": "dio-the-last-in-line",
+    "title": "The Last in Line",
+    "listTitle": null,
+    "artistId": "dio",
+    "date": "1984-07-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Follow-up with the title track.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "The Last in Line"
+  },
+  {
+    "id": "metal-church-metal-church",
+    "title": "Metal Church",
+    "listTitle": null,
+    "artistId": "metal-church",
+    "date": "1984-07-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Debut album with a heavy, riff-driven sound that anticipated thrash.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Metal Church (album)"
   },
   {
     "id": "metallica-ride-the-lightning",
@@ -1245,7 +3047,37 @@
     "type": "album",
     "landmark": true,
     "note": "Metallica's second album brought more complex songs, acoustic passages and melody to thrash.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Ride the Lightning"
+  },
+  {
+    "id": "voivod-war-and-pain",
+    "title": "War and Pain",
+    "listTitle": null,
+    "artistId": "voivod",
+    "date": "1984-08-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A raw, punk-influenced thrash debut.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "War and Pain"
+  },
+  {
+    "id": "mercyful-fate-dont-break-the-oath",
+    "title": "Don't Break the Oath",
+    "listTitle": null,
+    "artistId": "mercyful-fate",
+    "date": "1984-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Often considered their finest album and a major inspiration for Metallica and Slayer.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Don't Break the Oath"
   },
   {
     "id": "iron-maiden-powerslave",
@@ -1257,7 +3089,9 @@
     "type": "album",
     "landmark": false,
     "note": "Maiden's Egyptian-themed album, with 'Aces High' and 'Rime of the Ancient Mariner'.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Powerslave"
   },
   {
     "id": "death-reign-of-terror",
@@ -1269,7 +3103,9 @@
     "type": "demo",
     "landmark": false,
     "note": "Death's 1984 demo, made as Chuck Schuldiner's band changed its name from Mantas.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": null
   },
   {
     "id": "ramones-too-tough-to-die",
@@ -1281,7 +3117,191 @@
     "type": "album",
     "landmark": false,
     "note": "Ramones' return to a harder, punkier sound.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Too Tough to Die"
+  },
+  {
+    "id": "deep-purple-perfect-strangers",
+    "title": "Perfect Strangers",
+    "listTitle": null,
+    "artistId": "deep-purple",
+    "date": "1984-10-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Reunion album of the classic Mk II line-up.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Perfect Strangers (Deep Purple album)"
+  },
+  {
+    "id": "celtic-frost-morbid-tales",
+    "title": "Morbid Tales",
+    "listTitle": null,
+    "artistId": "celtic-frost",
+    "date": "1984-11-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Celtic Frost's debut mini-LP, heavy, dark and primitive.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Morbid Tales"
+  },
+  {
+    "id": "slayer-live-undead",
+    "title": "Live Undead",
+    "listTitle": null,
+    "artistId": "slayer",
+    "date": "1984-12-01",
+    "datePrecision": "month",
+    "type": "live",
+    "landmark": false,
+    "note": "Live mini-album released by Metal Blade.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Live Undead"
+  },
+  {
+    "id": "raven-stay-hard",
+    "title": "Stay Hard",
+    "listTitle": null,
+    "artistId": "raven",
+    "date": "1985-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Raven's major-label debut.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Stay Hard"
+  },
+  {
+    "id": "dri-dealing-with-it",
+    "title": "Dealing with It!",
+    "listTitle": null,
+    "artistId": "dri",
+    "date": "1985-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Debut of the Texas hardcore band.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Dealing with It!"
+  },
+  {
+    "id": "corrosion-of-conformity-animosity",
+    "title": "Animosity",
+    "listTitle": null,
+    "artistId": "corrosion-of-conformity",
+    "date": "1985-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A fast, heavy hardcore album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Animosity (album)"
+  },
+  {
+    "id": "dark-angel-we-have-arrived",
+    "title": "We Have Arrived",
+    "listTitle": null,
+    "artistId": "dark-angel",
+    "date": "1985-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Debut album of the Los Angeles thrash band.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "We Have Arrived"
+  },
+  {
+    "id": "destruction-infernal-overkill",
+    "title": "Infernal Overkill",
+    "listTitle": null,
+    "artistId": "destruction",
+    "date": "1985-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": true,
+    "note": "Raw, fast debut that stands among the best-known German thrash records.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Infernal Overkill"
+  },
+  {
+    "id": "onslaught-power-from-hell",
+    "title": "Power from Hell",
+    "listTitle": null,
+    "artistId": "onslaught",
+    "date": "1985-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "British thrash debut.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Power from Hell"
+  },
+  {
+    "id": "artillery-fear-of-tomorrow",
+    "title": "Fear of Tomorrow",
+    "listTitle": null,
+    "artistId": "artillery",
+    "date": "1985-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Danish thrash debut.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Fear of Tomorrow"
+  },
+  {
+    "id": "razor-executioners-song",
+    "title": "Executioner's Song",
+    "listTitle": null,
+    "artistId": "razor",
+    "date": "1985-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Raw Canadian speed/thrash debut.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Executioner's Song (album)"
+  },
+  {
+    "id": "razor-evil-invaders",
+    "title": "Evil Invaders",
+    "listTitle": null,
+    "artistId": "razor",
+    "date": "1985-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A fast, raw follow-up.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Evil Invaders"
+  },
+  {
+    "id": "celtic-frost-emperors-return",
+    "title": "Emperor's Return",
+    "listTitle": null,
+    "artistId": "celtic-frost",
+    "date": "1985-01-01",
+    "datePrecision": "year",
+    "type": "ep",
+    "landmark": false,
+    "note": "A dark EP.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Emperor's Return"
   },
   {
     "id": "venom-possessed",
@@ -1293,7 +3313,9 @@
     "type": "album",
     "landmark": false,
     "note": "Venom's fourth album, with the title track later targeted by the PMRC.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Possessed (Venom album)"
   },
   {
     "id": "slayer-hell-awaits",
@@ -1305,7 +3327,9 @@
     "type": "album",
     "landmark": false,
     "note": "Slayer's second album, darker and more complex.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Hell Awaits"
   },
   {
     "id": "exodus-bonded-by-blood",
@@ -1317,7 +3341,9 @@
     "type": "album",
     "landmark": true,
     "note": "Exodus's debut is a landmark of Bay Area thrash.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Bonded by Blood"
   },
   {
     "id": "megadeth-killing-is-my-business-and-business-is-good",
@@ -1329,7 +3355,9 @@
     "type": "album",
     "landmark": false,
     "note": "Megadeth's debut, recorded on a tiny budget, with intricate, aggressive riffing.",
-    "dateNote": "The owner's date is the 1985-06-12 US release; the UK release by Music for Nations was 1985-05-17"
+    "dateNote": "The owner's date is the 1985-06-12 US release; the UK release by Music for Nations was 1985-05-17",
+    "inList": true,
+    "wiki": "Killing Is My Business... and Business Is Good!"
   },
   {
     "id": "motley-crue-theatre-of-pain",
@@ -1341,7 +3369,9 @@
     "type": "album",
     "landmark": false,
     "note": "Mötley Crüe's glam-leaning third album, with 'Home Sweet Home'.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Theatre of Pain"
   },
   {
     "id": "ac-dc-fly-on-the-wall",
@@ -1353,7 +3383,9 @@
     "type": "album",
     "landmark": false,
     "note": "A harder and less successful AC/DC album.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Fly on the Wall (AC/DC album)"
   },
   {
     "id": "sod-crab-society-north",
@@ -1365,7 +3397,23 @@
     "type": "demo",
     "landmark": false,
     "note": "S.O.D.'s early demo that preceded their debut album.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": null
+  },
+  {
+    "id": "dio-sacred-heart",
+    "title": "Sacred Heart",
+    "listTitle": null,
+    "artistId": "dio",
+    "date": "1985-08-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Dio's third album, with a large stage show.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Sacred Heart (album)"
   },
   {
     "id": "sod-speak-english-or-die",
@@ -1377,7 +3425,93 @@
     "type": "album",
     "landmark": false,
     "note": "S.O.D.'s debut mixed thrash, hardcore and crude humour, helping to create crossover.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Speak English or Die"
+  },
+  {
+    "id": "accept-metal-heart",
+    "title": "Metal Heart",
+    "listTitle": null,
+    "artistId": "accept",
+    "date": "1985-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Accept's peak of melodic classic metal.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Metal Heart (album)"
+  },
+  {
+    "id": "iron-maiden-live-after-death",
+    "title": "Live After Death",
+    "listTitle": null,
+    "artistId": "iron-maiden",
+    "date": "1985-10-01",
+    "datePrecision": "month",
+    "type": "live",
+    "landmark": false,
+    "note": "Live album from the World Slavery Tour, considered one of the best live metal albums.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Live After Death"
+  },
+  {
+    "id": "anthrax-armed-and-dangerous",
+    "title": "Armed and Dangerous",
+    "listTitle": null,
+    "artistId": "anthrax",
+    "date": "1985-10-01",
+    "datePrecision": "month",
+    "type": "ep",
+    "landmark": false,
+    "note": "EP with Joey Belladonna and the song 'Armed and Dangerous'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Armed and Dangerous (EP)"
+  },
+  {
+    "id": "sepultura-bestial-devastation",
+    "title": "Bestial Devastation",
+    "listTitle": null,
+    "artistId": "sepultura",
+    "date": "1985-10-01",
+    "datePrecision": "month",
+    "type": "ep",
+    "landmark": false,
+    "note": "A split EP with Overdose, the band's first release.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Bestial Devastation"
+  },
+  {
+    "id": "overkill-feel-the-fire",
+    "title": "Feel the Fire",
+    "listTitle": null,
+    "artistId": "overkill",
+    "date": "1985-10-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "East Coast thrash debut with raw riffs and Bobby Ellsworth's shrieks.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Feel the Fire"
+  },
+  {
+    "id": "celtic-frost-to-mega-therion",
+    "title": "To Mega Therion",
+    "listTitle": null,
+    "artistId": "celtic-frost",
+    "date": "1985-10-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Avant-garde, gothic extreme metal with an H. R. Giger cover that influenced death and black metal.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "To Mega Therion"
   },
   {
     "id": "possessed-seven-churches",
@@ -1389,7 +3523,9 @@
     "type": "album",
     "landmark": true,
     "note": "Possessed's debut is widely cited as a foundational death metal album.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Seven Churches (album)"
   },
   {
     "id": "anthrax-spreading-the-disease",
@@ -1401,7 +3537,205 @@
     "type": "album",
     "landmark": false,
     "note": "Anthrax's first with singer Joey Belladonna.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Spreading the Disease"
+  },
+  {
+    "id": "dead-kennedys-frankenchrist",
+    "title": "Frankenchrist",
+    "listTitle": null,
+    "artistId": "dead-kennedys",
+    "date": "1985-11-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Cover art led to an obscenity trial against Biafra.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Frankenchrist"
+  },
+  {
+    "id": "kreator-endless-pain",
+    "title": "Endless Pain",
+    "listTitle": null,
+    "artistId": "kreator",
+    "date": "1985-11-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Raw German thrash debut, under the Noise label.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Endless Pain"
+  },
+  {
+    "id": "helloween-walls-of-jericho",
+    "title": "Walls of Jericho",
+    "listTitle": null,
+    "artistId": "helloween",
+    "date": "1985-12-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Debut mixing speed metal with melody.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Walls of Jericho (album)"
+  },
+  {
+    "id": "cro-mags-the-age-of-quarrel",
+    "title": "The Age of Quarrel",
+    "listTitle": null,
+    "artistId": "cro-mags",
+    "date": "1986-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": true,
+    "note": "Hardcore with metal riffs, a landmark of the New York scene.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "The Age of Quarrel"
+  },
+  {
+    "id": "agnostic-front-cause-for-alarm",
+    "title": "Cause for Alarm",
+    "listTitle": null,
+    "artistId": "agnostic-front",
+    "date": "1986-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A thrash-influenced crossover.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Cause for Alarm"
+  },
+  {
+    "id": "dark-angel-darkness-descends",
+    "title": "Darkness Descends",
+    "listTitle": null,
+    "artistId": "dark-angel",
+    "date": "1986-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": true,
+    "note": "Gene Hoglan's drumming and relentless speed made it one of thrash's fastest and most extreme albums.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Darkness Descends"
+  },
+  {
+    "id": "kreator-pleasure-to-kill",
+    "title": "Pleasure to Kill",
+    "listTitle": null,
+    "artistId": "kreator",
+    "date": "1986-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": true,
+    "note": "Extremely fast and brutal, it helped lay the ground for death metal.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Pleasure to Kill"
+  },
+  {
+    "id": "sodom-obsessed-by-cruelty",
+    "title": "Obsessed by Cruelty",
+    "listTitle": null,
+    "artistId": "sodom",
+    "date": "1986-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "First album, in the same speed-metal style.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Obsessed by Cruelty"
+  },
+  {
+    "id": "destruction-eternal-devastation",
+    "title": "Eternal Devastation",
+    "listTitle": null,
+    "artistId": "destruction",
+    "date": "1986-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A more complex second album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Eternal Devastation"
+  },
+  {
+    "id": "tankard-zombie-attack",
+    "title": "Zombie Attack",
+    "listTitle": null,
+    "artistId": "tankard",
+    "date": "1986-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "German thrash debut with party-themed lyrics.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Zombie Attack"
+  },
+  {
+    "id": "flotsam-and-jetsam-doomsday-for-the-deceiver",
+    "title": "Doomsday for the Deceiver",
+    "listTitle": null,
+    "artistId": "flotsam-and-jetsam",
+    "date": "1986-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Debut album, the last with Jason Newsted.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Doomsday for the Deceiver"
+  },
+  {
+    "id": "onslaught-the-force",
+    "title": "The Force",
+    "listTitle": null,
+    "artistId": "onslaught",
+    "date": "1986-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Second album with a more polished sound.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "The Force (Onslaught album)"
+  },
+  {
+    "id": "whiplash-power-and-pain",
+    "title": "Power and Pain",
+    "listTitle": null,
+    "artistId": "whiplash",
+    "date": "1986-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "New Jersey thrash debut.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Power and Pain"
+  },
+  {
+    "id": "king-diamond-fatal-portrait",
+    "title": "Fatal Portrait",
+    "listTitle": null,
+    "artistId": "king-diamond",
+    "date": "1986-02-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Debut solo album, introducing horror-story concepts.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Fatal Portrait"
   },
   {
     "id": "ozzy-osbourne-the-ultimate-sin",
@@ -1413,7 +3747,23 @@
     "type": "album",
     "landmark": false,
     "note": "Ozzy's mid-80s album, with the glossy production of Ron Nevison.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "The Ultimate Sin"
+  },
+  {
+    "id": "van-halen-5150",
+    "title": "5150",
+    "listTitle": null,
+    "artistId": "van-halen",
+    "date": "1986-03-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "The first Van Halen album with Sammy Hagar.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "5150 (album)"
   },
   {
     "id": "metallica-master-of-puppets",
@@ -1425,7 +3775,107 @@
     "type": "album",
     "landmark": true,
     "note": "Metallica's third album, the pinnacle of thrash and their last with Cliff Burton.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Master of Puppets"
+  },
+  {
+    "id": "judas-priest-turbo",
+    "title": "Turbo",
+    "listTitle": null,
+    "artistId": "judas-priest",
+    "date": "1986-04-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Synth-guitar experiment that divided fans.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Turbo (album)"
+  },
+  {
+    "id": "ramones-animal-boy",
+    "title": "Animal Boy",
+    "listTitle": null,
+    "artistId": "ramones",
+    "date": "1986-05-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A harder-edged Ramones album, with 'Bonzo Goes to Bitburg'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Animal Boy"
+  },
+  {
+    "id": "ac-dc-who-made-who",
+    "title": "Who Made Who",
+    "listTitle": null,
+    "artistId": "ac-dc",
+    "date": "1986-05-01",
+    "datePrecision": "month",
+    "type": "compilation",
+    "landmark": false,
+    "note": "Soundtrack to Stephen King's Maximum Overdrive.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Who Made Who"
+  },
+  {
+    "id": "metal-church-the-dark",
+    "title": "The Dark",
+    "listTitle": null,
+    "artistId": "metal-church",
+    "date": "1986-06-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Metal Church's second album, more thrash-oriented.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "The Dark (Metal Church album)"
+  },
+  {
+    "id": "motorhead-orgasmatron",
+    "title": "Orgasmatron",
+    "listTitle": null,
+    "artistId": "motorhead",
+    "date": "1986-08-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A heavier, grimmer record, with its title track admired by thrash fans.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Orgasmatron (album)"
+  },
+  {
+    "id": "nuclear-assault-game-over",
+    "title": "Game Over",
+    "listTitle": null,
+    "artistId": "nuclear-assault",
+    "date": "1986-08-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Debut, with the political thrash of Dan Lilker.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Game Over (Nuclear Assault album)"
+  },
+  {
+    "id": "bad-brains-i-against-i",
+    "title": "I Against I",
+    "listTitle": null,
+    "artistId": "bad-brains",
+    "date": "1986-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A mix of hardcore, funk and metal.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "I Against I"
   },
   {
     "id": "megadeth-peace-sells-but-whos-buying",
@@ -1437,7 +3887,9 @@
     "type": "album",
     "landmark": true,
     "note": "Megadeth's second album, with Mustaine's acid riffing and the title-track bassline.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Peace Sells... but Who's Buying?"
   },
   {
     "id": "iron-maiden-somewhere-in-time",
@@ -1449,7 +3901,9 @@
     "type": "album",
     "landmark": false,
     "note": "Maiden's synthesiser-infused album.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Somewhere in Time (Iron Maiden album)"
   },
   {
     "id": "slayer-reign-in-blood",
@@ -1461,7 +3915,9 @@
     "type": "album",
     "landmark": true,
     "note": "Slayer's 29-minute classic, produced by Rick Rubin, defined speed and brutality in metal.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Reign in Blood"
   },
   {
     "id": "possessed-beyond-the-gates",
@@ -1473,7 +3929,9 @@
     "type": "album",
     "landmark": false,
     "note": "Possessed's second album, with a more technical approach.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Beyond the Gates (album)"
   },
   {
     "id": "sepultura-morbid-visions",
@@ -1485,7 +3943,233 @@
     "type": "album",
     "landmark": false,
     "note": "Sepultura's debut, raw death and thrash metal from Brazil.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Morbid Visions"
+  },
+  {
+    "id": "suicidal-tendencies-join-the-army",
+    "title": "Join the Army",
+    "listTitle": null,
+    "artistId": "suicidal-tendencies",
+    "date": "1987-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Their metal turn.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Join the Army"
+  },
+  {
+    "id": "dri-crossover",
+    "title": "Crossover",
+    "listTitle": null,
+    "artistId": "dri",
+    "date": "1987-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": true,
+    "note": "Gave its name to the style combining hardcore speed and thrash riffs.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Crossover (D.R.I. album)"
+  },
+  {
+    "id": "possessed-the-eyes-of-horror",
+    "title": "The Eyes of Horror",
+    "listTitle": null,
+    "artistId": "possessed",
+    "date": "1987-01-01",
+    "datePrecision": "month",
+    "type": "ep",
+    "landmark": false,
+    "note": "The band's final EP before they broke up.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "The Eyes of Horror"
+  },
+  {
+    "id": "kreator-terrible-certainty",
+    "title": "Terrible Certainty",
+    "listTitle": null,
+    "artistId": "kreator",
+    "date": "1987-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Third album, with a tighter, more technical sound.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Terrible Certainty"
+  },
+  {
+    "id": "sodom-persecution-mania",
+    "title": "Persecution Mania",
+    "listTitle": null,
+    "artistId": "sodom",
+    "date": "1987-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": true,
+    "note": "Fast and technical; the first Sodom album to establish the German thrash scene.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Persecution Mania"
+  },
+  {
+    "id": "tankard-chemical-invasion",
+    "title": "Chemical Invasion",
+    "listTitle": null,
+    "artistId": "tankard",
+    "date": "1987-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Tankard's second album, beer-themed thrash.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Chemical Invasion"
+  },
+  {
+    "id": "voivod-killing-technology",
+    "title": "Killing Technology",
+    "listTitle": null,
+    "artistId": "voivod",
+    "date": "1987-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Science-fiction thrash with a more complex style.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Killing Technology"
+  },
+  {
+    "id": "heathen-breaking-the-silence",
+    "title": "Breaking the Silence",
+    "listTitle": null,
+    "artistId": "heathen",
+    "date": "1987-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Bay Area thrash debut.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Breaking the Silence"
+  },
+  {
+    "id": "sacred-reich-ignorance",
+    "title": "Ignorance",
+    "listTitle": null,
+    "artistId": "sacred-reich",
+    "date": "1987-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A thrash debut, with its lyrics about politics.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Ignorance (Sacred Reich album)"
+  },
+  {
+    "id": "coroner-r-i-p",
+    "title": "R.I.P.",
+    "listTitle": null,
+    "artistId": "coroner",
+    "date": "1987-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Swiss technical thrash debut.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "R.I.P. (Coroner album)"
+  },
+  {
+    "id": "whiplash-ticket-to-mayhem",
+    "title": "Ticket to Mayhem",
+    "listTitle": null,
+    "artistId": "whiplash",
+    "date": "1987-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A second album, fast and aggressive.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Ticket to Mayhem"
+  },
+  {
+    "id": "celtic-frost-into-the-pandemonium",
+    "title": "Into the Pandemonium",
+    "listTitle": null,
+    "artistId": "celtic-frost",
+    "date": "1987-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "An experimental album with orchestral and electronic elements.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Into the Pandemonium"
+  },
+  {
+    "id": "bathory-under-the-sign-of-the-black-mark",
+    "title": "Under the Sign of the Black Mark",
+    "listTitle": null,
+    "artistId": "bathory",
+    "date": "1987-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A raw third album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Under the Sign of the Black Mark"
+  },
+  {
+    "id": "sarcofago-i-n-r-i",
+    "title": "I.N.R.I.",
+    "listTitle": null,
+    "artistId": "sarcofago",
+    "date": "1987-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": true,
+    "note": "A Brazilian extreme-metal landmark, often cited as an early black metal album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "I.N.R.I. (album)"
+  },
+  {
+    "id": "mayhem-deathcrush",
+    "title": "Deathcrush",
+    "listTitle": null,
+    "artistId": "mayhem",
+    "date": "1987-01-01",
+    "datePrecision": "year",
+    "type": "ep",
+    "landmark": false,
+    "note": "Mayhem's debut EP, early Norwegian extreme metal.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Deathcrush"
+  },
+  {
+    "id": "anthrax-im-the-man",
+    "title": "I'm the Man",
+    "listTitle": null,
+    "artistId": "anthrax",
+    "date": "1987-03-01",
+    "datePrecision": "month",
+    "type": "ep",
+    "landmark": false,
+    "note": "An EP including the rap-metal 'I'm the Man', anticipating crossover.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "I'm the Man (EP)"
   },
   {
     "id": "anthrax-among-the-living",
@@ -1497,7 +4181,51 @@
     "type": "album",
     "landmark": true,
     "note": "Anthrax's breakthrough, with 'Caught in a Mosh' and 'Indians'.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Among the Living"
+  },
+  {
+    "id": "testament-the-legacy",
+    "title": "The Legacy",
+    "listTitle": null,
+    "artistId": "testament",
+    "date": "1987-04-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Bay Area melodic thrash debut with Chuck Billy and the lead guitar of Alex Skolnick and Eric Peterson.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "The Legacy (Testament album)"
+  },
+  {
+    "id": "helloween-keeper-of-the-seven-keys-part-i",
+    "title": "Keeper of the Seven Keys, Part I",
+    "listTitle": null,
+    "artistId": "helloween",
+    "date": "1987-05-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Defined the genre of power metal with its fast, melodic songs.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Keeper of the Seven Keys: Part I"
+  },
+  {
+    "id": "death-angel-the-ultra-violence",
+    "title": "The Ultra-Violence",
+    "listTitle": null,
+    "artistId": "death-angel",
+    "date": "1987-05-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "A thrash debut recorded by teenagers, with a ten-minute title track that showed the band's ambition.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "The Ultra-Violence (album)"
   },
   {
     "id": "motley-crue-girls-girls-girls",
@@ -1509,7 +4237,9 @@
     "type": "album",
     "landmark": false,
     "note": "Mötley Crüe's fourth album.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Girls, Girls, Girls (Mötley Crüe album)"
   },
   {
     "id": "death-scream-bloody-gore",
@@ -1521,7 +4251,107 @@
     "type": "album",
     "landmark": true,
     "note": "Death's debut is widely called the first true death metal album.",
-    "dateNote": "Official title is 'Scream Bloody Gore'; the list has 'Screaming Bloody Gore'"
+    "dateNote": "Official title is 'Scream Bloody Gore'; the list has 'Screaming Bloody Gore'",
+    "inList": true,
+    "wiki": "Scream Bloody Gore"
+  },
+  {
+    "id": "guns-n-roses-appetite-for-destruction",
+    "title": "Appetite for Destruction",
+    "listTitle": null,
+    "artistId": "guns-n-roses",
+    "date": "1987-07-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "The raw debut sold millions and helped end the glam metal era.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Appetite for Destruction"
+  },
+  {
+    "id": "napalm-death-scum",
+    "title": "Scum",
+    "listTitle": null,
+    "artistId": "napalm-death",
+    "date": "1987-07-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "The founding grindcore record, with ultra-short, ultra-fast songs.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Scum (album)"
+  },
+  {
+    "id": "def-leppard-hysteria",
+    "title": "Hysteria",
+    "listTitle": null,
+    "artistId": "def-leppard",
+    "date": "1987-08-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Seven-hit blockbuster after drummer Rick Allen lost an arm.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Hysteria (Def Leppard album)"
+  },
+  {
+    "id": "metallica-garage-days-re-revisited",
+    "title": "Garage Days Re-Revisited",
+    "listTitle": null,
+    "artistId": "metallica",
+    "date": "1987-08-01",
+    "datePrecision": "month",
+    "type": "ep",
+    "landmark": false,
+    "note": "EP of cover songs including Diamond Head and Misfits, recorded as a warm-up with Newsted.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "The $5.98 E.P.: Garage Days Re-Revisited"
+  },
+  {
+    "id": "venom-calm-before-the-storm",
+    "title": "Calm Before the Storm",
+    "listTitle": null,
+    "artistId": "venom",
+    "date": "1987-08-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A late-80s Venom album, released after Cronos returned.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Calm Before the Storm (Venom album)"
+  },
+  {
+    "id": "overkill-taking-over",
+    "title": "Taking Over",
+    "listTitle": null,
+    "artistId": "overkill",
+    "date": "1987-08-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A heavier follow-up, widely regarded as a thrash classic.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Taking Over (Overkill album)"
+  },
+  {
+    "id": "ramones-halfway-to-sanity",
+    "title": "Halfway to Sanity",
+    "listTitle": null,
+    "artistId": "ramones",
+    "date": "1987-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "The last album with Richie Ramone.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Halfway to Sanity"
   },
   {
     "id": "exodus-pleasures-of-the-flesh",
@@ -1533,7 +4363,9 @@
     "type": "album",
     "landmark": false,
     "note": "Exodus's second album, the first with Steve Souza.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Pleasures of the Flesh"
   },
   {
     "id": "sepultura-schizophrenia",
@@ -1545,7 +4377,191 @@
     "type": "album",
     "landmark": false,
     "note": "Sepultura's second album, where the band's sound began to develop.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Schizophrenia (Sepultura album)"
+  },
+  {
+    "id": "king-diamond-abigail",
+    "title": "Abigail",
+    "listTitle": null,
+    "artistId": "king-diamond",
+    "date": "1987-11-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Concept album about a haunted house, a landmark of theatrical metal.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Abigail (album)"
+  },
+  {
+    "id": "megadeth-so-far-so-good-so-what",
+    "title": "So Far, So Good... So What!",
+    "listTitle": null,
+    "artistId": "megadeth",
+    "date": "1988-01-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "The third Megadeth album, with 'In My Darkest Hour', recorded after Mustaine's drug issues.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "So Far, So Good... So What!"
+  },
+  {
+    "id": "destruction-release-from-agony",
+    "title": "Release from Agony",
+    "listTitle": null,
+    "artistId": "destruction",
+    "date": "1988-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A third album with a more refined style.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Release from Agony"
+  },
+  {
+    "id": "death-angel-frolic-through-the-park",
+    "title": "Frolic Through the Park",
+    "listTitle": null,
+    "artistId": "death-angel",
+    "date": "1988-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Second album, with a funk-tinged approach.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Frolic Through the Park"
+  },
+  {
+    "id": "nuclear-assault-survive",
+    "title": "Survive",
+    "listTitle": null,
+    "artistId": "nuclear-assault",
+    "date": "1988-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Second album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Survive (Nuclear Assault album)"
+  },
+  {
+    "id": "voivod-dimension-hatross",
+    "title": "Dimension Hatross",
+    "listTitle": null,
+    "artistId": "voivod",
+    "date": "1988-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Progressive thrash classic.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Dimension Hatross"
+  },
+  {
+    "id": "flotsam-and-jetsam-no-place-for-disgrace",
+    "title": "No Place for Disgrace",
+    "listTitle": null,
+    "artistId": "flotsam-and-jetsam",
+    "date": "1988-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Second album, more technical.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "No Place for Disgrace"
+  },
+  {
+    "id": "forbidden-forbidden-evil",
+    "title": "Forbidden Evil",
+    "listTitle": null,
+    "artistId": "forbidden",
+    "date": "1988-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Bay Area thrash debut.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Forbidden Evil"
+  },
+  {
+    "id": "vio-lence-eternal-nightmare",
+    "title": "Eternal Nightmare",
+    "listTitle": null,
+    "artistId": "vio-lence",
+    "date": "1988-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A second-wave Bay Area thrash debut.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Eternal Nightmare"
+  },
+  {
+    "id": "coroner-punishment-for-decadence",
+    "title": "Punishment for Decadence",
+    "listTitle": null,
+    "artistId": "coroner",
+    "date": "1988-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A second album, a mix of complexity and speed.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Punishment for Decadence"
+  },
+  {
+    "id": "sabbat-history-of-a-time-to-come",
+    "title": "History of a Time to Come",
+    "listTitle": null,
+    "artistId": "sabbat",
+    "date": "1988-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "British thrash debut with fantasy themes.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "History of a Time to Come"
+  },
+  {
+    "id": "pantera-power-metal",
+    "title": "Power Metal",
+    "listTitle": null,
+    "artistId": "pantera",
+    "date": "1988-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "The first album with Phil Anselmo.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Power Metal (Pantera album)"
+  },
+  {
+    "id": "bolt-thrower-in-battle-there-is-no-law",
+    "title": "In Battle There Is No Law!",
+    "listTitle": null,
+    "artistId": "bolt-thrower",
+    "date": "1988-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Heavy debut combining death metal and grindcore.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "In Battle There Is No Law!"
   },
   {
     "id": "ac-dc-blow-up-your-video",
@@ -1557,7 +4573,9 @@
     "type": "album",
     "landmark": false,
     "note": "AC/DC's late-80s return to form.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Blow Up Your Video"
   },
   {
     "id": "iron-maiden-seventh-son-of-a-seventh-son",
@@ -1569,7 +4587,79 @@
     "type": "album",
     "landmark": false,
     "note": "Maiden's progressive concept album.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Seventh Son of a Seventh Son"
+  },
+  {
+    "id": "judas-priest-ram-it-down",
+    "title": "Ram It Down",
+    "listTitle": null,
+    "artistId": "judas-priest",
+    "date": "1988-05-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A heavier return after Turbo.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Ram It Down"
+  },
+  {
+    "id": "van-halen-ou812",
+    "title": "OU812",
+    "listTitle": null,
+    "artistId": "van-halen",
+    "date": "1988-05-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Hagar-era hit album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "OU812"
+  },
+  {
+    "id": "testament-the-new-order",
+    "title": "The New Order",
+    "listTitle": null,
+    "artistId": "testament",
+    "date": "1988-05-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A tighter second album, featuring 'Disciples of the Watch'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "The New Order (Testament album)"
+  },
+  {
+    "id": "suicidal-tendencies-how-will-i-laugh-tomorrow-when-i-cant-even-smile-today",
+    "title": "How Will I Laugh Tomorrow When I Can't Even Smile Today",
+    "listTitle": null,
+    "artistId": "suicidal-tendencies",
+    "date": "1988-06-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Thrash-flavoured crossover album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "How Will I Laugh Tomorrow When I Can't Even Smile Today"
+  },
+  {
+    "id": "carcass-reek-of-putrefaction",
+    "title": "Reek of Putrefaction",
+    "listTitle": null,
+    "artistId": "carcass",
+    "date": "1988-07-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "A gory grindcore debut that inspired goregrind.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Reek of Putrefaction"
   },
   {
     "id": "slayer-south-of-heaven",
@@ -1581,7 +4671,37 @@
     "type": "album",
     "landmark": false,
     "note": "Slayer's slower, more atmospheric follow-up to Reign in Blood.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "South of Heaven"
+  },
+  {
+    "id": "king-diamond-them",
+    "title": "\"Them\"",
+    "listTitle": null,
+    "artistId": "king-diamond",
+    "date": "1988-08-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Another horror concept album, with Grandma as a character.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Them (King Diamond album)"
+  },
+  {
+    "id": "helloween-keeper-of-the-seven-keys-part-ii",
+    "title": "Keeper of the Seven Keys, Part II",
+    "listTitle": null,
+    "artistId": "helloween",
+    "date": "1988-08-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Sequel and commercial peak for the band.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Keeper of the Seven Keys: Part II"
   },
   {
     "id": "death-leprosy",
@@ -1593,7 +4713,9 @@
     "type": "album",
     "landmark": false,
     "note": "Death's second album, which cemented the Florida death metal sound.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Leprosy (Death album)"
   },
   {
     "id": "metallica-and-justice-for-all",
@@ -1605,7 +4727,23 @@
     "type": "album",
     "landmark": true,
     "note": "Metallica's first album with Jason Newsted, with long, complex songs and a famously dry mix.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "...And Justice for All"
+  },
+  {
+    "id": "overkill-under-the-influence",
+    "title": "Under the Influence",
+    "listTitle": null,
+    "artistId": "overkill",
+    "date": "1988-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A third album with a more mid-paced approach.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Under the Influence (Overkill album)"
   },
   {
     "id": "anthrax-state-of-euphoria",
@@ -1617,7 +4755,219 @@
     "type": "album",
     "landmark": false,
     "note": "Anthrax's 1988 album, including 'Make Me Laugh'.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "State of Euphoria"
+  },
+  {
+    "id": "ozzy-osbourne-no-rest-for-the-wicked",
+    "title": "No Rest for the Wicked",
+    "listTitle": null,
+    "artistId": "ozzy-osbourne",
+    "date": "1988-10-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "The first album with Zakk Wylde.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "No Rest for the Wicked"
+  },
+  {
+    "id": "bathory-blood-fire-death",
+    "title": "Blood Fire Death",
+    "listTitle": null,
+    "artistId": "bathory",
+    "date": "1988-10-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Bathory's turn toward epic Viking themes.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Blood Fire Death"
+  },
+  {
+    "id": "napalm-death-from-enslavement-to-obliteration",
+    "title": "From Enslavement to Obliteration",
+    "listTitle": null,
+    "artistId": "napalm-death",
+    "date": "1988-11-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "More structured grindcore with an evolved line-up.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "From Enslavement to Obliteration"
+  },
+  {
+    "id": "venom-prime-evil",
+    "title": "Prime Evil",
+    "listTitle": null,
+    "artistId": "venom",
+    "date": "1989-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Venom's 1989 album with a more thrash-like approach.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Prime Evil"
+  },
+  {
+    "id": "dark-angel-leave-scars",
+    "title": "Leave Scars",
+    "listTitle": null,
+    "artistId": "dark-angel",
+    "date": "1989-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A longer, more complex album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Leave Scars"
+  },
+  {
+    "id": "kreator-extreme-aggression",
+    "title": "Extreme Aggression",
+    "listTitle": null,
+    "artistId": "kreator",
+    "date": "1989-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A big-selling German thrash record.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Extreme Aggression"
+  },
+  {
+    "id": "sodom-agent-orange",
+    "title": "Agent Orange",
+    "listTitle": null,
+    "artistId": "sodom",
+    "date": "1989-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Their best-known album, with a war theme.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Agent Orange (album)"
+  },
+  {
+    "id": "nuclear-assault-handle-with-care",
+    "title": "Handle with Care",
+    "listTitle": null,
+    "artistId": "nuclear-assault",
+    "date": "1989-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A third album with varied tempos.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Handle with Care (Nuclear Assault album)"
+  },
+  {
+    "id": "voivod-nothingface",
+    "title": "Nothingface",
+    "listTitle": null,
+    "artistId": "voivod",
+    "date": "1989-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": true,
+    "note": "Progressive, experimental thrash with a Pink Floyd cover; widely regarded as Voivod's peak.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Nothingface"
+  },
+  {
+    "id": "coroner-no-more-color",
+    "title": "No More Color",
+    "listTitle": null,
+    "artistId": "coroner",
+    "date": "1989-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": true,
+    "note": "A technical, progressive thrash landmark.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "No More Color"
+  },
+  {
+    "id": "sabbat-dreamweaver",
+    "title": "Dreamweaver",
+    "listTitle": null,
+    "artistId": "sabbat",
+    "date": "1989-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A concept album of witchcraft and thrash.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Dreamweaver (Sabbat album)"
+  },
+  {
+    "id": "sarcofago-rotting",
+    "title": "Rotting",
+    "listTitle": null,
+    "artistId": "sarcofago",
+    "date": "1989-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Second album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Rotting (album)"
+  },
+  {
+    "id": "repulsion-horrified",
+    "title": "Horrified",
+    "listTitle": null,
+    "artistId": "repulsion",
+    "date": "1989-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": true,
+    "note": "An early grindcore and death metal landmark.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Horrified"
+  },
+  {
+    "id": "bolt-thrower-realm-of-chaos",
+    "title": "Realm of Chaos",
+    "listTitle": null,
+    "artistId": "bolt-thrower",
+    "date": "1989-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": true,
+    "note": "A heavy, mid-paced death metal landmark.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Realm of Chaos: Slaves to Darkness"
+  },
+  {
+    "id": "atheist-piece-of-time",
+    "title": "Piece of Time",
+    "listTitle": null,
+    "artistId": "atheist",
+    "date": "1989-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A complex thrash/death debut.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Piece of Time"
   },
   {
     "id": "exodus-fabulous-disaster",
@@ -1629,7 +4979,37 @@
     "type": "album",
     "landmark": false,
     "note": "Exodus's third album, with a more polished sound.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Fabulous Disaster"
+  },
+  {
+    "id": "ramones-brain-drain",
+    "title": "Brain Drain",
+    "listTitle": null,
+    "artistId": "ramones",
+    "date": "1989-03-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A hard-sounding album with 'Pet Sematary'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Brain Drain"
+  },
+  {
+    "id": "black-sabbath-headless-cross",
+    "title": "Headless Cross",
+    "listTitle": null,
+    "artistId": "black-sabbath",
+    "date": "1989-04-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Tony Martin's first-era Sabbath, with Cozy Powell on drums.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Headless Cross"
   },
   {
     "id": "sepultura-beneath-the-remains",
@@ -1641,7 +5021,261 @@
     "type": "album",
     "landmark": true,
     "note": "Sepultura's international breakthrough, on Roadrunner.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Beneath the Remains"
+  },
+  {
+    "id": "morbid-angel-altars-of-madness",
+    "title": "Altars of Madness",
+    "listTitle": null,
+    "artistId": "morbid-angel",
+    "date": "1989-05-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Technically brilliant, dark and fast; a landmark of American death metal.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Altars of Madness"
+  },
+  {
+    "id": "obituary-slowly-we-rot",
+    "title": "Slowly We Rot",
+    "listTitle": null,
+    "artistId": "obituary",
+    "date": "1989-06-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Slow, heavy, groove-based death metal debut.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Slowly We Rot"
+  },
+  {
+    "id": "testament-practice-what-you-preach",
+    "title": "Practice What You Preach",
+    "listTitle": null,
+    "artistId": "testament",
+    "date": "1989-08-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Third album, social commentary with a sharper, heavy sound.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Practice What You Preach"
+  },
+  {
+    "id": "annihilator-alice-in-hell",
+    "title": "Alice in Hell",
+    "listTitle": null,
+    "artistId": "annihilator",
+    "date": "1989-08-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Canadian technical thrash debut.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Alice in Hell (album)"
+  },
+  {
+    "id": "metal-church-blessing-in-disguise",
+    "title": "Blessing in Disguise",
+    "listTitle": null,
+    "artistId": "metal-church",
+    "date": "1989-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Third album, with an acclaimed vocalist, Mike Howe.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Blessing in Disguise (Metal Church album)"
+  },
+  {
+    "id": "motley-crue-dr-feelgood",
+    "title": "Dr. Feelgood",
+    "listTitle": null,
+    "artistId": "motley-crue",
+    "date": "1989-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Number-one album at the peak of Mötley Crüe's fame.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Dr. Feelgood (album)"
+  },
+  {
+    "id": "overkill-the-years-of-decay",
+    "title": "The Years of Decay",
+    "listTitle": null,
+    "artistId": "overkill",
+    "date": "1989-10-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A fast-paced, long-form thrash album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "The Years of Decay"
+  },
+  {
+    "id": "autopsy-severed-survival",
+    "title": "Severed Survival",
+    "listTitle": null,
+    "artistId": "autopsy",
+    "date": "1989-10-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A slow, gory, influential debut.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Severed Survival"
+  },
+  {
+    "id": "terrorizer-world-downfall",
+    "title": "World Downfall",
+    "listTitle": null,
+    "artistId": "terrorizer",
+    "date": "1989-11-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Fast, brutal grindcore with Pete Sandoval's blast beats.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "World Downfall"
+  },
+  {
+    "id": "carcass-symphonies-of-sickness",
+    "title": "Symphonies of Sickness",
+    "listTitle": null,
+    "artistId": "carcass",
+    "date": "1989-11-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "More complex grind-death.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Symphonies of Sickness"
+  },
+  {
+    "id": "kreator-coma-of-souls",
+    "title": "Coma of Souls",
+    "listTitle": null,
+    "artistId": "kreator",
+    "date": "1990-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A mature, melodic album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Coma of Souls"
+  },
+  {
+    "id": "sodom-better-off-dead",
+    "title": "Better Off Dead",
+    "listTitle": null,
+    "artistId": "sodom",
+    "date": "1990-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A heavy, mid-paced album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Better Off Dead (Sodom album)"
+  },
+  {
+    "id": "destruction-cracked-brain",
+    "title": "Cracked Brain",
+    "listTitle": null,
+    "artistId": "destruction",
+    "date": "1990-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A final album of the first era before Schmier's departure.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Cracked Brain"
+  },
+  {
+    "id": "forbidden-twisted-into-form",
+    "title": "Twisted into Form",
+    "listTitle": null,
+    "artistId": "forbidden",
+    "date": "1990-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Second album, with a more technical approach.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Twisted into Form"
+  },
+  {
+    "id": "vio-lence-oppressing-the-masses",
+    "title": "Oppressing the Masses",
+    "listTitle": null,
+    "artistId": "vio-lence",
+    "date": "1990-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Second album with more technical playing.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Oppressing the Masses"
+  },
+  {
+    "id": "sacred-reich-the-american-way",
+    "title": "The American Way",
+    "listTitle": null,
+    "artistId": "sacred-reich",
+    "date": "1990-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A third album with a more mid-paced style.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "The American Way (album)"
+  },
+  {
+    "id": "annihilator-never-neverland",
+    "title": "Never, Neverland",
+    "listTitle": null,
+    "artistId": "annihilator",
+    "date": "1990-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Second album, a classic of technical thrash.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Never, Neverland"
+  },
+  {
+    "id": "artillery-by-inheritance",
+    "title": "By Inheritance",
+    "listTitle": null,
+    "artistId": "artillery",
+    "date": "1990-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A technical, melodic album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "By Inheritance"
   },
   {
     "id": "death-spiritual-healing",
@@ -1653,7 +5287,37 @@
     "type": "album",
     "landmark": false,
     "note": "Death's third album, with more mature lyrics and a more complex sound.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Spiritual Healing"
+  },
+  {
+    "id": "entombed-left-hand-path",
+    "title": "Left Hand Path",
+    "listTitle": null,
+    "artistId": "entombed",
+    "date": "1990-06-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "The defining Swedish death metal album, with its chainsaw guitar tone.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Left Hand Path (album)"
+  },
+  {
+    "id": "deicide-deicide",
+    "title": "Deicide",
+    "listTitle": null,
+    "artistId": "deicide",
+    "date": "1990-06-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Florida death metal debut with blasphemous themes.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Deicide (album)"
   },
   {
     "id": "exodus-impact-is-imminent",
@@ -1665,7 +5329,65 @@
     "type": "album",
     "landmark": false,
     "note": "Exodus's fourth album, with a technical thrash style.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Impact Is Imminent"
+  },
+  {
+    "id": "pantera-cowboys-from-hell",
+    "title": "Cowboys from Hell",
+    "listTitle": null,
+    "artistId": "pantera",
+    "date": "1990-07-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Major-label debut that brought groove-driven, Texan metal, setting the sound that made Pantera a 1990s phenomenon.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Cowboys from Hell"
+  },
+  {
+    "id": "napalm-death-harmony-corruption",
+    "title": "Harmony Corruption",
+    "listTitle": null,
+    "artistId": "napalm-death",
+    "date": "1990-07-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A move to death metal.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Harmony Corruption"
+  },
+  {
+    "id": "bathory-hammerheart",
+    "title": "Hammerheart",
+    "listTitle": null,
+    "artistId": "bathory",
+    "date": "1990-08-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "The first full Viking-metal album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Hammerheart"
+  },
+  {
+    "id": "cannibal-corpse-eaten-back-to-life",
+    "title": "Eaten Back to Life",
+    "listTitle": null,
+    "artistId": "cannibal-corpse",
+    "date": "1990-08-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Brutal death metal debut.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Eaten Back to Life"
   },
   {
     "id": "anthrax-persistence-of-time",
@@ -1677,7 +5399,65 @@
     "type": "album",
     "landmark": false,
     "note": "Anthrax's darker album.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Persistence of Time"
+  },
+  {
+    "id": "judas-priest-painkiller",
+    "title": "Painkiller",
+    "listTitle": null,
+    "artistId": "judas-priest",
+    "date": "1990-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Priest's thrash-influenced album, with Scott Travis's double-bass drumming and Halford's screams.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Painkiller (album)"
+  },
+  {
+    "id": "megadeth-rust-in-peace",
+    "title": "Rust in Peace",
+    "listTitle": null,
+    "artistId": "megadeth",
+    "date": "1990-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Marty Friedman's arrival and fast, precise writing made this Megadeth's technical peak, and a thrash classic.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Rust in Peace"
+  },
+  {
+    "id": "testament-souls-of-black",
+    "title": "Souls of Black",
+    "listTitle": null,
+    "artistId": "testament",
+    "date": "1990-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A darker fourth album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Souls of Black"
+  },
+  {
+    "id": "obituary-cause-of-death",
+    "title": "Cause of Death",
+    "listTitle": null,
+    "artistId": "obituary",
+    "date": "1990-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A heavier, more technical album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Cause of Death (album)"
   },
   {
     "id": "ac-dc-the-razors-edge",
@@ -1689,7 +5469,37 @@
     "type": "album",
     "landmark": false,
     "note": "AC/DC's comeback, with 'Thunderstruck'.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "The Razors Edge"
+  },
+  {
+    "id": "iron-maiden-no-prayer-for-the-dying",
+    "title": "No Prayer for the Dying",
+    "listTitle": null,
+    "artistId": "iron-maiden",
+    "date": "1990-10-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Maiden's first album with Janick Gers.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "No Prayer for the Dying"
+  },
+  {
+    "id": "death-angel-act-iii",
+    "title": "Act III",
+    "listTitle": null,
+    "artistId": "death-angel",
+    "date": "1990-10-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A third album with a more melodic, groovy side.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Act III"
   },
   {
     "id": "slayer-seasons-in-the-abyss",
@@ -1701,7 +5511,149 @@
     "type": "album",
     "landmark": false,
     "note": "Slayer's heavy, mid-tempo late-era classic.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Seasons in the Abyss"
+  },
+  {
+    "id": "corrosion-of-conformity-blind",
+    "title": "Blind",
+    "listTitle": null,
+    "artistId": "corrosion-of-conformity",
+    "date": "1991-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Metal-turn album with Pepper Keenan.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Blind (Corrosion of Conformity album)"
+  },
+  {
+    "id": "motorhead-1916",
+    "title": "1916",
+    "listTitle": null,
+    "artistId": "motorhead",
+    "date": "1991-01-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Acclaimed late-career album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "1916 (album)"
+  },
+  {
+    "id": "exodus-good-friendly-violent-fun",
+    "title": "Good Friendly Violent Fun",
+    "listTitle": null,
+    "artistId": "exodus",
+    "date": "1991-01-01",
+    "datePrecision": "year",
+    "type": "live",
+    "landmark": false,
+    "note": "Live album capturing the Bay Area thrash band's stage energy.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Good Friendly Violent Fun"
+  },
+  {
+    "id": "dark-angel-time-does-not-heal",
+    "title": "Time Does Not Heal",
+    "listTitle": null,
+    "artistId": "dark-angel",
+    "date": "1991-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Dark Angel's last album of its first era.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Time Does Not Heal"
+  },
+  {
+    "id": "heathen-victims-of-deception",
+    "title": "Victims of Deception",
+    "listTitle": null,
+    "artistId": "heathen",
+    "date": "1991-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A second album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Victims of Deception"
+  },
+  {
+    "id": "coroner-mental-vortex",
+    "title": "Mental Vortex",
+    "listTitle": null,
+    "artistId": "coroner",
+    "date": "1991-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A technical fourth album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Mental Vortex"
+  },
+  {
+    "id": "autopsy-mental-funeral",
+    "title": "Mental Funeral",
+    "listTitle": null,
+    "artistId": "autopsy",
+    "date": "1991-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A sophisticated, doom-tinged follow-up.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Mental Funeral"
+  },
+  {
+    "id": "bolt-thrower-war-master",
+    "title": "War Master",
+    "listTitle": null,
+    "artistId": "bolt-thrower",
+    "date": "1991-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A heavier, more refined album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "War Master"
+  },
+  {
+    "id": "atheist-unquestionable-presence",
+    "title": "Unquestionable Presence",
+    "listTitle": null,
+    "artistId": "atheist",
+    "date": "1991-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": true,
+    "note": "Technical death metal landmark with jazz-fusion influence.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Unquestionable Presence"
+  },
+  {
+    "id": "morbid-angel-blessed-are-the-sick",
+    "title": "Blessed Are the Sick",
+    "listTitle": null,
+    "artistId": "morbid-angel",
+    "date": "1991-04-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A varied second album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Blessed Are the Sick"
   },
   {
     "id": "sepultura-arise",
@@ -1713,7 +5665,121 @@
     "type": "album",
     "landmark": false,
     "note": "Sepultura's fourth album, a blend of thrash and death.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Arise (Sepultura album)"
+  },
+  {
+    "id": "van-halen-for-unlawful-carnal-knowledge",
+    "title": "For Unlawful Carnal Knowledge",
+    "listTitle": null,
+    "artistId": "van-halen",
+    "date": "1991-06-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Hard-rock album with a heavier sound.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "For Unlawful Carnal Knowledge"
+  },
+  {
+    "id": "entombed-clandestine",
+    "title": "Clandestine",
+    "listTitle": null,
+    "artistId": "entombed",
+    "date": "1991-07-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "More complex follow-up.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Clandestine (album)"
+  },
+  {
+    "id": "metallica-metallica",
+    "title": "Metallica",
+    "listTitle": null,
+    "artistId": "metallica",
+    "date": "1991-08-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "The 'Black Album' brought Metallica to a mass audience with a stripped-down, heavy style and 'Enter Sandman'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Metallica (album)"
+  },
+  {
+    "id": "ozzy-osbourne-no-more-tears",
+    "title": "No More Tears",
+    "listTitle": null,
+    "artistId": "ozzy-osbourne",
+    "date": "1991-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Hit album with 'Mama, I'm Coming Home'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "No More Tears"
+  },
+  {
+    "id": "overkill-horrorscope",
+    "title": "Horrorscope",
+    "listTitle": null,
+    "artistId": "overkill",
+    "date": "1991-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A heavy early-90s album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Horrorscope"
+  },
+  {
+    "id": "cannibal-corpse-butchered-at-birth",
+    "title": "Butchered at Birth",
+    "listTitle": null,
+    "artistId": "cannibal-corpse",
+    "date": "1991-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A second album, with its banned cover art.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Butchered at Birth"
+  },
+  {
+    "id": "slayer-decade-of-aggression",
+    "title": "Decade of Aggression",
+    "listTitle": null,
+    "artistId": "slayer",
+    "date": "1991-10-01",
+    "datePrecision": "month",
+    "type": "live",
+    "landmark": false,
+    "note": "Double live album capturing the band's 1990-91 tour.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Decade of Aggression"
+  },
+  {
+    "id": "carcass-necroticism-descanting-the-insalubrious",
+    "title": "Necroticism – Descanting the Insalubrious",
+    "listTitle": null,
+    "artistId": "carcass",
+    "date": "1991-10-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Technical, melodic death metal approach.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Necroticism – Descanting the Insalubrious"
   },
   {
     "id": "death-human",
@@ -1725,7 +5791,233 @@
     "type": "album",
     "landmark": false,
     "note": "Death's fourth album, a step toward progressive and technical death metal.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Human (Death album)"
+  },
+  {
+    "id": "exodus-force-of-habit",
+    "title": "Force of Habit",
+    "listTitle": null,
+    "artistId": "exodus",
+    "date": "1992-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A heavier, more varied album in the early 90s.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Force of Habit"
+  },
+  {
+    "id": "kreator-renewal",
+    "title": "Renewal",
+    "listTitle": null,
+    "artistId": "kreator",
+    "date": "1992-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "Experimental, industrial-leaning album that divided fans.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Renewal (album)"
+  },
+  {
+    "id": "sodom-tapping-the-vein",
+    "title": "Tapping the Vein",
+    "listTitle": null,
+    "artistId": "sodom",
+    "date": "1992-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A heavier, American-influenced follow-up.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Tapping the Vein"
+  },
+  {
+    "id": "napalm-death-utopia-banished",
+    "title": "Utopia Banished",
+    "listTitle": null,
+    "artistId": "napalm-death",
+    "date": "1992-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A heavier, more consistent album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Utopia Banished"
+  },
+  {
+    "id": "pantera-vulgar-display-of-power",
+    "title": "Vulgar Display of Power",
+    "listTitle": null,
+    "artistId": "pantera",
+    "date": "1992-02-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "The groove-metal landmark, with 'Walk' and 'Mouth for War'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Vulgar Display of Power"
+  },
+  {
+    "id": "testament-the-ritual",
+    "title": "The Ritual",
+    "listTitle": null,
+    "artistId": "testament",
+    "date": "1992-04-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A melodic fifth album, the band's attempt at wider appeal.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "The Ritual (Testament album)"
+  },
+  {
+    "id": "iron-maiden-fear-of-the-dark",
+    "title": "Fear of the Dark",
+    "listTitle": null,
+    "artistId": "iron-maiden",
+    "date": "1992-05-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Last album with Dickinson before his 1993 exit.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Fear of the Dark (album)"
+  },
+  {
+    "id": "black-sabbath-dehumanizer",
+    "title": "Dehumanizer",
+    "listTitle": null,
+    "artistId": "black-sabbath",
+    "date": "1992-06-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Reunited Sabbath with Dio, with a heavier sound.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Dehumanizer"
+  },
+  {
+    "id": "obituary-the-end-complete",
+    "title": "The End Complete",
+    "listTitle": null,
+    "artistId": "obituary",
+    "date": "1992-06-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A heavy, mid-paced album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "The End Complete"
+  },
+  {
+    "id": "deicide-legion",
+    "title": "Legion",
+    "listTitle": null,
+    "artistId": "deicide",
+    "date": "1992-06-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A technical second album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Legion (Deicide album)"
+  },
+  {
+    "id": "megadeth-countdown-to-extinction",
+    "title": "Countdown to Extinction",
+    "listTitle": null,
+    "artistId": "megadeth",
+    "date": "1992-07-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A big commercial success that moved toward a more melodic style.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Countdown to Extinction"
+  },
+  {
+    "id": "ramones-mondo-bizarro",
+    "title": "Mondo Bizarro",
+    "listTitle": null,
+    "artistId": "ramones",
+    "date": "1992-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "The Ramones' late-career album with C.J. Ramone.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Mondo Bizarro"
+  },
+  {
+    "id": "cannibal-corpse-tomb-of-the-mutilated",
+    "title": "Tomb of the Mutilated",
+    "listTitle": null,
+    "artistId": "cannibal-corpse",
+    "date": "1992-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A controversial album with 'Hammer Smashed Face'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Tomb of the Mutilated"
+  },
+  {
+    "id": "ac-dc-live",
+    "title": "Live",
+    "listTitle": null,
+    "artistId": "ac-dc",
+    "date": "1992-10-01",
+    "datePrecision": "month",
+    "type": "live",
+    "landmark": false,
+    "note": "A live album with 'Thunderstruck' and 'Hells Bells'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Live (AC/DC album)"
+  },
+  {
+    "id": "anthrax-sound-of-white-noise",
+    "title": "Sound of White Noise",
+    "listTitle": null,
+    "artistId": "anthrax",
+    "date": "1993-05-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "First album with John Bush as singer.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Sound of White Noise"
+  },
+  {
+    "id": "morbid-angel-covenant",
+    "title": "Covenant",
+    "listTitle": null,
+    "artistId": "morbid-angel",
+    "date": "1993-06-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Their best-selling album, with a slower, heavier, groove-based sound.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Covenant (Morbid Angel album)"
   },
   {
     "id": "death-individual-thought-patterns",
@@ -1737,7 +6029,163 @@
     "type": "album",
     "landmark": false,
     "note": "Death's fifth album, a technical high point.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Individual Thought Patterns"
+  },
+  {
+    "id": "overkill-i-hear-black",
+    "title": "I Hear Black",
+    "listTitle": null,
+    "artistId": "overkill",
+    "date": "1993-08-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A groove-heavy album, with hints of Sabbath.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "I Hear Black"
+  },
+  {
+    "id": "sepultura-chaos-a-d",
+    "title": "Chaos A.D.",
+    "listTitle": null,
+    "artistId": "sepultura",
+    "date": "1993-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Groove-driven, political thrash that made Sepultura an international headline act.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Chaos A.D."
+  },
+  {
+    "id": "entombed-wolverine-blues",
+    "title": "Wolverine Blues",
+    "listTitle": null,
+    "artistId": "entombed",
+    "date": "1993-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A groove-based turn toward 'death 'n' roll'.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Wolverine Blues"
+  },
+  {
+    "id": "carcass-heartwork",
+    "title": "Heartwork",
+    "listTitle": null,
+    "artistId": "carcass",
+    "date": "1993-10-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Melodic death metal template, a big influence on the Gothenburg scene.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Heartwork"
+  },
+  {
+    "id": "motorhead-bastards",
+    "title": "Bastards",
+    "listTitle": null,
+    "artistId": "motorhead",
+    "date": "1993-11-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A heavy 1990s Motörhead album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Bastards (Motörhead album)"
+  },
+  {
+    "id": "motley-crue-motley-crue",
+    "title": "Mötley Crüe",
+    "listTitle": null,
+    "artistId": "motley-crue",
+    "date": "1994-03-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "The first album with John Corabi on vocals.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Mötley Crüe (album)"
+  },
+  {
+    "id": "pantera-far-beyond-driven",
+    "title": "Far Beyond Driven",
+    "listTitle": null,
+    "artistId": "pantera",
+    "date": "1994-03-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Debuted at number one on the Billboard 200 despite its extreme sound.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Far Beyond Driven"
+  },
+  {
+    "id": "napalm-death-fear-emptiness-despair",
+    "title": "Fear, Emptiness, Despair",
+    "listTitle": null,
+    "artistId": "napalm-death",
+    "date": "1994-03-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A groovy, industrial-tinged album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Fear, Emptiness, Despair"
+  },
+  {
+    "id": "cannibal-corpse-the-bleeding",
+    "title": "The Bleeding",
+    "listTitle": null,
+    "artistId": "cannibal-corpse",
+    "date": "1994-04-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "The last album with Chris Barnes.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "The Bleeding"
+  },
+  {
+    "id": "mayhem-de-mysteriis-dom-sathanas",
+    "title": "De Mysteriis Dom Sathanas",
+    "listTitle": null,
+    "artistId": "mayhem",
+    "date": "1994-05-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": true,
+    "note": "Often named a foundational album of Norwegian black metal.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "De Mysteriis Dom Sathanas"
+  },
+  {
+    "id": "testament-low",
+    "title": "Low",
+    "listTitle": null,
+    "artistId": "testament",
+    "date": "1994-08-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A heavier, Dave Lombardo-assisted album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Low (Testament album)"
   },
   {
     "id": "slayer-divine-intervention",
@@ -1749,6 +6197,190 @@
     "type": "album",
     "landmark": false,
     "note": "Slayer's 1994 album, the first without Dave Lombardo.",
-    "dateNote": null
+    "dateNote": null,
+    "inList": true,
+    "wiki": "Divine Intervention (album)"
+  },
+  {
+    "id": "corrosion-of-conformity-deliverance",
+    "title": "Deliverance",
+    "listTitle": null,
+    "artistId": "corrosion-of-conformity",
+    "date": "1994-10-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Southern metal and sludge album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Deliverance (Corrosion of Conformity album)"
+  },
+  {
+    "id": "megadeth-youthanasia",
+    "title": "Youthanasia",
+    "listTitle": null,
+    "artistId": "megadeth",
+    "date": "1994-11-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A mid-tempo, melodic follow-up.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Youthanasia"
+  },
+  {
+    "id": "van-halen-balance",
+    "title": "Balance",
+    "listTitle": null,
+    "artistId": "van-halen",
+    "date": "1995-01-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Last album with Sammy Hagar.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Balance (Van Halen album)"
+  },
+  {
+    "id": "anthrax-stomp-442",
+    "title": "Stomp 442",
+    "listTitle": null,
+    "artistId": "anthrax",
+    "date": "1995-03-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A 1990s groove-oriented follow-up.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Stomp 442"
+  },
+  {
+    "id": "death-symbolic",
+    "title": "Symbolic",
+    "listTitle": null,
+    "artistId": "death",
+    "date": "1995-03-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Schuldiner's complex, melodic late album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Symbolic"
+  },
+  {
+    "id": "ramones-adios-amigos",
+    "title": "¡Adios Amigos!",
+    "listTitle": null,
+    "artistId": "ramones",
+    "date": "1995-07-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "The band's final studio album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "¡Adios Amigos!"
+  },
+  {
+    "id": "ac-dc-ballbreaker",
+    "title": "Ballbreaker",
+    "listTitle": null,
+    "artistId": "ac-dc",
+    "date": "1995-09-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Rick Rubin-produced album with Phil Rudd returning.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Ballbreaker"
+  },
+  {
+    "id": "iron-maiden-the-x-factor",
+    "title": "The X Factor",
+    "listTitle": null,
+    "artistId": "iron-maiden",
+    "date": "1995-10-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "First album with Blaze Bayley as singer.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "The X Factor"
+  },
+  {
+    "id": "the-exploited-beat-the-bastards",
+    "title": "Beat the Bastards",
+    "listTitle": null,
+    "artistId": "the-exploited",
+    "date": "1996-01-01",
+    "datePrecision": "year",
+    "type": "album",
+    "landmark": false,
+    "note": "A late-career album of fast hardcore.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Beat the Bastards"
+  },
+  {
+    "id": "sepultura-roots",
+    "title": "Roots",
+    "listTitle": null,
+    "artistId": "sepultura",
+    "date": "1996-02-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Tribal percussion and down-tuned groove marked Sepultura's most experimental album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Roots (Sepultura album)"
+  },
+  {
+    "id": "slayer-undisputed-attitude",
+    "title": "Undisputed Attitude",
+    "listTitle": null,
+    "artistId": "slayer",
+    "date": "1996-05-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A covers album of punk songs, including Minor Threat and Verbal Abuse.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Undisputed Attitude"
+  },
+  {
+    "id": "pantera-the-great-southern-trendkill",
+    "title": "The Great Southern Trendkill",
+    "listTitle": null,
+    "artistId": "pantera",
+    "date": "1996-05-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "A darker, more extreme album.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "The Great Southern Trendkill"
+  },
+  {
+    "id": "metallica-load",
+    "title": "Load",
+    "listTitle": null,
+    "artistId": "metallica",
+    "date": "1996-06-01",
+    "datePrecision": "month",
+    "type": "album",
+    "landmark": false,
+    "note": "Metallica's divisive return, with shorter hair and a bluesier style.",
+    "dateNote": null,
+    "inList": false,
+    "wiki": "Load (album)"
   }
 ]

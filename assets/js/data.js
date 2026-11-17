@@ -1,6 +1,7 @@
 // Loads and normalises the three JSON files into one in-memory model.
 import { toTime, periodStart, periodEnd, parseParts } from './dates.js';
 import { genreMeta, GENRES } from './meta.js';
+import { cleanImage } from './images.js';
 
 const str = (v, d = '') => (v == null ? d : String(v));
 
@@ -17,13 +18,15 @@ async function getJSON(base, name) {
 
 export async function loadData(base) {
   const b = base.endsWith('/') ? base : base + '/';
+  // images.json is optional: any failure just means "no images".
+  const imgP = fetch(b + 'images.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
   const [a, r, e] = await Promise.all([getJSON(b, 'artists.json'), getJSON(b, 'releases.json'), getJSON(b, 'events.json')]);
-  return buildModel(a, r, e, b);
+  return buildModel(a, r, e, b, await imgP);
 }
 
 const asArray = (x) => (Array.isArray(x) ? x : []);
 
-export function buildModel(rawArtists, rawReleases, rawEvents, base = '') {
+export function buildModel(rawArtists, rawReleases, rawEvents, base = '', rawImages = null) {
   const warnings = [];
   const artists = [];
   const artistById = new Map();
@@ -35,7 +38,7 @@ export function buildModel(rawArtists, rawReleases, rawEvents, base = '') {
       id, name: str(a.name, id), origin: str(a.origin), country: str(a.country),
       formed: str(a.formed), ended: a.ended ? str(a.ended) : null,
       genre: str(a.genre, 'other').toLowerCase(), blurb: str(a.blurb),
-      inList: a.inList !== false, releases: [], events: [],
+      inList: a.inList !== false, wiki: a.wiki ? str(a.wiki) : null, img: null, releases: [], events: [],
     };
     art.genreMeta = genreMeta(art.genre);
     art.formedT = art.formed ? periodStart(art.formed) : NaN;
@@ -60,6 +63,7 @@ export function buildModel(rawArtists, rawReleases, rawEvents, base = '') {
       artist, artists: artist ? [artist] : [], genre: artist ? artist.genre : 'other',
       type: str(r.type, 'album').toLowerCase(), landmark: r.landmark === true,
       note: r.note ? str(r.note) : null, dateNote: r.dateNote ? str(r.dateNote) : null,
+      inList: r.inList !== false, wiki: r.wiki ? str(r.wiki) : null, img: null,
     };
     if (byKey.has(it.key)) continue;
     if (artist) artist.releases.push(it);
@@ -91,8 +95,17 @@ export function buildModel(rawArtists, rawReleases, rawEvents, base = '') {
   items.forEach((it, i) => { it.seq = i; });
   for (const a of artists) { a.releases.sort(cmp); a.events.sort(cmp); }
 
-  // Lanes: artists flagged inList, or that have releases (so nothing with data is lost).
-  const laneArtists = artists.filter((a) => a.inList || a.releases.length);
+  // Lanes: every artist that has at least one release.
+  const laneArtists = artists.filter((a) => a.releases.length);
+
+  // Images (optional, sanitised: https + wikimedia/wikipedia hosts only).
+  const images = { artists: [], hasAny: false, generated: rawImages && rawImages.generated ? str(rawImages.generated) : null };
+  if (rawImages && typeof rawImages === 'object') {
+    for (const a of artists) { const im = cleanImage(rawImages.artists && rawImages.artists[a.id], true); if (im) { a.img = im; images.artists.push(a); } }
+    for (const r of releases) { r.img = cleanImage(rawImages.releases && rawImages.releases[r.id], false); }
+    images.hasAny = images.artists.length > 0 || releases.some((r) => r.img);
+  }
+  const hasContext = releases.some((r) => r.inList === false);
 
   // Genres present in the data (known ones keep their order; unknown ones are appended).
   const genreIds = [];
@@ -108,5 +121,5 @@ export function buildModel(rawArtists, rawReleases, rawEvents, base = '') {
     hi = Math.max(hi, Date.UTC(new Date(items[items.length - 1].t).getUTCFullYear() + 1, 0, 1));
   }
 
-  return { base, artists, artistById, releases, events, items, byKey, laneArtists, genreIds, domain: [lo, hi], warnings };
+  return { base, images, hasContext, artists, artistById, releases, events, items, byKey, laneArtists, genreIds, domain: [lo, hi], warnings };
 }

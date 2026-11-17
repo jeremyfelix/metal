@@ -8,6 +8,8 @@ export const defaults = () => ({
   hc: new Set(), // hidden event categories
   lm: false,     // landmarks only
   tf: false,     // thrash focus
+  ol: false,     // owner's list only (hide releases added for context)
+  cg: new Set(), // collapsed genre groups
   q: '',         // search text
   sel: null,     // 'r:ID' | 'e:ID' | 'a:ID'
   x: null,       // [t0, t1] visible time range as decimal years
@@ -23,6 +25,8 @@ export function parseHash(hash) {
   list(p.get('hc')).forEach((c) => s.hc.add(c));
   s.lm = p.get('lm') === '1';
   s.tf = p.get('tf') === '1';
+  s.ol = p.get('ol') === '1';
+  list(p.get('cg')).forEach((g) => s.cg.add(g));
   s.q = (p.get('q') || '').slice(0, 120);
   const sel = p.get('sel');
   if (sel && /^[rea]:/.test(sel)) s.sel = sel;
@@ -39,6 +43,8 @@ export function serializeHash(s) {
   if (s.hc.size) add('hc', [...s.hc].sort().join(','));
   if (s.lm) add('lm', '1');
   if (s.tf) add('tf', '1');
+  if (s.ol) add('ol', '1');
+  if (s.cg.size) add('cg', [...s.cg].sort().join(','));
   if (s.q) add('q', s.q);
   if (s.sel) add('sel', s.sel);
   if (s.x && s.view === 'timeline') add('x', s.x[0].toFixed(2) + '-' + s.x[1].toFixed(2));

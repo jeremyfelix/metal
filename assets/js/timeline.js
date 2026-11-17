@@ -5,6 +5,7 @@
 // `transform`s / a few attributes of existing nodes (see render()). The artist-name gutter lives
 // outside the time-dependent coordinates, so it is "sticky" while panning.
 import { DAY, YEAR, MONTH_NAMES, toDecimalYear, fromDecimalYear, formatDate } from './dates.js';
+import { makeImg } from './images.js';
 import { genreClass, genreMeta, catClass, catMeta, typeMeta, releasePath, eventPath, ERAS } from './meta.js';
 
 const NS = 'http://www.w3.org/2000/svg';
@@ -16,11 +17,17 @@ const el = (tag, attrs, parent) => {
 };
 
 // Geometry
-const ERA_H = 20, AXIS_TOP = 22, AXIS_BOT = 46, HEAD_H = 152;
-// Events track: one band per importance level; crowded bands spill into extra sub-rows (see render()).
-const EV_ROW_Y = { 3: [68], 2: [91, 108], 1: [127, 142] };
+const ERA_H = 20, AXIS_TOP = 22, AXIS_BOT = 46;
+// Events track: one band per importance level. Crowded bands spill into extra sub-rows; once those are
+// full, lower-importance events are hidden until you zoom in (see packEvents()). Capped, never unbounded.
+const EV_LAYOUT = {
+  wide: { head: 176, rows: { 3: [68], 2: [91, 107, 123], 1: [145, 160] } },
+  narrow: { head: 150, rows: { 3: [68], 2: [91, 107], 1: [128] } },
+};
+let HEAD_H = EV_LAYOUT.wide.head;
+let EV_ROW_Y = EV_LAYOUT.wide.rows;
 const EV_R = { 3: 8, 2: 6, 1: 4.4 };
-const GROUP_H = 30, LANE_H = 42, TOP_PAD = 4, BOTTOM_PAD = 20;
+const GROUP_H = 30, SUM_H = 30, LANE_H = 36, TOP_PAD = 4, BOTTOM_PAD = 20;
 const MIN_SPAN = 100 * DAY;
 
 let measureCtx = null;
@@ -45,7 +52,7 @@ function fitLines(text, maxW, font) {
   return l2 ? [trunc(l1), trunc(l2)] : [trunc(l1)];
 }
 
-export function createTimeline({ root, model, getState, filter, tooltip, reducedMotion, onSelect, onArtist, onViewChange }) {
+export function createTimeline({ root, model, getState, filter, tooltip, reducedMotion, onSelect, onArtist, onToggleGroup, onViewChange }) {
   // ---------- DOM skeleton ----------
   root.replaceChildren();
   const head = document.createElement('div'); head.className = 'tl-head';
@@ -94,7 +101,7 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
   const headGutterEdge = el('line', { class: 'gutter-edge', y1: 0, y2: HEAD_H }, headGutter);
   const capTitle = el('text', { class: 'cap-title', x: 12, y: 14 }, headGutter); capTitle.textContent = 'Era';
   const capAx = el('text', { class: 'cap-title', x: 12, y: 40 }, headGutter); capAx.textContent = 'Year';
-  [['Key events', 3], ['Notable', 2], ['Minor', 1]].forEach(([t, i]) => { const c = el('text', { class: 'cap-row', y: EV_ROW_Y[i][0] + 4 }, headGutter); c.textContent = t; c.dataset.imp = i; });
+  [['Key events', 3], ['Notable', 2], ['Minor', 1]].forEach(([t, i]) => { const c = el('text', { class: 'cap-row' }, headGutter); c.textContent = t; c.dataset.imp = i; });
 
   // pools for axis labels / eras
   const axTexts = [];
@@ -109,10 +116,15 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
 
   function layoutSize() {
     W = Math.max(280, Math.floor(root.clientWidth));
-    G = W < 640 ? 104 : 172;
+    G = W < 640 ? 104 : 184;
     plotW = W - G;
+    const lay = W < 640 ? EV_LAYOUT.narrow : EV_LAYOUT.wide;
+    HEAD_H = lay.head; EV_ROW_Y = lay.rows;
     headSvg.setAttribute('width', W); headSvg.setAttribute('height', HEAD_H);
-    headClipRect.setAttribute('x', G); headClipRect.setAttribute('width', plotW);
+    headClipRect.setAttribute('x', G); headClipRect.setAttribute('width', plotW); headClipRect.setAttribute('height', HEAD_H);
+    for (const r of [headBg, headGutterBg]) r.setAttribute('height', HEAD_H);
+    headGutterEdge.setAttribute('y2', HEAD_H);
+    headGutter.querySelectorAll('.cap-row').forEach((c) => c.setAttribute('y', EV_ROW_Y[c.dataset.imp][0] + 4));
     headBg.setAttribute('width', W);
     headGutterBg.setAttribute('width', G); headGutterEdge.setAttribute('x1', G); headGutterEdge.setAttribute('x2', G);
     headGutter.querySelectorAll('.cap-row').forEach((c) => { c.setAttribute('x', G - 10); });
@@ -141,7 +153,8 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
     }
     for (const i of [3, 2, 1]) rowsForLabels.push({ nodes: evRows[i], y: EV_ROW_Y[i][0], imp: i, kind: 'event' });
     navRows.push({ nodes: evNodes.slice(), isEvents: true });
-    evRowLines.setAttribute('d', `M${G} ${(EV_ROW_Y[3][0] + EV_ROW_Y[2][0]) / 2}H${W}M${G} ${(EV_ROW_Y[2][1] + EV_ROW_Y[1][0]) / 2}H${W}`);
+    const r2 = EV_ROW_Y[2], r1 = EV_ROW_Y[1];
+    evRowLines.setAttribute('d', `M${G} ${(EV_ROW_Y[3][0] + r2[0]) / 2}H${W}M${G} ${(r2[r2.length - 1] + r1[0]) / 2}H${W}`);
 
     // --- lanes
     bodySvg.replaceChildren();
@@ -157,30 +170,37 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
 
     let y = TOP_PAD;
     let laneCount = 0;
+    // a release is laid out unless "landmarks only" / "my list only" exclude it
+    const layoutPass = (r) => (!st.lm || r.landmark) && !(st.ol && r.inList === false);
     for (const gid of model.genreIds) {
       if (st.hg.has(gid)) continue;
-      let arts = model.laneArtists.filter((a) => a.genre === gid);
-      if (st.lm) arts = arts.filter((a) => a.releases.some((r) => r.landmark));
+      const arts = model.laneArtists.filter((a) => a.genre === gid && a.releases.some(layoutPass));
       if (!arts.length) continue;
-      const first = (a) => Math.min(Number.isFinite(a.formedT) ? a.formedT : Infinity, a.releases.length ? a.releases[0].t : Infinity);
-      arts.sort((a, b) => first(a) - first(b) || a.name.localeCompare(b.name));
+      arts.sort((a, b) => a.releases[0].t - b.releases[0].t || a.name.localeCompare(b.name)); // by first release
       const gm = genreMeta(gid);
-      // group header
       const gcls = genreClass(gid);
+      const collapsed = st.cg.has(gid);
+      const relCount = arts.reduce((n, a) => n + a.releases.filter(layoutPass).length, 0);
       groupY.set(gid, y);
+      // group header: full-width band in the plot + a focusable header in the gutter
       const hdr = el('g', { class: 'grp ' + gcls }, plot);
-      el('rect', { class: 'grp-band', x: G, y, width: plotW, height: GROUP_H }, hdr);
-      const hdrG = el('g', { class: 'grp-head ' + gcls }, gutter);
+      el('rect', { class: 'grp-band grp-click', x: G, y, width: plotW, height: GROUP_H, 'data-group': gid }, hdr);
+      const hdrG = el('g', { class: 'grp-head node ' + gcls, tabindex: -1, role: 'button', 'data-group': gid, 'aria-expanded': String(!collapsed), 'aria-label': `${gm.label}: ${arts.length} artists, ${relCount} releases. ${collapsed ? 'Collapsed; activate to expand' : 'Expanded; activate to collapse'}` }, gutter);
       el('rect', { class: 'grp-band', x: 0, y, width: G, height: GROUP_H }, hdrG);
-      el('rect', { class: 'grp-swatch', x: 10, y: y + 9, width: 12, height: 12 }, hdrG);
-      const gt = el('text', { class: 'grp-name', x: 28, y: y + 20 }, hdrG); gt.textContent = gm.label;
-      const gc = el('text', { class: 'grp-count', x: G - 10, y: y + 20, 'text-anchor': 'end' }, hdrG); gc.textContent = String(arts.length);
+      el('path', { class: 'grp-chev', d: collapsed ? 'M0 0L5 4L0 8Z' : 'M0 1L8 1L4 6Z', transform: `translate(9 ${y + 11})` }, hdrG);
+      el('rect', { class: 'grp-swatch', x: 24, y: y + 9, width: 12, height: 12 }, hdrG);
+      const gt = el('text', { class: 'grp-name', x: 42, y: y + 20 }, hdrG); gt.textContent = gm.label;
+      const gc = el('text', { class: 'grp-count', x: G - 8, y: y + 20, 'text-anchor': 'end' }, hdrG); gc.textContent = String(arts.length);
+      const hnode = { el: hdrG, isLabel: true, isGroup: true, gid, t: -Infinity, hidden: false, vis: true };
+      nodes.push(hnode); navRows.push({ nodes: [hnode] });
       y += GROUP_H;
-      for (const a of arts) {
-        const lane = buildLane(a, y, gcls, plot, gutter);
-        lanes.push(lane); laneCount++;
-        y += LANE_H;
+      if (collapsed) {
+        buildSummary(gid, arts, y, gcls, plot, gutter, relCount, layoutPass);
+        y += SUM_H;
+      } else {
+        for (const a of arts) { lanes.push(buildLane(a, y, gcls, plot, gutter, layoutPass)); laneCount++; y += LANE_H; }
       }
+      if (collapsed) laneCount++;
     }
     bodyH = y + BOTTOM_PAD;
     bodySvg.setAttribute('width', W); bodySvg.setAttribute('height', bodyH);
@@ -192,11 +212,13 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
     const firstNode = (navRows[1] && navRows[1].nodes[0]) || navRows[0].nodes[0];
     if (firstNode) setRoving(firstNode);
     refresh();
+    if (pendingFocusGroup) { const g = nodes.find((n) => n.isGroup && n.gid === pendingFocusGroup); pendingFocusGroup = null; if (g) { setRoving(g); g.el.focus({ preventScroll: true }); } }
   }
   let bodyRefs = null;
+  let pendingFocusGroup = null;
 
-  function buildLane(a, y, gcls, plot, gutter) {
-    const lane = { artist: a, y, nodes: [], markers: [], cls: gcls };
+  function buildLane(a, y, gcls, plot, gutter, layoutPass) {
+    const lane = { artist: a, y, h: LANE_H, nodes: [], markers: [], cls: gcls };
     const g = el('g', { class: 'lane ' + gcls }, plot);
     el('line', { class: 'lane-line', x1: G, x2: W, y1: y + LANE_H, y2: y + LANE_H }, g);
     lane.bar = el('rect', { class: 'lane-bar', y: y + LANE_H / 2 - 2, height: 4, rx: 2 }, g);
@@ -207,33 +229,26 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
     // artist label (gutter)
     const lg = el('g', { class: 'lane-label node ' + gcls, tabindex: -1, role: 'button', 'data-artist': a.id, 'aria-label': `${a.name}: artist details` }, gutter);
     el('rect', { class: 'hit', x: 0, y, width: G - 1, height: LANE_H }, lg);
-    el('rect', { class: 'lane-swatch', x: 0, y: y + 8, width: 4, height: LANE_H - 16 }, lg);
-    const lines = fitLines(a.name, G - 24, `600 13px ${fontFamily}`);
+    el('rect', { class: 'lane-swatch', x: 0, y: y + 6, width: 4, height: LANE_H - 12 }, lg);
+    const lines = fitLines(a.name, G - 24, `600 ${W < 640 ? 12 : 13}px ${fontFamily}`);
     const tt = el('text', { class: 'lane-name' }, lg);
-    lines.forEach((ln, i) => { const s = el('tspan', { x: 14, y: lines.length === 1 ? cy + 4.5 : cy - 2 + i * 14 }, tt); s.textContent = ln; });
+    lines.forEach((ln, i) => { const s = el('tspan', { x: 14, y: lines.length === 1 ? cy + 4.5 : cy - 2.5 + i * 13 }, tt); s.textContent = ln; });
     const lnode = { el: lg, isLabel: true, artist: a, t: -Infinity, hidden: false, vis: true, lane };
     lane.labelNode = lnode;
 
     const row = { nodes: [lnode], lane };
     // release markers
     for (const r of a.releases) {
-      if (getState().lm && !r.landmark) continue;
-      const tm = typeMeta(r.type);
-      const radius = tm.r * (r.landmark ? 1.38 : 1);
-      const n = el('g', { class: `node mk mk-${tm.id} ${r.landmark ? 'landmark' : ''}`, tabindex: -1, role: 'button', 'data-key': r.key, 'aria-label': `${r.title}, ${a.name}, ${formatDate(r.date, r.prec)}, ${tm.label}${r.landmark ? ', landmark release' : ''}` }, markG);
-      el('circle', { class: 'hit', r: 13 }, n);
-      if (r.landmark) el('path', { class: 'mk-halo', d: releasePath(r.type, radius + 3.4) }, n);
-      el('path', { class: 'mk-shape', d: releasePath(r.type, radius) }, n);
-      const lab = el('text', { class: 'mk-label' + (r.landmark ? ' lm' : ''), y: cy + 4 }, labG); lab.textContent = r.listTitle || r.title;
-      const node = { el: n, label: lab, item: r, kind: 'release', t: r.t, y: cy, r: radius, lane, hidden: false, vis: false, labW: textWidth(lab.textContent, `${r.landmark ? 600 : 500} 11px ${fontFamily}`) };
-      lane.nodes.push(node); lane.markers.push(node); nodes.push(node); row.nodes.push(node); addByKey(r.key, node);
+      if (!layoutPass(r)) continue;
+      const node = addRelease(lane, r, cy, markG, labG, false);
+      row.nodes.push(node);
     }
     // artist-linked event ticks (small, below the markers)
     for (const ev of a.events) {
       const t = el('g', { class: `node ev-tick ${catClass(ev.category)}`, 'data-key': ev.key, 'aria-hidden': 'true' }, tickG);
-      el('rect', { class: 'hit', x: -6, y: -8, width: 12, height: 16 }, t);
-      el('rect', { class: 'tick-shape', x: -1.2, y: -4.5, width: 2.4, height: 9, rx: 1 }, t);
-      const node = { el: t, item: ev, kind: 'tick', t: ev.t, y: y + LANE_H - 9, lane, hidden: false, vis: false, aux: true };
+      el('rect', { class: 'hit', x: -6, y: -7, width: 12, height: 14 }, t);
+      el('rect', { class: 'tick-shape', x: -1.2, y: -3, width: 2.4, height: 6, rx: 1 }, t);
+      const node = { el: t, item: ev, kind: 'tick', t: ev.t, y: y + LANE_H - 6, lane, hidden: false, vis: false, aux: true };
       nodes.push(node); lane.nodes.push(node); addByKey(ev.key, node);
     }
     lane.markers.sort((p, q) => p.t - q.t);
@@ -242,6 +257,45 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
     navRows.push(row);
     nodes.push(lnode);
     return lane;
+  }
+
+  /** One release marker (+ optional label). `small` = compressed summary row of a collapsed group. */
+  function addRelease(lane, r, cy, markG, labG, small) {
+    const a = r.artist;
+    const tm = typeMeta(r.type);
+    const radius = tm.r * (r.landmark ? 1.38 : 1) * (small ? 0.78 : 1);
+    const n = el('g', { class: `node mk mk-${tm.id} ${r.landmark ? 'landmark' : ''}`, tabindex: -1, role: 'button', 'data-key': r.key, 'aria-label': `${r.title}, ${a.name}, ${formatDate(r.date, r.prec)}, ${tm.label}${r.landmark ? ', landmark release' : ''}` }, markG);
+    el('circle', { class: 'hit', r: small ? 9 : 13 }, n);
+    if (r.landmark) el('path', { class: 'mk-halo', d: releasePath(r.type, radius + 3) }, n);
+    el('path', { class: 'mk-shape', d: releasePath(r.type, radius) }, n);
+    const node = { el: n, item: r, kind: 'release', t: r.t, y: cy, r: radius, lane, hidden: false, vis: false };
+    if (!small) {
+      const lab = el('text', { class: 'mk-label' + (r.landmark ? ' lm' : ''), y: cy + 4 }, labG); lab.textContent = r.listTitle || r.title;
+      node.label = lab; node.labW = textWidth(lab.textContent, `${r.landmark ? 600 : 500} 11px ${fontFamily}`);
+    }
+    lane.nodes.push(node); lane.markers.push(node); nodes.push(node); addByKey(r.key, node);
+    return node;
+  }
+
+  /** Collapsed group: one thin row with every release of the genre compressed onto it. */
+  function buildSummary(gid, arts, y, gcls, plot, gutter, relCount, layoutPass) {
+    const lane = { summary: true, y, h: SUM_H, nodes: [], markers: [], cls: gcls };
+    const g = el('g', { class: 'lane summary ' + gcls }, plot);
+    el('line', { class: 'lane-line', x1: G, x2: W, y1: y + SUM_H, y2: y + SUM_H }, g);
+    lane.g = g;
+    const markG = el('g', null, g);
+    const cy = y + SUM_H / 2;
+    const gt = el('g', { class: 'sum-label ' + gcls }, gutter);
+    el('rect', { class: 'grp-click', x: 0, y, width: G - 1, height: SUM_H, 'data-group': gid }, gt);
+    el('rect', { class: 'lane-swatch', x: 0, y: y + 5, width: 4, height: SUM_H - 10 }, gt);
+    const t = el('text', { class: 'sum-text', x: 14, y: cy + 4 }, gt); t.textContent = `${relCount} releases`;
+    const row = { nodes: [] };
+    const rels = [];
+    for (const a of arts) for (const r of a.releases) if (layoutPass(r)) rels.push(r);
+    rels.sort((p, q) => p.t - q.t);
+    for (const r of rels) row.nodes.push(addRelease(lane, r, cy, markG, null, true));
+    navRows.push(row);
+    lanes.push(lane);
   }
 
   function makeEventNode(it, cy, r, glyphParent, labelParent, imp) {
@@ -259,6 +313,7 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
     const tf = getState().tf;
     const qMatchArtist = new Map();
     for (const n of nodes) {
+      if (n.isGroup) continue;
       if (n.isLabel) {
         const a = n.artist;
         const dim = (tf && a.genre !== 'thrash') || (searching && !filter.artistMatches(a));
@@ -268,7 +323,7 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
       }
       const it = n.item;
       const hidden = !filter.passes(it);
-      if (hidden !== n.hidden) { n.hidden = hidden; n.vis = null; n.el.setAttribute('display', hidden ? 'none' : ''); if (hidden && n.label) setLabel(n, false); }
+      if (hidden !== n.hidden) { n.hidden = hidden; n.vis = null; setDisp(n); if (hidden && n.label) setLabel(n, false); }
       const dim = filter.dimmed(it);
       const match = searching && filter.matches(it);
       n.el.classList.toggle('is-dim', dim);
@@ -281,7 +336,7 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
 
   function applySelected() {
     for (const n of nodes) {
-      const sel = selectedKey && ((n.item && n.item.key === selectedKey) || (n.isLabel && 'a:' + n.artist.id === selectedKey));
+      const sel = selectedKey && ((n.item && n.item.key === selectedKey) || (n.isLabel && !n.isGroup && 'a:' + n.artist.id === selectedKey));
       n.el.classList.toggle('is-selected', !!sel);
     }
   }
@@ -290,6 +345,11 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
   // ---------- rendering ----------
   function schedule() { if (!rafId) rafId = requestAnimationFrame(render); }
 
+  /** Effective visibility of a mark: not filtered out, inside the viewport and not pack-hidden. */
+  function setDisp(n) {
+    const d = !n.hidden && !!n.vis && !n.ph;
+    if (d !== n.disp) { n.disp = d; n.el.setAttribute('display', d ? '' : 'none'); }
+  }
   function setLabel(n, show) { if (n.labShown !== show) { n.labShown = show; n.label.setAttribute('display', show ? '' : 'none'); } }
 
   function render() {
@@ -314,6 +374,7 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
     }
     // lane bars
     for (const ln of lanes) {
+      if (ln.summary) continue;
       const a = ln.artist;
       const s = Number.isFinite(a.formedT) ? a.formedT : (a.releases[0] ? a.releases[0].t : t0);
       const e = Number.isFinite(a.endedT) ? a.endedT : D1;
@@ -329,7 +390,7 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
       const x = X(n.t);
       n.x = x;
       const vis = x > xmin && x < xmax;
-      if (vis !== n.vis) { n.vis = vis; n.el.setAttribute('display', vis ? '' : 'none'); }
+      if (vis !== n.vis) { n.vis = vis; setDisp(n); }
       if (vis) n.el.setAttribute('transform', `translate(${x.toFixed(1)} ${n.y})`);
     }
     packEvents(X);
@@ -349,8 +410,13 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
       for (const n of evNodes) {
         if (n.imp !== imp || n.hidden || !n.vis) continue;
         let j = last.findIndex((l) => n.x - l >= gap);
-        if (j < 0) j = last.indexOf(Math.min(...last));
-        last[j] = n.x;
+        let ph = false;
+        if (j < 0) { // no free sub-row: key events always stay (overlap), the rest wait for more zoom
+          if (imp === 3) j = last.indexOf(Math.min(...last)); else { ph = true; j = 0; }
+        }
+        if (!ph) last[j] = n.x;
+        if (ph !== !!n.ph) { n.ph = ph; setDisp(n); if (ph) setLabel(n, false); }
+        if (ph) continue;
         n.sub = j;
         const y = rows[j];
         if (n.y !== y) { n.y = y; n.el.setAttribute('transform', `translate(${n.x.toFixed(1)} ${y})`); n.label.setAttribute('y', y + 4); }
@@ -427,12 +493,12 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
         const n = list[i];
         if (!n.label) continue;
         let show = false;
-        if (!n.hidden && n.vis) {
+        if (!n.hidden && n.vis && !n.ph) {
           const wanted = row.kind === 'event' ? mode : (mode === 2 || (mode === 1 && n.item.landmark));
           if (wanted) {
             // next non-hidden node in this row
             let nx = Infinity;
-            for (let j = i + 1; j < list.length; j++) if (!list[j].hidden && (row.kind !== 'event' || list[j].sub === n.sub || !list[j].vis)) { nx = list[j].x; break; }
+            for (let j = i + 1; j < list.length; j++) if (!list[j].hidden && !list[j].ph && (row.kind !== 'event' || list[j].sub === n.sub || !list[j].vis)) { nx = list[j].x; break; }
             const start = n.x + n.r + (n.item.landmark && n.kind === 'release' ? 9 : 5);
             const need = n.labW + 6;
             show = start + need <= nx - (list[i + 1] ? 3 : -1e9) && start + need <= W - 4;
@@ -569,11 +635,12 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
 
   root.addEventListener('click', (e) => {
     if (suppressClick) { suppressClick = false; return; }
-    const node = e.target.closest('.node');
+    const node = e.target.closest('.node') || e.target.closest('[data-group]');
     if (!node || !root.contains(node)) return;
     activate(node);
   });
   function activate(domNode) {
+    if (domNode.dataset.group) { pendingFocusGroup = domNode.dataset.group; onToggleGroup(domNode.dataset.group); return; }
     if (domNode.dataset.artist) { onArtist(domNode.dataset.artist); return; }
     const key = domNode.dataset.key;
     if (key) onSelect(key);
@@ -583,12 +650,19 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
   function tipContent(node) {
     const it = node.item;
     const frag = document.createDocumentFragment();
-    const add = (cls, text) => { const d = document.createElement('div'); d.className = cls; d.textContent = text; frag.appendChild(d); };
-    if (node.isLabel) { add('tip-title', node.artist.name); add('tip-meta', `${genreMeta(node.artist.genre).label} · ${node.artist.origin || ''}`.replace(/ · $/, '')); add('tip-date', 'Click for artist details'); return frag; }
+    const text = document.createElement('div'); text.className = 'tip-text';
+    const add = (cls, t) => { const d = document.createElement('div'); d.className = cls; d.textContent = t; text.appendChild(d); };
+    if (node.isGroup) { const g = genreMeta(node.gid); add('tip-title', g.label); add('tip-date', 'Click to expand or collapse'); frag.appendChild(text); return frag; }
+    if (node.isLabel) { add('tip-title', node.artist.name); add('tip-meta', `${genreMeta(node.artist.genre).label} · ${node.artist.origin || ''}`.replace(/ · $/, '')); add('tip-date', 'Click for artist details'); frag.appendChild(text); return frag; }
     add('tip-title', it.title);
     if (it.artists.length) add('tip-artist', it.artists.map((a) => a.name).join(', '));
     add('tip-date', formatDate(it.date, it.prec));
     add('tip-meta', it.kind === 'release' ? `${typeMeta(it.type).label}${it.landmark ? ' · Landmark' : ''}` : `${catMeta(it.category).label}`);
+    if (it.kind === 'release' && it.img) {
+      const img = makeImg(it.img, `Cover of ${it.title}${it.artist ? ' by ' + it.artist.name : ''}`, 'tip-cover', 56, 56);
+      frag.appendChild(img);
+    }
+    frag.appendChild(text);
     return frag;
   }
   function nodeOf(domNode) { return domNode && (domNode._node || (domNode._node = nodes.find((n) => n.el === domNode) || null)); }
@@ -638,7 +712,7 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
   }
   function scrollLaneIntoView(n) {
     if (!n.lane) return;
-    const top = n.lane.y, bot = top + LANE_H;
+    const top = n.lane.y, bot = top + (n.lane.h || LANE_H);
     if (top < body.scrollTop) body.scrollTop = Math.max(0, top - GROUP_H);
     else if (bot > body.scrollTop + body.clientHeight) body.scrollTop = bot - body.clientHeight + 8;
   }
@@ -707,7 +781,7 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
       animateTo(t0, t0 + span);
     }
     if (n.lane) {
-      const top = n.lane.y - GROUP_H - 4, bottom = n.lane.y + LANE_H + 8;
+      const top = n.lane.y - GROUP_H - 4, bottom = n.lane.y + (n.lane.h || LANE_H) + 8;
       if (top < body.scrollTop || bottom > body.scrollTop + visibleH) body.scrollTo({ top: Math.max(0, n.lane.y - visibleH / 2 + LANE_H / 2), behavior: reducedMotion() ? 'auto' : 'smooth' });
     }
     if (flash) { n.el.classList.remove('flash'); void n.el.getBoundingClientRect(); n.el.classList.add('flash'); setTimeout(() => n.el.classList.remove('flash'), 1600); }

@@ -35,8 +35,16 @@
 
 /* groups & lanes */
 .grp-band { fill: var(--band); }
-.grp-swatch { fill: var(--c); }
-.grp-name { font: 700 15px var(--font-display); letter-spacing: .08em; text-transform: uppercase; fill: var(--ink); }
+.grp-swatch { fill: var(--c); stroke: var(--ink-3); stroke-width: .6; }
+.grp-chev { fill: var(--ink-2); }
+.grp-click, .grp-head { cursor: pointer; }
+.grp-click { fill: transparent; }
+.grp-band.grp-click { fill: var(--band); }
+.grp-head:hover .grp-band, .grp .grp-band:hover { fill: var(--surface-2); }
+.grp-head:focus-visible .grp-band { stroke: var(--focus); stroke-width: 2.5; }
+.lane.summary .mk-shape { stroke-width: 1; }
+.sum-text { font: 500 11px var(--font-mono); fill: var(--ink-3); }
+.grp-name { font: 700 14px var(--font-display); letter-spacing: .04em; text-transform: uppercase; fill: var(--ink); }
 .grp-count { font: 500 11px var(--font-mono); fill: var(--ink-3); }
 .lane-line { stroke: var(--line); stroke-width: 1; }
 .lane-bar { fill: var(--c); opacity: .38; }
@@ -91,6 +99,9 @@
   background: var(--surface); color: var(--ink); border: 1.5px solid var(--line-2); box-shadow: var(--shadow);
   padding: 8px 10px; font-size: 13px; line-height: 1.3;
 }
+.tooltip { display: flex; gap: 10px; align-items: flex-start; }
+.tip-text { min-width: 0; }
+.tip-cover { width: 56px; height: 56px; object-fit: cover; flex: none; border: 1px solid var(--line-2); background: var(--surface-2); }
 .tip-title { font: 700 17px/1.1 var(--font-display); letter-spacing: .01em; margin-bottom: 3px; }
 .tip-artist { color: var(--ink); }
 .tip-date { font: 500 12px var(--font-mono); color: var(--ink-2); margin-top: 2px; }
