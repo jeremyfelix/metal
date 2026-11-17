@@ -81,6 +81,6 @@ export const artists = [
  "Evolved from Hellhammer into one of extreme metal's most innovative bands, pushing into avant-garde territory."],
 ["bathory","Bathory","Stockholm, Sweden","SE","1983",null,"death",false,
  "Quorthon's one-man project is regarded as a forefather of black metal and later Viking metal."],
-["pantera","Pantera","Arlington, Texas, USA","US","1981",null,"heavy-metal",false,
+["pantera","Pantera","Arlington, Texas, USA","US","1981",null,"thrash",false,
  "Reinvented themselves as a groove-heavy metal band with Cowboys from Hell and became 1990s metal's biggest act."]
 ];
