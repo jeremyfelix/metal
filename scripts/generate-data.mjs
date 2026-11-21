@@ -10,6 +10,7 @@ import { artists2 } from "./gen-artists2.mjs";
 import { releases2a } from "./gen-releases2.mjs";
 import { releases2b } from "./gen-releases3.mjs";
 import { events2, removeEventIds } from "./gen-events2.mjs";
+import { events3 } from "./gen-events3.mjs";
 import { artistWiki, releaseWiki } from "./gen-wiki.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -71,7 +72,7 @@ releases.sort((a, b) => a.date.localeCompare(b.date)); // stable: keeps TSV orde
 
 const drop = new Set(removeEventIds);
 for (const id of removeEventIds) if (!events.some((e) => e[0] === id)) throw new Error("no event " + id);
-const evs = [...events.filter((e) => !drop.has(e[0])), ...events2].map(([id, d, title, description, category, artistIds, importance]) => ({
+const evs = [...events.filter((e) => !drop.has(e[0])), ...events2, ...events3].map(([id, d, title, description, category, artistIds, importance]) => ({
   id, date: full(d), datePrecision: precOf(d), title, description, category, artistIds, importance }));
 evs.sort((a, b) => a.date.localeCompare(b.date));
 

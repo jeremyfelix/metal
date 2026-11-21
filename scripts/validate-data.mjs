@@ -14,7 +14,7 @@ const artists = load("artists.json"), releases = load("releases.json"), events =
 
 const GENRES = ["proto", "punk", "hard-rock", "heavy-metal", "nwobhm", "thrash", "death", "extreme"];
 const TYPES = ["album", "ep", "demo", "live", "compilation"];
-const CATS = ["formation", "lineup", "concert", "death", "scene", "industry", "release"];
+const CATS = ["formation", "lineup", "concert", "death", "scene", "industry", "release", "world"];
 const PRECS = ["day", "month", "year"];
 const ID = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
@@ -128,4 +128,8 @@ if (lm > releases.length * 0.2) err(`too many landmarks (${lm} of ${releases.len
 if (rel > 20) err(`too many release-category events (${rel})`);
 console.log(`artists ${artists.length}, releases ${releases.length} (${listed.length} listed, landmarks ${lm}), events ${events.length} (importance 3: ${i3}, release-category: ${rel})${imgCounts}`);
 if (errs.length) { console.error(errs.join("\n")); console.error(`FAILED: ${errs.length} problem(s)`); process.exit(1); }
+import { spawnSync } from "node:child_process";
+const us = spawnSync(process.execPath, [path.join(root, "scripts/check-us-english.mjs")], { encoding: "utf8" });
+process.stdout.write(us.stdout || "");
+if (us.status !== 0) { process.stderr.write(us.stderr || ""); console.error("FAILED: US English check"); process.exit(1); }
 console.log("OK");

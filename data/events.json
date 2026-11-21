@@ -120,6 +120,19 @@
     "importance": 1
   },
   {
+    "id": "world-vietnam-tet",
+    "date": "1968-01-01",
+    "datePrecision": "month",
+    "title": "The Tet Offensive escalates the Vietnam War",
+    "description": "The war, which grew sharply with the Tet Offensive that began in late January 1968, hangs over Black Sabbath's anti-war 'War Pigs' (1970), written when many young men feared being drafted. Sodom returned to the war's themes on Agent Orange (1989).",
+    "category": "world",
+    "artistIds": [
+      "black-sabbath",
+      "sodom"
+    ],
+    "importance": 2
+  },
+  {
     "id": "led-zeppelin-formed",
     "date": "1968-09-01",
     "datePrecision": "month",
@@ -156,6 +169,18 @@
     "importance": 1
   },
   {
+    "id": "world-troubles-troops",
+    "date": "1969-08-14",
+    "datePrecision": "day",
+    "title": "British troops are deployed in Northern Ireland",
+    "description": "The deployment marked the start of the army's long role in the Troubles. Megadeth's 'Holy Wars... The Punishment Due' (1990) deals with religious conflict, including Northern Ireland; Dave Mustaine said it was inspired by an incident at a 1988 concert in Antrim.",
+    "category": "world",
+    "artistIds": [
+      "megadeth"
+    ],
+    "importance": 1
+  },
+  {
     "id": "hendrix-dies",
     "date": "1970-09-18",
     "datePrecision": "day",
@@ -166,6 +191,18 @@
       "jimi-hendrix"
     ],
     "importance": 3
+  },
+  {
+    "id": "world-johnny-got-his-gun",
+    "date": "1971-01-01",
+    "datePrecision": "year",
+    "title": "Johnny Got His Gun reaches the screen",
+    "description": "Dalton Trumbo's anti-war film, based on his own novel, was little seen until clips were used in the video for Metallica's 'One' (1989). Metallica later bought the rights to the film.",
+    "category": "world",
+    "artistIds": [
+      "metallica"
+    ],
+    "importance": 2
   },
   {
     "id": "van-halen-mammoth",
@@ -484,6 +521,18 @@
     "importance": 1
   },
   {
+    "id": "world-2000ad-launches",
+    "date": "1977-02-26",
+    "datePrecision": "day",
+    "title": "2000 AD launches in Britain",
+    "description": "The weekly comic introduced Judge Dredd to a wide readership. Anthrax's 'I Am the Law' (1987) is a tribute to Dredd and references many of his storylines.",
+    "category": "world",
+    "artistIds": [
+      "anthrax"
+    ],
+    "importance": 1
+  },
+  {
     "id": "venom-formed",
     "date": "1978-01-01",
     "datePrecision": "year",
@@ -508,6 +557,18 @@
     "importance": 1
   },
   {
+    "id": "world-the-stand",
+    "date": "1978-01-01",
+    "datePrecision": "year",
+    "title": "Stephen King publishes The Stand",
+    "description": "King's post-apocalyptic novel about a deadly pandemic and its survivors was first published in 1978. Anthrax's title track 'Among the Living' (1987) draws on it.",
+    "category": "world",
+    "artistIds": [
+      "anthrax"
+    ],
+    "importance": 1
+  },
+  {
     "id": "sex-pistols-split",
     "date": "1978-01-14",
     "datePrecision": "day",
@@ -518,6 +579,18 @@
       "sex-pistols"
     ],
     "importance": 1
+  },
+  {
+    "id": "world-omen-ii",
+    "date": "1978-06-09",
+    "datePrecision": "day",
+    "title": "Damien: Omen II is released",
+    "description": "Iron Maiden's Steve Harris said that 'The Number of the Beast' was inspired by a nightmare he had after watching the film late at night. The song became the title track of Maiden's 1982 album.",
+    "category": "world",
+    "artistIds": [
+      "iron-maiden"
+    ],
+    "importance": 2
   },
   {
     "id": "keith-moon-dies",
@@ -619,6 +692,28 @@
     "importance": 3
   },
   {
+    "id": "world-alien-film",
+    "date": "1979-05-01",
+    "datePrecision": "month",
+    "title": "Alien opens in theaters",
+    "description": "The film made Swiss artist H. R. Giger's designs famous. Giger gave the band Celtic Frost his painting Satan I, which became the cover of To Mega Therion (1985).",
+    "category": "world",
+    "artistIds": [
+      "celtic-frost"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "world-walkman",
+    "date": "1979-07-01",
+    "datePrecision": "day",
+    "title": "Sony launches the Walkman",
+    "description": "The portable cassette player made tapes the everyday way to hear music on the move. Cassettes were also the medium of the demo tape trading that spread underground metal.",
+    "category": "world",
+    "artistIds": [],
+    "importance": 1
+  },
+  {
     "id": "overkill-formed",
     "date": "1980-01-01",
     "datePrecision": "year",
@@ -714,6 +809,18 @@
       "led-zeppelin"
     ],
     "importance": 3
+  },
+  {
+    "id": "world-michelle-remembers",
+    "date": "1980-11-01",
+    "datePrecision": "month",
+    "title": "Michelle Remembers sets off the Satanic panic",
+    "description": "The best-selling 1980 book claimed ritual abuse by a Satanic cult and is credited with fueling a wave of fears in the US during the 1980s. Heavy metal album covers were among the supposed evidence shown at police and public seminars, the climate in which the PMRC hearing (1985) and the Judas Priest trial (1990) took place.",
+    "category": "world",
+    "artistIds": [
+      "judas-priest"
+    ],
+    "importance": 2
   },
   {
     "id": "zeppelin-ends",
@@ -856,6 +963,19 @@
     "category": "industry",
     "artistIds": [],
     "importance": 2
+  },
+  {
+    "id": "world-heavy-metal-film",
+    "date": "1981-08-07",
+    "datePrecision": "day",
+    "title": "The animated film Heavy Metal arrives",
+    "description": "Based on the magazine, the film's soundtrack included Black Sabbath and Blue Öyster Cult.",
+    "category": "world",
+    "artistIds": [
+      "black-sabbath",
+      "blue-oyster-cult"
+    ],
+    "importance": 1
   },
   {
     "id": "bruce-dickinson-joins-maiden",
@@ -1152,6 +1272,18 @@
     "importance": 2
   },
   {
+    "id": "world-sdi-announced",
+    "date": "1983-03-23",
+    "datePrecision": "day",
+    "title": "Reagan announces the Strategic Defense Initiative",
+    "description": "The 'Star Wars' missile-defense plan came at a high point of Cold War tension. Reagan-era Cold War politics became a recurring theme in Voivod's lyrics.",
+    "category": "world",
+    "artistIds": [
+      "voivod"
+    ],
+    "importance": 1
+  },
+  {
     "id": "hammett-joins-metallica",
     "date": "1983-04-01",
     "datePrecision": "month",
@@ -1216,6 +1348,30 @@
       "kiss"
     ],
     "importance": 1
+  },
+  {
+    "id": "world-able-archer-83",
+    "date": "1983-11-07",
+    "datePrecision": "day",
+    "title": "NATO holds the Able Archer 83 exercise",
+    "description": "The command-post exercise (November 7–11) is counted among the Cold War's nuclear close calls. Nuclear-arms protest songs such as Iron Maiden's '2 Minutes to Midnight' (1984) reflect this climate.",
+    "category": "world",
+    "artistIds": [
+      "iron-maiden"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "world-the-day-after",
+    "date": "1983-11-20",
+    "datePrecision": "day",
+    "title": "The Day After airs on ABC",
+    "description": "More than 100 million Americans watched the TV film about nuclear war, shortly after Able Archer. Metallica's 'Fight Fire with Fire' (1984), about nuclear annihilation and mutually assured destruction, came out of the same anxieties.",
+    "category": "world",
+    "artistIds": [
+      "metallica"
+    ],
+    "importance": 3
   },
   {
     "id": "quiet-riot-number-one",
@@ -1452,6 +1608,18 @@
     "importance": 2
   },
   {
+    "id": "world-brazil-civilian-rule",
+    "date": "1985-03-15",
+    "datePrecision": "day",
+    "title": "Brazil returns to civilian rule",
+    "description": "Military governments had ruled since 1964. Sepultura formed in 1984, in the last year of that era, and their later Chaos A.D. (1993) addressed Brazilian state violence.",
+    "category": "world",
+    "artistIds": [
+      "sepultura"
+    ],
+    "importance": 2
+  },
+  {
     "id": "pmrc-formed",
     "date": "1985-05-01",
     "datePrecision": "month",
@@ -1460,6 +1628,18 @@
     "category": "industry",
     "artistIds": [],
     "importance": 2
+  },
+  {
+    "id": "hear-n-aid",
+    "date": "1985-05-20",
+    "datePrecision": "day",
+    "title": "Metal musicians record Hear 'n Aid for famine relief",
+    "description": "Inspired by Band Aid and the famine in Ethiopia, about 40 heavy metal musicians recorded 'Stars' on May 20–21, 1985, produced by Ronnie James Dio. The Hear 'n Aid album followed in 1986.",
+    "category": "scene",
+    "artistIds": [
+      "dio"
+    ],
+    "importance": 1
   },
   {
     "id": "live-aid-sabbath-reunion",
@@ -1534,6 +1714,18 @@
     "importance": 1
   },
   {
+    "id": "world-maximum-overdrive",
+    "date": "1986-01-01",
+    "datePrecision": "year",
+    "title": "Maximum Overdrive is released",
+    "description": "Stephen King's directing debut used AC/DC music throughout. The band's soundtrack album Who Made Who appeared the same year.",
+    "category": "world",
+    "artistIds": [
+      "ac-dc"
+    ],
+    "importance": 1
+  },
+  {
     "id": "thin-lizzy-lynott-dies",
     "date": "1986-01-04",
     "datePrecision": "day",
@@ -1557,6 +1749,19 @@
       "ozzy-osbourne"
     ],
     "importance": 2
+  },
+  {
+    "id": "world-chernobyl",
+    "date": "1986-04-26",
+    "datePrecision": "day",
+    "title": "The Chernobyl reactor explodes",
+    "description": "The accident in the Soviet Union spread radioactive fallout across Europe. Nuclear and environmental catastrophe became a staple of late-1980s thrash lyrics, from Nuclear Assault to Metallica's 'Blackened' (1988).",
+    "category": "world",
+    "artistIds": [
+      "nuclear-assault",
+      "metallica"
+    ],
+    "importance": 3
   },
   {
     "id": "burton-dies",
@@ -1645,6 +1850,18 @@
     "importance": 2
   },
   {
+    "id": "world-warhammer-40k",
+    "date": "1987-09-01",
+    "datePrecision": "month",
+    "title": "Warhammer 40,000 is published",
+    "description": "The Games Workshop wargame built a grim science-fiction setting that British extreme metal bands took up. Bolt Thrower's Realm of Chaos (1989) is closely tied to it and used its artwork.",
+    "category": "world",
+    "artistIds": [
+      "bolt-thrower"
+    ],
+    "importance": 1
+  },
+  {
     "id": "morrisound-tampa",
     "date": "1988-01-01",
     "datePrecision": "year",
@@ -1705,11 +1922,23 @@
     "importance": 2
   },
   {
+    "id": "world-pet-sematary-film",
+    "date": "1989-04-21",
+    "datePrecision": "day",
+    "title": "Pet Sematary opens in theaters",
+    "description": "Stephen King, a longtime Ramones fan, had the band write a new title song for the film. The Ramones' 'Pet Sematary' appeared on Brain Drain (1989).",
+    "category": "world",
+    "artistIds": [
+      "ramones"
+    ],
+    "importance": 1
+  },
+  {
     "id": "moscow-music-peace-festival",
     "date": "1989-08-12",
     "datePrecision": "day",
     "title": "Moscow Music Peace Festival",
-    "description": "Bon Jovi, Mötley Crüe, Ozzy Osbourne, Scorpions, Skid Row and others played at Lenin Stadium on 12 and 13 August. The shows signaled the reach of hard rock and metal behind the Iron Curtain.",
+    "description": "Bon Jovi, Mötley Crüe, Ozzy Osbourne, Scorpions, Skid Row and others played at Lenin Stadium on August 12 and 13. The shows signaled the reach of hard rock and metal behind the Iron Curtain.",
     "category": "concert",
     "artistIds": [
       "motley-crue",
@@ -1717,6 +1946,18 @@
       "scorpions"
     ],
     "importance": 2
+  },
+  {
+    "id": "world-berlin-wall",
+    "date": "1989-11-09",
+    "datePrecision": "day",
+    "title": "The Berlin Wall opens",
+    "description": "East Germany announced that its citizens could cross to the West, a milestone in the end of the Cold War and in the opening of the Eastern Bloc to Western rock. Scorpions' 'Wind of Change' was written after their visit to the Soviet Union, where they played the Moscow Music Peace Festival.",
+    "category": "world",
+    "artistIds": [
+      "scorpions"
+    ],
+    "importance": 3
   },
   {
     "id": "sunlight-studio-stockholm",
@@ -1814,6 +2055,28 @@
     "importance": 2
   },
   {
+    "id": "world-gulf-war",
+    "date": "1991-01-17",
+    "datePrecision": "day",
+    "title": "The Gulf War air campaign begins",
+    "description": "Operation Desert Storm followed Iraq's invasion of Kuwait on August 2, 1990. Iron Maiden's 'Afraid to Shoot Strangers' (1992) is a song from the point of view of a soldier in the Gulf War.",
+    "category": "world",
+    "artistIds": [
+      "iron-maiden"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "world-rodney-king",
+    "date": "1991-03-03",
+    "datePrecision": "day",
+    "title": "Rodney King is beaten by Los Angeles police",
+    "description": "The videotaped beating caused national outrage. Body Count's heavy metal song 'Cop Killer' (1992) names King and police chief Daryl Gates and became a national controversy.",
+    "category": "world",
+    "artistIds": [],
+    "importance": 2
+  },
+  {
     "id": "nevermind-grunge",
     "date": "1991-09-24",
     "datePrecision": "day",
@@ -1886,6 +2149,18 @@
     "importance": 2
   },
   {
+    "id": "world-carandiru",
+    "date": "1992-10-02",
+    "datePrecision": "day",
+    "title": "Carandiru prison massacre in São Paulo",
+    "description": "Military police stormed the penitentiary after a riot. Sepultura's 'Manifest' on Chaos A.D. (1993) includes a mock radio report of the massacre.",
+    "category": "world",
+    "artistIds": [
+      "sepultura"
+    ],
+    "importance": 2
+  },
+  {
     "id": "ozzy-costa-mesa-farewell",
     "date": "1992-11-01",
     "datePrecision": "month",
@@ -1909,6 +2184,28 @@
       "iron-maiden"
     ],
     "importance": 2
+  },
+  {
+    "id": "world-waco",
+    "date": "1993-02-28",
+    "datePrecision": "day",
+    "title": "The Waco siege begins",
+    "description": "A raid on the Branch Davidian compound near Waco, Texas, began a 51-day standoff. Sepultura's 'Amen' on Chaos A.D. deals with the massacre of David Koresh's followers.",
+    "category": "world",
+    "artistIds": [
+      "sepultura"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "world-beavis-and-butt-head",
+    "date": "1993-03-01",
+    "datePrecision": "month",
+    "title": "Beavis and Butt-Head debuts on MTV",
+    "description": "The cartoon's two slackers love hard rock and heavy metal and comment on music videos.",
+    "category": "world",
+    "artistIds": [],
+    "importance": 1
   },
   {
     "id": "far-beyond-driven",
