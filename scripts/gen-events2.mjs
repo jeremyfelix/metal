@@ -7,7 +7,7 @@ export const removeEventIds = [
 export const events2 = [
 ["cream-formed","1966","Cream forms in London","Eric Clapton, Jack Bruce and Ginger Baker formed one of rock's first supergroups. Their loud, improvised trio format set a template for heavy bands.","formation",["cream"],1],
 ["blue-cheer-formed","1967","Blue Cheer forms in San Francisco","The trio built a reputation for playing at extreme volume. Their 1968 debut is cited as an early heavy-metal record.","formation",["blue-cheer"],1],
-["kiss-formed","1973","Kiss forms in New York City","Paul Stanley, Gene Simmons, Ace Frehley and Peter Criss adopted make-up and a pyrotechnic stage show. Their image shaped the look of 1980s metal.","formation",["kiss"],1],
+["kiss-formed","1973","Kiss forms in New York City","Paul Stanley, Gene Simmons, Ace Frehley and Peter Criss adopted makeup and a pyrotechnic stage show. Their image shaped the look of 1980s metal.","formation",["kiss"],1],
 ["black-flag-formed","1976","Black Flag forms in Hermosa Beach","Greg Ginn's band, first called Panic, became hardcore's most influential act. Its heavy, relentless sound reached metal fans.","formation",["black-flag"],2],
 ["bad-brains-formed","1977","Bad Brains forms in Washington, D.C.","They started as a jazz-fusion band and turned to extremely fast hardcore. Their speed influenced punk and thrash.","formation",["bad-brains"],1],
 ["dead-kennedys-formed","1978","Dead Kennedys forms in San Francisco","Jello Biafra's band mixed surf-tinged hardcore with sharp political satire. The Bay Area hardcore scene grew around them.","formation",["dead-kennedys"],1],
@@ -15,8 +15,8 @@ export const events2 = [
 ["thin-lizzy-lynott-dies","1986-01-04","Phil Lynott dies","The Thin Lizzy singer and bassist died aged 36, after a period of illness following drug problems. His band's twin-guitar sound remained a model for metal.","death",["thin-lizzy"],2],
 ["deep-purple-mk2-reunion","1984","Deep Purple's classic line-up reunites","Ian Gillan, Ritchie Blackmore, Roger Glover, Jon Lord and Ian Paice reformed after a decade apart. Perfect Strangers followed that autumn.","lineup",["deep-purple"],2],
 ["dio-formed","1982","Ronnie James Dio forms Dio","After leaving Black Sabbath, he started his own band with drummer Vinny Appice. Holy Diver came in 1983.","formation",["dio","black-sabbath"],2],
-["kiss-unmask","1983-09-18","Kiss appear without make-up on MTV","The band ended their make-up era on television, a calculated move to revive their career. It reflected how MTV could reshape image.","scene",["kiss"],1],
-["rick-allen-accident","1984-12-31","Def Leppard drummer Rick Allen loses his left arm","Allen lost his arm in a car accident in Sheffield. He learned to play with a customised electronic kit and remained in the band.","scene",["def-leppard"],2],
+["kiss-unmask","1983-09-18","Kiss appear without makeup on MTV","The band ended their makeup era on television, a calculated move to revive their career. It reflected how MTV could reshape image.","scene",["kiss"],1],
+["rick-allen-accident","1984-12-31","Def Leppard drummer Rick Allen loses his left arm","Allen lost his arm in a car accident in Sheffield. He learned to play with a customized electronic kit and remained in the band.","scene",["def-leppard"],2],
 ["hellhammer-formed","1982","Hellhammer forms in Zürich","Tom G. Warrior and Martin Eric Ain's crude, primitive band was derided at the time. It later became a cult influence on black and death metal.","formation",["hellhammer","celtic-frost"],1],
 ["sodom-formed","1981","Sodom forms in Gelsenkirchen","Tom Angelripper's trio drew on Venom and Motörhead. They became one of the German thrash trio.","formation",["sodom"],1],
 ["destruction-formed","1982","Destruction forms in Lörrach","Originally called Knight of Demon, they took their new name in 1983 and became a key German thrash act.","formation",["destruction"],1],
@@ -44,6 +44,6 @@ export const events2 = [
 ["voivod-formed","1982","Voivod forms in Jonquière, Quebec","The Canadian band mixed punk and thrash with science-fiction imagery. Over time they became one of metal's most progressive acts.","formation",["voivod"],1],
 ["metal-for-muthas","1980-02-08","Metal for Muthas compilation released","EMI's compilation of NWOBHM bands included Iron Maiden and brought attention to the scene. It helped spread the new wave beyond London.","release",["iron-maiden"],2],
 ["mercyful-fate-split","1985","Mercyful Fate break up; King Diamond goes solo","King Diamond left to form a solo band under his own name. Fatal Portrait and Abigail followed.","lineup",["mercyful-fate","king-diamond"],1],
-["moscow-music-peace-festival","1989-08-12","Moscow Music Peace Festival","Bon Jovi, Mötley Crüe, Ozzy Osbourne, Scorpions, Skid Row and others played at Lenin Stadium on 12 and 13 August. The shows signalled the reach of hard rock and metal behind the Iron Curtain.","concert",["motley-crue","ozzy-osbourne","scorpions"],2],
+["moscow-music-peace-festival","1989-08-12","Moscow Music Peace Festival","Bon Jovi, Mötley Crüe, Ozzy Osbourne, Scorpions, Skid Row and others played at Lenin Stadium on 12 and 13 August. The shows signaled the reach of hard rock and metal behind the Iron Curtain.","concert",["motley-crue","ozzy-osbourne","scorpions"],2],
 ["ozzy-costa-mesa-farewell","1992-11","Ozzy Osbourne plays what he calls his farewell show","The Costa Mesa shows ended his No More Tears tour. The original Black Sabbath line-up joined him on stage for the final songs.","concert",["ozzy-osbourne","black-sabbath"],2]
 ];

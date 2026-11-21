@@ -124,7 +124,7 @@
     "date": "1968-09-01",
     "datePrecision": "month",
     "title": "Led Zeppelin forms",
-    "description": "Jimmy Page assembled Robert Plant, John Paul Jones and John Bonham to fulfil Yardbirds commitments, first as the New Yardbirds. The new name followed within weeks.",
+    "description": "Jimmy Page assembled Robert Plant, John Paul Jones and John Bonham to fulfill Yardbirds commitments, first as the New Yardbirds. The new name followed within weeks.",
     "category": "formation",
     "artistIds": [
       "led-zeppelin"
@@ -208,7 +208,7 @@
     "date": "1973-01-01",
     "datePrecision": "year",
     "title": "Kiss forms in New York City",
-    "description": "Paul Stanley, Gene Simmons, Ace Frehley and Peter Criss adopted make-up and a pyrotechnic stage show. Their image shaped the look of 1980s metal.",
+    "description": "Paul Stanley, Gene Simmons, Ace Frehley and Peter Criss adopted makeup and a pyrotechnic stage show. Their image shaped the look of 1980s metal.",
     "category": "formation",
     "artistIds": [
       "kiss"
@@ -1209,8 +1209,8 @@
     "id": "kiss-unmask",
     "date": "1983-09-18",
     "datePrecision": "day",
-    "title": "Kiss appear without make-up on MTV",
-    "description": "The band ended their make-up era on television, a calculated move to revive their career. It reflected how MTV could reshape image.",
+    "title": "Kiss appear without makeup on MTV",
+    "description": "The band ended their makeup era on television, a calculated move to revive their career. It reflected how MTV could reshape image.",
     "category": "scene",
     "artistIds": [
       "kiss"
@@ -1268,7 +1268,7 @@
     "date": "1984-01-01",
     "datePrecision": "year",
     "title": "Possessed record the 'Death Metal' demo",
-    "description": "The demo helped popularise the term 'death metal' for the sound the band and others were developing.",
+    "description": "The demo helped popularize the term 'death metal' for the sound the band and others were developing.",
     "category": "scene",
     "artistIds": [
       "possessed"
@@ -1316,7 +1316,7 @@
     "date": "1984-03-02",
     "datePrecision": "day",
     "title": "This Is Spinal Tap premieres in the US",
-    "description": "Rob Reiner's mockumentary satirised heavy metal excess. Many real bands recognised themselves in it.",
+    "description": "Rob Reiner's mockumentary satirized heavy metal excess. Many real bands recognized themselves in it.",
     "category": "industry",
     "artistIds": [],
     "importance": 1
@@ -1350,7 +1350,7 @@
     "date": "1984-12-31",
     "datePrecision": "day",
     "title": "Def Leppard drummer Rick Allen loses his left arm",
-    "description": "Allen lost his arm in a car accident in Sheffield. He learned to play with a customised electronic kit and remained in the band.",
+    "description": "Allen lost his arm in a car accident in Sheffield. He learned to play with a customized electronic kit and remained in the band.",
     "category": "scene",
     "artistIds": [
       "def-leppard"
@@ -1491,7 +1491,7 @@
     "date": "1985-09-19",
     "datePrecision": "day",
     "title": "PMRC hearing in the US Senate",
-    "description": "Frank Zappa, Dee Snider and John Denver testified against music labelling. The hearing led to Parental Advisory stickers.",
+    "description": "Frank Zappa, Dee Snider and John Denver testified against music labeling. The hearing led to Parental Advisory stickers.",
     "category": "industry",
     "artistIds": [
       "motley-crue",
@@ -1709,7 +1709,7 @@
     "date": "1989-08-12",
     "datePrecision": "day",
     "title": "Moscow Music Peace Festival",
-    "description": "Bon Jovi, Mötley Crüe, Ozzy Osbourne, Scorpions, Skid Row and others played at Lenin Stadium on 12 and 13 August. The shows signalled the reach of hard rock and metal behind the Iron Curtain.",
+    "description": "Bon Jovi, Mötley Crüe, Ozzy Osbourne, Scorpions, Skid Row and others played at Lenin Stadium on 12 and 13 August. The shows signaled the reach of hard rock and metal behind the Iron Curtain.",
     "category": "concert",
     "artistIds": [
       "motley-crue",
