@@ -31,7 +31,7 @@ export function createFilter(model, getState) {
       if (s.hc.has(it.category)) return false;
       if (s.lm && it.importance < 2) return false;
       // events tied to artists vanish only when every artist's genre is hidden
-      if (it.artists.length && it.artists.every((a) => s.hg.has(a.genre))) return false;
+      if (it.category !== 'world' && it.artists.length && it.artists.every((a) => s.hg.has(a.genre))) return false;
       return true;
     },
 
@@ -54,12 +54,13 @@ export function createFilter(model, getState) {
       if (thrashCache.has(it.key)) return thrashCache.get(it.key);
       let v;
       if (it.kind === 'release') v = it.genre === 'thrash';
+      else if (it.category === 'world') v = true; // outside-music context is never dimmed
       else v = it.artists.some((a) => a.genre === 'thrash') || thrashRe.test(it.title + ' ' + it.description);
       thrashCache.set(it.key, v);
       return v;
     },
 
-    /** Dimmed (shown but de-emphasised) given search and thrash focus. */
+    /** Dimmed (shown but de-emphasized) given search and thrash focus. */
     dimmed(it) {
       const s = getState();
       if (s.tf && !api.thrash(it)) return true;

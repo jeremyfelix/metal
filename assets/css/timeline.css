@@ -29,6 +29,7 @@
 .ax-label { font: 500 12px var(--font-mono); fill: var(--ink-2); }
 .ax-label.decade { font: 700 13px var(--font-mono); fill: var(--ink); }
 .ax-label.month { font-size: 10.5px; fill: var(--ink-3); }
+.world-band { fill: var(--c-world); opacity: .08; }
 .ev-rowlines { stroke: var(--line); stroke-width: 1; stroke-dasharray: 2 5; fill: none; }
 .grid-minor { fill: none; stroke: var(--line); stroke-width: 1; opacity: .55; }
 .grid-major { fill: none; stroke: var(--line-2); stroke-width: 1.5; }

@@ -1,4 +1,4 @@
-// Loads and normalises the three JSON files into one in-memory model.
+// Loads and normalizes the three JSON files into one in-memory model.
 import { toTime, periodStart, periodEnd, parseParts } from './dates.js';
 import { genreMeta, GENRES } from './meta.js';
 import { cleanImage } from './images.js';
@@ -98,7 +98,7 @@ export function buildModel(rawArtists, rawReleases, rawEvents, base = '', rawIma
   // Lanes: every artist that has at least one release.
   const laneArtists = artists.filter((a) => a.releases.length);
 
-  // Images (optional, sanitised: https + wikimedia/wikipedia hosts only).
+  // Images (optional, sanitized: https + wikimedia/wikipedia hosts only).
   const images = { artists: [], hasAny: false, generated: rawImages && rawImages.generated ? str(rawImages.generated) : null };
   if (rawImages && typeof rawImages === 'object') {
     for (const a of artists) { const im = cleanImage(rawImages.artists && rawImages.artists[a.id], true); if (im) { a.img = im; images.artists.push(a); } }

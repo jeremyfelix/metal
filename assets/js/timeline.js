@@ -21,8 +21,9 @@ const ERA_H = 20, AXIS_TOP = 22, AXIS_BOT = 46;
 // Events track: one band per importance level. Crowded bands spill into extra sub-rows; once those are
 // full, lower-importance events are hidden until you zoom in (see packEvents()). Capped, never unbounded.
 const EV_LAYOUT = {
-  wide: { head: 176, rows: { 3: [68], 2: [91, 107, 123], 1: [145, 160] } },
-  narrow: { head: 150, rows: { 3: [68], 2: [91, 107], 1: [128] } },
+  // w = world events (outside music), kept on their own row above the music events
+  wide: { head: 206, rows: { w: [64, 81], 3: [105], 2: [127, 142, 157], 1: [178, 192] } },
+  narrow: { head: 164, rows: { w: [64], 3: [86], 2: [108, 123], 1: [145] } },
 };
 let HEAD_H = EV_LAYOUT.wide.head;
 let EV_ROW_Y = EV_LAYOUT.wide.rows;
@@ -93,6 +94,7 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
   const axisPath = el('path', { class: 'ax-ticks' }, headPlot);
   const axisPathMajor = el('path', { class: 'ax-ticks major' }, headPlot);
   const axisLabels = el('g', { class: 'ax-labels' }, headPlot);
+  const worldBand = el('rect', { class: 'world-band' }, headPlot);
   const evRowLines = el('path', { class: 'ev-rowlines' }, headPlot);
   const evG = el('g', { class: 'events' }, headPlot);
   const evLabelG = el('g', { class: 'ev-labels' }, headPlot);
@@ -101,7 +103,7 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
   const headGutterEdge = el('line', { class: 'gutter-edge', y1: 0, y2: HEAD_H }, headGutter);
   const capTitle = el('text', { class: 'cap-title', x: 12, y: 14 }, headGutter); capTitle.textContent = 'Era';
   const capAx = el('text', { class: 'cap-title', x: 12, y: 40 }, headGutter); capAx.textContent = 'Year';
-  [['Key events', 3], ['Notable', 2], ['Minor', 1]].forEach(([t, i]) => { const c = el('text', { class: 'cap-row' }, headGutter); c.textContent = t; c.dataset.imp = i; });
+  [['World', 'w'], ['Key events', 3], ['Notable', 2], ['Minor', 1]].forEach(([t, i]) => { const c = el('text', { class: 'cap-row' }, headGutter); c.textContent = t; c.dataset.imp = i; });
 
   // pools for axis labels / eras
   const axTexts = [];
@@ -143,18 +145,21 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
 
     // --- events track nodes
     evNodes = [];
-    const evRows = { 1: [], 2: [], 3: [] };
+    const evRows = { w: [], 1: [], 2: [], 3: [] };
     for (const it of model.events) {
       const imp = it.importance;
-      const n = makeEventNode(it, EV_ROW_Y[imp][0], EV_R[imp], evG, evLabelG, imp);
-      n.imp = imp;
-      n.kind = 'event'; n.t = it.t; evNodes.push(n); evRows[imp].push(n); nodes.push(n);
+      const rk = it.category === 'world' ? 'w' : imp;
+      const n = makeEventNode(it, EV_ROW_Y[rk][0], EV_R[imp], evG, evLabelG, imp);
+      n.imp = imp; n.rk = rk;
+      n.kind = 'event'; n.t = it.t; evNodes.push(n); evRows[rk].push(n); nodes.push(n);
       addByKey(it.key, n);
     }
-    for (const i of [3, 2, 1]) rowsForLabels.push({ nodes: evRows[i], y: EV_ROW_Y[i][0], imp: i, kind: 'event' });
+    for (const i of ['w', 3, 2, 1]) rowsForLabels.push({ nodes: evRows[i], y: EV_ROW_Y[i][0], kind: 'event' });
     navRows.push({ nodes: evNodes.slice(), isEvents: true });
-    const r2 = EV_ROW_Y[2], r1 = EV_ROW_Y[1];
-    evRowLines.setAttribute('d', `M${G} ${(EV_ROW_Y[3][0] + r2[0]) / 2}H${W}M${G} ${(r2[r2.length - 1] + r1[0]) / 2}H${W}`);
+    const rw = EV_ROW_Y.w, r2 = EV_ROW_Y[2], r1 = EV_ROW_Y[1];
+    const sepW = (rw[rw.length - 1] + EV_ROW_Y[3][0]) / 2;
+    evRowLines.setAttribute('d', `M${G} ${sepW}H${W}M${G} ${(EV_ROW_Y[3][0] + r2[0]) / 2}H${W}M${G} ${(r2[r2.length - 1] + r1[0]) / 2}H${W}`);
+    worldBand.setAttribute('y', AXIS_BOT); worldBand.setAttribute('height', sepW - AXIS_BOT); worldBand.setAttribute('x', G); worldBand.setAttribute('width', plotW);
 
     // --- lanes
     bodySvg.replaceChildren();
@@ -403,18 +408,17 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
    * first sub-row of its importance band that has room (otherwise the least crowded one).
    */
   function packEvents(X) {
-    for (const imp of [3, 2, 1]) {
-      const rows = EV_ROW_Y[imp];
-      const last = rows.map(() => -1e9);
-      const gap = EV_R[imp] * 2 + 2;
+    for (const rk of ['w', 3, 2, 1]) {
+      const rows = EV_ROW_Y[rk];
+      const last = rows.map(() => -1e9), lastR = rows.map(() => 0);
       for (const n of evNodes) {
-        if (n.imp !== imp || n.hidden || !n.vis) continue;
-        let j = last.findIndex((l) => n.x - l >= gap);
+        if (n.rk !== rk || n.hidden || !n.vis) continue;
+        let j = last.findIndex((l, k) => n.x - l >= n.r + lastR[k] + 2);
         let ph = false;
-        if (j < 0) { // no free sub-row: key events always stay (overlap), the rest wait for more zoom
-          if (imp === 3) j = last.indexOf(Math.min(...last)); else { ph = true; j = 0; }
+        if (j < 0) { // no free sub-row: key music events always stay (overlap), the rest wait for more zoom
+          if (rk === 3) j = last.indexOf(Math.min(...last)); else { ph = true; j = 0; }
         }
-        if (!ph) last[j] = n.x;
+        if (!ph) { last[j] = n.x; lastR[j] = n.r; }
         if (ph !== !!n.ph) { n.ph = ph; setDisp(n); if (ph) setLabel(n, false); }
         if (ph) continue;
         n.sub = j;
@@ -486,15 +490,14 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
   function layoutLabels(ppy, xmax) {
     for (const row of rowsForLabels) {
       let mode;
-      if (row.kind === 'event') mode = row.imp === 3 ? ppy >= 18 : row.imp === 2 ? ppy >= 150 : ppy >= 420;
-      else mode = ppy >= 150 ? 2 : ppy >= 18 ? 1 : 0;
+      if (row.kind !== 'event') mode = ppy >= 150 ? 2 : ppy >= 18 ? 1 : 0;
       const list = row.nodes;
       for (let i = 0; i < list.length; i++) {
         const n = list[i];
         if (!n.label) continue;
         let show = false;
         if (!n.hidden && n.vis && !n.ph) {
-          const wanted = row.kind === 'event' ? mode : (mode === 2 || (mode === 1 && n.item.landmark));
+          const wanted = row.kind === 'event' ? (n.imp === 3 ? ppy >= 18 : n.imp === 2 ? ppy >= 150 : ppy >= 420) : (mode === 2 || (mode === 1 && n.item.landmark));
           if (wanted) {
             // next non-hidden node in this row
             let nx = Infinity;
@@ -539,7 +542,7 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
     [t0, t1] = clampView(t0, t1);
     if (reducedMotion()) { setView(t0, t1); return; }
     const a0 = view.t0, a1 = view.t1, start = performance.now(), dur = 380;
-    // interpolate centre and log-span so zooming feels uniform
+    // interpolate center and log-span so zooming feels uniform
     const c0 = (a0 + a1) / 2, c1 = (t0 + t1) / 2, s0 = Math.log(a1 - a0), s1 = Math.log(t1 - t0);
     const tick = (now) => {
       const p = Math.min(1, (now - start) / dur), e = 1 - Math.pow(1 - p, 3);
@@ -765,7 +768,7 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
     if (genre && groupY.has(genre)) body.scrollTo({ top: Math.max(0, groupY.get(genre) - 2), behavior: reducedMotion() ? 'auto' : 'smooth' });
   }
 
-  /** Bring an item into view (pan, and scroll to its lane). center=true always centres horizontally. */
+  /** Bring an item into view (pan, and scroll to its lane). center=true always centers horizontally. */
   function reveal(key, { center = false, flash = true, insetR = 0, insetB = 0 } = {}) {
     const list = byKey.get(key) || [];
     let n = list.find((x) => !x.aux && !x.hidden) || list.find((x) => !x.hidden);

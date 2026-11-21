@@ -87,7 +87,8 @@ h1 span { color: var(--accent); }
 .badge { background: var(--accent); color: var(--accent-ink); border-radius: 10px; padding: 1px 7px; font: 700 12px var(--font-body); }
 .filters-body { display: flex; flex-wrap: wrap; gap: 6px 26px; align-items: center; }
 .filter-group { min-width: 0; display: flex; align-items: center; gap: 10px; }
-.filter-group.toggles { order: 2; }
+.filter-group.toggles { order: 1; }
+.filter-group:nth-child(2) { order: 2; }
 .filter-title { font: 500 11px/1 var(--font-mono); text-transform: uppercase; letter-spacing: .1em; color: var(--ink-3); width: 66px; flex: none; }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
 .chip-btn {
@@ -175,7 +176,6 @@ h1 span { color: var(--accent); }
 .chr-text { display: flex; flex-direction: column; gap: 1px; min-width: 0; flex: 1; }
 .chr-thumb { flex: none; width: 56px; min-height: 56px; display: block; }
 .chr-thumb-img { display: block; width: 56px; height: auto; max-height: 72px; object-fit: cover; border: 1px solid var(--line-2); background: var(--surface-2); }
-.chr-tag { font: 600 10px/1 var(--font-mono); text-transform: uppercase; letter-spacing: .08em; margin-left: 8px; padding: 2px 5px; border: 1px solid var(--line-2); color: var(--ink-2); vertical-align: 1px; }
 .chr-badge { align-self: flex-start; font: 600 10.5px/1 var(--font-mono); text-transform: uppercase; letter-spacing: .08em; border: 1.5px solid var(--c, var(--line-2)); color: var(--ink); padding: 4px 6px; margin-top: 2px; white-space: nowrap; }
 
 /* ---- image credits ---- */

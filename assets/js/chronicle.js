@@ -35,7 +35,7 @@ export function createChronicle({ root, model, getState, filter, onSelect }) {
       const y = new Date(it.t).getUTCFullYear();
       if (y !== curYear) {
         curYear = y; years.push(y);
-        const sec = h('section', 'chr-year'); sec.id = 'y' + y; sec.setAttribute('aria-labelledby', 'yh' + y);
+        const sec = h('section', 'chr-year'); sec.id = 'y' + y; sec.setAttribute('aria-labeledby', 'yh' + y);
         const hd = h('h3', 'chr-year-h', String(y)); hd.id = 'yh' + y; sec.appendChild(hd);
         ul = h('ul', 'chr-items'); sec.appendChild(ul); list.appendChild(sec);
       }
@@ -74,7 +74,6 @@ export function createChronicle({ root, model, getState, filter, onSelect }) {
     parts.push(it.kind === 'release' ? typeMeta(it.type).label : catMeta(it.category).label);
     if (it.kind === 'release') parts.push(genreMeta(it.genre).label);
     sub.textContent = parts.join(' · ');
-    if (it.kind === 'release' && it.inList) sub.appendChild(h('span', 'chr-tag', 'My list'));
     text.appendChild(sub);
     if (it.kind === 'event' && it.description) text.appendChild(h('span', 'chr-desc', it.description));
     if (it.kind === 'release' && it.note) text.appendChild(h('span', 'chr-desc', it.note));

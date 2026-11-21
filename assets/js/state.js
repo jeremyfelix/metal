@@ -1,4 +1,4 @@
-// App state + URL hash (de)serialisation. The hash is the source of truth for sharing:
+// App state + URL hash (de)serialization. The hash is the source of truth for sharing:
 //   #view=chronicle&hg=punk,death&hc=lineup&lm=1&tf=1&q=slayer&sel=r:id&x=1983.2-1988.4
 // hg/hc list *hidden* genres/categories so unknown values never break a link.
 

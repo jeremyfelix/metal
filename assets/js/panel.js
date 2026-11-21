@@ -66,7 +66,6 @@ export function createPanel({ root, model, onSelect, onArtist, onClose }) {
     if (it.kind === 'release') {
       kick.appendChild(chip(typeMeta(it.type).label, 'chip-type'));
       if (it.landmark) kick.appendChild(chip('Landmark', 'chip-landmark'));
-      if (it.inList) kick.appendChild(chip('My list', 'chip-list'));
     } else {
       kick.appendChild(chip(catMeta(it.category).label, 'chip-cat ' + catClass(it.category)));
       kick.appendChild(chip(['', 'Minor event', 'Notable event', 'Key event'][it.importance], 'chip-plain'));
@@ -113,7 +112,7 @@ export function createPanel({ root, model, onSelect, onArtist, onClose }) {
       b.appendChild(h('span', 'pn-li-date', formatDate(it.date, it.prec)));
       const tt = h('span', 'pn-li-title', it.title);
       b.appendChild(tt);
-      b.appendChild(h('span', 'pn-li-kind', it.kind === 'release' ? typeMeta(it.type).label + (it.landmark ? ' ★' : '') + (it.inList ? ' · my list' : '') : catMeta(it.category).label));
+      b.appendChild(h('span', 'pn-li-kind', it.kind === 'release' ? typeMeta(it.type).label + (it.landmark ? ' ★' : '') : catMeta(it.category).label));
       b.addEventListener('click', () => onSelect(it.key));
       li.appendChild(b); ol.appendChild(li);
     }

@@ -45,14 +45,14 @@ export function periodEnd(str) {
   return Date.UTC(p.y, 11, 31);
 }
 
-/** Format per precision: "25 Jul 1983", "Dec 1981", "1980". */
+/** Format per precision (US style): "Jul 25, 1983", "Dec 1981", "1980". */
 export function formatDate(str, precision) {
   const p = parseParts(str);
   if (!p) return str ? String(str) : '';
   const prec = precision || p.prec;
   if (prec === 'year' || !p.m) return String(p.y);
   if (prec === 'month' || !p.d) return `${MONTHS[p.m - 1]} ${p.y}`;
-  return `${p.d} ${MONTHS[p.m - 1]} ${p.y}`;
+  return `${MONTHS[p.m - 1]} ${p.d}, ${p.y}`;
 }
 
 /** Same as formatDate but without the year (used inside year-grouped lists). */
@@ -62,7 +62,7 @@ export function formatDayMonth(str, precision) {
   const prec = precision || p.prec;
   if (prec === 'year' || !p.m) return '—';
   if (prec === 'month' || !p.d) return MONTHS[p.m - 1];
-  return `${p.d} ${MONTHS[p.m - 1]}`;
+  return `${MONTHS[p.m - 1]} ${p.d}`;
 }
 
 export const yearOf = (t) => new Date(t).getUTCFullYear();

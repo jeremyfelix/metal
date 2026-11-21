@@ -2,7 +2,7 @@
 
 An interactive, static website that charts the history of heavy metal, with the emphasis on thrash. Two views share the same filters and search:
 
-- **Timeline**: a zoomable, pannable swimlane chart. One lane per artist, grouped and colour-coded by genre, release markers by date, and an events track along the top.
+- **Timeline**: a zoomable, pannable swimlane chart. One lane per artist, grouped and color-coded by genre, release markers by date, and an events track along the top.
 - **Chronicle**: a vertical, year-grouped list of everything, comfortable on phones.
 
 Plain HTML, CSS and vanilla ES modules. No build step, no npm dependencies, no CDN libraries. (The page optionally requests Google Fonts; it falls back to system fonts if that is blocked.)
@@ -34,7 +34,7 @@ assets/js/
   data.js               fetch + normalise the three JSON files
   dates.js              date parsing/formatting (YYYY, YYYY-MM, YYYY-MM-DD)
   meta.js               genre/category/type metadata, marker geometry
-  state.js              state store and URL-hash (de)serialisation
+  state.js              state store and URL-hash (de)serialization
   filters.js            filter, search and "thrash focus" predicates
   timeline.js           SVG swimlane timeline (zoom, pan, labels, keyboard)
   chronicle.js          year-grouped list view
@@ -73,11 +73,11 @@ The site loads three files from `data/` (all URLs are relative, so it works from
 ```
 
 - `type`: `album`, `ep`, `demo`, `live` or `compilation` (changes the marker shape).
-- `datePrecision`: `day`, `month` or `year`. It controls how the date is *displayed* (`7 Oct 1986`, `Oct 1986`, `1986`). Month/year dates are placed mid-period on the axis.
-- `landmark`: emphasised marker, labelled when there is room.
+- `datePrecision`: `day`, `month` or `year`. It controls how the date is *displayed* in US style (`Oct 7, 1986`, `Oct 1986`, `1986`). Month/year dates are placed mid-period on the axis.
+- `landmark`: emphasized marker, labeled when there is room.
 - `listTitle`: the shorter label drawn on the timeline.
 - `dateNote`: shown in the details panel as a subtle "Date note".
-- `inList`: `true` = from the owner's personal album list, `false` = added for context (then `listTitle` may be `null`; the full title is used on the timeline). A missing flag counts as `true`. Owner's releases carry a small "My list" tag, and the **My list only** toggle hides the rest.
+- `inList`: `true` = from the owner's personal album list, `false` = added for context (then `listTitle` may be `null`; the full title is used on the timeline). A missing flag counts as `true`. The **My list only** toggle hides the added ones.
 - `wiki`: English Wikipedia article title for the album, or `null`.
 
 ### `events.json`
@@ -88,7 +88,7 @@ The site loads three files from `data/` (all URLs are relative, so it works from
   "artistIds": ["metallica"], "importance": 3 }
 ```
 
-- `category`: `formation`, `lineup`, `concert`, `death`, `scene`, `industry` or `release`.
+- `category`: `formation`, `lineup`, `concert`, `death`, `scene`, `industry`, `release` or `world`. `world` marks real-world events outside music (politics, war, disasters, film, books) that shaped metal; they get their own "World" row above the music events, are never dimmed by Thrash focus, and normally have an empty `artistIds`.
 - `importance`: `1`–`3`. Higher means a bigger glyph on a higher row; level 3 events get labels first.
 - `artistIds`: events that list artists also appear as a small tick on those artists' lanes.
 
@@ -114,7 +114,7 @@ node scripts/fetch-images.mjs
 **Image rules the site enforces**
 - Only `https:` URLs whose host ends in `wikimedia.org` or `wikipedia.org` are used; anything else is ignored.
 - Images use `loading="lazy"`, `decoding="async"` and `referrerpolicy="no-referrer"`. If one fails to load it is removed entirely (no broken-image icons).
-- Artist photos are free-licensed Commons files and are always shown with an attribution line ("Photo: author · licence · Wikimedia Commons", each linking to its source). All of them are listed in the **Image credits** section at the bottom of the page.
+- Artist photos are free-licensed Commons files and are always shown with an attribution line ("Photo: author · license · Wikimedia Commons", each linking to its source). All of them are listed in the **Image credits** section at the bottom of the page.
 - Album covers are non-free images. They are **hotlinked from Wikipedia, never copied into this repository**, link back to their article, and remain the property of their rights holders.
 
 ### Adding an album or event

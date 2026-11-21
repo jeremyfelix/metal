@@ -30,6 +30,7 @@ export const CATEGORIES = [
   { id: 'scene', label: 'Scene' },
   { id: 'industry', label: 'Industry' },
   { id: 'release', label: 'Release news' },
+  { id: 'world', label: 'World events' },
 ];
 const CAT_BY_ID = new Map(CATEGORIES.map((c) => [c.id, c]));
 export function catMeta(id) {
@@ -57,7 +58,7 @@ export const ERAS = [
   { id: 'after', label: 'After', range: '1992–96', from: 1992, to: 1997, genre: 'death' },
 ];
 
-/* ---- Geometry (paths centred on 0,0) ---- */
+/* ---- Geometry (paths centered on 0,0) ---- */
 const f = (n) => Math.round(n * 100) / 100;
 
 /** Release markers: shape encodes type. */
@@ -84,7 +85,7 @@ export function eventPath(cat, r) {
     case 'scene': { const p = []; for (let i = 0; i < 6; i++) { const t = (i * Math.PI) / 3; p.push(`${f(Math.cos(t) * r * 1.1)} ${f(Math.sin(t) * r * 1.1)}`); } return 'M' + p.join('L') + 'Z'; } // hexagon
     case 'industry': { const a = r * 0.85; return `M${-a} ${-a}H${a}V${a}H${-a}Z`; } // square
     case 'release': return `M${-r} 0A${r} ${r} 0 1 0 ${r} 0A${r} ${r} 0 1 0 ${-r} 0Z`; // circle
-    default: return `M0 ${-r}L${r} 0L0 ${r}L${-r} 0Z`;
+    default: { const a = r * 1.15; return `M0 ${-a}L${a} 0L0 ${a}L${-a} 0Z`; } // diamond (world events, unknown)
   }
 }
 export const slugify = slug;
