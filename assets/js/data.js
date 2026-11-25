@@ -5,9 +5,15 @@ import { cleanImage } from './images.js';
 
 const str = (v, d = '') => (v == null ? d : String(v));
 
+// Deploys stamp <meta name="build-version"> into index.html (scripts/stamp-version.mjs); JSON fetches then
+// carry ?v=<version> so a new deploy never reuses stale cached data. Locally there is no meta: URLs are unchanged.
+const BUILD = (() => { const m = document.querySelector('meta[name="build-version"]'); return m && m.content ? m.content : ''; })();
+const versioned = (url) => (BUILD ? url + '?v=' + encodeURIComponent(BUILD) : url);
+const optionalJSON = (url) => fetch(versioned(url), { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+
 /** Fetch JSON relative to the page. `base` is e.g. "data/" or "fixtures/". */
 async function getJSON(base, name) {
-  const url = base + name;
+  const url = versioned(base + name);
   let res;
   try { res = await fetch(url, { cache: 'no-cache' }); }
   catch (err) { const e = new Error(`Could not fetch ${url} (${err.message})`); e.network = true; throw e; }
@@ -19,15 +25,16 @@ async function getJSON(base, name) {
 export async function loadData(base) {
   const b = base.endsWith('/') ? base : base + '/';
   // images.json is optional: any failure just means "no images".
-  const imgP = fetch(b + 'images.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
-  const plP = fetch(b + 'playlists.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  const imgP = optionalJSON(b + 'images.json');
+  const plP = optionalJSON(b + 'playlists.json');
+  const lnP = optionalJSON(b + 'links.json'); // exact Apple Music album URLs (optional)
   const [a, r, e] = await Promise.all([getJSON(b, 'artists.json'), getJSON(b, 'releases.json'), getJSON(b, 'events.json')]);
-  return buildModel(a, r, e, b, await imgP, await plP);
+  return buildModel(a, r, e, b, await imgP, await plP, await lnP);
 }
 
 const asArray = (x) => (Array.isArray(x) ? x : []);
 
-export function buildModel(rawArtists, rawReleases, rawEvents, base = '', rawImages = null, rawPlaylists = null) {
+export function buildModel(rawArtists, rawReleases, rawEvents, base = '', rawImages = null, rawPlaylists = null, rawLinks = null) {
   const warnings = [];
   const artists = [];
   const artistById = new Map();
@@ -64,7 +71,7 @@ export function buildModel(rawArtists, rawReleases, rawEvents, base = '', rawIma
       artist, artists: artist ? [artist] : [], genre: artist ? artist.genre : 'other',
       type: str(r.type, 'album').toLowerCase(), landmark: r.landmark === true,
       note: r.note ? str(r.note) : null, dateNote: r.dateNote ? str(r.dateNote) : null,
-      inList: r.inList !== false, wiki: r.wiki ? str(r.wiki) : null, img: null,
+      appleUrl: null, inList: r.inList !== false, wiki: r.wiki ? str(r.wiki) : null, img: null,
     };
     if (byKey.has(it.key)) continue;
     if (artist) artist.releases.push(it);
@@ -106,6 +113,15 @@ export function buildModel(rawArtists, rawReleases, rawEvents, base = '', rawIma
     for (const r of releases) { r.img = cleanImage(rawImages.releases && rawImages.releases[r.id], false); }
     images.hasAny = images.artists.length > 0 || releases.some((r) => r.img);
   }
+  // Exact Apple Music album URLs (optional); anything not matching the strict pattern is ignored.
+  const APPLE = /^https:\/\/music\.apple\.com\/[a-z]{2}\/album\/[^?#]+\/\d+$/;
+  if (rawLinks && rawLinks.apple && typeof rawLinks.apple === 'object') {
+    for (const [id, url] of Object.entries(rawLinks.apple)) {
+      const rel = byKey.get('r:' + id);
+      if (rel && typeof url === 'string' && APPLE.test(url)) rel.appleUrl = url;
+    }
+  }
+
   // Curated playlists (optional): items whose release id does not resolve are ignored.
   const playlists = [];
   for (const p of asArray(rawPlaylists)) {

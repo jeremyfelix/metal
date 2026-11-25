@@ -118,6 +118,17 @@ node scripts/fetch-images.mjs
 - Artist photos are free-licensed Commons files and are always shown with an attribution line ("Photo: author · license · Wikimedia Commons", each linking to its source). All of them are listed in the **Image credits** section at the bottom of the page.
 - Album covers are non-free images. They are **hotlinked from Wikipedia, never copied into this repository**, link back to their article, and remain the property of their rights holders.
 
+### `links.json` (optional)
+
+Exact Apple Music album URLs, so the "Apple Music" listen link opens the album instead of an empty search page (a problem on iPhone).
+
+```json
+{ "generated": "2026-11-27",
+  "apple": { "slayer-reign-in-blood": "https://music.apple.com/us/album/reign-in-blood/1440765558" } }
+```
+
+Only URLs matching `^https://music\.apple\.com/[a-z]{2}/album/[^?#]+/\d+$` are used; anything else is ignored. Releases without an entry fall back to the Apple Music search URL. A missing file is fine.
+
 ### `playlists.json` (optional)
 
 Curated playlists shown under "From Speed Kills". If the file is missing the section is simply not shown.
@@ -157,6 +168,16 @@ Genre groups collapse (click or press Enter on a group header; **Collapse all / 
 ## Keyboard
 
 `Tab` into the timeline, then arrow keys move between marks (left/right within a lane, up/down between lanes), `Enter` opens details, `Esc` closes the panel. With the timeline background focused: arrows pan, `+` / `-` zoom, `0` fits everything. `/` focuses search.
+
+## Cache busting (version stamping)
+
+GitHub Pages sends `Cache-Control: max-age=600`, and Safari on iOS was seen holding old ES modules for much longer, so a visitor could get new HTML running old JavaScript. The deploy workflow therefore runs `node scripts/stamp-version.mjs "${GITHUB_SHA::8}"` in the build job, before the artifact is uploaded. It rewrites the CI checkout only (never commit the result):
+
+- `index.html`: every local `assets/` stylesheet and script URL gets `?v=<version>`, and a `<meta name="build-version">` is added.
+- `assets/js/**`: every relative `import` / `export … from` / dynamic `import()` specifier gets the same `?v=<version>`, so each module is still instantiated exactly once. The script verifies this and exits non-zero if nothing was stamped or any specifier is inconsistent.
+- Data fetches (`artists.json`, `images.json`, `playlists.json`, `links.json`, …) append `?v=<build-version>` read from that meta tag.
+
+The script is idempotent. Locally there is no stamping and nothing changes. (A `Cache-Control` `<meta http-equiv>` is deliberately not used: Safari ignores it.)
 
 ## Deploy to GitHub Pages
 

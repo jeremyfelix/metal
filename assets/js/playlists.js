@@ -106,7 +106,7 @@ export function listenUrls(rel) {
   const q = encodeURIComponent(`${rel.artist ? rel.artist.name : ''} ${rel.title}`.trim());
   return [
     ['Spotify', `https://open.spotify.com/search/${q}`],
-    ['Apple Music', `https://music.apple.com/us/search?term=${q}`],
+    ['Apple Music', rel.appleUrl || `https://music.apple.com/us/search?term=${q}`],
     ['YouTube Music', `https://music.youtube.com/search?q=${q}`],
   ];
 }
