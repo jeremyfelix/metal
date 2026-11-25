@@ -26,15 +26,16 @@ fs.mkdirSync(cacheDir, { recursive: true });
 const SPACING_MS = 3200;
 let last = 0;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-async function search(term, limit = 10) {
-  const qs = new URLSearchParams({ term, entity: "album", country: "US", limit: String(limit) }).toString();
-  const file = path.join(cacheDir, crypto.createHash("sha1").update(qs).digest("hex") + ".json");
+const search = (term, limit = 10) => get("search", { term, entity: "album", country: "US", limit: String(limit) });
+async function get(endpoint, params) {
+  const qs = new URLSearchParams(params).toString();
+  const file = path.join(cacheDir, crypto.createHash("sha1").update(endpoint === "search" ? qs : endpoint + qs).digest("hex") + ".json");
   if (fs.existsSync(file)) return JSON.parse(fs.readFileSync(file, "utf8")).results ?? [];
   for (let attempt = 0; attempt < 8; attempt++) {
     const wait = last + SPACING_MS - Date.now();
     if (wait > 0) await sleep(wait);
     try {
-      const res = await fetch(`https://itunes.apple.com/search?${qs}`, { headers: { "User-Agent": "metal-timeline-build/1.0 (static site link index)", Accept: "application/json" } });
+      const res = await fetch(`https://itunes.apple.com/${endpoint}?${qs}`, { headers: { "User-Agent": "metal-timeline-build/1.0 (static site link index)", Accept: "application/json" } });
       last = Date.now();
       if (res.status === 403 || res.status === 429 || res.status >= 500) { await sleep(Math.min(120000, 20000 * 2 ** attempt)); continue; }
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -48,15 +49,16 @@ async function search(term, limit = 10) {
 
 // ---------- normalization ----------
 const strip = (s) => s.normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase();
-const EDITION = /\s*[\(\[][^\)\]]*(remaster|deluxe|expanded|edition|bonus|version|anniversary|reissue|mono|stereo|explicit|original)[^\)\]]*[\)\]]/gi;
+const EDITION = /\s*[\(\[][^\)\]]*(remaster|deluxe|expanded|edition|bonus|version|anniversary|reissue|mono|stereo|explicit|original|mix)[^\)\]]*[\)\]]/gi;
 function normTitle(t) {
   let s = strip(t).replace(/\s+-\s+(ep|single)\s*$/i, "").replace(EDITION, "");
   s = s.replace(/&/g, " and ").replace(/['’`.]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
+  s = s.replace(/\bpt\b/g, "part").replace(/\bpart (i{1,3})\b/g, (m, r) => `part ${r.length}`);
   return s;
 }
 const normArtist = (a) => strip(a).replace(/&/g, "and").replace(/^the\s+/, "").replace(/[^a-z0-9]+/g, "");
 const ARTIST_ALIASES = {
-  "sod": ["stormtroopersofdeath", "sod"], dri: ["dri", "dirtyrottenimbeciles"], gbh: ["gbh", "chargedgbh"],
+  "the-stooges": ["stooges", "iggyandthestooges"], "sod": ["stormtroopersofdeath", "sod"], dri: ["dri", "dirtyrottenimbeciles"], gbh: ["gbh", "chargedgbh"],
   "jimi-hendrix": ["jimihendrix", "jimihendrixexperience"], rainbow: ["rainbow", "ritchieblackmoresrainbow"],
   "ac-dc": ["acdc"], "motley-crue": ["motleycrue"], motorhead: ["motorhead"], "ozzy-osbourne": ["ozzyosbourne"],
   "guns-n-roses": ["gunsnroses", "gunsandroses"], "blue-oyster-cult": ["blueoystercult"], "alice-cooper": ["alicecooper"],
@@ -67,12 +69,12 @@ function titleVariants(r, a) {
   const v = new Set([normTitle(r.title)]);
   const m = r.title.match(/^(.*?)\s*\((?:US:\s*)?([^)]*)\)\s*$/);
   if (m) { v.add(normTitle(m[1])); v.add(normTitle(m[2])); }
-  v.add(normTitle(`${a.name} ${r.title}`));
   if (/^[a-z]+(?:\s+[a-z]+)?\s+version$/.test(normTitle(r.title))) v.add(normTitle(r.title.replace(/\s*\(.*\)/, "")));
   // Australian / international High Voltage and T.N.T. keep their base names
   v.add(normTitle(r.title.replace(/\s*\((australian|international)[^)]*\)/i, "")));
   return [...v].filter(Boolean);
 }
+const artistPrefixed = (r, a) => normTitle(`${a.name} ${r.title}`); // exact match only (e.g. "Black Sabbath Vol. 4")
 const BAD_WORDS = /\b(live|greatest hits|best of|collection|anthology|box set|essentials|karaoke|tribute|instrumental|demos?|sessions|bootleg|singles|rarities|b sides)\b/;
 
 function evaluate(r, a, cand) {
@@ -84,8 +86,11 @@ function evaluate(r, a, cand) {
   if (isEp && r.type !== "ep") return null;
   const name = normTitle(rawName);
   if (BAD_WORDS.test(name) && !BAD_WORDS.test(normTitle(r.title)) && r.type !== "live" && r.type !== "compilation") return null;
+  const nameParts = rawName.split(/:\s+/).map(normTitle); // "The $5.98 E.P.: Garage Days Re-Revisited"
   let score = 0, exact = false;
-  for (const v of titleVariants(r, a)) {
+  if (name === artistPrefixed(r, a)) { exact = true; score = 20; }
+  else if (nameParts.length > 1 && nameParts.slice(1).some((p) => titleVariants(r, a).includes(p))) { exact = false; score = 15; }
+  else for (const v of titleVariants(r, a)) {
     if (name === v) { exact = true; score = 20; break; }
     const [s, l] = name.length < v.length ? [name, v] : [v, name];
     if (s.length >= 12 && l.startsWith(s + " ")) score = Math.max(score, 8);
@@ -101,6 +106,21 @@ function evaluate(r, a, cand) {
 }
 const cleanUrl = (u) => u.replace(/[?#].*$/, "");
 
+// Full catalogue per artist via the lookup endpoint (the album search is sparse for some catalogues).
+const catalogs = new Map();
+async function artistCatalog(a) {
+  if (catalogs.has(a.id)) return catalogs.get(a.id);
+  const keys = artistKeys(a);
+  const found = (await get("search", { term: a.name, entity: "musicArtist", country: "US", limit: "8" }))
+    .filter((x) => keys.has(normArtist(x.artistName))).slice(0, 3);
+  const all = [];
+  for (const art of found) {
+    const res = await get("lookup", { id: String(art.artistId), entity: "album", country: "US", limit: "200" });
+    all.push(...res.filter((x) => x.wrapperType === "collection"));
+  }
+  catalogs.set(a.id, all);
+  return all;
+}
 const artistScans = new Map();
 async function scanArtist(a) {
   if (!artistScans.has(a.id)) artistScans.set(a.id, await search(a.name, 200));
@@ -124,8 +144,10 @@ for (const r of releases) {
       if (!best || e.score > best.score) best = e;
     }
   };
-  tried.push("q1");
-  consider(await search(`${a.name} ${r.title}`.replace(/\s+/g, " "), 10));
+  tried.push("catalog");
+  consider(await artistCatalog(a));
+  if (!best) { tried.push("q1");
+  consider(await search(`${a.name} ${r.title}`.replace(/\s+/g, " "), 10)); }
   if (!best && r.type !== "demo") { tried.push("title"); consider(await search(r.title, 25)); }
   if (!best && r.type !== "demo") { tried.push("artist-scan"); consider(await scanArtist(a)); }
   if (best) {
