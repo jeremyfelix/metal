@@ -1,0 +1,6 @@
+{
+  "note": "Manual decisions for fetch-apple-links.mjs. 'skip' = release ids that must get no link; 'url' = explicit release id -> album URL; 'pick' = release id -> Apple collectionId to prefer.",
+  "skip": [],
+  "url": {},
+  "pick": {}
+}

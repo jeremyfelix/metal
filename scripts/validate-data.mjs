@@ -121,6 +121,23 @@ if (fs.existsSync(imgPath)) {
   }
 }
 
+// links.json (optional)
+const linksPath = path.join(root, "data/links.json");
+let linkCounts = "";
+if (fs.existsSync(linksPath)) {
+  let lk = null;
+  try { lk = JSON.parse(fs.readFileSync(linksPath, "utf8")); } catch (e) { err(`links.json: invalid JSON (${e.message})`); }
+  if (lk) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(lk.generated || "")) err("links.json: bad generated date");
+    const ids = new Set(releases.map((r) => r.id));
+    for (const [id, u] of Object.entries(lk.apple || {})) {
+      if (!ids.has(id)) err(`links.json: unknown release ${id}`);
+      if (!/^https:\/\/music\.apple\.com\/us\/album\/[^?#]+\/\d+$/.test(u)) err(`links.json: bad Apple URL for ${id}: ${u}`);
+    }
+    linkCounts = `, apple links ${Object.keys(lk.apple || {}).length}`;
+  }
+}
+
 // playlists.json
 const plPath = path.join(root, "data/playlists.json");
 let plCounts = "";
@@ -150,7 +167,7 @@ const i3 = events.filter((e) => e.importance === 3).length;
 const rel = events.filter((e) => e.category === "release").length;
 if (lm > releases.length * 0.2) err(`too many landmarks (${lm} of ${releases.length}, max 20%)`);
 if (rel > 20) err(`too many release-category events (${rel})`);
-console.log(`artists ${artists.length}, releases ${releases.length} (${listed.length} listed, landmarks ${lm}), events ${events.length} (importance 3: ${i3}, release-category: ${rel})${imgCounts}${plCounts}`);
+console.log(`artists ${artists.length}, releases ${releases.length} (${listed.length} listed, landmarks ${lm}), events ${events.length} (importance 3: ${i3}, release-category: ${rel})${imgCounts}${plCounts}${linkCounts}`);
 if (errs.length) { console.error(errs.join("\n")); console.error(`FAILED: ${errs.length} problem(s)`); process.exit(1); }
 import { spawnSync } from "node:child_process";
 const us = spawnSync(process.execPath, [path.join(root, "scripts/check-us-english.mjs")], { encoding: "utf8" });
