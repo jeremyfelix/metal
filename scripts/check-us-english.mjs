@@ -7,6 +7,7 @@ import { fileURLToPath } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const load = (f) => JSON.parse(fs.readFileSync(path.join(root, "data", f), "utf8"));
 const artists = load("artists.json"), releases = load("releases.json"), events = load("events.json");
+const playlists = fs.existsSync(path.join(root, "data/playlists.json")) ? load("playlists.json") : [];
 
 const PATTERNS = [
   /\b\w*(?:colour|favour|honour|behaviour|labour|neighbour|rumour|humour|harbour|vigour|flavour)\w*\b/gi,
@@ -27,6 +28,7 @@ const ALLOW = new Set([
 ]);
 
 const fields = [];
+for (const p of playlists) { fields.push([`playlist ${p.id}.title`, p.title]); fields.push([`playlist ${p.id}.description`, p.description]); for (const it of p.items) fields.push([`playlist ${p.id}.${it.releaseId}`, it.note]); }
 for (const a of artists) fields.push([`artist ${a.id}.blurb`, a.blurb]);
 for (const r of releases) { fields.push([`release ${r.id}.note`, r.note]); fields.push([`release ${r.id}.dateNote`, r.dateNote]); }
 for (const e of events) { fields.push([`event ${e.id}.title`, e.title]); fields.push([`event ${e.id}.description`, e.description]); }

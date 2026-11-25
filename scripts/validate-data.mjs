@@ -121,12 +121,36 @@ if (fs.existsSync(imgPath)) {
   }
 }
 
+// playlists.json
+const plPath = path.join(root, "data/playlists.json");
+let plCounts = "";
+if (!fs.existsSync(plPath)) err("playlists.json is missing");
+else {
+  let pls = [];
+  try { pls = JSON.parse(fs.readFileSync(plPath, "utf8")); } catch (e) { err(`playlists.json: invalid JSON (${e.message})`); }
+  if (!Array.isArray(pls)) { err("playlists.json: must be an array"); pls = []; }
+  unique(pls, "playlists");
+  const relById = new Map(releases.map((r) => [r.id, r]));
+  for (const p of pls) {
+    if (!p.title || !p.description) err(`playlist ${p.id}: missing title/description`);
+    if (!Array.isArray(p.items) || p.items.length < 1) { err(`playlist ${p.id}: needs 1+ items`); continue; }
+    const seen = new Set();
+    for (const it of p.items) {
+      if (!relById.has(it.releaseId)) err(`playlist ${p.id}: unknown release ${it.releaseId}`);
+      if (seen.has(it.releaseId)) err(`playlist ${p.id}: duplicate release ${it.releaseId}`);
+      seen.add(it.releaseId);
+      if (!(it.note === null || (typeof it.note === "string" && it.note.trim()))) err(`playlist ${p.id}: bad note for ${it.releaseId}`);
+    }
+  }
+  plCounts = `, playlists ${pls.length} (${pls.map((p) => p.items.length).join("/")} items)`;
+}
+
 const lm = releases.filter((r) => r.landmark).length;
 const i3 = events.filter((e) => e.importance === 3).length;
 const rel = events.filter((e) => e.category === "release").length;
 if (lm > releases.length * 0.2) err(`too many landmarks (${lm} of ${releases.length}, max 20%)`);
 if (rel > 20) err(`too many release-category events (${rel})`);
-console.log(`artists ${artists.length}, releases ${releases.length} (${listed.length} listed, landmarks ${lm}), events ${events.length} (importance 3: ${i3}, release-category: ${rel})${imgCounts}`);
+console.log(`artists ${artists.length}, releases ${releases.length} (${listed.length} listed, landmarks ${lm}), events ${events.length} (importance 3: ${i3}, release-category: ${rel})${imgCounts}${plCounts}`);
 if (errs.length) { console.error(errs.join("\n")); console.error(`FAILED: ${errs.length} problem(s)`); process.exit(1); }
 import { spawnSync } from "node:child_process";
 const us = spawnSync(process.execPath, [path.join(root, "scripts/check-us-english.mjs")], { encoding: "utf8" });

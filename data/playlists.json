@@ -1,0 +1,556 @@
+[
+  {
+    "id": "roots-of-thrash",
+    "title": "Roots of Thrash",
+    "description": "The records that the Big Four and the Bay Area bands grew up on, from Sabbath's doom to Venom's noise and the punk speed of Discharge. In release order.",
+    "items": [
+      {
+        "releaseId": "deep-purple-deep-purple-in-rock",
+        "note": "Fast, aggressive guitar and organ, and Ian Gillan's screams."
+      },
+      {
+        "releaseId": "black-sabbath-paranoid",
+        "note": "The template for heavy riffs and dark themes."
+      },
+      {
+        "releaseId": "budgie-never-turn-your-back-on-a-friend",
+        "note": "Includes 'Breadfan', which Metallica later covered."
+      },
+      {
+        "releaseId": "judas-priest-sad-wings-of-destiny",
+        "note": "The twin-guitar attack and operatic vocals that became a metal template."
+      },
+      {
+        "releaseId": "ramones-ramones",
+        "note": "Fourteen songs in under thirty minutes: speed and brevity that thrash took up."
+      },
+      {
+        "releaseId": "motorhead-overkill",
+        "note": "Its double-bass-drum title track is often cited as an ancestor of speed metal."
+      },
+      {
+        "releaseId": "iron-maiden-iron-maiden",
+        "note": "NWOBHM energy with a punk edge."
+      },
+      {
+        "releaseId": "diamond-head-lightning-to-the-nations",
+        "note": "Metallica covered songs from it, including 'Am I Evil?'."
+      },
+      {
+        "releaseId": "venom-welcome-to-hell",
+        "note": "Raw and deliberately extreme, a blueprint for thrash, death and black metal."
+      },
+      {
+        "releaseId": "discharge-hear-nothing-see-nothing-say-nothing",
+        "note": "The d-beat that punks and thrash bands imitated."
+      },
+      {
+        "releaseId": "mercyful-fate-melissa",
+        "note": "King Diamond's falsetto and intricate twin-guitar riffs."
+      },
+      {
+        "releaseId": "misfits-earth-a-d-wolfs-blood",
+        "note": "Includes 'Green Hell', which Metallica covered on Garage Days Re-Revisited."
+      }
+    ]
+  },
+  {
+    "id": "big-four-1983-1988",
+    "title": "The Big Four, 1983–1988",
+    "description": "Metallica, Slayer, Megadeth and Anthrax in their first great run, in release order.",
+    "items": [
+      {
+        "releaseId": "metallica-kill-em-all",
+        "note": "The debut that kicked off American thrash."
+      },
+      {
+        "releaseId": "slayer-show-no-mercy",
+        "note": "Slayer's debut, on Metal Blade."
+      },
+      {
+        "releaseId": "metallica-ride-the-lightning",
+        "note": "Acoustic passages and more complex songs."
+      },
+      {
+        "releaseId": "megadeth-killing-is-my-business-and-business-is-good",
+        "note": "Recorded on a tiny budget, with intricate riffing."
+      },
+      {
+        "releaseId": "anthrax-spreading-the-disease",
+        "note": "The first Anthrax album with singer Joey Belladonna."
+      },
+      {
+        "releaseId": "metallica-master-of-puppets",
+        "note": "The last album with Cliff Burton."
+      },
+      {
+        "releaseId": "megadeth-peace-sells-but-whos-buying",
+        "note": "Megadeth's second album, with the title track and 'Wake Up Dead'."
+      },
+      {
+        "releaseId": "slayer-reign-in-blood",
+        "note": "A 29-minute classic produced by Rick Rubin."
+      },
+      {
+        "releaseId": "anthrax-among-the-living",
+        "note": "Anthrax's breakthrough, with 'Caught in a Mosh' and 'I Am the Law'."
+      },
+      {
+        "releaseId": "megadeth-so-far-so-good-so-what",
+        "note": "Includes 'In My Darkest Hour'."
+      },
+      {
+        "releaseId": "slayer-south-of-heaven",
+        "note": "A slower, more atmospheric follow-up to Reign in Blood."
+      },
+      {
+        "releaseId": "metallica-and-justice-for-all",
+        "note": "The first album with Jason Newsted, and a famously dry mix."
+      }
+    ]
+  },
+  {
+    "id": "bay-area-thrash",
+    "title": "Bay Area Thrash",
+    "description": "San Francisco Bay Area thrash, from Metallica's relocation through the second wave, in release order.",
+    "items": [
+      {
+        "releaseId": "metallica-ride-the-lightning",
+        "note": "Metallica had relocated to the Bay Area in early 1983."
+      },
+      {
+        "releaseId": "exodus-bonded-by-blood",
+        "note": "A landmark of Bay Area thrash."
+      },
+      {
+        "releaseId": "possessed-seven-churches",
+        "note": "Widely cited as a foundational death metal album."
+      },
+      {
+        "releaseId": "testament-the-legacy",
+        "note": "Melodic thrash led by Chuck Billy's vocals."
+      },
+      {
+        "releaseId": "death-angel-the-ultra-violence",
+        "note": "Made by teenagers, with a ten-minute title track."
+      },
+      {
+        "releaseId": "heathen-breaking-the-silence",
+        "note": null
+      },
+      {
+        "releaseId": "exodus-pleasures-of-the-flesh",
+        "note": "The first Exodus album with Steve Souza."
+      },
+      {
+        "releaseId": "testament-the-new-order",
+        "note": "A tighter second album."
+      },
+      {
+        "releaseId": "vio-lence-eternal-nightmare",
+        "note": "Second-wave thrash."
+      },
+      {
+        "releaseId": "forbidden-forbidden-evil",
+        "note": "Technical Bay Area thrash."
+      },
+      {
+        "releaseId": "testament-practice-what-you-preach",
+        "note": "A third album with a sharper, heavy sound."
+      },
+      {
+        "releaseId": "vio-lence-oppressing-the-masses",
+        "note": "More technical playing."
+      }
+    ]
+  },
+  {
+    "id": "teutonic-thrash",
+    "title": "Teutonic Thrash",
+    "description": "The German thrash trio of Kreator, Sodom and Destruction, plus Tankard, in release order.",
+    "items": [
+      {
+        "releaseId": "destruction-sentence-of-death",
+        "note": "Destruction's first EP."
+      },
+      {
+        "releaseId": "sodom-in-the-sign-of-evil",
+        "note": "Raw, Venom-inspired debut EP."
+      },
+      {
+        "releaseId": "destruction-infernal-overkill",
+        "note": "A raw, fast debut."
+      },
+      {
+        "releaseId": "kreator-endless-pain",
+        "note": "Raw debut on the Noise label."
+      },
+      {
+        "releaseId": "sodom-obsessed-by-cruelty",
+        "note": "Sodom's first album."
+      },
+      {
+        "releaseId": "tankard-zombie-attack",
+        "note": "Debut with party-themed lyrics."
+      },
+      {
+        "releaseId": "kreator-pleasure-to-kill",
+        "note": "Extremely fast and brutal, it helped lay the ground for death metal."
+      },
+      {
+        "releaseId": "kreator-terrible-certainty",
+        "note": "A tighter, more technical sound."
+      },
+      {
+        "releaseId": "sodom-persecution-mania",
+        "note": "Fast and technical."
+      },
+      {
+        "releaseId": "sodom-agent-orange",
+        "note": "Lyrics about the Vietnam War."
+      },
+      {
+        "releaseId": "kreator-extreme-aggression",
+        "note": "A tighter, more focused sound."
+      },
+      {
+        "releaseId": "kreator-coma-of-souls",
+        "note": "A more mature, melodic album."
+      }
+    ]
+  },
+  {
+    "id": "nwobhm-essentials",
+    "title": "NWOBHM Essentials",
+    "description": "The New Wave of British Heavy Metal, from the first tape to Maiden's breakthrough, in release order.",
+    "items": [
+      {
+        "releaseId": "saxon-saxon",
+        "note": "Saxon's debut."
+      },
+      {
+        "releaseId": "iron-maiden-the-soundhouse-tapes",
+        "note": "Self-released EP, helped by Neal Kay's Soundhouse sound system."
+      },
+      {
+        "releaseId": "saxon-wheels-of-steel",
+        "note": "An NWOBHM landmark."
+      },
+      {
+        "releaseId": "iron-maiden-iron-maiden",
+        "note": "Maiden's debut with Paul Di'Anno."
+      },
+      {
+        "releaseId": "girlschool-demolition",
+        "note": "Debut by the all-female band."
+      },
+      {
+        "releaseId": "tygers-of-pan-tang-wild-cat",
+        "note": null
+      },
+      {
+        "releaseId": "diamond-head-lightning-to-the-nations",
+        "note": "The self-released 'White Album'."
+      },
+      {
+        "releaseId": "angel-witch-angel-witch",
+        "note": "The title track is an NWOBHM classic."
+      },
+      {
+        "releaseId": "raven-rock-until-you-drop",
+        "note": "Debut of the high-speed trio."
+      },
+      {
+        "releaseId": "tank-filth-hounds-of-hades",
+        "note": "Raw, Motörhead-influenced debut."
+      },
+      {
+        "releaseId": "iron-maiden-the-number-of-the-beast",
+        "note": "The first Maiden album with Bruce Dickinson."
+      },
+      {
+        "releaseId": "saxon-power-and-the-glory",
+        "note": "A classic of the movement's later years."
+      }
+    ]
+  },
+  {
+    "id": "crossover",
+    "title": "Crossover: Hardcore Meets Thrash",
+    "description": "Hardcore punk bands that picked up metal riffs and thrash bands that took up punk speed, in release order.",
+    "items": [
+      {
+        "releaseId": "black-flag-damaged",
+        "note": "A landmark of American hardcore."
+      },
+      {
+        "releaseId": "bad-brains-bad-brains",
+        "note": "Cassette-only debut of ultra-fast hardcore."
+      },
+      {
+        "releaseId": "discharge-hear-nothing-see-nothing-say-nothing",
+        "note": "Defined the d-beat."
+      },
+      {
+        "releaseId": "suicidal-tendencies-suicidal-tendencies",
+        "note": "Venice hardcore with 'Institutionalized'."
+      },
+      {
+        "releaseId": "dri-dealing-with-it",
+        "note": null
+      },
+      {
+        "releaseId": "sod-speak-english-or-die",
+        "note": "Thrash, hardcore and crude humor from members of Anthrax."
+      },
+      {
+        "releaseId": "corrosion-of-conformity-animosity",
+        "note": "A fast, heavy hardcore album."
+      },
+      {
+        "releaseId": "agnostic-front-cause-for-alarm",
+        "note": "A thrash-influenced New York album."
+      },
+      {
+        "releaseId": "cro-mags-the-age-of-quarrel",
+        "note": "Hardcore with metal riffs."
+      },
+      {
+        "releaseId": "dri-crossover",
+        "note": "Marked D.R.I.'s turn toward metal."
+      },
+      {
+        "releaseId": "suicidal-tendencies-how-will-i-laugh-tomorrow-when-i-cant-even-smile-today",
+        "note": "Thrash-flavored crossover."
+      },
+      {
+        "releaseId": "slayer-undisputed-attitude",
+        "note": "Slayer's album of punk covers."
+      }
+    ]
+  },
+  {
+    "id": "birth-of-death-metal",
+    "title": "Birth of Death Metal",
+    "description": "From Possessed and Kreator to the Florida and Stockholm scenes, in release order.",
+    "items": [
+      {
+        "releaseId": "possessed-seven-churches",
+        "note": "Widely cited as a foundational death metal album."
+      },
+      {
+        "releaseId": "kreator-pleasure-to-kill",
+        "note": "Thrash pushed to extremes."
+      },
+      {
+        "releaseId": "death-scream-bloody-gore",
+        "note": "Widely called the first true death metal album."
+      },
+      {
+        "releaseId": "death-leprosy",
+        "note": "Cemented the Florida death metal sound."
+      },
+      {
+        "releaseId": "obituary-slowly-we-rot",
+        "note": "Slow, heavy, groove-based debut."
+      },
+      {
+        "releaseId": "autopsy-severed-survival",
+        "note": "A slow, gory, influential debut."
+      },
+      {
+        "releaseId": "morbid-angel-altars-of-madness",
+        "note": "A landmark of American death metal."
+      },
+      {
+        "releaseId": "entombed-left-hand-path",
+        "note": "The defining Swedish death metal album."
+      },
+      {
+        "releaseId": "deicide-deicide",
+        "note": "Florida debut with blasphemous themes."
+      },
+      {
+        "releaseId": "cannibal-corpse-eaten-back-to-life",
+        "note": "Brutal death metal debut."
+      },
+      {
+        "releaseId": "obituary-cause-of-death",
+        "note": "A heavier, more technical album."
+      },
+      {
+        "releaseId": "death-human",
+        "note": "A step toward progressive and technical death metal."
+      }
+    ]
+  },
+  {
+    "id": "black-grind-origins",
+    "title": "Black / Grind Origins",
+    "description": "Venom's noise, Hellhammer's primitivism, Bathory's raw sound, and the grindcore that followed, in release order.",
+    "items": [
+      {
+        "releaseId": "venom-black-metal",
+        "note": "Gave an entire genre its name."
+      },
+      {
+        "releaseId": "hellhammer-apocalyptic-raids",
+        "note": "Crude and deliberately cruel."
+      },
+      {
+        "releaseId": "bathory-bathory",
+        "note": "Raw, Venom-inspired debut."
+      },
+      {
+        "releaseId": "celtic-frost-to-mega-therion",
+        "note": "Avant-garde extreme metal with an H. R. Giger cover."
+      },
+      {
+        "releaseId": "napalm-death-scum",
+        "note": "The founding grindcore record."
+      },
+      {
+        "releaseId": "sarcofago-i-n-r-i",
+        "note": "A Brazilian extreme-metal landmark."
+      },
+      {
+        "releaseId": "mayhem-deathcrush",
+        "note": "Early Norwegian extreme metal."
+      },
+      {
+        "releaseId": "carcass-reek-of-putrefaction",
+        "note": "A gory grindcore debut."
+      },
+      {
+        "releaseId": "bathory-blood-fire-death",
+        "note": "A turn toward epic Viking themes."
+      },
+      {
+        "releaseId": "repulsion-horrified",
+        "note": "An early grindcore and death metal landmark."
+      },
+      {
+        "releaseId": "terrorizer-world-downfall",
+        "note": "Fast, brutal grindcore."
+      },
+      {
+        "releaseId": "bathory-hammerheart",
+        "note": null
+      },
+      {
+        "releaseId": "mayhem-de-mysteriis-dom-sathanas",
+        "note": "Often named a foundational album of Norwegian black metal."
+      }
+    ]
+  },
+  {
+    "id": "thrash-goes-big-1990-1994",
+    "title": "Thrash Goes Big, 1990–1994",
+    "description": "Thrash and groove metal at their commercial peak, from Rust in Peace to Far Beyond Driven, in release order.",
+    "items": [
+      {
+        "releaseId": "pantera-cowboys-from-hell",
+        "note": "Major-label debut and a groove-driven new sound."
+      },
+      {
+        "releaseId": "anthrax-persistence-of-time",
+        "note": "A darker Anthrax album."
+      },
+      {
+        "releaseId": "megadeth-rust-in-peace",
+        "note": "Marty Friedman's arrival made it Megadeth's technical peak."
+      },
+      {
+        "releaseId": "slayer-seasons-in-the-abyss",
+        "note": "Heavy, mid-tempo late-era Slayer."
+      },
+      {
+        "releaseId": "sepultura-arise",
+        "note": "Sepultura's fourth album, a blend of thrash and death."
+      },
+      {
+        "releaseId": "metallica-metallica",
+        "note": "The 'Black Album' brought Metallica to a mass audience."
+      },
+      {
+        "releaseId": "pantera-vulgar-display-of-power",
+        "note": "The groove-metal landmark."
+      },
+      {
+        "releaseId": "testament-the-ritual",
+        "note": null
+      },
+      {
+        "releaseId": "megadeth-countdown-to-extinction",
+        "note": "A big commercial success with a more melodic style."
+      },
+      {
+        "releaseId": "anthrax-sound-of-white-noise",
+        "note": "The first album with John Bush."
+      },
+      {
+        "releaseId": "sepultura-chaos-a-d",
+        "note": "Groove-driven, political thrash."
+      },
+      {
+        "releaseId": "pantera-far-beyond-driven",
+        "note": "Debuted at number one on the Billboard 200."
+      }
+    ]
+  },
+  {
+    "id": "speed-kills-starter",
+    "title": "Speed Kills Starter",
+    "description": "The twelve albums to hear first, from Sabbath to Rust in Peace, in release order.",
+    "items": [
+      {
+        "releaseId": "black-sabbath-paranoid",
+        "note": "Sabbath's breakthrough, with 'War Pigs' and 'Iron Man'."
+      },
+      {
+        "releaseId": "motorhead-ace-of-spades",
+        "note": "A speed-metal anthem and Motörhead's best-known album."
+      },
+      {
+        "releaseId": "iron-maiden-the-number-of-the-beast",
+        "note": "Twin guitars and Dickinson's voice."
+      },
+      {
+        "releaseId": "metallica-kill-em-all",
+        "note": "The start of American thrash."
+      },
+      {
+        "releaseId": "metallica-ride-the-lightning",
+        "note": null
+      },
+      {
+        "releaseId": "exodus-bonded-by-blood",
+        "note": "A landmark of Bay Area thrash."
+      },
+      {
+        "releaseId": "metallica-master-of-puppets",
+        "note": "The last album with Cliff Burton."
+      },
+      {
+        "releaseId": "megadeth-peace-sells-but-whos-buying",
+        "note": null
+      },
+      {
+        "releaseId": "slayer-reign-in-blood",
+        "note": "Speed and brutality in under thirty minutes."
+      },
+      {
+        "releaseId": "anthrax-among-the-living",
+        "note": "East Coast thrash with humor and hooks."
+      },
+      {
+        "releaseId": "death-scream-bloody-gore",
+        "note": "Widely called the first true death metal album."
+      },
+      {
+        "releaseId": "megadeth-rust-in-peace",
+        "note": "Thrash at its most technical."
+      }
+    ]
+  }
+]

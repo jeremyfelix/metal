@@ -12,6 +12,7 @@ import { releases2b } from "./gen-releases3.mjs";
 import { events2, removeEventIds } from "./gen-events2.mjs";
 import { events3 } from "./gen-events3.mjs";
 import { artistWiki, releaseWiki } from "./gen-wiki.mjs";
+import { playlists } from "./gen-playlists.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const out = (f, d) => fs.writeFileSync(path.join(root, "data", f), JSON.stringify(d, null, 2) + "\n");
@@ -79,4 +80,13 @@ evs.sort((a, b) => a.date.localeCompare(b.date));
 out("artists.json", artistRows);
 out("releases.json", releases);
 out("events.json", evs);
+const dateOf = new Map(releases.map((r) => [r.id, r.date]));
+const lists = playlists.map((p) => {
+  for (const [rid] of p.items) if (!dateOf.has(rid)) throw new Error(`playlist ${p.id}: unknown release ${rid}`);
+  const items = p.items.map(([releaseId, note], i) => ({ releaseId, note: note ?? null, i }))
+    .sort((a, b) => dateOf.get(a.releaseId).localeCompare(dateOf.get(b.releaseId)) || a.i - b.i)
+    .map(({ releaseId, note }) => ({ releaseId, note }));
+  return { id: p.id, title: p.title, description: p.description, items };
+});
+out("playlists.json", lists);
 console.log(`artists ${artistRows.length}, releases ${releases.length}, events ${evs.length}`);
