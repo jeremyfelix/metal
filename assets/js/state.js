@@ -13,6 +13,9 @@ export const defaults = () => ({
   q: '',         // search text
   sel: null,     // 'r:ID' | 'e:ID' | 'a:ID'
   x: null,       // [t0, t1] visible time range as decimal years
+  pl: null,      // playlist shown in the Playlists view: 'c:ID' | 'u:ID' | 's' (shared)
+  hl: null,      // playlist highlighted on the timeline (same ref format)
+  sh: null,      // raw shared-playlist payload from the URL (title~id,id,...)
 });
 
 const list = (v) => (v ? v.split(',').map((s) => s.trim()).filter(Boolean) : []);
@@ -20,7 +23,10 @@ const list = (v) => (v ? v.split(',').map((s) => s.trim()).filter(Boolean) : [])
 export function parseHash(hash) {
   const s = defaults();
   const p = new URLSearchParams(String(hash || '').replace(/^#\/?/, ''));
-  if (p.get('view') === 'chronicle') s.view = 'chronicle';
+  const v = p.get('view'); if (v === 'chronicle' || v === 'playlists') s.view = v;
+  const ref = (x) => (x && /^(c:[\w.\-]{1,80}|u:[\w.\-]{1,60}|s)$/.test(x) ? x : null);
+  s.pl = ref(p.get('pl')); s.hl = ref(p.get('hl'));
+  const sh = p.get('sh'); s.sh = sh ? sh.slice(0, 3000) : null;
   list(p.get('hg')).forEach((g) => s.hg.add(g));
   list(p.get('hc')).forEach((c) => s.hc.add(c));
   s.lm = p.get('lm') === '1';
@@ -37,7 +43,7 @@ export function parseHash(hash) {
 
 export function serializeHash(s) {
   const parts = [];
-  const add = (k, v) => parts.push(k + '=' + encodeURIComponent(v).replace(/%3A/g, ':').replace(/%2C/g, ','));
+  const add = (k, v) => parts.push(k + '=' + encodeURIComponent(v).replace(/%3A/g, ':').replace(/%2C/g, ',').replace(/%7E/g, '~'));
   if (s.view !== 'timeline') add('view', s.view);
   if (s.hg.size) add('hg', [...s.hg].sort().join(','));
   if (s.hc.size) add('hc', [...s.hc].sort().join(','));
@@ -47,6 +53,9 @@ export function serializeHash(s) {
   if (s.cg.size) add('cg', [...s.cg].sort().join(','));
   if (s.q) add('q', s.q);
   if (s.sel) add('sel', s.sel);
+  if (s.pl) add('pl', s.pl);
+  if (s.hl) add('hl', s.hl);
+  if (s.sh) add('sh', s.sh);
   if (s.x && s.view === 'timeline') add('x', s.x[0].toFixed(2) + '-' + s.x[1].toFixed(2));
   return parts.length ? '#' + parts.join('&') : '';
 }

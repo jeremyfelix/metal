@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="assets/css/app.css">
   <link rel="stylesheet" href="assets/css/timeline.css">
   <link rel="stylesheet" href="assets/css/panel.css">
+  <link rel="stylesheet" href="assets/css/playlists.css">
   <script type="module" src="assets/js/main.js"></script>
 </head>
 <body data-view="timeline">
@@ -52,6 +53,7 @@
         <div class="tabs" role="tablist" aria-label="View">
           <button id="tab-timeline" class="tab" role="tab" type="button" data-view="timeline" aria-controls="view-timeline" aria-selected="true">Timeline</button>
           <button id="tab-chronicle" class="tab" role="tab" type="button" data-view="chronicle" aria-controls="view-chronicle" aria-selected="false" tabindex="-1">Chronicle</button>
+          <button id="tab-playlists" class="tab" role="tab" type="button" data-view="playlists" aria-controls="view-playlists" aria-selected="false" tabindex="-1">Playlists</button>
         </div>
         <div class="search">
           <label class="sr-only" for="q">Search releases, artists and events</label>
@@ -90,6 +92,10 @@
 
     <main id="main" tabindex="-1">
       <section id="view-timeline" class="view wrap" role="tabpanel" aria-labeledby="tab-timeline">
+        <div id="pl-banner" class="pl-banner" role="status" hidden>
+          <span id="pl-banner-text"></span>
+          <button id="pl-banner-clear" class="link-btn" type="button">Clear</button>
+        </div>
         <div class="tl-toolbar">
           <div id="era-btns" class="era-btns" role="group" aria-label="Jump to era"></div>
           <div class="zoom-btns" role="group" aria-label="Zoom and groups">
@@ -129,6 +135,13 @@
             </div>
           </div>
         </details>
+      </section>
+
+      <section id="view-playlists" class="view wrap" role="tabpanel" aria-labelledby="tab-playlists" hidden>
+        <div class="pl-layout">
+          <aside id="pl-side" class="pl-side" aria-label="Playlists"></aside>
+          <div id="pl-main" class="pl-main"></div>
+        </div>
       </section>
 
       <section id="view-chronicle" class="view wrap" role="tabpanel" aria-labeledby="tab-chronicle" hidden>

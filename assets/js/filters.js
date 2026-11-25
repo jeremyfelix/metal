@@ -15,7 +15,14 @@ export function createFilter(model, getState) {
   const thrashRe = /thrash/i;
   const thrashCache = new Map();
 
+  let hlSet = null; // keys of the playlist currently highlighted on the timeline
+
   const api = {
+    setHighlight(keys) { hlSet = keys && keys.length ? new Set(keys) : null; },
+    highlighting() { return !!hlSet; },
+    inHighlight(it) { return !hlSet || hlSet.has(it.key); },
+    artistInHighlight(a) { return !hlSet || a.releases.some((r) => hlSet.has(r.key)); },
+
     tokens() { return norm(getState().q).split(/\s+/).filter(Boolean); },
     searching() { return api.tokens().length > 0; },
 
@@ -63,6 +70,7 @@ export function createFilter(model, getState) {
     /** Dimmed (shown but de-emphasized) given search and thrash focus. */
     dimmed(it) {
       const s = getState();
+      if (hlSet && !hlSet.has(it.key)) return true;
       if (s.tf && !api.thrash(it)) return true;
       if (api.searching() && !api.matches(it)) return true;
       return false;

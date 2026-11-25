@@ -3,6 +3,7 @@
 import { formatDate, parseParts } from './dates.js';
 import { genreMeta, genreClass, catMeta, catClass, typeMeta } from './meta.js';
 import { coverFigure, photoFigure, wikiLink } from './images.js';
+import { listenLinks, MAX_TITLE } from './playlists.js';
 
 const h = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; };
 
@@ -14,7 +15,7 @@ function lifespan(a) {
   return '';
 }
 
-export function createPanel({ root, model, onSelect, onArtist, onClose }) {
+export function createPanel({ root, model, playlists, onSelect, onArtist, onClose }) {
   const content = root.querySelector('#panel-content');
   const closeBtn = root.querySelector('#panel-close');
   let opener = null;
@@ -38,6 +39,50 @@ export function createPanel({ root, model, onSelect, onArtist, onClose }) {
     if (a.blurb) box.appendChild(h('p', 'pn-blurb', a.blurb));
     const wl = wikiLink(a, 'Wikipedia ↗'); if (wl) box.appendChild(h('p', 'pn-ext')).appendChild(wl);
     return box;
+  }
+
+  /** "Add to playlist" menu for a release: toggles membership, can create a playlist inline. */
+  function addMenu(rel) {
+    const wrap = h('div', 'add-pl');
+    const btn = h('button', 'btn add-pl-btn', 'Add to playlist'); btn.type = 'button';
+    btn.setAttribute('aria-haspopup', 'true'); btn.setAttribute('aria-expanded', 'false');
+    const menu = h('div', 'add-pl-menu'); menu.hidden = true; menu.setAttribute('role', 'group'); menu.setAttribute('aria-label', 'Your playlists');
+    const status = h('p', 'add-pl-status'); status.setAttribute('role', 'status');
+    wrap.append(btn, menu, status);
+    let creating = false;
+    function paint(focusIdx) {
+      menu.replaceChildren();
+      const lists = playlists.all();
+      if (!lists.length && !creating) menu.appendChild(h('p', 'add-pl-empty', 'You have no playlists yet.'));
+      lists.forEach((l, idx) => {
+        const on = playlists.has(l.id, rel.id);
+        const b = h('button', 'add-pl-item'); b.type = 'button';
+        b.setAttribute('role', 'menuitemcheckbox'); b.setAttribute('aria-checked', String(on));
+        b.append(h('span', 'add-pl-check', on ? '✓' : ''), h('span', 'add-pl-name', l.title), h('span', 'add-pl-count', String(l.ids.length)));
+        b.addEventListener('click', () => { const now = playlists.toggle(l.id, rel.id); status.textContent = now ? `Added to “${l.title}”` : `Removed from “${l.title}”`; paint(idx); });
+        menu.appendChild(b);
+      });
+      if (creating) {
+        const f = h('form', 'add-pl-new');
+        const lab = h('label', 'sr-only', 'New playlist name'); lab.htmlFor = 'new-pl-name';
+        const inp = document.createElement('input'); inp.id = 'new-pl-name'; inp.type = 'text'; inp.maxLength = MAX_TITLE; inp.placeholder = 'Playlist name'; inp.autocomplete = 'off';
+        const ok = h('button', 'btn', 'Create'); ok.type = 'submit';
+        const cx = h('button', 'btn', 'Cancel'); cx.type = 'button';
+        cx.addEventListener('click', () => { creating = false; paint(); });
+        f.addEventListener('submit', (e) => { e.preventDefault(); const l = playlists.create(inp.value.trim() || 'New playlist', [rel.id]); creating = false; status.textContent = `Created “${l.title}” and added this release`; paint(); btn.focus(); });
+        f.append(lab, inp, ok, cx); menu.appendChild(f);
+        requestAnimationFrame(() => inp.focus());
+      } else {
+        const n = h('button', 'add-pl-item add-pl-create', 'New playlist…'); n.type = 'button';
+        n.addEventListener('click', () => { creating = true; paint(); });
+        menu.appendChild(n);
+      }
+      if (focusIdx != null) { const it = menu.querySelectorAll('.add-pl-item[role="menuitemcheckbox"]')[focusIdx]; if (it) it.focus(); }
+      menu.appendChild(h('p', 'add-pl-note', playlists.persistent ? 'Saved in this browser only.' : 'Storage is unavailable, so playlists last only for this session.'));
+    }
+    btn.addEventListener('click', () => { const open = menu.hidden; menu.hidden = !open; btn.setAttribute('aria-expanded', String(open)); if (open) paint(); });
+    wrap.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !menu.hidden) { e.stopPropagation(); menu.hidden = true; btn.setAttribute('aria-expanded', 'false'); btn.focus(); } });
+    return wrap;
   }
 
   function nav(key, seq) {
@@ -87,6 +132,11 @@ export function createPanel({ root, model, onSelect, onArtist, onClose }) {
     const text = it.kind === 'release' ? it.note : it.description;
     if (text) frag.appendChild(h('p', 'pn-text', text));
     if (it.kind === 'release') { const wl = wikiLink(it, 'Wikipedia article ↗'); if (wl) frag.appendChild(h('p', 'pn-ext')).appendChild(wl); }
+    if (it.kind === 'release') {
+      const ls = h('div', 'pn-listen'); ls.appendChild(h('h3', 'pn-sub', 'Listen on')); ls.appendChild(listenLinks(it, 'big'));
+      frag.appendChild(ls);
+      frag.appendChild(addMenu(it));
+    }
     it.artists.slice(0, 2).forEach((a, i) => frag.appendChild(artistBox(a, it.kind === 'release' || i === 0)));
     const n = nav(it.key, seq); if (n) frag.appendChild(n);
     return frag;

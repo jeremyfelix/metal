@@ -1,9 +1,10 @@
 # Speed Kills: a heavy metal timeline (1967–1994)
 
-An interactive, static website that charts the history of heavy metal, with the emphasis on thrash. Two views share the same filters and search:
+An interactive, static website that charts the history of heavy metal, with the emphasis on thrash. Three views (the first two share the same filters and search):
 
 - **Timeline**: a zoomable, pannable swimlane chart. One lane per artist, grouped and color-coded by genre, release markers by date, and an events track along the top.
 - **Chronicle**: a vertical, year-grouped list of everything, comfortable on phones.
+- **Playlists**: curated lists from `data/playlists.json`, plus your own (saved in this browser only), with share links and "listen on" search links.
 
 Plain HTML, CSS and vanilla ES modules. No build step, no npm dependencies, no CDN libraries. (The page optionally requests Google Fonts; it falls back to system fonts if that is blocked.)
 
@@ -117,6 +118,18 @@ node scripts/fetch-images.mjs
 - Artist photos are free-licensed Commons files and are always shown with an attribution line ("Photo: author · license · Wikimedia Commons", each linking to its source). All of them are listed in the **Image credits** section at the bottom of the page.
 - Album covers are non-free images. They are **hotlinked from Wikipedia, never copied into this repository**, link back to their article, and remain the property of their rights holders.
 
+### `playlists.json` (optional)
+
+Curated playlists shown under "From Speed Kills". If the file is missing the section is simply not shown.
+
+```json
+[ { "id": "roots-of-thrash", "title": "Roots of Thrash", "description": "…",
+    "items": [ { "releaseId": "black-sabbath-black-sabbath", "note": "The tritone riff that started it." },
+               { "releaseId": "slayer-reign-in-blood", "note": null } ] } ]
+```
+
+To add a curated playlist, append an object with a unique `id` and its `items` in listening order. `releaseId` must match a release `id`; items that do not resolve are ignored, and a playlist with no valid items is hidden.
+
 ### Adding an album or event
 
 1. Open `data/releases.json` (or `events.json`), copy an existing object, give it a unique `id`, and fill in the fields. The `artistId` must match an artist `id` in `artists.json`.
@@ -125,11 +138,21 @@ node scripts/fetch-images.mjs
 
 ## URL state
 
-Everything shareable is in the hash, e.g. `#hg=punk&cg=nwobhm&ol=1&tf=1&q=slayer&sel=r:slayer-reign-in-blood&x=1983.00-1988.00` (hidden genres, collapsed genre groups, My list only, thrash focus, search, selected item, visible years, `view=chronicle`).
+Everything shareable is in the hash, e.g. `#hg=punk&cg=nwobhm&ol=1&tf=1&q=slayer&sel=r:slayer-reign-in-blood&x=1983.00-1988.00` (hidden genres, collapsed genre groups, My list only, thrash focus, search, selected item, visible years, `view=chronicle` or `view=playlists`, plus `pl=` open playlist, `hl=` highlighted playlist and `sh=` shared playlist).
 
 ## Using the timeline at scale
 
 Genre groups collapse (click or press Enter on a group header; **Collapse all / Expand all** in the toolbar). A collapsed group becomes one thin row with all of that genre's releases compressed onto it, so the shape of the era stays visible. The era buttons re-expand the relevant group. Lanes within a group are ordered by first release date. At full zoom the events track hides the lowest-importance events that cannot fit; zoom in to reveal them.
+
+## Playlists
+
+- **Curated lists** come from `playlists.json`. Open one to see its releases in order with covers, notes and "listen on" links. **Duplicate** makes an editable copy.
+- **Your playlists are saved in this browser only** (`localStorage`, key `speedkills:playlists:v1`). They are not synced anywhere; clearing site data removes them. If storage is blocked the site still works and says so: lists then last only for the session. Use **Copy share link** to keep or send one.
+- Add a release from its details panel with **Add to playlist** (pick a list or create one inline). In a personal list you can rename, remove items, reorder (drag on desktop, or the up/down buttons) and delete (with an inline confirmation).
+- **Share links** encode the title and release ids in the URL hash (`#view=playlists&sh=Title~id1,id2,...`, at most 60 items, no notes). Opening one shows the list read-only with **Save to my playlists**. Everything parsed from the hash is validated: unknown ids are dropped, titles are length-capped, and text is only ever inserted as text.
+- **Show on timeline** dims everything except the playlist's releases, draws a thin numbered dashed path through them in order, and shows a banner with **Clear** (`hl=` in the hash).
+- **Copy as text** copies lines like `Artist – Album (Year)`; if the clipboard is unavailable a text box is selected for manual copying.
+- **Listen on** links open a search for "artist title" on Spotify, Apple Music and YouTube Music in a new tab. They are plain search links, not integrations.
 
 ## Keyboard
 

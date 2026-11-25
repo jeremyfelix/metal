@@ -1,0 +1,18 @@
+[
+ {"id":"roots-of-thrash","title":"Roots of Thrash","description":"From the riffs that started it to the records that made it fast.","items":[
+  {"releaseId":"black-sabbath-black-sabbath","note":"The tritone riff that started everything."},
+  {"releaseId":"motorhead-overkill","note":"Punk speed meets metal weight."},
+  {"releaseId":"venom-welcome-to-hell","note":null},
+  {"releaseId":"metallica-kill-em-all","note":"Thrash goes to the world."},
+  {"releaseId":"slayer-reign-in-blood","note":"29 minutes of extremity."},
+  {"releaseId":"nonexistent-release","note":"Ignored: unknown id"}]},
+ {"id":"bay-area","title":"Bay Area Essentials","description":"Four records from the Bay Area scene.","items":[
+  {"releaseId":"exodus-bonded-by-blood","note":null},
+  {"releaseId":"metallica-ride-the-lightning","note":null},
+  {"releaseId":"metallica-master-of-puppets","note":"The peak."},
+  {"releaseId":"possessed-seven-churches","note":"Where death metal begins."}]},
+ {"id":"british-steel","title":"British Steel","description":"NWOBHM and its heavy metal elders.","items":[
+  {"releaseId":"judas-priest-british-steel","note":null},
+  {"releaseId":"iron-maiden-the-number-of-the-beast","note":null},
+  {"releaseId":"motorhead-ace-of-spades","note":null}]}
+]

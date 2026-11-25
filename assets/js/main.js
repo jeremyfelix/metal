@@ -7,6 +7,8 @@ import { createChronicle } from './chronicle.js';
 import { createPanel } from './panel.js';
 import { createControls } from './controls.js';
 import { toDecimalYear } from './dates.js';
+import { createPlaylistStore } from './playlists.js';
+import { createPlaylistsView, resolvePlaylist } from './playlists-view.js';
 
 const $ = (id) => document.getElementById(id);
 const reducedMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -66,7 +68,8 @@ function init(model) {
   const closePanel = () => store.set({ sel: null });
 
   let tl; // assigned below
-  const panel = createPanel({ root: panelEl, model, onSelect: (k) => { select(k); revealSelected(); }, onArtist: (id) => { selectArtist(id); revealSelected(); }, onClose: closePanel });
+  const playlists = createPlaylistStore(model);
+  const panel = createPanel({ root: panelEl, model, playlists, onSelect: (k) => { select(k); revealSelected(); }, onArtist: (id) => { selectArtist(id); revealSelected(); }, onClose: closePanel });
   const chronicle = createChronicle({ root: $('view-chronicle'), model, getState: get, filter, onSelect: select });
   tl = createTimeline({
     root: $('tl'), model, getState: get, filter, tooltip: $('tooltip'), reducedMotion,
@@ -75,6 +78,53 @@ function init(model) {
     onViewChange: (x) => { store.set({ x }, { quiet: true }); writeHash(false); },
   });
   const controls = createControls({ model, store, tl, onJump: (d) => jump(d), onClear: () => store.set({ hg: new Set(), hc: new Set(), lm: false, tf: false, ol: false, q: '' }) });
+
+  const plView = createPlaylistsView({
+    root: $('view-playlists'), model, store, playlists,
+    onOpenItem: (k) => select(k),
+    onSelectRef: (ref) => store.set({ pl: ref }),
+    onShow: (ref) => showOnTimeline(ref),
+  });
+  const resolveRef = (ref) => resolvePlaylist(ref, { model, playlists, state: get() });
+
+  /** Highlight a playlist on the timeline: dim the rest, draw the numbered path, show the banner. */
+  function showOnTimeline(ref) {
+    const pl = resolveRef(ref);
+    if (!pl) return;
+    // Collapse every genre group that has none of the playlist's releases (restored on Clear)
+    if (!savedCg) { savedCg = new Set(get().cg); persistSaved(); }
+    const keep = new Set(pl.items.map((i) => i.rel.genre));
+    const cg = new Set(model.genreIds.filter((g) => !keep.has(g)));
+    const ys = pl.items.map((i) => toDecimalYear(i.rel.t));
+    let a = Math.min(...ys) - 0.7, b = Math.max(...ys) + 0.7;
+    if (b - a < 3) { const m = (a + b) / 2; a = m - 1.5; b = m + 1.5; }
+    store.set({ view: 'timeline', hl: ref, cg, sel: null });
+    tl.goTo(a, b);
+    requestAnimationFrame(() => {
+      // bring the banner + toolbar + timeline to the top of the page (below the sticky bar)
+      const top = document.querySelector('.bar').offsetHeight + $('pl-banner').offsetHeight + 8;
+      const tb = document.querySelector('.tl-toolbar').getBoundingClientRect();
+      window.scrollTo(0, Math.max(0, tb.top + window.scrollY - top));
+      tl.scrollToLane(pl.items[0].rel.key);
+    });
+  }
+  // collapse state before a playlist was shown (kept in sessionStorage so Clear still restores it after a reload)
+  const SKEY = 'speedkills:savedcg';
+  let savedCg = null;
+  try { const v = sessionStorage.getItem(SKEY); if (v !== null) savedCg = new Set(v.split(',').filter(Boolean)); } catch (_) { /* ignore */ }
+  const persistSaved = () => { try { savedCg ? sessionStorage.setItem(SKEY, [...savedCg].join(',')) : sessionStorage.removeItem(SKEY); } catch (_) { /* ignore */ } };
+  function syncHighlight() {
+    const pl = resolveRef(get().hl);
+    const keys = pl ? pl.items.map((i) => i.rel.key) : [];
+    filter.setHighlight(keys);
+    tl.setPath(keys);
+    const banner = $('pl-banner');
+    banner.hidden = !pl;
+    if (pl) $('pl-banner-text').textContent = `Showing: ${pl.title} (${keys.length} release${keys.length === 1 ? '' : 's'}, in order)`;
+    return !!pl;
+  }
+  playlists.subscribe(() => { const hl = get().hl; if (hl && hl.startsWith('u:')) { syncHighlight(); tl.refresh(); chronicle.markDirty(); } });
+  $('pl-banner-clear').addEventListener('click', () => store.set({ hl: null }));
 
   /** Pan so the selected mark is visible and not hidden under the drawer / sheet. */
   function revealSelected() {
@@ -114,6 +164,11 @@ function init(model) {
     const s = get();
     if (!s.sel) { panel.render(null); panel.restoreFocus(); return; }
     let seq = filter.matchingItems().map((i) => i.key);
+    if (s.view === 'playlists') { // prev/next follows the open playlist's order
+      const pl = resolveRef(plView.currentRef());
+      const pk = pl ? pl.items.map((i) => i.rel.key) : [];
+      if (pk.includes(s.sel)) seq = pk;
+    }
     if (!seq.includes(s.sel)) seq = model.items.map((i) => i.key);
     panel.render(s.sel, seq, { focus });
   }
@@ -123,9 +178,11 @@ function init(model) {
     const s = get();
     const isTl = s.view === 'timeline';
     $('view-timeline').hidden = !isTl;
-    $('view-chronicle').hidden = isTl;
+    $('view-chronicle').hidden = s.view !== 'chronicle';
+    $('view-playlists').hidden = s.view !== 'playlists';
+    if (s.view === 'playlists') plView.render();
     document.body.dataset.view = s.view;
-    if (!isTl) { chronicle.render(); requestAnimationFrame(() => chronicle.scrollToSelected()); }
+    if (s.view === 'chronicle') { chronicle.render(); requestAnimationFrame(() => chronicle.scrollToSelected()); }
   }
 
   // ---------- hash ----------
@@ -149,14 +206,18 @@ function init(model) {
       if (changed.has('q')) jumpIdx = -1;
       if (s.sel && !panelEl.hidden) renderPanel(false);
     }
+    if (changed.has('hl')) {
+      if (!s.hl && savedCg) { const prev = savedCg; savedCg = null; persistSaved(); store.set({ cg: prev }); }
+      syncHighlight(); tl.refresh(); chronicle.markDirty(); if (s.view === 'chronicle') chronicle.render(); }
     if (changed.has('view')) { applyView(); controls.sync(s); }
+    else if (s.view === 'playlists' && (changed.has('pl') || changed.has('sh'))) plView.render();
     if (changed.has('sel')) {
       tl.setSelected(s.sel); chronicle.setSelected(s.sel);
       renderPanel(false);
       if (s.sel && !fromHash) revealSelected();
     }
     if (changed.has('x') && s.x) tl.setViewYears(s.x[0], s.x[1]);
-    writeHash(changed.has('sel') || changed.has('view'));
+    writeHash(changed.has('sel') || changed.has('view') || changed.has('pl') || changed.has('sh'));
   });
 
   window.addEventListener('hashchange', () => {
@@ -187,6 +248,7 @@ function init(model) {
   controls.sync(s0);
   updateSearchStatus();
   applyView();
+  syncHighlight(); tl.refresh();
   tl.setSelected(s0.sel); chronicle.setSelected(s0.sel);
   if (s0.sel) { renderPanel(false); setTimeout(revealSelected, 60); }
   window.__metal = { store, model, tl }; // handy for debugging in the console

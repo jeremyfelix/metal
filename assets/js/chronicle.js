@@ -61,7 +61,7 @@ export function createChronicle({ root, model, getState, filter, onSelect }) {
     const cls = it.kind === 'release' ? genreClass(it.genre) : catClass(it.category);
     b.classList.add(cls);
     if (it.landmark) b.classList.add('landmark');
-    if (st.tf && !filter.thrash(it)) b.classList.add('is-dim');
+    if ((st.tf && !filter.thrash(it)) || !filter.inHighlight(it)) b.classList.add('is-dim');
     const date = h('span', 'chr-date', formatDayMonth(it.date, it.prec));
     const icon = shapeIcon(it.kind === 'release' ? releasePath(it.type, 5.4) : eventPath(it.category, 5.4), it.kind === 'release' ? 'mk-icon' : 'ev-icon');
     const main = h('span', 'chr-main');

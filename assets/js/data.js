@@ -20,13 +20,14 @@ export async function loadData(base) {
   const b = base.endsWith('/') ? base : base + '/';
   // images.json is optional: any failure just means "no images".
   const imgP = fetch(b + 'images.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  const plP = fetch(b + 'playlists.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
   const [a, r, e] = await Promise.all([getJSON(b, 'artists.json'), getJSON(b, 'releases.json'), getJSON(b, 'events.json')]);
-  return buildModel(a, r, e, b, await imgP);
+  return buildModel(a, r, e, b, await imgP, await plP);
 }
 
 const asArray = (x) => (Array.isArray(x) ? x : []);
 
-export function buildModel(rawArtists, rawReleases, rawEvents, base = '', rawImages = null) {
+export function buildModel(rawArtists, rawReleases, rawEvents, base = '', rawImages = null, rawPlaylists = null) {
   const warnings = [];
   const artists = [];
   const artistById = new Map();
@@ -105,6 +106,17 @@ export function buildModel(rawArtists, rawReleases, rawEvents, base = '', rawIma
     for (const r of releases) { r.img = cleanImage(rawImages.releases && rawImages.releases[r.id], false); }
     images.hasAny = images.artists.length > 0 || releases.some((r) => r.img);
   }
+  // Curated playlists (optional): items whose release id does not resolve are ignored.
+  const playlists = [];
+  for (const p of asArray(rawPlaylists)) {
+    if (!p || p.id == null) continue;
+    const items = [];
+    for (const it of asArray(p.items)) {
+      const rel = it && byKey.get('r:' + it.releaseId);
+      if (rel) items.push({ rel, note: it.note ? str(it.note) : null });
+    }
+    if (items.length) playlists.push({ id: str(p.id), title: str(p.title, str(p.id)), description: str(p.description), items });
+  }
   const hasContext = releases.some((r) => r.inList === false);
 
   // Genres present in the data (known ones keep their order; unknown ones are appended).
@@ -121,5 +133,5 @@ export function buildModel(rawArtists, rawReleases, rawEvents, base = '', rawIma
     hi = Math.max(hi, Date.UTC(new Date(items[items.length - 1].t).getUTCFullYear() + 1, 0, 1));
   }
 
-  return { base, images, hasContext, artists, artistById, releases, events, items, byKey, laneArtists, genreIds, domain: [lo, hi], warnings };
+  return { base, playlists, images, hasContext, artists, artistById, releases, events, items, byKey, laneArtists, genreIds, domain: [lo, hi], warnings };
 }

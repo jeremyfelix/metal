@@ -171,7 +171,7 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
     const gutter = el('g', { class: 'gutter' }, bodySvg);
     const gBg = el('rect', { class: 'gutter-bg', x: 0, y: 0, width: G }, gutter);
     const gEdge = el('line', { class: 'gutter-edge', x1: G, x2: G, y1: 0 }, gutter);
-    bodyRefs = { gridMinor, gridMajor, clipRect, gBg, gEdge };
+    bodyRefs = { gridMinor, gridMajor, clipRect, gBg, gEdge, plot };
 
     let y = TOP_PAD;
     let laneCount = 0;
@@ -217,9 +217,55 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
     const firstNode = (navRows[1] && navRows[1].nodes[0]) || navRows[0].nodes[0];
     if (firstNode) setRoving(firstNode);
     refresh();
+    buildPath();
+    if (wantLane && performance.now() < wantLane.until) {
+      const nd = (byKey.get(wantLane.key) || []).find((x) => x.kind === 'release' && !x.hidden);
+      if (nd && nd.lane) body.scrollTop = Math.max(0, nd.lane.y - GROUP_H - 10);
+    }
     if (pendingFocusGroup) { const g = nodes.find((n) => n.isGroup && n.gid === pendingFocusGroup); pendingFocusGroup = null; if (g) { setRoving(g); g.el.focus({ preventScroll: true }); } }
   }
   let bodyRefs = null;
+
+  // ---------- playlist path: thin numbered line through a playlist's releases, in order ----------
+  let pathKeys = null, pathG = null, pathLine = null, pathPts = [];
+  function buildPath() {
+    if (pathG) pathG.remove();
+    pathPts = []; pathG = null; pathLine = null;
+    if (!pathKeys || !bodyRefs) return;
+    pathG = el('g', { class: 'pl-path' }, bodyRefs.plot);
+    pathLine = el('path', { class: 'pl-line' }, pathG);
+    let n = 0;
+    for (const key of pathKeys) {
+      const nd = (byKey.get(key) || []).find((x) => x.kind === 'release' && !x.hidden);
+      if (!nd) continue;
+      n++;
+      const g = el('g', { class: 'pl-badge' }, pathG);
+      el('circle', { r: 7.5 }, g);
+      const t = el('text', { y: 3.6 }, g); t.textContent = String(n);
+      pathPts.push({ nd, g });
+    }
+    schedule();
+  }
+  function renderPath() {
+    if (!pathPts.length) return;
+    let d = '';
+    pathPts.forEach((p, i) => {
+      const x = p.nd.x, y = p.nd.y;
+      d += (i ? 'L' : 'M') + x.toFixed(1) + ' ' + y.toFixed(1);
+      p.g.setAttribute('transform', `translate(${(x + 10).toFixed(1)} ${(y - 11).toFixed(1)})`);
+    });
+    pathLine.setAttribute('d', d);
+  }
+  /** Scroll the lanes (vertical only) so the lane holding `key` sits near the top, group header included. */
+  let wantLane = null; // a rebuild right after (e.g. from a resize when the tab becomes visible) must not undo the scroll
+  function scrollToLane(key) {
+    wantLane = { key, until: performance.now() + 1200 };
+    const nd = (byKey.get(key) || []).find((x) => x.kind === 'release' && !x.hidden);
+    if (!nd || !nd.lane) return false;
+    body.scrollTo({ top: Math.max(0, nd.lane.y - GROUP_H - 10), behavior: reducedMotion() ? 'auto' : 'smooth' });
+    return true;
+  }
+  function setPath(keys) { pathKeys = keys && keys.length ? keys : null; buildPath(); }
   let pendingFocusGroup = null;
 
   function buildLane(a, y, gcls, plot, gutter, layoutPass) {
@@ -321,7 +367,7 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
       if (n.isGroup) continue;
       if (n.isLabel) {
         const a = n.artist;
-        const dim = (tf && a.genre !== 'thrash') || (searching && !filter.artistMatches(a));
+        const dim = (tf && a.genre !== 'thrash') || (searching && !filter.artistMatches(a)) || !filter.artistInHighlight(a);
         n.el.classList.toggle('is-dim', dim);
         n.lane.g.classList.toggle('is-dim', dim);
         continue;
@@ -401,6 +447,7 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
     packEvents(X);
     layoutLabels(ppy, xmax);
     renderGrid(X, ppy);
+    renderPath();
   }
 
   /**
@@ -802,7 +849,7 @@ export function createTimeline({ root, model, getState, filter, tooltip, reduced
   root.setAttribute('aria-label', 'Timeline. Arrow keys pan, plus and minus zoom, zero fits everything. Focus a marker with Tab, then use arrow keys to move between marks.');
 
   return {
-    rebuild, refresh, fit, goTo, reveal, setSelected,
+    rebuild, refresh, fit, goTo, reveal, setSelected, setPath, scrollToLane,
     zoomBy: (f) => zoomAt(plotW / 2, f, true),
     setViewYears(a, b) { setView(fromDecimalYear(a), fromDecimalYear(b)); },
     getViewYears: () => [toDecimalYear(view.t0), toDecimalYear(view.t1)],
