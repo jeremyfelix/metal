@@ -129,32 +129,65 @@ async function scanArtist(a) {
   return artistScans.get(a.id);
 }
 
+const linksFile = path.join(root, "data/links.json");
+const previous = fs.existsSync(linksFile) ? JSON.parse(fs.readFileSync(linksFile, "utf8")).apple ?? {} : {};
+// Track-level check: albums whose tracks are all isStreamable=false show no playable songs in Apple Music,
+// even though album-level fields look normal.
+const streamCache = new Map();
+async function streamInfo(collectionId) {
+  const key = String(collectionId);
+  if (!streamCache.has(key)) {
+    const res = await get("lookup", { id: key, entity: "song", country: "US", limit: "200" });
+    const tracks = res.filter((x) => x.wrapperType === "track");
+    streamCache.set(key, { total: tracks.length, streamable: tracks.filter((t) => t.isStreamable).length });
+  }
+  return streamCache.get(key);
+}
+const mostlyStreamable = (i) => i.total > 0 && i.streamable * 2 >= i.total;
+const idOfUrl = (u) => (u.match(/\/(\d+)$/) || [])[1];
+
 const links = {}, report = [];
 let done = 0;
 for (const r of releases) {
   done++;
   const a = artists.get(r.artistId);
-  const entry = { id: r.id, ours: `${a.name} - ${r.title} (${r.date.slice(0, 4)})` };
+  const entry = { id: r.id, ours: `${a.name} - ${r.title} (${r.date.slice(0, 4)})`, previous: previous[r.id] ?? null };
   if (overrides.skip.includes(r.id)) { entry.result = "skipped (override)"; report.push(entry); continue; }
-  if (overrides.url[r.id]) { links[r.id] = overrides.url[r.id]; entry.result = "override url"; report.push(entry); continue; }
-  let best = null, tried = [];
+  if (overrides.url[r.id]) {
+    links[r.id] = overrides.url[r.id]; entry.result = "override url"; entry.url = links[r.id];
+    const id = idOfUrl(links[r.id]); if (id) { const i = await streamInfo(id); entry.streamable = `${i.streamable}/${i.total}`; entry.notStreamable = !mostlyStreamable(i); }
+    report.push(entry); continue;
+  }
+  const pool = new Map(); let tried = [];
   const consider = (results) => {
     for (const c of results) {
       const e = evaluate(r, a, c);
       if (!e) continue;
       if (overrides.pick[r.id] && String(c.collectionId) !== String(overrides.pick[r.id])) continue;
-      if (!best || e.score > best.score) best = e;
+      if (!pool.has(c.collectionId) || pool.get(c.collectionId).score < e.score) pool.set(c.collectionId, e);
     }
   };
   tried.push("catalog");
   consider(await artistCatalog(a));
-  if (!best) { tried.push("q1");
-  consider(await search(`${a.name} ${r.title}`.replace(/\s+/g, " "), 10)); }
-  if (!best && r.type !== "demo") { tried.push("title"); consider(await search(r.title, 25)); }
-  if (!best && r.type !== "demo") { tried.push("artist-scan"); consider(await scanArtist(a)); }
-  if (best) {
-    links[r.id] = cleanUrl(best.cand.collectionViewUrl);
-    Object.assign(entry, { result: "match", apple: `${best.cand.artistName} - ${best.cand.collectionName} (${String(best.cand.releaseDate).slice(0, 4)})`, exact: best.exact, yearDiff: best.dy, tracks: best.cand.trackCount, url: links[r.id], tried: tried.join(",") });
+  if (!pool.size) { tried.push("q1"); consider(await search(`${a.name} ${r.title}`.replace(/\s+/g, " "), 10)); }
+  if (!pool.size && r.type !== "demo") { tried.push("title"); consider(await search(r.title, 25)); }
+  if (!pool.size && r.type !== "demo") { tried.push("artist-scan"); consider(await scanArtist(a)); }
+  const ranked = [...pool.values()].sort((x, y) => y.score - x.score);
+  if (ranked.length) {
+    const first = ranked[0];
+    let chosen = null, chosenInfo = null, firstInfo = null;
+    for (const cand of ranked.slice(0, 8)) {
+      const info = await streamInfo(cand.cand.collectionId);
+      if (cand === first) firstInfo = info;
+      if (mostlyStreamable(info)) { chosen = cand; chosenInfo = info; break; }
+      if (overrides.pick[r.id]) break;
+    }
+    const notStreamable = !chosen;
+    if (!chosen) { chosen = first; chosenInfo = firstInfo; }
+    const c = chosen.cand;
+    links[r.id] = cleanUrl(c.collectionViewUrl);
+    Object.assign(entry, { result: "match", apple: `${c.artistName} - ${c.collectionName} (${String(c.releaseDate).slice(0, 4)})`, exact: chosen.exact, yearDiff: chosen.dy, tracks: c.trackCount, url: links[r.id], tried: tried.join(","), streamable: `${chosenInfo.streamable}/${chosenInfo.total}`, notStreamable });
+    if (chosen !== first) Object.assign(entry, { replacedBest: `${first.cand.collectionName} (${first.cand.collectionId}) streamable ${firstInfo.streamable}/${firstInfo.total}` });
   } else Object.assign(entry, { result: "no match", tried: tried.join(",") });
   report.push(entry);
   if (done % 25 === 0) console.log(`${done}/${releases.length} processed, ${Object.keys(links).length} matched`);
@@ -166,4 +199,10 @@ if (reportPath) fs.writeFileSync(reportPath, JSON.stringify(report, null, 1));
 const flagged = report.filter((e) => e.result === "match" && (!e.exact || e.yearDiff > 2));
 console.log(`matched ${Object.keys(sorted).length}/${releases.length}; flagged (non-exact title or year diff > 2): ${flagged.length}`);
 for (const e of flagged) console.log(`  FLAG ${e.id}: ${e.ours} -> ${e.apple} [exact=${e.exact}, dy=${e.yearDiff}]`);
+const changed = report.filter((e) => e.url && e.previous && e.url !== e.previous);
+console.log(`links changed vs previous run: ${changed.length}`);
+for (const e of changed) console.log(`  CHANGED ${e.id}: ${e.previous} -> ${e.url} [${e.apple ?? "override"}; streamable ${e.streamable}]`);
+const ns = report.filter((e) => e.notStreamable);
+console.log(`not streamable: ${ns.length}`);
+for (const e of ns) console.log(`  NOSTREAM ${e.id}: ${e.apple ?? e.url} [${e.streamable}]`);
 console.log("unmatched: " + report.filter((e) => e.result === "no match").map((e) => e.id).join(", "));
