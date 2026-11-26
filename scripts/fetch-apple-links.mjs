@@ -92,6 +92,8 @@ function evaluate(r, a, cand) {
   else if (nameParts.length > 1 && nameParts.slice(1).some((p) => titleVariants(r, a).includes(p))) { exact = false; score = 15; }
   else for (const v of titleVariants(r, a)) {
     if (name === v) { exact = true; score = 20; break; }
+    // spacing differences only: "Nothing Face" vs "Nothingface", "Pinups" vs "Pin Ups"
+    if (name.replace(/ /g, "") === v.replace(/ /g, "")) { exact = true; score = Math.max(score, 18); }
     const [s, l] = name.length < v.length ? [name, v] : [v, name];
     if (s.length >= 12 && l.startsWith(s + " ")) score = Math.max(score, 8);
   }
