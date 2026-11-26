@@ -1,12 +1,13 @@
 {
-  "note": "Manual decisions for fetch-apple-links.mjs. skip: release ids that must get no link (Apple's High Voltage is the 1976 international version, not the Australian one). url: explicit album URLs (Hawkwind's original title is 'X in Search of Space'; Apple's Turbo 30 is the standard-priced reissue that includes the album). pick: Apple collectionId to prefer (the Iggy mix of Raw Power matches the 1973 original). Misfits Earth A.D.: Apple's 'Earth A.D. / Die, Die My Darling' is the CD reissue of the same album with the single added (confirmed by the site owner).",
+  "note": "Manual decisions for fetch-apple-links.mjs. skip: release ids that must get no link (Apple's High Voltage is the 1976 international version, not the Australian one). url: explicit album URLs (Hawkwind's original title is 'X in Search of Space'; Apple's Turbo 30 is the standard-priced reissue that includes the album). pick: Apple collectionId to prefer (the Iggy mix of Raw Power matches the 1973 original). Misfits Earth A.D.: Apple's 'Earth A.D. / Die, Die My Darling' is the CD reissue of the same album with the single added (confirmed by the site owner). Misfits Evilive: Apple's 'Evilive (Live)' is the later expanded edition of the 1982 live EP (confirmed by the site owner).",
   "skip": [
     "ac-dc-high-voltage-australian-version"
   ],
   "url": {
     "hawkwind-in-search-of-space": "https://music.apple.com/us/album/x-in-search-of-space/966240949",
     "judas-priest-turbo": "https://music.apple.com/us/album/turbo-30/1183873052",
-    "misfits-earth-a-d-wolfs-blood": "https://music.apple.com/us/album/earth-a-d-die-die-my-darling/714724772"
+    "misfits-earth-a-d-wolfs-blood": "https://music.apple.com/us/album/earth-a-d-die-die-my-darling/714724772",
+    "misfits-evilive": "https://music.apple.com/us/album/evilive-live/714874129"
   },
   "pick": {
     "the-stooges-raw-power": "157475333"
