@@ -68,8 +68,20 @@
         "note": "Slayer's debut, on Metal Blade."
       },
       {
+        "releaseId": "anthrax-fistful-of-metal",
+        "note": "Anthrax's raw debut with singer Neil Turbin, including 'Metal Thrashing Mad' and 'Deathrider'."
+      },
+      {
+        "releaseId": "slayer-haunting-the-chapel",
+        "note": "Slayer's first EP, with 'Chemical Warfare' and a darker, faster sound."
+      },
+      {
         "releaseId": "metallica-ride-the-lightning",
         "note": "Acoustic passages and more complex songs."
+      },
+      {
+        "releaseId": "slayer-hell-awaits",
+        "note": "Longer, faster and darker songs that set up Reign in Blood."
       },
       {
         "releaseId": "megadeth-killing-is-my-business-and-business-is-good",

@@ -27,6 +27,9 @@ export const playlists = [
   items: [
     ["metallica-kill-em-all", "The debut that kicked off American thrash."],
     ["slayer-show-no-mercy", "Slayer's debut, on Metal Blade."],
+    ["anthrax-fistful-of-metal", "Anthrax's raw debut with singer Neil Turbin, including 'Metal Thrashing Mad' and 'Deathrider'."],
+    ["slayer-haunting-the-chapel", "Slayer's first EP, with 'Chemical Warfare' and a darker, faster sound."],
+    ["slayer-hell-awaits", "Longer, faster and darker songs that set up Reign in Blood."],
     ["metallica-ride-the-lightning", "Acoustic passages and more complex songs."],
     ["megadeth-killing-is-my-business-and-business-is-good", "Recorded on a tiny budget, with intricate riffing."],
     ["anthrax-spreading-the-disease", "The first Anthrax album with singer Joey Belladonna."],
